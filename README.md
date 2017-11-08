@@ -8,3 +8,9 @@
 @ToDo Download Theme files and edit them.
 
 @ToDo Add Menu
+
+@ToDo - Add markdown cheetsheet
+
+# Resources
+
+Build Git Hub Pages [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/]
