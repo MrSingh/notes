@@ -21,7 +21,7 @@ Now you have Angular CLI installed lets create a sample app.
 ```
 ng new my-sample-app
 ```
-The above command sets up a bare-bones Angualr instance to help you get started with Angualr 2 fast.  So let's fire it up and see what we get:
+The above command sets up a bare-bones Angular instance to help you get started with Angular 4 fast.  So let's fire it up and see what we get:
 
 ```
 ng serve
@@ -31,7 +31,7 @@ In your browser navigate to `http://localhost:4200/`.
 
 If all goes well Webpack will build your new app and should see 'app works!' in the browser.
 
-![Angular 2 - Image of app works!](../images/angular/app-works.png)
+<!--![Angular 2 - Image of app works!](../images/angular/app-works.png)-->
 
 
 
