@@ -31,5 +31,6 @@ Python related docs, scripts, cheat sheets etc
 
 + https://arunrocks.com/guide-to-install-python-or-pip-on-windows/
 + https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10
++ https://wsvincent.com/install-python3-windows/
 
 
