@@ -19,3 +19,10 @@ Python related docs, scripts, cheat sheets etc
 ### Quants
 
 + https://guides.nyu.edu/quant/python
+
+### Misc
+
++ https://www.datacamp.com/community/tutorials/finance-python-trading
+
+### LaTeX
++ https://pypi.org/project/PyLaTeX/0.6.1/
