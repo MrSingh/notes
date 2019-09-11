@@ -3,6 +3,19 @@ Python related docs, scripts, cheat sheets etc
 
 ## Resources
 
-### Cheat Sheets
+### Cheat Sheets | PDF
+
++ https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf
++ https://programmingwithmosh.com/wp-content/uploads/2018/11/Python-3-Cheat-Sheet-v3.pdf
+
+
+### Cheat Sheets | Web
 
 + https://ehmatthes.github.io/pcc/cheatsheets/README.html
++ https://programmingwithmosh.com/python/python-3-cheat-sheet/
++ https://sinxloud.com/python-cheat-sheet-beginner-advanced/#1-python-for-data-science-cheat-sheet-datacamp
++ https://dev.to/sakim/python-cheat-sheet-for-beginners-and-experts-37ok
+
+### Quants
+
++ https://guides.nyu.edu/quant/python
