@@ -26,3 +26,10 @@ Python related docs, scripts, cheat sheets etc
 
 ### LaTeX
 + https://pypi.org/project/PyLaTeX/0.6.1/
+
+### Python for Windows
+
++ https://arunrocks.com/guide-to-install-python-or-pip-on-windows/
++ https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10
+
+
