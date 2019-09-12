@@ -35,4 +35,8 @@ Python related docs, scripts, cheat sheets etc
 + https://www.youtube.com/watch?v=dNFgRUD2w68
 + https://code.visualstudio.com/docs/python/python-tutorial
 
+#### Setup
+
++ https://docs.python.org/2/faq/windows.html
+
 
