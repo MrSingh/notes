@@ -27,6 +27,10 @@ Python related docs, scripts, cheat sheets etc
 ### LaTeX
 + https://pypi.org/project/PyLaTeX/0.6.1/
 
+#### Troublshooting
+
++ https://stackoverflow.com/questions/36560642/pylatex-basic-script-wont-run-because-script-interpreter-could-not-be-found
+
 ### Python for Windows
 
 + https://arunrocks.com/guide-to-install-python-or-pip-on-windows/
@@ -38,5 +42,7 @@ Python related docs, scripts, cheat sheets etc
 #### Setup
 
 + https://docs.python.org/2/faq/windows.html
+
++
 
 
