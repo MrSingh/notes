@@ -11,3 +11,5 @@ Set up Environmanetal Path
 Add Python path to Environmental Settings
 
 Control Panel > System and Security > System > Environmental Variables > Path > Edit > New > [Add Python Path e.g C:\Python\Python37]
+
+In Visual Studio Code > Select Python configuration/version
