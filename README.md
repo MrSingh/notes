@@ -31,6 +31,8 @@ Python related docs, scripts, cheat sheets etc
 
 + https://stackoverflow.com/questions/36560642/pylatex-basic-script-wont-run-because-script-interpreter-could-not-be-found
 
+Suggests Perl should be installed.
+
 ### Python for Windows
 
 + https://arunrocks.com/guide-to-install-python-or-pip-on-windows/
