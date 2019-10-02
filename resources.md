@@ -5,6 +5,12 @@
 + http://greenteapress.com/complexity/thinkcomplexity.pdf
 + https://higherlogicdownload.s3.amazonaws.com/IMANET/cc3273a7-db09-43cb-a793-0568d608a080/UploadedImages/Documents/2018/M2AC_Presentations/Kurt_Redings_M2AC_Presentation.pdf
 
+## Librarys
+
+### Visualisation 
+
++ https://seaborn.pydata.org/index.html
+
 
 ## Articles
 
