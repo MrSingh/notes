@@ -1,6 +1,9 @@
 
+<<<<<<< HEAD
 Test
 
+=======
+>>>>>>> Test
 ## E-Books
 
 + http://greenteapress.com/complexity/thinkcomplexity.pdf
