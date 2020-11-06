@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 # Name of website
 title: Puneet Thukral
 
-baseurl: "/"
+baseurl: ""
 
 
 # --- Navigation bar options --- #
