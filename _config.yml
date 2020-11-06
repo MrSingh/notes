@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 # Name of website
 title: Puneet Thukral
 
-baseurl: "http://mrsingh.github.io/"
+baseurl: "/"
 
 
 # --- Navigation bar options --- #
