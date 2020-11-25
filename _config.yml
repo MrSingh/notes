@@ -1,4 +1,4 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
 
 # Name of website
 title: Puneet Thukral
@@ -11,12 +11,12 @@ baseurl: ""
 # List of links in the navigation bar
 docs:
 
-- title: Introduction
-  url: introduction.html
+- title: JavaScript
+  url: js.html
 
-- title: Configuration
-  url: configuration.html
+- title: Python
+  url: py.html
 
-- title: Deployment
-  url: deployment.html
+- title: Agile
+  url: agile.html
 
