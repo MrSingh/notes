@@ -29,3 +29,8 @@ git branch -m <newname>
 ```git
 git branch -m <old-name> <new-name>
 ```
+
+## Adding existing repository to Git
+
+[Link](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
+
