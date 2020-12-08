@@ -18,3 +18,14 @@ git remote -v
 git stage -all
 ```
 
+## Change Current Branch Name
+
+```git
+git branch -m <newname>
+```
+
+## Change Any Branch Name
+
+```git
+git branch -m <old-name> <new-name>
+```
