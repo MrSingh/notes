@@ -16,3 +16,11 @@ language: python
 draft: false
 
 ---
+
+## Notes for For Notes
+
+```# Add Notes Here```
+
+## Review
+
+[Review Running selected code in a Kernel](https://donjayamanne.github.io/pythonVSCodeDocs/docs/jupyter_getting-started/#Defining-a-cell)
