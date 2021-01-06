@@ -1,0 +1,7 @@
+#Ignore VScode Workspace Settings
+${workspaceroot}/*
+#Ignore VScode Settings
+.vscode
+
+todo.md
+in-progress/

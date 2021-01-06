@@ -24,12 +24,15 @@
     color: #222; }
   
 header {
-    background-color: #0FA0CE;
+    color: #222;
     text-align: center;
-    height: 60px;
+    text-transform: uppercase;
+    /* font-family: source-serif-pro, 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif; */
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 2em;
 }
 
-header .container {
+header .container, footer {
     max-width: 940px;
     display: flex;
     text-align: center;
@@ -130,6 +133,7 @@ nav {
 
 /* Typography
 –––––––––––––*/
+
 h1, h2 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -137,18 +141,30 @@ h1, h2 {
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 2.2rem; line-height: 1.25; letter-spacing: -.1rem;  font-weight: bold;}
 
+h2, h3, h4, h5 {
+  font-family: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif;
+}
+
 span.minor-size {
     font-size: .6em;
     font-weight: 400;
 }
 
 h1 > a {
-    color: #fff;
     letter-spacing: 0.5px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: .9em;
+    font-weight: 800;
+    font-size: 0.6em;
 }
+
+#page-title {
+  letter-spacing: 4px;
+  font-weight: 900;
+  font-size: 0.3em;
+  color: #e62e00;
+}
+
+
+
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -166,17 +182,25 @@ p {
 
 
 a {
-    color: #f5f5f5;
+    color: #000000;
     text-decoration: none;
 }
   a:hover {
-    color: #f5f5f5;
+    color: #000000;
     text-decoration: none;
 }
   
 a.home {
     text-decoration: none;
-}  
+} 
+
+li a {
+  color: #004dc9;
+}
+
+li a:hover {
+  color: #001c53;
+}
   /* Buttons - ||| Maked for Removal |||
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .button,
