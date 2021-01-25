@@ -11,7 +11,7 @@ pygmentsstyle="perldoc"
 pygmentsUseClasses=false
 
 # Publish Directory
-publishDir="blog"
+publishDir="docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
