@@ -1,0 +1,46 @@
+# https://gohugo.io/getting-started/configuration/
+# TODO - Set base URL
+baseURL = "#"
+languageCode = "en-gb"
+title = "Puneet's Notes On Data & Software Engineering"
+
+
+# https://pygments.org/demo/
+pygmentsCodeFences=true
+pygmentsstyle="perldoc"
+pygmentsUseClasses=false
+
+# Publish Directory
+publishDir="blog"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+
+# https://gohugo.io/getting-started/configuration-markup/
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.asciidocExt]
+    backend = "html5"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = false
+    #Default = false
+    preserveTOC = true
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = true
+    verbose = false
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+
+# --- DO NOT REMOVE ---
+# Used to render dataframe output correctly from Markdown to HTML
+[markup.goldmark.renderer]
+  unsafe= true
+  table = true
+
+# https://github.com/toml-lang/toml/blob/master/toml.md#user-content-offset-date-time
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]

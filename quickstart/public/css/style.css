@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+  /* Base Styles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* NOTE
+  html is set to 62.5% so that all the REM measurements throughout Skeleton
+  are based on 10px sizing. So basically 1.5rem = 15px :) */
+  html {
+    font-size: 62.5%; }
+  body {
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Open Sans" ;
+    color: #222; }
+  
+header {
+    color: #222;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-family: source-serif-pro, 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif; */
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 2em;
+}
+
+header .container, footer {
+    max-width: 940px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+main.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+main.container .row {
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 0 auto;
+}
+
+.row h2 {
+    text-align: left;
+    border: 1px solid #dcdcdd;
+    padding:8px;
+    background-color: #eff0f0;
+}
+
+.row .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: left;
+}
+
+.row .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.row h4 {
+    display: block;
+    border: 1px solid #dcdcdd;
+    padding:8px;
+    font-size: 2.2rem; line-height: 1.25; letter-spacing: -.1rem;
+    font-weight: normal;
+}
+
+.row .card-body { 
+    columns: 384px 2;
+    padding: 1.25rem;
+}
+
+article {
+    display: block;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+
+/*-------------
+| Navigation
+-------------*/
+nav {
+    display: block;
+    padding-top: 16px;
+  
+}
+.nav {
+    display: inline;
+    margin-left: auto;
+}
+
+.nav li {
+    float: left;
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* Typography
+–––––––––––––*/
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 2.2rem; line-height: 1.25; letter-spacing: -.1rem;  font-weight: bold;}
+
+h2, h3, h4, h5 {
+  font-family: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif;
+}
+
+span.minor-size {
+    font-size: .6em;
+    font-weight: 400;
+}
+
+h1 > a {
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    font-size: 0.6em;
+}
+
+#page-title {
+  letter-spacing: 4px;
+  font-weight: 900;
+  font-size: 0.3em;
+  color: #e62e00;
+}
+
+.highlight pre {
+  border: 1px solid rgb(63, 8, 8);
+  line-height: 1.42857143;
+  padding: 1em;
+}
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 4.0rem; }
+  h2 { font-size: 2.2rem; font-weight: bold;}
+}
+
+p {
+  margin-top: 0; }
+
+
+  
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+  a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+  
+a.home {
+    text-decoration: none;
+} 
+
+li a {
+  color: #004dc9;
+}
+
+li a:hover {
+  color: #001c53;
+}
+  /* Buttons - ||| Maked for Removal |||
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0; }
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB; }
+  
+  
+  /* Forms
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="text"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"],
+  textarea,
+  select {
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box; }
+  /* Removes awkward default styles on some inputs for iOS */
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="text"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"],
+  textarea {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; }
+  textarea {
+    min-height: 65px;
+    padding-top: 6px;
+    padding-bottom: 6px; }
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  textarea:focus,
+  select:focus {
+    border: 1px solid #33C3F0;
+    outline: 0; }
+  label,
+  legend {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600; }
+  fieldset {
+    padding: 0;
+    border-width: 0; }
+  input[type="checkbox"],
+  input[type="radio"] {
+    display: inline; }
+  label > .label-body {
+    display: inline-block;
+    margin-left: .5rem;
+    font-weight: normal; }
+  
+  
+  /* Lists
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  ul {
+    list-style: circle inside; }
+  ol {
+    list-style: decimal inside; }
+  ol, ul {
+    padding-left: 0;
+    margin-top: 0; }
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%; }
+  li {
+    margin-bottom: 1rem; }
+  
+  
+  /* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

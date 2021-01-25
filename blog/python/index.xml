@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
+    <link>/python/</link>
+    <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 -0800</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load a JSON</title>
+      <link>/python/load_json/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
+      
+      <guid>/python/load_json/</guid>
+      <description>import pandas as pd #Set JSON filepath json_filepath = &amp;#34;data/load_json_example.json&amp;#34; #default is &amp;#39;columns&amp;#39; df = pd.read_json(json_filepath, orient=&amp;#34;columns&amp;#34;) df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
+user_nameidentifierfirst_namelast_name0booker129012.0RachelBooker1grey072070.0LauraGrey2johnson814081.</description>
+    </item>
+    
+    <item>
+      <title>Load a CSV</title>
+      <link>/python/load_csv/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/python/load_csv/</guid>
+      <description># Import Pandas import pandas as pd #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;) #Output Dataframe df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
+user_nameidentifierfirst_namelast_name0booker129012RachelBooker1grey072070LauraGrey2johnson814081CraigJohnson3jenkins469346MaryJenkins4smith795079JamieSmith# Load a csv file with no headers df = pd.</description>
+    </item>
+    
+    <item>
+      <title>Load a CSV</title>
+      <link>/python/load_csv_test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python/load_csv_test/</guid>
+      <description># Import Pandas import pandas as pd #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;) #Output Dataframe df # Load a csv file with no headers df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;, header=None) df # Load a csv file with encoding - UTF-8 df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;, encoding=&amp;#39;UTF-8&amp;#39;) df # Load a csv file with specific column names df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;, names=[&amp;#39;Username&amp;#39;, &amp;#39;ID&amp;#39;, &amp;#39;First Name&amp;#39;, &amp;#39;Last Name&amp;#39;]) df # Write dataframe to csv df.</description>
+    </item>
+    
+  </channel>
+</rss>

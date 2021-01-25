@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/python/load_json/</loc>
+    <lastmod>2021-01-24T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-24T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/python/</loc>
+    <lastmod>2021-01-24T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/python/load_csv/</loc>
+    <lastmod>2020-12-07T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/archive/get-started-with-angular-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/basic-git-commands/</loc>
+  </url>
+  
+  <url>
+    <loc>/powershell/powershell/</loc>
+  </url>
+  
+  <url>
+    <loc>/vscode/inserting_date_time/</loc>
+  </url>
+  
+  <url>
+    <loc>/vscode/vscode_python_issues/</loc>
+  </url>
+  
+  <url>
+    <loc>/vscode/vscode_shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>/archive/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/</loc>
+  </url>
+  
+  <url>
+    <loc>/python/load_csv_test/</loc>
+  </url>
+  
+  <url>
+    <loc>/powershell/</loc>
+  </url>
+  
+  <url>
+    <loc>/vscode/</loc>
+  </url>
+  
+</urlset>
