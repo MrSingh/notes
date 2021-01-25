@@ -2,6 +2,8 @@
 ${workspaceroot}/*
 #Ignore VScode Settings
 .vscode
+notes.code-workspace
 
 todo.md
 in-progress/
+
