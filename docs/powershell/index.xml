@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powershells on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>/powershell/</link>
+    <link>https://github.com/MrSingh/notes/powershell/</link>
     <description>Recent content in Powershells on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="https://github.com/MrSingh/notes/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/powershell/powershell/</link>
+      <link>https://github.com/MrSingh/notes/powershell/powershell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/powershell/powershell/</guid>
+      <guid>https://github.com/MrSingh/notes/powershell/powershell/</guid>
       <description>Intro to Powershell Things to know Execution Policy By default Powershell is secure a philosophy that means that doublecliking a Powershell script in Windows Explorer won&amp;rsquo;t execute the script.
 Powershell has four execution policies - these govern how a script is executed.
  Restricted AllSigned RemoteSigned Unrestricted  Get-ExecutionPolicy Set-ExecutionPolicy Restricted Set-ExecutionPolicy Unrestricted Set-ExecutionPolicy RemoteSigned </description>
