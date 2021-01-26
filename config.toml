@@ -9,7 +9,8 @@ title = "Puneet's Notes On Data & Software Engineering"
 
 # https://pygments.org/demo/
 pygmentsCodeFences=true
-pygmentsstyle="perldoc"
+pygmentsstyle="monokailight"
+# Set pygmentsUseClasses to true to use syntax.css #https://gohugo.io/content-management/syntax-highlighting/ #https://xyproto.github.io/splash/docs/longer/all.html
 pygmentsUseClasses=false
 
 # Publish Directory
