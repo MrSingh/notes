@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
     <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
     <title>
       Load a JSON
     </title>
@@ -31,12 +32,12 @@
 
 
     
-          <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">pandas</span> <span style="color:#8b008b;font-weight:bold">as</span> <span style="color:#008b45;text-decoration:underline">pd</span>
-</code></pre></div><div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22">#Set JSON filepath</span>
-json_filepath = <span style="color:#cd5555">&#34;data/load_json_example.json&#34;</span>
-</code></pre></div><div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22">#default is &#39;columns&#39;</span>
-df = pd.read_json(json_filepath, orient=<span style="color:#cd5555">&#34;columns&#34;</span>)
-df
+          <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> <span style="color:#111">pandas</span> <span style="color:#f92672">as</span> <span style="color:#111">pd</span>
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Set JSON filepath</span>
+<span style="color:#111">json_filepath</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;data/load_json_example.json&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#default is &#39;columns&#39;</span>
+<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_json</span><span style="color:#111">(</span><span style="color:#111">json_filepath</span><span style="color:#111">,</span> <span style="color:#111">orient</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;columns&#34;</span><span style="color:#111">)</span>
+<span style="color:#111">df</span>
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -114,7 +115,7 @@ df
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 </code></pre></div>
       </main>
       </div>

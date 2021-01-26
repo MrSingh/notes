@@ -88,14 +88,5 @@ Click on Install from above link or use the steps below.
       <description>Visual Studio Code | Shortcuts Toggle Integrated Terminal Ctrl + &#39; Toggle Side Bar Ctrl + B Open Settings Ctrl + , Quick Open File Ctrl + p Open Preview Mode ToDO Move File to Split Editor Ctrl + \ Find and Replace Find Ctrl + f Find Selection Ctrl + h Find &amp;amp; Replace Selection Execute Ctrl + Enter Find &amp;amp; Replace All Execute Ctrl + Alt + Enter Command Palette Ctrl + Shift + P Toggle Comment Ctrl + / Copy Line - selects the line the cursur is on Ctrl + C Duplicate Line // AboveCtrl + Alt + Up// BelowCtrl + Alt + Down Multiple Cursors Ctrl + Click// OrCtrl + Shift + Alt + Up/Down Select Word Ctrl + D Select All Words ToDo Function to Rename f2 Go to Function Definition Ctrl + Click Zen Mode Toggle Ctrl + K// ThenZ </description>
     </item>
     
-    <item>
-      <title>Load a CSV</title>
-      <link>/python/load_csv_test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/python/load_csv_test/</guid>
-      <description># Import Pandas import pandas as pd #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;) #Output Dataframe df # Load a csv file with no headers df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;, header=None) df # Load a csv file with encoding - UTF-8 df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;, encoding=&amp;#39;UTF-8&amp;#39;) df # Load a csv file with specific column names df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;, names=[&amp;#39;Username&amp;#39;, &amp;#39;ID&amp;#39;, &amp;#39;First Name&amp;#39;, &amp;#39;Last Name&amp;#39;]) df # Write dataframe to csv df.</description>
-    </item>
-    
   </channel>
 </rss>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
     <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
     <title>
       Load a CSV
     </title>
@@ -31,12 +32,12 @@
 
 
     
-          <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22"># Import Pandas</span>
-<span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">pandas</span> <span style="color:#8b008b;font-weight:bold">as</span> <span style="color:#008b45;text-decoration:underline">pd</span>
-</code></pre></div><div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22">#Load CSV file into a dataframe with Pandas</span>
-df = pd.read_csv(<span style="color:#cd5555">&#39;data/load_csv_example.csv&#39;</span>)
-<span style="color:#228b22">#Output Dataframe</span>
-df
+          <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Pandas</span>
+<span style="color:#f92672">import</span> <span style="color:#111">pandas</span> <span style="color:#f92672">as</span> <span style="color:#111">pd</span>
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Load CSV file into a dataframe with Pandas</span>
+<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/load_csv_example.csv&#39;</span><span style="color:#111">)</span>
+<span style="color:#75715e">#Output Dataframe</span>
+<span style="color:#111">df</span>
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -100,9 +101,9 @@ df
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22"># Load a csv file with no headers</span>
-df = pd.read_csv(<span style="color:#cd5555">&#39;data/load_csv_example.csv&#39;</span>, header=None)
-df
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with no headers</span>
+<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/load_csv_example.csv&#39;</span><span style="color:#111">,</span> <span style="color:#111">header</span><span style="color:#f92672">=</span><span style="color:#111">None</span><span style="color:#111">)</span>
+<span style="color:#111">df</span>
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -173,9 +174,9 @@ df
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22"># Load a csv file with encoding - UTF-8</span>
-df = pd.read_csv(<span style="color:#cd5555">&#39;data/load_csv_example.csv&#39;</span>, encoding=<span style="color:#cd5555">&#39;UTF-8&#39;</span>)
-df
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with encoding - UTF-8</span>
+<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/load_csv_example.csv&#39;</span><span style="color:#111">,</span> <span style="color:#111">encoding</span><span style="color:#f92672">=</span><span style="color:#d88200">&#39;UTF-8&#39;</span><span style="color:#111">)</span>
+<span style="color:#111">df</span>
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -239,9 +240,9 @@ df
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22"># Load a csv file with specific column names</span>
-df = pd.read_csv(<span style="color:#cd5555">&#39;data/load_csv_example.csv&#39;</span>, names=[<span style="color:#cd5555">&#39;Username&#39;</span>, <span style="color:#cd5555">&#39;ID&#39;</span>, <span style="color:#cd5555">&#39;First Name&#39;</span>, <span style="color:#cd5555">&#39;Last Name&#39;</span>])
-df
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with specific column names</span>
+<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/load_csv_example.csv&#39;</span><span style="color:#111">,</span> <span style="color:#111">names</span><span style="color:#f92672">=</span><span style="color:#111">[</span><span style="color:#d88200">&#39;Username&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;ID&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;First Name&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;Last Name&#39;</span><span style="color:#111">])</span>
+<span style="color:#111">df</span>
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -312,9 +313,9 @@ df
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#228b22"># Write dataframe to csv</span>
-df.to_csv(<span style="color:#cd5555">&#39;data/dataframes_to_csv.csv&#39;</span>)
-</code></pre></div><div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Write dataframe to csv</span>
+<span style="color:#111">df</span><span style="color:#f92672">.</span><span style="color:#111">to_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/dataframes_to_csv.csv&#39;</span><span style="color:#111">)</span>
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 </code></pre></div>
       </main>
       </div>
