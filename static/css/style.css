@@ -154,12 +154,7 @@ span.minor-size {
 }
 
 main h1 {
-  margin-bottom: 1rem;
-  letter-spacing: 0.5px;
-  font-weight: 800;
-  font-size: 0.6em;
-  border: 1px solid red;
-}
+  margin-bottom: 0; }
 
 h1 > a {
     letter-spacing: 0.5px;
