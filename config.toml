@@ -1,6 +1,8 @@
 # https://gohugo.io/getting-started/configuration/
 # TODO - Set base URL
-baseURL = "https://github.com/MrSingh/notes"
+baseURL = ""
+relativeURLs = true
+
 languageCode = "en-gb"
 title = "Puneet's Notes On Data & Software Engineering"
 
