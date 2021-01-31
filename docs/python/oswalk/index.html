@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K1PWW3YCPK');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <title>
+      Python os.walk()
+    </title>
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">
+                <div class="f-left">
+                    <h1><a href="../../index.html" class="home">Puneet Thukral</a> | <span id="page-title">Notes on Data &amp; Software Engineering</span></h1>
+                </div>               
+                
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Python os.walk()</h1>
+<time>January 28, 2021</time>
+
+
+
+
+         <br /> <br />
+          <h2 id="import-modules">Import Modules</h2>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Module</span>
+<span style="color:#f92672">import</span> <span style="color:#111">os</span>
+</code></pre></div><h2 id="set-path">Set Path</h2>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Set Path</span>
+<span style="color:#111">path</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#39;../../content/&#39;</span>
+</code></pre></div><h2 id="find-all-markdown-files-in-all-content-folders">Find All Markdown Files In All Content Folders</h2>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Find all markdown filesin all content folders</span>
+<span style="color:#111">all_ipynb_files</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">os</span><span style="color:#f92672">.</span><span style="color:#111">path</span><span style="color:#f92672">.</span><span style="color:#111">join</span><span style="color:#111">(</span><span style="color:#111">root</span><span style="color:#111">,</span> <span style="color:#111">name</span><span style="color:#111">)</span>
+    <span style="color:#00a8c8">for</span> <span style="color:#111">root</span><span style="color:#111">,</span> <span style="color:#111">dirs</span><span style="color:#111">,</span> <span style="color:#111">files</span> <span style="color:#f92672">in</span> <span style="color:#111">os</span><span style="color:#f92672">.</span><span style="color:#111">walk</span><span style="color:#111">(</span><span style="color:#111">path</span><span style="color:#111">)</span>
+        <span style="color:#00a8c8">for</span> <span style="color:#111">name</span> <span style="color:#f92672">in</span> <span style="color:#111">files</span>
+            <span style="color:#00a8c8">if</span> <span style="color:#111">name</span><span style="color:#f92672">.</span><span style="color:#111">endswith</span><span style="color:#111">((</span><span style="color:#d88200">&#34;.md&#34;</span><span style="color:#111">))]</span>
+<span style="color:#111">all_ipynb_files</span>
+</code></pre></div><pre><code>['../../content/archive\\get-started-with-angular-2.md',
+ '../../content/git\\basic-git-commands.md',
+ '../../content/powershell\\PowerShell.md',
+ '../../content/python\\load_csv.md',
+ '../../content/python\\load_json.md',
+ '../../content/python\\ws_requests_and_beautifulsoup.md',
+ '../../content/vscode\\inserting_date_time.md',
+ '../../content/vscode\\vscode_python_issues.md',
+ '../../content/vscode\\vscode_shortcuts.md']
+</code></pre>
+
+      </main>
+      </div>
+    
+    <footer>
+      
+    </footer>
+  </body>
+</html>

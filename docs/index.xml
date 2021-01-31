@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Python os.walk()</title>
+      <link>/python/oswalk/</link>
+      <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
+      
+      <guid>/python/oswalk/</guid>
+      <description>Import Modules # Import Module import os Set Path # Set Path path = &amp;#39;../../content/&amp;#39; Find All Markdown Files In All Content Folders # Find all markdown filesin all content folders all_ipynb_files = [os.path.join(root, name) for root, dirs, files in os.walk(path) for name in files if name.endswith((&amp;#34;.md&amp;#34;))] all_ipynb_files [&#39;../../content/archive\\get-started-with-angular-2.md&#39;,&#39;../../content/git\\basic-git-commands.md&#39;,&#39;../../content/powershell\\PowerShell.md&#39;,&#39;../../content/python\\load_csv.md&#39;,&#39;../../content/python\\load_json.md&#39;,&#39;../../content/python\\ws_requests_and_beautifulsoup.md&#39;,&#39;../../content/vscode\\inserting_date_time.md&#39;,&#39;../../content/vscode\\vscode_python_issues.md&#39;,&#39;../../content/vscode\\vscode_shortcuts.md&#39;] </description>
+    </item>
+    
+    <item>
       <title>Load a JSON</title>
       <link>/python/load_json/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
@@ -66,6 +75,15 @@ npm i -g angular-cliNow you have Angular CLI installed lets create a sample app
       <description>Intro to Powershell Things to know Execution Policy By default Powershell is secure a philosophy that means that doublecliking a Powershell script in Windows Explorer won&amp;rsquo;t execute the script.
 Powershell has four execution policies - these govern how a script is executed.
  Restricted AllSigned RemoteSigned Unrestricted  Get-ExecutionPolicy Set-ExecutionPolicy Restricted Set-ExecutionPolicy Unrestricted Set-ExecutionPolicy RemoteSigned </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/python/ossystem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python/ossystem/</guid>
+      <description>--- title: &amp;#34;Python os.walk()&amp;#34; Description: &amp;#34;Python method walk() generates directory file names.&amp;#34; date: 2021-01-28T14:50:18Z draft: true --- # SYSTEM OS EXAMPLE # Command to execute  # Using Windows OS command  # cmd = &amp;#39;start chrome&amp;#39; cmd = &amp;#39;notepad&amp;#39; # Using os.system() method  os.system(cmd) </description>
     </item>
     
     <item>

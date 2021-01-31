@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>/python/oswalk/</loc>
+    <lastmod>2021-01-28T14:50:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/python/load_json/</loc>
     <lastmod>2021-01-24T00:00:00-08:00</lastmod>
   </url>
@@ -37,6 +42,10 @@
   
   <url>
     <loc>/powershell/powershell/</loc>
+  </url>
+  
+  <url>
+    <loc>/python/ossystem/</loc>
   </url>
   
   <url>

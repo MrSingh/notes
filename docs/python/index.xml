@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Python os.walk()</title>
+      <link>/python/oswalk/</link>
+      <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
+      
+      <guid>/python/oswalk/</guid>
+      <description>Import Modules # Import Module import os Set Path # Set Path path = &amp;#39;../../content/&amp;#39; Find All Markdown Files In All Content Folders # Find all markdown filesin all content folders all_ipynb_files = [os.path.join(root, name) for root, dirs, files in os.walk(path) for name in files if name.endswith((&amp;#34;.md&amp;#34;))] all_ipynb_files [&#39;../../content/archive\\get-started-with-angular-2.md&#39;,&#39;../../content/git\\basic-git-commands.md&#39;,&#39;../../content/powershell\\PowerShell.md&#39;,&#39;../../content/python\\load_csv.md&#39;,&#39;../../content/python\\load_json.md&#39;,&#39;../../content/python\\ws_requests_and_beautifulsoup.md&#39;,&#39;../../content/vscode\\inserting_date_time.md&#39;,&#39;../../content/vscode\\vscode_python_issues.md&#39;,&#39;../../content/vscode\\vscode_shortcuts.md&#39;] </description>
+    </item>
+    
+    <item>
       <title>Load a JSON</title>
       <link>/python/load_json/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
@@ -34,6 +43,15 @@
       <guid>/python/load_csv/</guid>
       <description># Import Pandas import pandas as pd #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;) #Output Dataframe df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
 user_nameidentifierfirst_namelast_name0booker129012RachelBooker1grey072070LauraGrey2johnson814081CraigJohnson3jenkins469346MaryJenkins4smith795079JamieSmith# Load a csv file with no headers df = pd.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/python/ossystem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python/ossystem/</guid>
+      <description>--- title: &amp;#34;Python os.walk()&amp;#34; Description: &amp;#34;Python method walk() generates directory file names.&amp;#34; date: 2021-01-28T14:50:18Z draft: true --- # SYSTEM OS EXAMPLE # Command to execute  # Using Windows OS command  # cmd = &amp;#39;start chrome&amp;#39; cmd = &amp;#39;notepad&amp;#39; # Using os.system() method  os.system(cmd) </description>
     </item>
     
   </channel>
