@@ -335,8 +335,3 @@ df
 # Write dataframe to csv
 df.to_csv('data/dataframes_to_csv.csv')
 ```
-
-
-```python
-
-```

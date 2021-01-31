@@ -15,9 +15,9 @@
   html is set to 62.5% so that all the REM measurements throughout Skeleton
   are based on 10px sizing. So basically 1.5rem = 15px :) */
   html {
-    font-size: 62.5%; }
+    font-size: 70%; }
   body {
-    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
     font-family: "Open Sans" ;
@@ -335,7 +335,7 @@ li a:hover {
   /* Lists
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   ul {
-    list-style: circle inside; }
+    list-style:disc inside; }
   ol {
     list-style: decimal inside; }
   ol, ul {

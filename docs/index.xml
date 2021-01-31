@@ -6,7 +6,16 @@
     <description>Recent content on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 -0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 14:50:18 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requests and Beautiful Soup</title>
+      <link>/python/ws_requests_and_beautifulsoup/</link>
+      <pubDate>Fri, 29 Jan 2021 14:50:18 +0000</pubDate>
+      
+      <guid>/python/ws_requests_and_beautifulsoup/</guid>
+      <description>Import Modules import requests from bs4 import BeautifulSoup # Example adapted from the links below # https://requests.readthedocs.io/en/master/ # https://www.crummy.com/software/BeautifulSoup/bs4/doc/ Request a Web Page html_page = requests.get(&amp;#39;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&amp;#39;, auth=(&amp;#39;user&amp;#39;, &amp;#39;pass&amp;#39;)) Return Page Headers # Return Page Headers html_page.headers[&amp;#39;content-type&amp;#39;] &#39;text/html; charset=UTF-8&#39; Return Page Status Code # Return Page Status Code html_page.status_code 200 Create a Beautiful Soup Object with HTML text # Create a Beautiful Soup Object with HTML text soup = BeautifulSoup(html_page.</description>
+    </item>
+    
     <item>
       <title>Load a JSON</title>
       <link>/python/load_json/</link>
