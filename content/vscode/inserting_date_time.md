@@ -1,4 +1,9 @@
-# Insert Date Time String in Visual Studio Code
+---
+title: "Insert Date Time String in Visual Studio Code"
+author: "Puneet Thukral"
+date: 2021-01-25 19:44:38
+draft: false
+---
 
 ## Install 'Insert Date String' Extension
 

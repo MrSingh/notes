@@ -26,6 +26,26 @@
     </item>
     
     <item>
+      <title>Insert Date Time String in Visual Studio Code</title>
+      <link>/vscode/inserting_date_time/</link>
+      <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
+      
+      <guid>/vscode/inserting_date_time/</guid>
+      <description>Install &amp;lsquo;Insert Date String&amp;rsquo; Extension Extension
+Click on Install from above link or use the steps below.
+ Open Command Palette: Ctrl + Shift + P Find: Install Extensions Search: Insert Date String Install Use Ctrl + Shift + I to insert the date time to the cursor location.  Check documentation for more options.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code | Shortcuts</title>
+      <link>/vscode/vscode_shortcuts/</link>
+      <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
+      
+      <guid>/vscode/vscode_shortcuts/</guid>
+      <description>Toggle Integrated Terminal Ctrl + &#39; Toggle Side Bar Ctrl + B Open Settings Ctrl + , Quick Open File Ctrl + p Open Preview Mode ToDO Move File to Split Editor Ctrl + \ Find and Replace Find Ctrl + f Find Selection Ctrl + h Find &amp;amp; Replace Selection Execute Ctrl + Enter Find &amp;amp; Replace All Execute Ctrl + Alt + Enter Command Palette Ctrl + Shift + P Toggle Comment Ctrl + / Copy Line - selects the line the cursur is on Ctrl + C Duplicate Line // AboveCtrl + Alt + Up// BelowCtrl + Alt + Down Multiple Cursors Ctrl + Click// OrCtrl + Shift + Alt + Up/Down Select Word Ctrl + D Select All Words ToDo Function to Rename f2 Go to Function Definition Ctrl + Click Zen Mode Toggle Ctrl + K// ThenZ </description>
+    </item>
+    
+    <item>
       <title>Load a JSON</title>
       <link>/python/load_json/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
@@ -88,31 +108,11 @@ Powershell has four execution policies - these govern how a script is executed.
     
     <item>
       <title></title>
-      <link>/vscode/inserting_date_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/vscode/inserting_date_time/</guid>
-      <description>Insert Date Time String in Visual Studio Code Install &amp;lsquo;Insert Date String&amp;rsquo; Extension Extension
-Click on Install from above link or use the steps below.
- Open Command Palette: Ctrl + Shift + P Find: Install Extensions Search: Insert Date String Install Use Ctrl + Shift + I to insert the date time to the cursor location.  Check documentation for more options.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/vscode/vscode_python_issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/vscode/vscode_python_issues/</guid>
       <description>Python Issues in VSCode Jupyter notebook fails to export to python script Error 2020-12-16 16:06:17: Jupyter Kernel Spec not found for a local connectionFix pip install nbconvert </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/vscode/vscode_shortcuts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/vscode/vscode_shortcuts/</guid>
-      <description>Visual Studio Code | Shortcuts Toggle Integrated Terminal Ctrl + &#39; Toggle Side Bar Ctrl + B Open Settings Ctrl + , Quick Open File Ctrl + p Open Preview Mode ToDO Move File to Split Editor Ctrl + \ Find and Replace Find Ctrl + f Find Selection Ctrl + h Find &amp;amp; Replace Selection Execute Ctrl + Enter Find &amp;amp; Replace All Execute Ctrl + Alt + Enter Command Palette Ctrl + Shift + P Toggle Comment Ctrl + / Copy Line - selects the line the cursur is on Ctrl + C Duplicate Line // AboveCtrl + Alt + Up// BelowCtrl + Alt + Down Multiple Cursors Ctrl + Click// OrCtrl + Shift + Alt + Up/Down Select Word Ctrl + D Select All Words ToDo Function to Rename f2 Go to Function Definition Ctrl + Click Zen Mode Toggle Ctrl + K// ThenZ </description>
     </item>
     
   </channel>

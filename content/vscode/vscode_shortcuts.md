@@ -1,4 +1,9 @@
-# Visual Studio Code | Shortcuts
+---
+title: "Visual Studio Code | Shortcuts"
+author: "Puneet Thukral"
+date: 2021-01-25 19:44:38
+draft: false
+---
 
 ## Toggle Integrated Terminal
 

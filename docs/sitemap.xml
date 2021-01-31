@@ -23,6 +23,21 @@
   </url>
   
   <url>
+    <loc>/vscode/inserting_date_time/</loc>
+    <lastmod>2021-01-25T19:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vscode/vscode_shortcuts/</loc>
+    <lastmod>2021-01-25T19:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vscode/</loc>
+    <lastmod>2021-01-25T19:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/python/load_json/</loc>
     <lastmod>2021-01-24T00:00:00-08:00</lastmod>
   </url>
@@ -49,15 +64,7 @@
   </url>
   
   <url>
-    <loc>/vscode/inserting_date_time/</loc>
-  </url>
-  
-  <url>
     <loc>/vscode/vscode_python_issues/</loc>
-  </url>
-  
-  <url>
-    <loc>/vscode/vscode_shortcuts/</loc>
   </url>
   
   <url>
@@ -70,10 +77,6 @@
   
   <url>
     <loc>/powershell/</loc>
-  </url>
-  
-  <url>
-    <loc>/vscode/</loc>
   </url>
   
 </urlset>

@@ -90,8 +90,9 @@ main.container .row {
     display: block;
     border: 1px solid #dcdcdd;
     padding:8px;
-    font-size: 2.2rem; line-height: 1.25; letter-spacing: -.1rem;
+    font-size: 1.8rem; line-height: 1.2rem; letter-spacing: -.1rem;
     font-weight: normal;
+    color:#555;
 }
 
 .row .card-body { 
