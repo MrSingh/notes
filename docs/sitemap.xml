@@ -48,11 +48,17 @@
   </url>
   
   <url>
-    <loc>/archive/get-started-with-angular-2/</loc>
+    <loc>/git/basic_git_commands/</loc>
+    <lastmod>2020-11-01T10:05:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/git/basic-git-commands/</loc>
+    <loc>/git/</loc>
+    <lastmod>2020-11-01T10:05:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/archive/get-started-with-angular-2/</loc>
   </url>
   
   <url>
@@ -69,10 +75,6 @@
   
   <url>
     <loc>/archive/</loc>
-  </url>
-  
-  <url>
-    <loc>/git/</loc>
   </url>
   
   <url>

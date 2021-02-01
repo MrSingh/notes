@@ -14,4 +14,8 @@ These are my private notes on data and software engineering. This site is built 
 ## To Do
 --------
 
++ About Section
++ Footer
++ SEO
+
 

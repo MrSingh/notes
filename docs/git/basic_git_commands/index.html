@@ -22,7 +22,7 @@
     <link href="../../css/style.css" rel="stylesheet" media="all">
     <link href="../../css/syntax.css" rel="stylesheet" media="all">
     <title>
-      
+      Basic Git Commands
     </title>
   </head>
   <body>
@@ -39,29 +39,26 @@
     
       <div class="wrap">
         <main class="container">
-          <h1></h1>
-<time>January 1, 0001</time>
+          <h1>Basic Git Commands</h1>
+<time>November 1, 2020</time>
 
 
 
 
          <br /> <br />
-          <h1 id="intro-to-powershell">Intro to Powershell</h1>
-<h2 id="things-to-know">Things to know</h2>
-<h3 id="execution-policy">Execution Policy</h3>
-<p>By default Powershell is secure a philosophy that means that doublecliking a Powershell script in Windows Explorer won&rsquo;t execute the script.</p>
-<p>Powershell has four execution policies - these govern how a script is executed.</p>
-<ul>
-<li>Restricted</li>
-<li>AllSigned</li>
-<li>RemoteSigned</li>
-<li>Unrestricted</li>
-</ul>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#111">Get-ExecutionPolicy</span>
-</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#111">Set-ExecutionPolicy</span> <span style="color:#111">Restricted</span>
-</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#111">Set-ExecutionPolicy</span> <span style="color:#111">Unrestricted</span>
-</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#111">Set-ExecutionPolicy</span> <span style="color:#111">RemoteSigned</span>
-</code></pre></div>
+          <h2 id="add-remote-repository">Add remote repository</h2>
+<pre><code class="language-git" data-lang="git">git remote add origin https://github.com/user/repo.git
+</code></pre><h2 id="check-remote-repository">Check Remote Repository</h2>
+<pre><code class="language-git" data-lang="git">git remote -v
+</code></pre><h2 id="stage-all-changes">Stage All Changes</h2>
+<pre><code class="language-git" data-lang="git">git stage -all
+</code></pre><h2 id="change-current-branch-name">Change Current Branch Name</h2>
+<pre><code class="language-git" data-lang="git">git branch -m &lt;newname&gt;
+</code></pre><h2 id="change-any-branch-name">Change Any Branch Name</h2>
+<pre><code class="language-git" data-lang="git">git branch -m &lt;old-name&gt; &lt;new-name&gt;
+</code></pre><h2 id="adding-existing-repository-to-git">Adding existing repository to Git</h2>
+<p><a href="https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">Link</a></p>
+
       </main>
       </div>
     

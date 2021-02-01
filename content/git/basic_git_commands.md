@@ -1,4 +1,10 @@
-# Basic Git Commands
+---
+title: "Basic Git Commands"
+date: 2020-11-01T10:05:19Z
+description: ""
+draft: false
+labels: ""
+---
 
 ## Add remote repository
 
