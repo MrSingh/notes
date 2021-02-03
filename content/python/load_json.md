@@ -1,5 +1,5 @@
 ---
-title: "Load a JSON"
+title: "Load a JSON file"
 author: "Puneet Thukral"
 date: 2021-01-24T00:00:00-08:00
 draft: false
@@ -12,14 +12,14 @@ import pandas as pd
 
 
 ```python
-#Set JSON filepath
-json_filepath = "data/load_json_example.json"
+# Set JSON filepath
+json_filepath = "data/new_json.json"
 ```
 
 
 ```python
-#default is 'columns'
-df = pd.read_json(json_filepath, orient="columns")
+# Read JSON File
+df = pd.read_json(json_filepath,  orient='split')
 df
 ```
 
@@ -44,64 +44,237 @@ df
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>user_name</th>
-      <th>identifier</th>
-      <th>first_name</th>
-      <th>last_name</th>
+      <th>name</th>
+      <th>mfr</th>
+      <th>type</th>
+      <th>calories</th>
+      <th>protein</th>
+      <th>fat</th>
+      <th>sodium</th>
+      <th>fiber</th>
+      <th>carbo</th>
+      <th>sugars</th>
+      <th>potass</th>
+      <th>vitamins</th>
+      <th>shelf</th>
+      <th>weight</th>
+      <th>cups</th>
+      <th>rating</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>booker12</td>
-      <td>9012.0</td>
-      <td>Rachel</td>
-      <td>Booker</td>
+      <td>100% Bran</td>
+      <td>N</td>
+      <td>C</td>
+      <td>70</td>
+      <td>4</td>
+      <td>1</td>
+      <td>130</td>
+      <td>10.0</td>
+      <td>5.0</td>
+      <td>6</td>
+      <td>280</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.33</td>
+      <td>68.402973</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>grey07</td>
-      <td>2070.0</td>
-      <td>Laura</td>
-      <td>Grey</td>
+      <td>100% Natural Bran</td>
+      <td>Q</td>
+      <td>C</td>
+      <td>120</td>
+      <td>3</td>
+      <td>5</td>
+      <td>15</td>
+      <td>2.0</td>
+      <td>8.0</td>
+      <td>8</td>
+      <td>135</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>33.983679</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>johnson81</td>
-      <td>4081.0</td>
-      <td>Craig</td>
-      <td>Johnson</td>
+      <td>All-Bran</td>
+      <td>K</td>
+      <td>C</td>
+      <td>70</td>
+      <td>4</td>
+      <td>1</td>
+      <td>260</td>
+      <td>9.0</td>
+      <td>7.0</td>
+      <td>5</td>
+      <td>320</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.33</td>
+      <td>59.425505</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>jenkins46</td>
-      <td>9346.0</td>
-      <td>Mary</td>
-      <td>Jenkins</td>
+      <td>All-Bran with Extra Fiber</td>
+      <td>K</td>
+      <td>C</td>
+      <td>50</td>
+      <td>4</td>
+      <td>0</td>
+      <td>140</td>
+      <td>14.0</td>
+      <td>8.0</td>
+      <td>0</td>
+      <td>330</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.50</td>
+      <td>93.704912</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>smith79</td>
-      <td>5079.0</td>
-      <td>Jamie</td>
-      <td>Smith</td>
+      <td>Almond Delight</td>
+      <td>R</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>2</td>
+      <td>200</td>
+      <td>1.0</td>
+      <td>14.0</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>34.384843</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td></td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td></td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <th>72</th>
+      <td>Triples</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>1</td>
+      <td>250</td>
+      <td>0.0</td>
+      <td>21.0</td>
+      <td>3</td>
+      <td>60</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>39.106174</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Trix</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>1</td>
+      <td>1</td>
+      <td>140</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>12</td>
+      <td>25</td>
+      <td>25</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>27.753301</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Wheat Chex</td>
+      <td>R</td>
+      <td>C</td>
+      <td>100</td>
+      <td>3</td>
+      <td>1</td>
+      <td>230</td>
+      <td>3.0</td>
+      <td>17.0</td>
+      <td>3</td>
+      <td>115</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.67</td>
+      <td>49.787445</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Wheaties</td>
+      <td>G</td>
+      <td>C</td>
+      <td>100</td>
+      <td>3</td>
+      <td>1</td>
+      <td>200</td>
+      <td>3.0</td>
+      <td>17.0</td>
+      <td>3</td>
+      <td>110</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>51.592193</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Wheaties Honey Gold</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>1</td>
+      <td>200</td>
+      <td>1.0</td>
+      <td>16.0</td>
+      <td>8</td>
+      <td>60</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>36.187559</td>
     </tr>
   </tbody>
 </table>
+<p>77 rows × 16 columns</p>
 </div>
 
 

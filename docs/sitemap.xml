@@ -4,12 +4,27 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-01-29T14:50:18+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>/python/</loc>
-    <lastmod>2021-01-29T14:50:18+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/python/write_dataframe_to_json/</loc>
+    <lastmod>2021-02-03T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/test/jira_data_analysis/</loc>
+    <lastmod>2021-02-02T19:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/test/</loc>
+    <lastmod>2021-02-02T19:44:38+00:00</lastmod>
   </url>
   
   <url>
@@ -67,6 +82,10 @@
   
   <url>
     <loc>/python/ossystem/</loc>
+  </url>
+  
+  <url>
+    <loc>/test/reddit_wallstreetbets/</loc>
   </url>
   
   <url>

@@ -6,7 +6,25 @@
     <description>Recent content on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 29 Jan 2021 14:50:18 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 00:00:00 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Write a Dataframe to a JSON File</title>
+      <link>/python/write_dataframe_to_json/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 -0700</pubDate>
+      
+      <guid>/python/write_dataframe_to_json/</guid>
+      <description>Import Pandas # Import Pandas import pandas as pd df = pd.read_csv(&amp;#34;data/cereal.csv&amp;#34;) Output as a JSON string # output as a JSON string df.to_json() &#39;{&amp;quot;name&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;100% Bran&amp;quot;,&amp;quot;1&amp;quot;:&amp;quot;100% Natural Bran&amp;quot;,&amp;quot;2&amp;quot;:&amp;quot;All-Bran&amp;quot;,&amp;quot;3&amp;quot;:&amp;quot;All-Bran with Extra Fiber&amp;quot;,&amp;quot;4&amp;quot;:&amp;quot;Almond Delight&amp;quot;,&amp;quot;5&amp;quot;:&amp;quot;Apple Cinnamon Cheerios&amp;quot;,&amp;quot;6&amp;quot;:&amp;quot;Apple Jacks&amp;quot;,&amp;quot;7&amp;quot;:&amp;quot;Basic 4&amp;quot;,&amp;quot;8&amp;quot;:&amp;quot;Bran Chex&amp;quot;,&amp;quot;9&amp;quot;:&amp;quot;Bran Flakes&amp;quot;,&amp;quot;10&amp;quot;:&amp;quot;Cap\&#39;n\&#39;Crunch&amp;quot;,&amp;quot;11&amp;quot;:&amp;quot;Cheerios&amp;quot;,&amp;quot;12&amp;quot;:&amp;quot;Cinnamon Toast Crunch&amp;quot;,&amp;quot;13&amp;quot;:&amp;quot;Clusters&amp;quot;,&amp;quot;14&amp;quot;:&amp;quot;Cocoa Puffs&amp;quot;,&amp;quot;15&amp;quot;:&amp;quot;Corn Chex&amp;quot;,&amp;quot;16&amp;quot;:&amp;quot;Corn Flakes&amp;quot;,&amp;quot;17&amp;quot;:&amp;quot;Corn Pops&amp;quot;,&amp;quot;18&amp;quot;:&amp;quot;Count Chocula&amp;quot;,&amp;quot;19&amp;quot;:&amp;quot;Cracklin\&#39; Oat Bran&amp;quot;,&amp;quot;20&amp;quot;:&amp;quot;Cream of Wheat (Quick)&amp;quot;,&amp;quot;21&amp;quot;:&amp;quot;Crispix&amp;quot;,&amp;quot;22&amp;quot;:&amp;quot;Crispy Wheat &amp;amp; Raisins&amp;quot;,&amp;quot;23&amp;quot;:&amp;quot;Double Chex&amp;quot;,&amp;quot;24&amp;quot;:&amp;quot;Froot Loops&amp;quot;,&amp;quot;25&amp;quot;:&amp;quot;Frosted Flakes&amp;quot;,&amp;quot;26&amp;quot;:&amp;quot;Frosted Mini-Wheats&amp;quot;,&amp;quot;27&amp;quot;:&amp;quot;Fruit &amp;amp; Fibre Dates; Walnuts; and Oats&amp;quot;,&amp;quot;28&amp;quot;:&amp;quot;Fruitful Bran&amp;quot;,&amp;quot;29&amp;quot;:&amp;quot;Fruity Pebbles&amp;quot;,&amp;quot;30&amp;quot;:&amp;quot;Golden Crisp&amp;quot;,&amp;quot;31&amp;quot;:&amp;quot;Golden Grahams&amp;quot;,&amp;quot;32&amp;quot;:&amp;quot;Grape Nuts Flakes&amp;quot;,&amp;quot;33&amp;quot;:&amp;quot;Grape-Nuts&amp;quot;,&amp;quot;34&amp;quot;:&amp;quot;Great Grains Pecan&amp;quot;,&amp;quot;35&amp;quot;:&amp;quot;Honey Graham Ohs&amp;quot;,&amp;quot;36&amp;quot;:&amp;quot;Honey Nut Cheerios&amp;quot;,&amp;quot;37&amp;quot;:&amp;quot;Honey-comb&amp;quot;,&amp;quot;38&amp;quot;:&amp;quot;Just Right Crunchy Nuggets&amp;quot;,&amp;quot;39&amp;quot;:&amp;quot;Just Right Fruit &amp;amp; Nut&amp;quot;,&amp;quot;40&amp;quot;:&amp;quot;Kix&amp;quot;,&amp;quot;41&amp;quot;:&amp;quot;Life&amp;quot;,&amp;quot;42&amp;quot;:&amp;quot;Lucky Charms&amp;quot;,&amp;quot;43&amp;quot;:&amp;quot;Maypo&amp;quot;,&amp;quot;44&amp;quot;:&amp;quot;Muesli Raisins; Dates; &amp;amp; Almonds&amp;quot;,&amp;quot;45&amp;quot;:&amp;quot;Muesli Raisins; Peaches; &amp;amp; Pecans&amp;quot;,&amp;quot;46&amp;quot;:&amp;quot;Mueslix Crispy Blend&amp;quot;,&amp;quot;47&amp;quot;:&amp;quot;Multi-Grain Cheerios&amp;quot;,&amp;quot;48&amp;quot;:&amp;quot;Nut&amp;amp;Honey Crunch&amp;quot;,&amp;quot;49&amp;quot;:&amp;quot;Nutri-Grain Almond-Raisin&amp;quot;,&amp;quot;50&amp;quot;:&amp;quot;Nutri-grain Wheat&amp;quot;,&amp;quot;51&amp;quot;:&amp;quot;Oatmeal Raisin Crisp&amp;quot;,&amp;quot;52&amp;quot;:&amp;quot;Post Nat.</description>
+    </item>
+    
+    <item>
+      <title>Basic Analyse of Original Estimate vs Time Spent from Jira data</title>
+      <link>/test/jira_data_analysis/</link>
+      <pubDate>Tue, 02 Feb 2021 19:44:38 +0000</pubDate>
+      
+      <guid>/test/jira_data_analysis/</guid>
+      <description>import matplotlib.pyplot as plt import pandas as pd #set file path # TODO - Create new file without all other columns filePath = &amp;#34;data/j17_1r.csv&amp;#34; # read file data=pd.read_csv(filePath, parse_dates=True, index_col=&amp;#39;Status&amp;#39;, delimiter=&amp;#39;,&amp;#39;, encoding = &amp;#39;iso-8859-1&amp;#39;) # Sprint 17.1.3 # Review and give more meaningful variable names # Time in dates is in seconds, dividing by 3600 gives us the hour or partial hour IssueType = data.groupby(&amp;#39;Issue Type&amp;#39;)[&amp;#39;Original Estimate&amp;#39;,&amp;#39;Time Spent&amp;#39;].sum()/3600 #Data for original time vs spent time  #IssueType.</description>
+    </item>
+    
     <item>
       <title>Requests and Beautiful Soup</title>
       <link>/python/ws_requests_and_beautifulsoup/</link>
@@ -46,23 +64,23 @@ Click on Install from above link or use the steps below.
     </item>
     
     <item>
-      <title>Load a JSON</title>
+      <title>Load a JSON file</title>
       <link>/python/load_json/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
       
       <guid>/python/load_json/</guid>
-      <description>import pandas as pd #Set JSON filepath json_filepath = &amp;#34;data/load_json_example.json&amp;#34; #default is &amp;#39;columns&amp;#39; df = pd.read_json(json_filepath, orient=&amp;#34;columns&amp;#34;) df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
-user_nameidentifierfirst_namelast_name0booker129012.0RachelBooker1grey072070.0LauraGrey2johnson814081.</description>
+      <description>import pandas as pd # Set JSON filepath json_filepath = &amp;#34;data/new_json.json&amp;#34; # Read JSON File df = pd.read_json(json_filepath, orient=&amp;#39;split&amp;#39;) df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
+namemfrtypecaloriesproteinfatsodiumfibercarbosugarspotassvitaminsshelfweightcupsrating0100% BranNC704113010.</description>
     </item>
     
     <item>
-      <title>Load a CSV</title>
+      <title>Load a CSV File</title>
       <link>/python/load_csv/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 -0700</pubDate>
       
       <guid>/python/load_csv/</guid>
-      <description># Import Pandas import pandas as pd #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/load_csv_example.csv&amp;#39;) #Output Dataframe df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
-user_nameidentifierfirst_namelast_name0booker129012RachelBooker1grey072070LauraGrey2johnson814081CraigJohnson3jenkins469346MaryJenkins4smith795079JamieSmith# Load a csv file with no headers df = pd.</description>
+      <description>Import Pandas # Import Pandas import pandas as pd Read CSV file #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/cereal.csv&amp;#39;) #Output Dataframe df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
+namemfrtypecaloriesproteinfatsodiumfibercarbosugarspotassvitaminsshelfweightcupsrating0100% BranNC704113010.</description>
     </item>
     
     <item>
@@ -104,6 +122,15 @@ Powershell has four execution policies - these govern how a script is executed.
       
       <guid>/python/ossystem/</guid>
       <description>--- title: &amp;#34;Python os.walk()&amp;#34; Description: &amp;#34;Python method walk() generates directory file names.&amp;#34; date: 2021-01-28T14:50:18Z draft: true --- # SYSTEM OS EXAMPLE # Command to execute  # Using Windows OS command  # cmd = &amp;#39;start chrome&amp;#39; cmd = &amp;#39;notepad&amp;#39; # Using os.system() method  os.system(cmd) </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/test/reddit_wallstreetbets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/test/reddit_wallstreetbets/</guid>
+      <description># Import Pandas import pandas as pd #Import Requests and BeautifulSoup import requests from bs4 import BeautifulSoup from googlesearch import search # NOTES # https://stackoverflow.com/questions/4785244/search-a-text-file-and-print-related-lines-in-python #TODO - Prettify and then save file and then use above example # User Header user_header = {&amp;#39;User-Agent&amp;#39;: &amp;#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36&amp;#39;} #r = requests.get(&amp;#39;https://www.reddit.com/r/wallstreetbets/&amp;#39;, headers=user_header) r = requests.get(&amp;#39;https://www.reddit.com/r/wallstreetbets/comments/l9kn3z/drew_this_for_you_my_fellow_retards/&amp;#39;, headers=user_header) soup = BeautifulSoup(r.text, &amp;#39;html.parser&amp;#39;) soup.get_text() &amp;quot;\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrew this for you my fellow retards 💎🙌🏼 : wallstreetbets\n\n\n\n\nPress J to jump to the feed.</description>
     </item>
     
     <item>

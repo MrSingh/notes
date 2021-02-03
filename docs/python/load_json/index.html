@@ -22,7 +22,7 @@
     <link href="../../css/style.css" rel="stylesheet" media="all">
     <link href="../../css/syntax.css" rel="stylesheet" media="all">
     <title>
-      Load a JSON
+      Load a JSON file
     </title>
   </head>
   <body>
@@ -39,7 +39,7 @@
     
       <div class="wrap">
         <main class="container">
-          <h1>Load a JSON</h1>
+          <h1>Load a JSON file</h1>
 <time>January 24, 2021</time>
 
 
@@ -47,10 +47,10 @@
 
          <br /> <br />
           <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> <span style="color:#111">pandas</span> <span style="color:#f92672">as</span> <span style="color:#111">pd</span>
-</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Set JSON filepath</span>
-<span style="color:#111">json_filepath</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;data/load_json_example.json&#34;</span>
-</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#default is &#39;columns&#39;</span>
-<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_json</span><span style="color:#111">(</span><span style="color:#111">json_filepath</span><span style="color:#111">,</span> <span style="color:#111">orient</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;columns&#34;</span><span style="color:#111">)</span>
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Set JSON filepath</span>
+<span style="color:#111">json_filepath</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;data/new_json.json&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Read JSON File</span>
+<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_json</span><span style="color:#111">(</span><span style="color:#111">json_filepath</span><span style="color:#111">,</span>  <span style="color:#111">orient</span><span style="color:#f92672">=</span><span style="color:#d88200">&#39;split&#39;</span><span style="color:#111">)</span>
 <span style="color:#111">df</span>
 </code></pre></div><div>
 <style scoped>
@@ -70,64 +70,237 @@
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>user_name</th>
-      <th>identifier</th>
-      <th>first_name</th>
-      <th>last_name</th>
+      <th>name</th>
+      <th>mfr</th>
+      <th>type</th>
+      <th>calories</th>
+      <th>protein</th>
+      <th>fat</th>
+      <th>sodium</th>
+      <th>fiber</th>
+      <th>carbo</th>
+      <th>sugars</th>
+      <th>potass</th>
+      <th>vitamins</th>
+      <th>shelf</th>
+      <th>weight</th>
+      <th>cups</th>
+      <th>rating</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>booker12</td>
-      <td>9012.0</td>
-      <td>Rachel</td>
-      <td>Booker</td>
+      <td>100% Bran</td>
+      <td>N</td>
+      <td>C</td>
+      <td>70</td>
+      <td>4</td>
+      <td>1</td>
+      <td>130</td>
+      <td>10.0</td>
+      <td>5.0</td>
+      <td>6</td>
+      <td>280</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.33</td>
+      <td>68.402973</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>grey07</td>
-      <td>2070.0</td>
-      <td>Laura</td>
-      <td>Grey</td>
+      <td>100% Natural Bran</td>
+      <td>Q</td>
+      <td>C</td>
+      <td>120</td>
+      <td>3</td>
+      <td>5</td>
+      <td>15</td>
+      <td>2.0</td>
+      <td>8.0</td>
+      <td>8</td>
+      <td>135</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>33.983679</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>johnson81</td>
-      <td>4081.0</td>
-      <td>Craig</td>
-      <td>Johnson</td>
+      <td>All-Bran</td>
+      <td>K</td>
+      <td>C</td>
+      <td>70</td>
+      <td>4</td>
+      <td>1</td>
+      <td>260</td>
+      <td>9.0</td>
+      <td>7.0</td>
+      <td>5</td>
+      <td>320</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.33</td>
+      <td>59.425505</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>jenkins46</td>
-      <td>9346.0</td>
-      <td>Mary</td>
-      <td>Jenkins</td>
+      <td>All-Bran with Extra Fiber</td>
+      <td>K</td>
+      <td>C</td>
+      <td>50</td>
+      <td>4</td>
+      <td>0</td>
+      <td>140</td>
+      <td>14.0</td>
+      <td>8.0</td>
+      <td>0</td>
+      <td>330</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.50</td>
+      <td>93.704912</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>smith79</td>
-      <td>5079.0</td>
-      <td>Jamie</td>
-      <td>Smith</td>
+      <td>Almond Delight</td>
+      <td>R</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>2</td>
+      <td>200</td>
+      <td>1.0</td>
+      <td>14.0</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>34.384843</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td></td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td></td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <th>72</th>
+      <td>Triples</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>1</td>
+      <td>250</td>
+      <td>0.0</td>
+      <td>21.0</td>
+      <td>3</td>
+      <td>60</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>39.106174</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Trix</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>1</td>
+      <td>1</td>
+      <td>140</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>12</td>
+      <td>25</td>
+      <td>25</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>27.753301</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Wheat Chex</td>
+      <td>R</td>
+      <td>C</td>
+      <td>100</td>
+      <td>3</td>
+      <td>1</td>
+      <td>230</td>
+      <td>3.0</td>
+      <td>17.0</td>
+      <td>3</td>
+      <td>115</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.67</td>
+      <td>49.787445</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Wheaties</td>
+      <td>G</td>
+      <td>C</td>
+      <td>100</td>
+      <td>3</td>
+      <td>1</td>
+      <td>200</td>
+      <td>3.0</td>
+      <td>17.0</td>
+      <td>3</td>
+      <td>110</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>51.592193</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Wheaties Honey Gold</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>1</td>
+      <td>200</td>
+      <td>1.0</td>
+      <td>16.0</td>
+      <td>8</td>
+      <td>60</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>36.187559</td>
     </tr>
   </tbody>
 </table>
+<p>77 rows × 16 columns</p>
 </div>
 
       </main>

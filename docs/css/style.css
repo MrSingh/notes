@@ -145,9 +145,9 @@ h1, h2 {
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 2.2rem; line-height: 1.25; letter-spacing: -.1rem;  font-weight: bold;}
 
-h2, h3, h4, h5 {
+/* h2, h3, h4, h5 {
   font-family: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif;
-}
+} */
 
 span.minor-size {
     font-size: .6em;
