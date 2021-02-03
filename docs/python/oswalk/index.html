@@ -47,18 +47,18 @@
 
          <br /> <br />
           <h2 id="import-modules">Import Modules</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Module</span>
-<span style="color:#f92672">import</span> <span style="color:#111">os</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Module</span>
+<span style="color:#f92672">import</span> os
 </code></pre></div><h2 id="set-path">Set Path</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Set Path</span>
-<span style="color:#111">path</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#39;../../content/&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Set Path</span>
+path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;../../content/&#39;</span>
 </code></pre></div><h2 id="find-all-markdown-files-in-all-content-folders">Find All Markdown Files In All Content Folders</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Find all markdown filesin all content folders</span>
-<span style="color:#111">all_ipynb_files</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">os</span><span style="color:#f92672">.</span><span style="color:#111">path</span><span style="color:#f92672">.</span><span style="color:#111">join</span><span style="color:#111">(</span><span style="color:#111">root</span><span style="color:#111">,</span> <span style="color:#111">name</span><span style="color:#111">)</span>
-    <span style="color:#00a8c8">for</span> <span style="color:#111">root</span><span style="color:#111">,</span> <span style="color:#111">dirs</span><span style="color:#111">,</span> <span style="color:#111">files</span> <span style="color:#f92672">in</span> <span style="color:#111">os</span><span style="color:#f92672">.</span><span style="color:#111">walk</span><span style="color:#111">(</span><span style="color:#111">path</span><span style="color:#111">)</span>
-        <span style="color:#00a8c8">for</span> <span style="color:#111">name</span> <span style="color:#f92672">in</span> <span style="color:#111">files</span>
-            <span style="color:#00a8c8">if</span> <span style="color:#111">name</span><span style="color:#f92672">.</span><span style="color:#111">endswith</span><span style="color:#111">((</span><span style="color:#d88200">&#34;.md&#34;</span><span style="color:#111">))]</span>
-<span style="color:#111">all_ipynb_files</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Find all markdown filesin all content folders</span>
+all_ipynb_files <span style="color:#f92672">=</span> [os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(root, name)
+    <span style="color:#66d9ef">for</span> root, dirs, files <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>walk(path)
+        <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> files
+            <span style="color:#66d9ef">if</span> name<span style="color:#f92672">.</span>endswith((<span style="color:#e6db74">&#34;.md&#34;</span>))]
+all_ipynb_files
 </code></pre></div><pre><code>['../../content/archive\\get-started-with-angular-2.md',
  '../../content/git\\basic-git-commands.md',
  '../../content/powershell\\PowerShell.md',

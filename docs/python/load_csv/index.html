@@ -47,14 +47,14 @@
 
          <br /> <br />
           <h2 id="import-pandas">Import Pandas</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Pandas</span>
-<span style="color:#f92672">import</span> <span style="color:#111">pandas</span> <span style="color:#f92672">as</span> <span style="color:#111">pd</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Pandas</span>
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
 </code></pre></div><h2 id="read-csv-file">Read CSV file</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Load CSV file into a dataframe with Pandas</span>
-<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/cereal.csv&#39;</span><span style="color:#111">)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Load CSV file into a dataframe with Pandas</span>
+df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/cereal.csv&#39;</span>)
 
 <span style="color:#75715e">#Output Dataframe</span>
-<span style="color:#111">df</span>
+df
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -306,10 +306,10 @@
 <p>77 rows × 16 columns</p>
 </div>
 <h2 id="read-csv-file-with-specific-columns">Read CSV file with specific columns</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with specific columns</span>
-<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/cereal.csv&#39;</span><span style="color:#111">,</span>
-        <span style="color:#111">usecols</span><span style="color:#f92672">=</span><span style="color:#111">[</span><span style="color:#d88200">&#39;name&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;protein&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;fiber&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;vitamins&#39;</span><span style="color:#111">])</span>
-<span style="color:#111">df</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with specific columns</span>
+df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/cereal.csv&#39;</span>,
+        usecols<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;name&#39;</span>, <span style="color:#e6db74">&#39;protein&#39;</span>, <span style="color:#e6db74">&#39;fiber&#39;</span>, <span style="color:#e6db74">&#39;vitamins&#39;</span>])
+df
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -417,9 +417,9 @@
 <p>77 rows × 4 columns</p>
 </div>
 <h2 id="load-a-csv-file-with-encoding---utf-8">Load a csv file with encoding - UTF-8</h2>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with encoding - UTF-8</span>
-<span style="color:#111">df</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/cereal.csv&#39;</span><span style="color:#111">,</span> <span style="color:#111">encoding</span><span style="color:#f92672">=</span><span style="color:#d88200">&#39;UTF-8&#39;</span><span style="color:#111">)</span>
-<span style="color:#111">df</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with encoding - UTF-8</span>
+df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/cereal.csv&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;UTF-8&#39;</span>)
+df
 </code></pre></div><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -670,8 +670,8 @@
 </table>
 <p>77 rows × 16 columns</p>
 </div>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Write dataframe to csv</span>
-<span style="color:#111">df</span><span style="color:#f92672">.</span><span style="color:#111">to_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#39;data/dataframe_to_csv.csv&#39;</span><span style="color:#111">)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Write dataframe to csv</span>
+df<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;data/dataframe_to_csv.csv&#39;</span>)
 </code></pre></div><h3 id="data-sourcehttpswwwkagglecomcrawford80-cereals"><a href="https://www.kaggle.com/crawford/80-cereals">Data Source</a></h3>
 
       </main>
