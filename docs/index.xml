@@ -13,7 +13,7 @@
       <pubDate>Thu, 04 Feb 2021 12:44:38 +0000</pubDate>
       
       <guid>/python/drop_dataframe_columns/</guid>
-      <description>Import Pandas ghfgh # Import Pandas import pandas as pd Set File Path and Read it into a DataFrame # Set file path fp = &amp;#34;data/cereal.csv&amp;#34; # Read file to DataFrame df = pd.read_csv(fp, delimiter=&amp;#39;,&amp;#39;) Example One # Example One # Delete All Columns Except Named Columns df_1 = df[[&amp;#39;name&amp;#39;, &amp;#39;rating&amp;#39;]] df_1 .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;}</description>
+      <description>Import Pandas # Import Pandas import pandas as pd Set File Path and Read it into a DataFrame # Set file path fp = &amp;#34;data/cereal.csv&amp;#34; # Read file to DataFrame df = pd.read_csv(fp, delimiter=&amp;#39;,&amp;#39;) Example One # Example One # Delete All Columns Except Named Columns df_1 = df[[&amp;#39;name&amp;#39;, &amp;#39;rating&amp;#39;]] df_1 .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;}</description>
     </item>
     
     <item>
