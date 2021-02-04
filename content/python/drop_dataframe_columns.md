@@ -1,7 +1,7 @@
 ---
 title: "Delete Columns in a DataFrame"
 author: "Puneet Thukral"
-date: 2021-02-04T19:44:38
+date: 2021-02-04T12:44:38
 draft: false
 ---
 
