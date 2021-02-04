@@ -18,6 +18,15 @@
     
     <item>
       <title>Basic Analyse of Original Estimate vs Time Spent from Jira data</title>
+      <link>/test/data_analysis/</link>
+      <pubDate>Tue, 02 Feb 2021 19:44:38 +0000</pubDate>
+      
+      <guid>/test/data_analysis/</guid>
+      <description>import matplotlib.pyplot as plt import pandas as pd filePath = &amp;#34;data/cereal.csv&amp;#34; # read file data=pd.read_csv(filePath, parse_dates=True, delimiter=&amp;#39;,&amp;#39;, encoding = &amp;#39;iso-8859-1&amp;#39;) # Sprint 17.1.3 # # Review and give more meaningful variable names # # Time in dates is in seconds, dividing by 3600 gives us the hour or partial hour groupby_comparison = data.groupby(&amp;#39;sodium&amp;#39;).mean[&amp;#39;sugars&amp;#39;] #Data for original time vs spent time  # #IssueType.loc[&amp;#39;Total&amp;#39;]= IssueType.sum() #add Row with column - totals # IssueType[&amp;#39;Time Spent&amp;#39;]=IssueType[&amp;#39;Time Spent&amp;#39;].</description>
+    </item>
+    
+    <item>
+      <title>Basic Analyse of Original Estimate vs Time Spent from Jira data</title>
       <link>/test/jira_data_analysis/</link>
       <pubDate>Tue, 02 Feb 2021 19:44:38 +0000</pubDate>
       
@@ -89,7 +98,7 @@ Click on Install from above link or use the steps below.
       <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
       
       <guid>/git/basic_git_commands/</guid>
-      <description>Add remote repository git remote add origin https://github.com/user/repo.gitCheck Remote Repository git remote -vStage All Changes git stage -allChange Current Branch Name git branch -m &amp;lt;newname&amp;gt;Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt;Adding existing repository to Git Link</description>
+      <description>Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Stage All Changes git stage -all Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Adding existing repository to Git Link</description>
     </item>
     
     <item>

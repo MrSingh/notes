@@ -13,7 +13,7 @@
       <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
       
       <guid>/git/basic_git_commands/</guid>
-      <description>Add remote repository git remote add origin https://github.com/user/repo.gitCheck Remote Repository git remote -vStage All Changes git stage -allChange Current Branch Name git branch -m &amp;lt;newname&amp;gt;Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt;Adding existing repository to Git Link</description>
+      <description>Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Stage All Changes git stage -all Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Adding existing repository to Git Link</description>
     </item>
     
   </channel>

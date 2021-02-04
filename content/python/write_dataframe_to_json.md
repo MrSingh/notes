@@ -34,7 +34,7 @@ df.to_json()
 
 
 ```python
-# Output to a json file
+# Output to a JSON file
 # Orient - Allowed values are: {‘split’, ‘records’, ‘index’, ‘table’}.
 # Indent - Length of whitespace used to indent each record.
 df.to_json('data/new_json.json', orient="split", indent=4)

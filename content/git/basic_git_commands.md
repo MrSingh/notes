@@ -8,31 +8,31 @@ labels: ""
 
 ## Add remote repository
 
-```git
+```bash
 git remote add origin https://github.com/user/repo.git
 ```
 
 ## Check Remote Repository
 
-```git
+```bash
 git remote -v
 ```
 
 ## Stage All Changes
 
-```git
+```bash
 git stage -all
 ```
 
 ## Change Current Branch Name
 
-```git
+```bash
 git branch -m <newname>
 ```
 
 ## Change Any Branch Name
 
-```git
+```bash
 git branch -m <old-name> <new-name>
 ```
 

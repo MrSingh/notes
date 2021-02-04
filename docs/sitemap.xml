@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>/test/data_analysis/</loc>
+    <lastmod>2021-02-02T19:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/test/jira_data_analysis/</loc>
     <lastmod>2021-02-02T19:44:38+00:00</lastmod>
   </url>
