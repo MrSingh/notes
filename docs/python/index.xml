@@ -6,7 +6,16 @@
     <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 04 Feb 2021 12:44:38 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 12:00:00 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>For Loops Basics</title>
+      <link>/python/for_loop_basics/</link>
+      <pubDate>Fri, 05 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>/python/for_loop_basics/</guid>
+      <description>Create a List of Numbers nums = [1,2,3,4,5] Print Numbers in a List Example for num in nums: print(num) 12345 Continue Example #continue moves to the next iteration - in the example below when num == 4, &amp;#39;Found!&amp;#39; will be printed and it will skip print(num) and go to the next iteration of the loop for num in nums: if num == 4: print(&amp;#39;Found!&amp;#39;) continue print(num) 123Found!</description>
+    </item>
+    
     <item>
       <title>Delete Columns in a DataFrame</title>
       <link>/python/drop_dataframe_columns/</link>
@@ -40,7 +49,7 @@
       <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
       
       <guid>/python/oswalk/</guid>
-      <description>Import Modules # Import Module import os Set Path # Set Path path = &amp;#39;../../content/&amp;#39; Find All Markdown Files In All Content Folders # Find all markdown filesin all content folders all_ipynb_files = [os.path.join(root, name) for root, dirs, files in os.walk(path) for name in files if name.endswith((&amp;#34;.md&amp;#34;))] all_ipynb_files [&#39;../../content/archive\\get-started-with-angular-2.md&#39;,&#39;../../content/git\\basic-git-commands.md&#39;,&#39;../../content/powershell\\PowerShell.md&#39;,&#39;../../content/python\\load_csv.md&#39;,&#39;../../content/python\\load_json.md&#39;,&#39;../../content/python\\ws_requests_and_beautifulsoup.md&#39;,&#39;../../content/vscode\\inserting_date_time.md&#39;,&#39;../../content/vscode\\vscode_python_issues.md&#39;,&#39;../../content/vscode\\vscode_shortcuts.md&#39;] </description>
+      <description>Import Modules # Import Module import os Set Path # Set Path path = &amp;#39;../../content/&amp;#39; Find All Markdown Files In All Content Folders # Find all markdown filesin all content folders all_md_files = [os.path.join(root, name) for root, dirs, files in os.walk(path) for name in files if name.endswith((&amp;#34;.md&amp;#34;))] all_md_files [&#39;../../content/archive\\get-started-with-angular-2.md&#39;,&#39;../../content/content\\about\\about.md&#39;,&#39;../../content/git\\basic_git_commands.md&#39;,&#39;../../content/powershell\\PowerShell.md&#39;,&#39;../../content/python\\drop_dataframe_columns.md&#39;,&#39;../../content/python\\load_csv.md&#39;,&#39;../../content/python\\load_json.md&#39;,&#39;../../content/python\\ossystem.md&#39;,&#39;../../content/python\\oswalk.md&#39;,&#39;../../content/python\\resources.md&#39;,&#39;../../content/python\\write_dataframe_to_json.md&#39;,&#39;../../content/python\\ws_requests_and_beautifulsoup.md&#39;,&#39;../../content/test\\data_analysis.md&#39;,&#39;../../content/test\\jira_data_analysis.md&#39;,&#39;../../content/test\\reddit_wallstreetbets.md&#39;,&#39;../../content/vscode\\inserting_date_time.md&#39;,&#39;../../content/vscode\\vscode_python_issues.md&#39;,&#39;../../content/vscode\\vscode_shortcuts.md&#39;] </description>
     </item>
     
     <item>

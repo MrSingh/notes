@@ -54,22 +54,32 @@
 path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;../../content/&#39;</span>
 </code></pre></div><h2 id="find-all-markdown-files-in-all-content-folders">Find All Markdown Files In All Content Folders</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Find all markdown filesin all content folders</span>
-all_ipynb_files <span style="color:#f92672">=</span> [os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(root, name)
+all_md_files <span style="color:#f92672">=</span> [os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(root, name)
     <span style="color:#66d9ef">for</span> root, dirs, files <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>walk(path)
         <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> files
             <span style="color:#66d9ef">if</span> name<span style="color:#f92672">.</span>endswith((<span style="color:#e6db74">&#34;.md&#34;</span>))]
-all_ipynb_files
+all_md_files
 </code></pre></div><pre><code>['../../content/archive\\get-started-with-angular-2.md',
- '../../content/git\\basic-git-commands.md',
+ '../../content/content\\about\\about.md',
+ '../../content/git\\basic_git_commands.md',
  '../../content/powershell\\PowerShell.md',
+ '../../content/python\\drop_dataframe_columns.md',
  '../../content/python\\load_csv.md',
  '../../content/python\\load_json.md',
+ '../../content/python\\ossystem.md',
+ '../../content/python\\oswalk.md',
+ '../../content/python\\resources.md',
+ '../../content/python\\write_dataframe_to_json.md',
  '../../content/python\\ws_requests_and_beautifulsoup.md',
+ '../../content/test\\data_analysis.md',
+ '../../content/test\\jira_data_analysis.md',
+ '../../content/test\\reddit_wallstreetbets.md',
  '../../content/vscode\\inserting_date_time.md',
  '../../content/vscode\\vscode_python_issues.md',
  '../../content/vscode\\vscode_shortcuts.md']
 </code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+</code></pre></div>
       </main>
       </div>
     

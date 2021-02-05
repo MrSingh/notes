@@ -5,6 +5,10 @@ These are my private notes on data and software engineering. This site is built 
 ## Hugo
 -------
 
+### Trouble Shooting Hugo
+
++ If you have trouble building and delete the public directory for a fresh new build.  It will delete the CNAME file for your custom domain from GitHub so make sure you do a pull before a push.
+
 ### Date
 
 - Date format: ``` 2021-01-24T00:00:00-08:00 ```
