@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K1PWW3YCPK');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <title>
+      New Format Basics
+    </title>
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">
+                <div class="f-left">
+                    <h1><a href="../../index.html" class="home">Puneet Singh Thukral</a> | <span id="page-title">Notes on Data &amp; Software Engineering</span></h1>
+                </div>               
+                
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>New Format Basics</h1>
+<time>February 8, 2021</time>
+
+
+
+
+         <br /> <br />
+          <h2 id="basic-one">Basic One</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Name input</span>
+name <span style="color:#f92672">=</span> input()
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;Hello, {}&#39;</span><span style="color:#f92672">.</span>format(name)
+</code></pre></div><pre><code>'Hello, SpiderMan'
+</code></pre>
+<h2 id="dictionary-example">Dictionary Example</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;first&#39;</span>: <span style="color:#e6db74">&#39;Spider&#39;</span>, <span style="color:#e6db74">&#39;last&#39;</span>: <span style="color:#e6db74">&#39;-Man&#39;</span>}
+<span style="color:#e6db74">&#39;{first}{last}&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#f92672">**</span>data)
+</code></pre></div><pre><code>'Spider-Man'
+</code></pre>
+<h2 id="list-example">List Example</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Spider&#39;</span>, <span style="color:#e6db74">&#39;Man&#39;</span>]
+<span style="color:#e6db74">&#39;{}-{}&#39;</span><span style="color:#f92672">.</span>format(<span style="color:#f92672">*</span>data)
+</code></pre></div><pre><code>'Spider-Man'
+</code></pre>
+<h2 id="classobject-example">Class/Object Example</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span>(object):
+    type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Enemies&#39;</span>
+    names <span style="color:#f92672">=</span> [{<span style="color:#e6db74">&#39;name&#39;</span>: <span style="color:#e6db74">&#39;Doctor Octopus&#39;</span>}, {<span style="color:#e6db74">&#39;name&#39;</span>: <span style="color:#e6db74">&#39;Green Goblin&#39;</span>}]
+
+<span style="color:#e6db74">&#39;{p.type}: {p.names[0][name]} and {p.names[1][name]}&#39;</span><span style="color:#f92672">.</span>format(p<span style="color:#f92672">=</span>Person()) 
+</code></pre></div><pre><code>'Enemies: Doctor Octopus and Green Goblin'
+</code></pre>
+<h2 id="datetime-example">Datetime Example</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> datetime <span style="color:#f92672">import</span> date
+<span style="color:#e6db74">&#39;{:%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">}&#39;</span><span style="color:#f92672">.</span>format(date<span style="color:#f92672">.</span>today())
+</code></pre></div><pre><code>'2021-02-08'
+</code></pre>
+<p><a href="https://pyformat.info/">Resource</a></p>
+
+      </main>
+      </div>
+    
+    <footer>
+      
+    </footer>
+  </body>
+</html>

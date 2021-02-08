@@ -6,7 +6,25 @@
     <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Feb 2021 12:00:00 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Feb 2021 12:00:00 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Format Basics</title>
+      <link>/python/format_basics/</link>
+      <pubDate>Mon, 08 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>/python/format_basics/</guid>
+      <description>Basic One # Name input name = input() &amp;#39;Hello, {}&amp;#39;.format(name) &#39;Hello, SpiderMan&#39; Dictionary Example data = {&amp;#39;first&amp;#39;: &amp;#39;Spider&amp;#39;, &amp;#39;last&amp;#39;: &amp;#39;-Man&amp;#39;} &amp;#39;{first}{last}&amp;#39;.format(**data) &#39;Spider-Man&#39; List Example data = [&amp;#39;Spider&amp;#39;, &amp;#39;Man&amp;#39;] &amp;#39;{}-{}&amp;#39;.format(*data) &#39;Spider-Man&#39; Class/Object Example class Person(object): type = &amp;#39;Enemies&amp;#39; names = [{&amp;#39;name&amp;#39;: &amp;#39;Doctor Octopus&amp;#39;}, {&amp;#39;name&amp;#39;: &amp;#39;Green Goblin&amp;#39;}] &amp;#39;{p.type}: {p.names[0][name]} and {p.names[1][name]}&amp;#39;.format(p=Person()) &#39;Enemies: Doctor Octopus and Green Goblin&#39; Datetime Example from datetime import date &amp;#39;{:%Y-%m-%d}&amp;#39;.format(date.today()) &#39;2021-02-08&#39; Resource</description>
+    </item>
+    
+    <item>
+      <title>While Loops Basics</title>
+      <link>/python/while_loop_basics/</link>
+      <pubDate>Sat, 06 Feb 2021 12:44:38 +0000</pubDate>
+      
+      <guid>/python/while_loop_basics/</guid>
+      <description># while loops until a condition is met - when x = 10 the condition is no longer met and the while loop stops x = 0 while x &amp;lt; 10: print(x) x += 1 0123456789 # while loops until a condition is met - along with a nested if condition therefore if x is less than 10 and x is less than 5 ends the loop x = 0 while x &amp;lt; 10: if x == 5: break print(x) x += 1 01234 # Infinite Loop - DoN&amp;#39;t DO IT x = 0 while True: print(x) x += 1 </description>
+    </item>
+    
     <item>
       <title>For Loops Basics</title>
       <link>/python/for_loop_basics/</link>

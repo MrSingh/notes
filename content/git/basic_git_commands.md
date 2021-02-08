@@ -18,12 +18,6 @@ git remote add origin https://github.com/user/repo.git
 git remote -v
 ```
 
-## Stage All Changes
-
-```bash
-git stage -all
-```
-
 ## Change Current Branch Name
 
 ```bash
@@ -34,6 +28,42 @@ git branch -m <newname>
 
 ```bash
 git branch -m <old-name> <new-name>
+```
+
+### Clone/Download
+
+``` 
+$ git clone https://github.com/username/projectName.git
+```
+
+### Create a new branch
+
+```
+$ git checkout -b new-branch
+```
+
+## Stage All Changes
+
+```bash
+git stage -all
+```
+
+### Add Files
+
+```
+$ git add .
+```
+
+### Commit 
+
+```
+$ git commit -a -m "Commit Comment"
+```
+
+### Push 
+
+```
+$ git push origin gh-pages
 ```
 
 ## Adding existing repository to Git

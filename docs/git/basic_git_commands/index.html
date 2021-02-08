@@ -50,13 +50,23 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin https://github.com/user/repo.git
 </code></pre></div><h2 id="check-remote-repository">Check Remote Repository</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote -v
-</code></pre></div><h2 id="stage-all-changes">Stage All Changes</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git stage -all
 </code></pre></div><h2 id="change-current-branch-name">Change Current Branch Name</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git branch -m &lt;newname&gt;
 </code></pre></div><h2 id="change-any-branch-name">Change Any Branch Name</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git branch -m &lt;old-name&gt; &lt;new-name&gt;
-</code></pre></div><h2 id="adding-existing-repository-to-git">Adding existing repository to Git</h2>
+</code></pre></div><h3 id="clonedownload">Clone/Download</h3>
+<pre><code>$ git clone https://github.com/username/projectName.git
+</code></pre><h3 id="create-a-new-branch">Create a new branch</h3>
+<pre><code>$ git checkout -b new-branch
+</code></pre><h2 id="stage-all-changes">Stage All Changes</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git stage -all
+</code></pre></div><h3 id="add-files">Add Files</h3>
+<pre><code>$ git add .
+</code></pre><h3 id="commit">Commit</h3>
+<pre><code>$ git commit -a -m &quot;Commit Comment&quot;
+</code></pre><h3 id="push">Push</h3>
+<pre><code>$ git push origin gh-pages
+</code></pre><h2 id="adding-existing-repository-to-git">Adding existing repository to Git</h2>
 <p><a href="https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">Link</a></p>
 
       </main>

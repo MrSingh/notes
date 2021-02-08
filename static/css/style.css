@@ -88,11 +88,10 @@ main.container .row {
 }
 .row h4 {
     display: block;
-    border: 1px solid #dcdcdd;
     padding:8px;
-    font-size: 1.8rem; line-height: 1.2rem; letter-spacing: -.1rem;
+    font-size: 1.6rem; line-height: 1.2rem; letter-spacing: -.1rem;
     font-weight: normal;
-    color:#555;
+    color:#888;
 }
 
 .row .card-body { 
@@ -175,6 +174,17 @@ h1 > a {
   border: 1px solid #ccc;
   line-height: 1.42857143;
   padding: 1em;
+}
+
+pre {
+
+  border: 1px solid #ccc!important;
+  padding: 3px;
+
+}
+
+pre code {
+  white-space: pre-wrap;
 }
 
 /* Larger than phablet */
