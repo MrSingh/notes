@@ -35,7 +35,12 @@
 
      <!-- Main Body Wrapper - All content blocks go inside -->
      <div class="wrap">
-        <main class="container"> 
+        <main class="container">
+        {{ $date := .Date.Format "Jan 2, 2006" }}
+        {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
+        
+        <time>Site Last Updated on: {{ $lastmod }}</time><br /><br />
+      
              <!------------------ 
                 Git Start 
             -------------------->
@@ -63,8 +68,9 @@
                     <h4 class="card-header">Basics</h4>
                     <div class="card-body">
                         <ul>
-                            <li><a href="python/for_loop_basics/">For Loop Basics</a></li>
-                            <li><a href="python/format_basics/">New Format Basics</a></li>
+                            <li><a href="python/for_loop_basics/">For Loop</a></li>
+                            <li><a href="python/while_loop_basics/">While Loop</a></li>
+                            <li><a href="python/format_basics/">New Format</a></li>
                         </ul>
                     </div>   
                 </div>

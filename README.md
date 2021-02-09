@@ -21,5 +21,6 @@ These are my private notes on data and software engineering. This site is built 
 + About Section
 + Footer
 + SEO
++ Preview Image attribute <span>Photo by <a href="https://unsplash.com/@carlheyerdahl?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carl Heyerdahl</a> on <a href="https://unsplash.com/s/photos/social-office?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 

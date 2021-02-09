@@ -185,6 +185,7 @@ pre {
 
 pre code {
   white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 /* Larger than phablet */
