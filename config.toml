@@ -19,6 +19,9 @@ pygmentsUseClasses=false
 publishDir="docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[permalinks]
+    posts = "blog/:year/:slug"
+
 
 # https://gohugo.io/getting-started/configuration-markup/
 [markup]

@@ -19,10 +19,10 @@
     <item>
       <title>While Loops Basics</title>
       <link>/python/while_loop_basics/</link>
-      <pubDate>Sat, 06 Feb 2021 12:44:38 +0000</pubDate>
+      <pubDate>Fri, 05 Feb 2021 12:44:38 +0000</pubDate>
       
       <guid>/python/while_loop_basics/</guid>
-      <description># while loops until a condition is met - when x = 10 the condition is no longer met and the while loop stops x = 0 while x &amp;lt; 10: print(x) x += 1 0123456789 # while loops until a condition is met - along with a nested if condition therefore if x is less than 10 and x is less than 5 ends the loop x = 0 while x &amp;lt; 10: if x == 5: break print(x) x += 1 01234 # Infinite Loop - DoN&amp;#39;t DO IT x = 0 while True: print(x) x += 1 </description>
+      <description>Simple While Loop # while loops until a condition is met - when x = 10 the condition is no longer met and the while loop stops # Inistalise counter i = 0 while i &amp;lt; 10: print(i) i += 1 0123456789 While Loop To Sum i = 0 sum = 0 while i &amp;lt; 10: sum = sum + i i += 1 # update counter print(&amp;#34;Inside Loop | Sum = &amp;#34;, sum) print(&amp;#34;Outside | Loop Sum = &amp;#34;, sum) Inside Loop | Sum = 0Inside Loop | Sum = 1Inside Loop | Sum = 3Inside Loop | Sum = 6Inside Loop | Sum = 10Inside Loop | Sum = 15Inside Loop | Sum = 21Inside Loop | Sum = 28Inside Loop | Sum = 36Inside Loop | Sum = 45Outside | Loop Sum = 45 While loop with condition and nested if statement # while loops until a condition is met - along with a nested if condition therefore if x is less than 10 and x is less than 5 ends the loop x = 0 while x &amp;lt; 10: if x == 5: break print(x) x += 1 01234 Infinite Loop example - Commeneted out!</description>
     </item>
     
     <item>
