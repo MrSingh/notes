@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K1PWW3YCPK');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <title>
+      Creating Arrays with Numpy
+    </title>
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Creating Arrays with Numpy" />
+    <meta property="og:image" content="https://puneet.uk/images/creating_arrays.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Creating Arrays with Numpy" />
+    
+    
+    
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">
+                <div class="f-left">
+                    <h1><a href="../../index.html" class="home">Puneet Singh Thukral</a> | <span id="page-title">Notes on Data &amp; Software Engineering</span></h1>
+                </div>               
+                
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Creating Arrays with Numpy</h1>
+
+
+
+
+
+<time>Published on: Feb 11, 2021</time>
+
+         <br /> <br />
+          <h2 id="resources">Resources</h2>
+<p><a href="https://numpy.org/doc/stable/user/whatisnumpy.html">Numpy</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Numpy</span>
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a list</span>
+list_1 <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+<span style="color:#75715e"># Create another list # we will use this later</span>
+list_2 <span style="color:#f92672">=</span> [<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">9</span>,<span style="color:#ae81ff">10</span>]
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a array by passing the list as an object</span>
+new_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(list_1)
+new_array
+</code></pre></div><pre><code>array([1, 2, 3, 4, 5])
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a list of lists</span>
+list_of_lists <span style="color:#f92672">=</span> [list_1, list_2]
+list_of_lists
+</code></pre></div><pre><code>[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a multi-dimensional array or matrix </span>
+matrix_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(list_of_lists)
+matrix_array
+</code></pre></div><pre><code>array([[ 1,  2,  3,  4,  5],
+       [ 6,  7,  8,  9, 10]])
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Check Array Data Type # Can be Mixed</span>
+matrix_array<span style="color:#f92672">.</span>dtype
+</code></pre></div><pre><code>dtype('int32')
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Check Number of Dimensions</span>
+matrix_array<span style="color:#f92672">.</span>ndim
+</code></pre></div><pre><code>2
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Check Array Shape</span>
+matrix_array<span style="color:#f92672">.</span>shape
+</code></pre></div><pre><code>(2, 5)
+</code></pre>
+
+      </main>
+      </div>
+    
+    <footer>
+      
+    </footer>
+  </body>
+</html>
