@@ -8,13 +8,12 @@
     <language>en-gb</language>
     <lastBuildDate>Thu, 11 Feb 2021 06:00:00 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating Arrays with Numpy</title>
+      <title>Creating Arrays with NumPy</title>
       <link>/python/creating_arrays/</link>
       <pubDate>Thu, 11 Feb 2021 06:00:00 +0000</pubDate>
       
       <guid>/python/creating_arrays/</guid>
-      <description>Resources Numpy
-# Import Numpy import numpy as np # Create a list list_1 = [1,2,3,4,5] # Create another list # we will use this later list_2 = [6,7,8,9,10] # Create a array by passing the list as an object new_array = np.array(list_1) new_array array([1, 2, 3, 4, 5]) # Create a list of lists list_of_lists = [list_1, list_2] list_of_lists [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]] # Create a multi-dimensional array or matrix  matrix_array = np.</description>
+      <description>Resources  NumPy NumPy API  # Import NumPy import numpy as np # Create a list list_1 = [1,2,3,4,5] # Create another list # we will use this later list_2 = [6,7,8,9,10] Create an Array with a List # Create a array by passing the list as an object new_array = np.array(list_1) new_array array([1, 2, 3, 4, 5]) Create a multi-dimensional array or matrix # Create a list of lists list_of_lists = [list_1, list_2] list_of_lists [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]] # Create a multi-dimensional array or matrix  matrix_array = np.</description>
     </item>
     
     <item>
