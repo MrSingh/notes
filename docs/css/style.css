@@ -355,8 +355,9 @@ li a:hover {
   /* UPDATED */
   ul {
     list-style:disc inside; }
-  ol {
-    list-style: decimal inside; }
+
+  /* ol {
+    list-style: decimal inside; } */
   ol, ul {
     padding-left: 0;
     margin-top: 0; }
@@ -368,6 +369,10 @@ li a:hover {
     font-size: 90%; }
   li {
     margin-bottom: 1rem; }
+/* 
+    main ol {
+      list-style:decimal inside;
+    } */
   
   
   /* Tables

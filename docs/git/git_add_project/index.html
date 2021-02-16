@@ -60,38 +60,42 @@
          <br /> <br />
           <p><a href="https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">Resource</a></p>
 <ol>
-<li>Create a new repository for your project on GitHub.</li>
-<li>Open Git Bash from your local folder.</li>
-<li>Initialize the local directory as a Git repository.</li>
-</ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> $ git init -b main 
-</code></pre></div><ol start="4">
-<li>Add the files in your new Git repository. This will stage all the files in your project ready for the first commit.</li>
-</ol>
+<li>
+<p>Create a new repository for your project on GitHub.</p>
+</li>
+<li>
+<p>Open Git Bash from your local folder.</p>
+</li>
+<li>
+<p>Initialize the local directory as a Git repository.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git init -b main 
+</code></pre></div></li>
+<li>
+<p>Add the files in your new Git repository. This will stage all the files in your project ready for the first commit.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git add .
-</code></pre></div><ol start="5">
-<li>Commit the added files.</li>
-</ol>
+</code></pre></div></li>
+<li>
+<p>Commit the added files.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git commit -m <span style="color:#e6db74">&#34;First commit&#34;</span>
-</code></pre></div><ol start="6">
+</code></pre></div></li>
 <li>
 <p>From GitHub, copy the remote repository URL.</p>
 </li>
 <li>
 <p>Add the URL you just copied for the remote repository. This iswhere your local files will be pushed to.</p>
-</li>
-</ol>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Set Remote Repository # Add your URL in place of &lt;REMOTE_URL&gt;</span>
 $ git remote add origin  &lt;REMOTE_URL&gt; 
-</code></pre></div><ol start="8">
-<li>Verify remote</li>
-</ol>
+</code></pre></div></li>
+<li>
+<p>Verify remote</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git remote -v
-</code></pre></div><ol start="9">
-<li>Push your project to GitHub</li>
-</ol>
+</code></pre></div></li>
+<li>
+<p>Push your project to GitHub</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git push origin main
-</code></pre></div><h2 id="error-handling">Error Handling</h2>
+</code></pre></div></li>
+</ol>
+<h2 id="error-handling">Error Handling</h2>
 <p>If you encounter problems with this you may want to try <code>$ git pull --rebase</code> before attempting to push again.</p>
 
       </main>

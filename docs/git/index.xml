@@ -14,7 +14,11 @@
       
       <guid>/git/git_add_project/</guid>
       <description>Resource
- Create a new repository for your project on GitHub. Open Git Bash from your local folder. Initialize the local directory as a Git repository.  $ git init -b main Add the files in your new Git repository. This will stage all the files in your project ready for the first commit.  $ git add . Commit the added files.  $ git commit -m &amp;#34;First commit&amp;#34;  From GitHub, copy the remote repository URL.</description>
+  Create a new repository for your project on GitHub.
+  Open Git Bash from your local folder.
+  Initialize the local directory as a Git repository.
+$ git init -b main   Add the files in your new Git repository. This will stage all the files in your project ready for the first commit.
+$ git add .   Commit the added files.</description>
     </item>
     
     <item>
