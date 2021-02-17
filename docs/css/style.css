@@ -15,9 +15,9 @@
   html is set to 62.5% so that all the REM measurements throughout Skeleton
   are based on 10px sizing. So basically 1.5rem = 15px :) */
   html {
-    font-size: 70%; }
+    font-size: 100%; }
   body {
-    font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+    font-size: 1rem; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
     font-family: "Open Sans" ;
@@ -32,7 +32,7 @@ header {
     margin-bottom: 2em;
 }
 
-header .container, footer {
+header .container, footer .container {
     max-width: 940px;
     display: flex;
     text-align: center;
@@ -108,6 +108,21 @@ article {
     max-width: 100%;
 }
 
+footer {
+
+  background: black;
+  color: #777777;
+  font-family: 'HelveticaNeueW01-45Ligh','neue-haas-unica', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 27px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  border-top: 0.5px solid rgba(255,255,255,0.5);
+  width:100%;
+
+}
+
 
 
 /*-------------
@@ -141,12 +156,8 @@ h1, h2 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; }
-h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 2.2rem; line-height: 1.25; letter-spacing: -.1rem;  font-weight: bold;}
-
-/* h2, h3, h4, h5 {
-  font-family: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif;
-} */
+h1 { font-size: 3.0rem; line-height: 1.2; }
+h2 { font-size: 2rem; line-height: 1.25;  font-weight: bold;}
 
 span.minor-size {
     font-size: .6em;
@@ -159,13 +170,19 @@ main h1 {
 h1 > a {
     letter-spacing: 0.5px;
     font-weight: 800;
-    font-size: 0.6em;
+    font-size: 1rem;
+    color: #000000;
+    text-decoration: none;
 }
 
+h1 > a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+
 #page-title {
-  letter-spacing: 4px;
-  font-weight: 900;
-  font-size: 0.3em;
+  font-size: 1rem;
   color: #e62e00;
 }
 
@@ -190,8 +207,8 @@ pre code {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 4.0rem; }
-  h2 { font-size: 2.2rem; font-weight: bold;}
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2rem; font-weight: bold;}
 }
 
 p {
@@ -199,7 +216,6 @@ p {
 }
 
 .dataframe {
-
   font-size: 1rem;
 }
 
@@ -209,12 +225,12 @@ p {
 
 
 a {
-    color: #000000;
+    color: #4603ff;
     text-decoration: none;
 }
   a:hover {
-    color: #000000;
-    text-decoration: none;
+    color: #ff0202;
+    text-decoration: underline;
 }
   
 a.home {
@@ -222,7 +238,7 @@ a.home {
 } 
 
 li a {
-  color: #004dc9;
+  color: #013fa4;
 }
 
 li a:hover {
@@ -367,8 +383,8 @@ li a:hover {
   ol ul {
     margin: 1.5rem 0 1.5rem 3rem;
     font-size: 90%; }
-  li {
-    margin-bottom: 1rem; }
+  /* li {
+    margin-bottom: 1rem; } */
 /* 
     main ol {
       list-style:decimal inside;

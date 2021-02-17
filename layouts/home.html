@@ -20,13 +20,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/site.webmanifest">
     <link href="css/style.css" rel="stylesheet" media="all">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:image" content="https://puneet.uk/images/home.png" />
+    <meta property="article:tag" content="Home Page" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ .Title }}" />
 </head>
 <body>
     <header>        
         <nav role="navigation">
             <div class="container">
                 <div class="f-left">
-                    <h1><a href="#" class="home">Puneet Singh Thukral</a> | <span id="page-title">Notes on Data &amp; Software Engineering</span></h1>
+                    <h1><a href="#" class="home">Puneet Singh Thukral</a> | <span id="page-title">Notes</span></h1>
                 </div>               
                 <!-- Future Navigation List Goes Here -->
             </div>           
@@ -131,5 +138,11 @@
                 </div>
                 <br />
             </div>
-        </main>    
+        </main>
     </div>
+  <!-- </main> -->
+  <footer>
+    <div class="container">Puneet Singh Thukral &#169;</div> 
+  </footer>
+</body>
+</html>

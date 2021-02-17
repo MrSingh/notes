@@ -32,14 +32,14 @@ git branch -m <old-name> <new-name>
 
 ### Clone/Download
 
-``` 
-$ git clone https://github.com/username/projectName.git
+```bash
+git clone https://github.com/username/projectName.git
 ```
 
 ### Create a new branch
 
-```
-$ git checkout -b new-branch
+```bash
+git checkout -b new-branch
 ```
 
 ## Stage All Changes
@@ -50,23 +50,18 @@ git stage -all
 
 ### Add Files
 
-```
-$ git add .
-```
-
-### Commit 
-
-```
-$ git commit -a -m "Commit Comment"
+```bash
+git add .
 ```
 
-### Push 
+### Commit
 
+```bash
+git commit -a -m "Commit Comment"
 ```
-$ git push origin gh-pages
+
+### Push
+
+```bash
+git push origin gh-pages
 ```
-
-## Adding existing repository to Git
-
-[Link](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
-
