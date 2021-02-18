@@ -106,6 +106,20 @@ article {
     max-width: 100%;
 }
 
+#bug {
+
+  border: 1px solid #cd0303;
+  padding:8px;
+  background-color: #fcdede;
+  margin-bottom:1rem;
+  border-radius: 6px;
+
+}
+
+#bug h2 {
+  margin-bottom:0;
+}
+
 footer {
 
   background: black;
