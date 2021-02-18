@@ -6,61 +6,63 @@ draft: false
 labels: ""
 ---
 
-## Add remote repository
+***
+
+### Add remote repository
 
 ```bash
 git remote add origin https://github.com/user/repo.git
 ```
 
-## Check Remote Repository
+### Check Remote Repository
 
 ```bash
 git remote -v
 ```
 
-## Change Current Branch Name
+### Change Current Branch Name
 
 ```bash
 git branch -m <newname>
 ```
 
-## Change Any Branch Name
+### Change Any Branch Name
 
 ```bash
 git branch -m <old-name> <new-name>
 ```
 
-### Clone/Download
+#### Clone/Download
 
 ```bash
 git clone https://github.com/username/projectName.git
 ```
 
-### Create a new branch
+#### Create a new branch
 
 ```bash
 git checkout -b new-branch
 ```
 
-## Stage All Changes
+### Stage All Changes
 
 ```bash
 git stage -all
 ```
 
-### Add Files
+#### Add Files
 
 ```bash
 git add .
 ```
 
-### Commit
+#### Commit
 
 ```bash
 git commit -a -m "Commit Comment"
 ```
 
-### Push
+#### Push
 
 ```bash
 git push origin gh-pages

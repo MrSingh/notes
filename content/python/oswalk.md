@@ -5,6 +5,9 @@ date: 2021-01-28T14:50:18Z
 draft: false
 ---
 
+***
+
+
 ## Import Modules
 
 
@@ -56,8 +59,3 @@ all_md_files
      '../../content/vscode\\vscode_shortcuts.md']
 
 
-
-
-```python
-
-```

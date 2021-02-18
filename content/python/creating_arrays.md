@@ -10,6 +10,9 @@ draft: false
 + [NumPy](https://numpy.org/doc/stable/user/whatisnumpy.html)
 + [NumPy API](https://numpy.org/doc/stable/reference/index.html)
 
+***
+
+
 
 ```python
 # Import NumPy
@@ -33,13 +36,6 @@ new_array = np.array(list_1)
 new_array
 ```
 
-
-
-
-    array([1, 2, 3, 4, 5])
-
-
-
 ## Create a multi-dimensional array or matrix 
 
 
@@ -50,26 +46,11 @@ list_of_lists
 ```
 
 
-
-
-    [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
-
-
-
-
 ```python
 # Create a multi-dimensional array or matrix 
 matrix_array = np.array(list_of_lists)
 matrix_array
 ```
-
-
-
-
-    array([[ 1,  2,  3,  4,  5],
-           [ 6,  7,  8,  9, 10]])
-
-
 
 ## Check Array Data Type, Dimension or Shape
 
@@ -80,37 +61,16 @@ matrix_array.dtype
 ```
 
 
-
-
-    dtype('int32')
-
-
-
-
 ```python
 # Check Number of Dimensions
 matrix_array.ndim
 ```
 
 
-
-
-    2
-
-
-
-
 ```python
 # Check Array Shape
 matrix_array.shape
 ```
-
-
-
-
-    (2, 5)
-
-
 
 ## Creating Arrays with Ones or Zeros
 ### These are built-in functions for creating arrays from scratch
@@ -122,26 +82,10 @@ np.zeros(3)
 ```
 
 
-
-
-    array([0., 0., 0.])
-
-
-
-
 ```python
-## Create Zeros Array with Shape
+## Create Zeros Array
 np.zeros((3, 2))
 ```
-
-
-
-
-    array([[0., 0.],
-           [0., 0.],
-           [0., 0.]])
-
-
 
 
 ```python
@@ -150,26 +94,10 @@ np.ones(3)
 ```
 
 
-
-
-    array([1., 1., 1.])
-
-
-
-
 ```python
 ## Create Ones Array with Shape
 np.ones((3, 2))
 ```
-
-
-
-
-    array([[1., 1.],
-           [1., 1.],
-           [1., 1.]])
-
-
 
 ## Creating Arrays with Arrange Examples
 
@@ -182,23 +110,9 @@ np.arange(3)
 ```
 
 
-
-
-    array([0, 1, 2])
-
-
-
-
 ```python
 np.arange(3.0)
 ```
-
-
-
-
-    array([0., 1., 2.])
-
-
 
 
 ```python
@@ -206,20 +120,11 @@ np.arange(2,9)
 ```
 
 
-
-
-    array([2, 3, 4, 5, 6, 7, 8])
-
-
-
-
 ```python
 np.arange(3,33,3)
 ```
 
 
-
-
-    array([ 3,  6,  9, 12, 15, 18, 21, 24, 27, 30])
-
-
+```python
+np.array()
+```

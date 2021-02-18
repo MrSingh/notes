@@ -9,7 +9,8 @@ description = "Puneet's notes on data & software engineering home page."
 # Enable Git Info
 enableGitInfo = true
 
-# https://pygments.org/demo/ # monokailight # 
+# https://pygments.org/demo/
+# https://xyproto.github.io/splash/docs/longer/xcode.html # monokailight # github 
 pygmentsCodeFences=true
 pygmentsstyle="monokai"
 # Set pygmentsUseClasses to true to use syntax.css #https://gohugo.io/content-management/syntax-highlighting/ #https://xyproto.github.io/splash/docs/longer/all.html

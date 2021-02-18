@@ -5,6 +5,12 @@ date: 2021-02-03T00:00:00-07:00
 draft: false
 ---
 
+### [Resource](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_json.html)
+### [Data Source](https://www.kaggle.com/crawford/80-cereals)
+
+***
+
+
 ## Import Pandas
 
 
@@ -39,6 +45,3 @@ df.to_json()
 # Indent - Length of whitespace used to indent each record.
 df.to_json('data/new_json.json', orient="split", indent=4)
 ```
-
-### [Resource](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_json.html)
-### [Data Source](https://www.kaggle.com/crawford/80-cereals)

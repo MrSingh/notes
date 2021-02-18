@@ -5,6 +5,12 @@ date: 2021-02-04T12:44:38
 draft: false
 ---
 
+### [Resource](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html)
+### [Data Source](https://www.kaggle.com/crawford/80-cereals)
+
+***
+
+
 ## Import Pandas
 
 

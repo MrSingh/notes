@@ -6,6 +6,8 @@ slug: "while_loop_basics"
 draft: false
 ---
 
+***
+
 ## Simple While Loop
 
 

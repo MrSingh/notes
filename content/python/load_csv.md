@@ -5,6 +5,11 @@ date: 2020-12-07T00:00:00-07:00
 draft: false
 ---
 
+### [Data Source](https://www.kaggle.com/crawford/80-cereals)
+
+***
+
+
 ## Import Pandas
 
 
@@ -672,5 +677,3 @@ df
 # Write dataframe to csv
 df.to_csv('data/dataframe_to_csv.csv')
 ```
-
-### [Data Source](https://www.kaggle.com/crawford/80-cereals)

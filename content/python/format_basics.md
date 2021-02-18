@@ -5,7 +5,12 @@ date: 2021-02-08T12:00:00
 draft: false
 ---
 
-## Basic One
+[Resource](https://pyformat.info/)
+
+***
+
+
+## Basic Example
 
 
 ```python
@@ -87,5 +92,3 @@ from datetime import date
     '2021-02-08'
 
 
-
-[Resource](https://pyformat.info/)
