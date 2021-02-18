@@ -3,11 +3,14 @@ title: "About Me"
 date: 2021-02-01T09:01:16Z
 draft: true
 labels: ""
+slug: "about_me"
 ---
 
-I have spent my entire career working with technology. Primarily it's been in the front-end space building websites, web applications and even HTML5 games. More recently I have been managing teams and helping companies find their Agile footing so that they can do more in easy to understand transparent manner.
+***
+
+## Puneet Singh Thukral
+
+### Agile Leader
 
 
-
-
-
+I am an Agile leader with over two decades of experince in problem solving technolocical challenges. I have a particular interest in building products, teams and culture.  Other that that, I am a life long learner and have keen interest in health and fitness.
