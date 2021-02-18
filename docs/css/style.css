@@ -12,13 +12,11 @@
   /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   /* NOTE
-  html is set to 62.5% so that all the REM measurements throughout Skeleton
-  are based on 10px sizing. So basically 1.5rem = 15px :) */
+*/
   html {
     font-size: 100%; }
   body {
     font-size: 1rem; /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.6;
     font-weight: 400;
     font-family: "Open Sans" ;
     color: #222; }
@@ -89,7 +87,7 @@ main.container .row {
 .row h4 {
     display: block;
     padding:8px;
-    font-size: 1.6rem; line-height: 1.2rem; letter-spacing: -.1rem;
+    font-size: 1rem; line-height: 1.2rem;
     font-weight: normal;
     color:#888;
 }
@@ -130,7 +128,6 @@ footer {
 -------------*/
 nav {
     display: block;
-    padding-top: 16px;
   
 }
 .nav {
@@ -154,10 +151,10 @@ nav {
 
 h1, h2 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 300; }
 h1 { font-size: 3.0rem; line-height: 1.2; }
-h2 { font-size: 2rem; line-height: 1.25;  font-weight: bold;}
+h2 { font-size: 1.2rem; line-height: 1.25;  font-weight: bold;}
 
 span.minor-size {
     font-size: .6em;
@@ -191,10 +188,11 @@ h1 > a:hover {
   border: 1px solid #ccc;
   line-height: 1.42857143;
   padding: 1em;
+  border-radius: 6px;
 }
 
 pre {
-
+  border-radius: 6px;
   border: 1px solid #ccc!important;
   padding: 3px;
 
@@ -207,16 +205,19 @@ pre code {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 3rem; }
-  h2 { font-size: 2rem; font-weight: bold;}
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.2rem; font-weight: bold;}
 }
 
 p {
   margin-top: 0;
 }
 
-.dataframe {
-  font-size: 1rem;
+table.dataframe {
+  overflow-y: scroll;
+  display:block;
+  font-size: 0.8rem;
+  box-sizing: border-box;
 }
 
   
@@ -369,11 +370,12 @@ li a:hover {
   /* Lists
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   /* UPDATED */
-  ul {
-    list-style:disc inside; }
+  ul { 
+    margin-left: 16px; 
+}
 
-  /* ol {
-    list-style: decimal inside; } */
+  ol {
+    margin:0 0 0 16px; }
   ol, ul {
     padding-left: 0;
     margin-top: 0; }
@@ -381,7 +383,6 @@ li a:hover {
   ul ol,
   ol ol,
   ol ul {
-    margin: 1.5rem 0 1.5rem 3rem;
     font-size: 90%; }
   /* li {
     margin-bottom: 1rem; } */
@@ -445,8 +446,8 @@ form {
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
