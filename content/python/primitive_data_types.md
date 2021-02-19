@@ -1,9 +1,9 @@
 ---
-title: "Primative Data Types"
+title: "Primitive Data Types"
 author: "Puneet Thukral"
 date: 2021-02-19T07:00:00
 draft: false
-slug: "primative_data_types"
+slug: "primitive_data_types"
 ---
 
 [Resource](https://docs.python.org/3/library/stdtypes.html)
