@@ -47,26 +47,31 @@
       <div class="wrap">
         <main class="container">
           <h1>Load a CSV File</h1>
+<p></p>
 
 
 
 
 
-<time>Published on: Dec 7, 2020</time>
+<time>Created on: Dec 7, 2020</time>
 
     <time> <br /> Edited on: Feb 18, 2021</time>
+
+
+
+
 
          <br /> <br />
           <h3 id="data-sourcehttpswwwkagglecomcrawford80-cereals"><a href="https://www.kaggle.com/crawford/80-cereals">Data Source</a></h3>
 <hr>
 <h2 id="import-pandas">Import Pandas</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Pandas</span>
-<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Import Pandas</span>
+<span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
 </code></pre></div><h2 id="read-csv-file">Read CSV file</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Load CSV file into a dataframe with Pandas</span>
-df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/cereal.csv&#39;</span>)
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#Load CSV file into a dataframe with Pandas</span>
+df = pd.read_csv(<span style="color:#ed9d13">&#39;data/cereal.csv&#39;</span>)
 
-<span style="color:#75715e">#Output Dataframe</span>
+<span style="color:#999;font-style:italic">#Output Dataframe</span>
 df
 </code></pre></div><div>
 <style scoped>
@@ -319,9 +324,9 @@ df
 <p>77 rows × 16 columns</p>
 </div>
 <h2 id="read-csv-file-with-specific-columns">Read CSV file with specific columns</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with specific columns</span>
-df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/cereal.csv&#39;</span>,
-        usecols<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;name&#39;</span>, <span style="color:#e6db74">&#39;protein&#39;</span>, <span style="color:#e6db74">&#39;fiber&#39;</span>, <span style="color:#e6db74">&#39;vitamins&#39;</span>])
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Load a csv file with specific columns</span>
+df = pd.read_csv(<span style="color:#ed9d13">&#39;data/cereal.csv&#39;</span>,
+        usecols=[<span style="color:#ed9d13">&#39;name&#39;</span>, <span style="color:#ed9d13">&#39;protein&#39;</span>, <span style="color:#ed9d13">&#39;fiber&#39;</span>, <span style="color:#ed9d13">&#39;vitamins&#39;</span>])
 df
 </code></pre></div><div>
 <style scoped>
@@ -430,8 +435,8 @@ df
 <p>77 rows × 4 columns</p>
 </div>
 <h2 id="load-a-csv-file-with-encoding---utf-8">Load a csv file with encoding - UTF-8</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Load a csv file with encoding - UTF-8</span>
-df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/cereal.csv&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;UTF-8&#39;</span>)
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Load a csv file with encoding - UTF-8</span>
+df = pd.read_csv(<span style="color:#ed9d13">&#39;data/cereal.csv&#39;</span>, encoding=<span style="color:#ed9d13">&#39;UTF-8&#39;</span>)
 df
 </code></pre></div><div>
 <style scoped>
@@ -683,8 +688,8 @@ df
 </table>
 <p>77 rows × 16 columns</p>
 </div>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Write dataframe to csv</span>
-df<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;data/dataframe_to_csv.csv&#39;</span>)
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Write dataframe to csv</span>
+df.to_csv(<span style="color:#ed9d13">&#39;data/dataframe_to_csv.csv&#39;</span>)
 </code></pre></div>
           
 <div id="bug"></div>
@@ -694,13 +699,12 @@ df<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;da
     var _title =  document.title;   
     
     var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
-    var bug_snippet = "<h2>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h2>"
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
     function ready() {
         document.getElementById("bug").innerHTML = bug_snippet;    
     }
     document.addEventListener("DOMContentLoaded", ready);    
 </script>
-
 
       </main>
       </div>

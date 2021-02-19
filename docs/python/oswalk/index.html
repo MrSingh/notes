@@ -47,29 +47,34 @@
       <div class="wrap">
         <main class="container">
           <h1>Python os.walk()</h1>
+<p>Python method walk() generates directory file names.</p>
 
 
 
 
 
-<time>Published on: Jan 28, 2021</time>
+<time>Created on: Jan 28, 2021</time>
 
     <time> <br /> Edited on: Feb 18, 2021</time>
+
+
+
+
 
          <br /> <br />
           <hr>
 <h2 id="import-modules">Import Modules</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import Module</span>
-<span style="color:#f92672">import</span> os
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Import Module</span>
+<span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">os</span>
 </code></pre></div><h2 id="set-path">Set Path</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Set Path</span>
-path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;../../content/&#39;</span>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Set Path</span>
+path = <span style="color:#ed9d13">&#39;../../content/&#39;</span>
 </code></pre></div><h2 id="find-all-markdown-files-in-all-content-folders">Find All Markdown Files In All Content Folders</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Find all markdown filesin all content folders</span>
-all_md_files <span style="color:#f92672">=</span> [os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(root, name)
-    <span style="color:#66d9ef">for</span> root, dirs, files <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>walk(path)
-        <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> files
-            <span style="color:#66d9ef">if</span> name<span style="color:#f92672">.</span>endswith((<span style="color:#e6db74">&#34;.md&#34;</span>))]
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Find all markdown filesin all content folders</span>
+all_md_files = [os.path.join(root, name)
+    <span style="color:#6ab825;font-weight:bold">for</span> root, dirs, files <span style="color:#6ab825;font-weight:bold">in</span> os.walk(path)
+        <span style="color:#6ab825;font-weight:bold">for</span> name <span style="color:#6ab825;font-weight:bold">in</span> files
+            <span style="color:#6ab825;font-weight:bold">if</span> name.endswith((<span style="color:#ed9d13">&#34;.md&#34;</span>))]
 all_md_files
 </code></pre></div><pre><code>['../../content/archive\\get-started-with-angular-2.md',
  '../../content/content\\about\\about.md',
@@ -99,13 +104,12 @@ all_md_files
     var _title =  document.title;   
     
     var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
-    var bug_snippet = "<h2>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h2>"
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
     function ready() {
         document.getElementById("bug").innerHTML = bug_snippet;    
     }
     document.addEventListener("DOMContentLoaded", ready);    
 </script>
-
 
       </main>
       </div>

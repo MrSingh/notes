@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K1PWW3YCPK');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <title>
+      Primative Data Types
+    </title>
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Primative Data Types" />
+    <meta property="og:image" content="https://puneet.uk/images/primative_data_types.png" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Primative Data Types" />
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">
+                <div class="f-left">
+                    <h1><a href="../../index.html" class="home">Puneet Singh Thukral</a> | <span id="page-title">Notes</span></h1>
+                </div>               
+                
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Primative Data Types</h1>
+<p></p>
+
+
+
+
+
+<time>Created on: Feb 19, 2021</time>
+
+
+
+
+
+         <br /> <br />
+          <p><a href="https://docs.python.org/3/library/stdtypes.html">Resource</a></p>
+<hr>
+<p>Python has a number of built-in data types but for the purpose of this notebook, we will focus on what are referred to as primitive data types. The primitive data types are as follows.</p>
+<ul>
+<li>Integer - Whole numbers</li>
+<li>Float - Deciaml numbers</li>
+<li>String - Character data</li>
+<li>Boolean - True or False</li>
+<li>None - None Object or NoneType</li>
+</ul>
+<h2 id="integers">Integers</h2>
+<h3 id="whole-numbers">Whole Numbers</h3>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Positive Integer</span>
+num = <span style="color:#3677a9">10</span>
+
+<span style="color:#999;font-style:italic"># Check data type</span>
+<span style="color:#24909d">type</span>(num)
+</code></pre></div><pre><code>int
+</code></pre>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Negative Integer</span>
+negative_num = -<span style="color:#3677a9">10</span>
+
+<span style="color:#999;font-style:italic"># Check data type</span>
+<span style="color:#24909d">type</span>(num)
+</code></pre></div><pre><code>int
+</code></pre>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#Zero</span>
+zero = <span style="color:#3677a9">0</span>
+
+<span style="color:#999;font-style:italic"># Check data type</span>
+<span style="color:#24909d">type</span>(zero)
+</code></pre></div><pre><code>int
+</code></pre>
+<h2 id="floats">Floats</h2>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Floating or Decimal Number</span>
+decimal_num = <span style="color:#3677a9">2.5</span>
+
+<span style="color:#999;font-style:italic"># Check data type</span>
+<span style="color:#24909d">type</span>(decimal_num)
+</code></pre></div><pre><code>float
+</code></pre>
+<h2 id="string">String</h2>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Python String</span>
+game_name = <span style="color:#ed9d13">&#34;Mario Karts&#34;</span>
+
+<span style="color:#999;font-style:italic"># Check game_name type</span>
+<span style="color:#24909d">type</span>(game_name)
+</code></pre></div><pre><code>str
+</code></pre>
+<h2 id="boolean">Boolean</h2>
+<h3 id="the-type-of-both-false-and-true-is-bool">The type() of both False and True is bool.</h3>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Set varable to be False</span>
+false_type = False
+
+<span style="color:#999;font-style:italic"># Check data type</span>
+<span style="color:#24909d">type</span>(false_type)
+
+
+</code></pre></div><pre><code>bool
+</code></pre>
+<h2 id="none">None</h2>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Set variable to NONE</span>
+none_variable = None
+
+<span style="color:#999;font-style:italic"># Check data type</span>
+<span style="color:#24909d">type</span>(none_variable)
+</code></pre></div><pre><code>NoneType
+</code></pre>
+
+          
+<div id="bug"></div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
+    function ready() {
+        document.getElementById("bug").innerHTML = bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+      </main>
+      </div>
+    
+    <footer>
+      <div class="container">Puneet Singh Thukral &#169;</div> 
+    </footer>
+  </body>
+</html>

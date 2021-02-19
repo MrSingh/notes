@@ -47,14 +47,19 @@
       <div class="wrap">
         <main class="container">
           <h1>Creating Arrays with NumPy</h1>
+<p></p>
 
 
 
 
 
-<time>Published on: Feb 11, 2021</time>
+<time>Created on: Feb 11, 2021</time>
 
     <time> <br /> Edited on: Feb 18, 2021</time>
+
+
+
+
 
          <br /> <br />
           <h2 id="resources">Resources</h2>
@@ -63,48 +68,48 @@
 <li><a href="https://numpy.org/doc/stable/reference/index.html">NumPy API</a></li>
 </ul>
 <hr>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Import NumPy</span>
-<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a list</span>
-list_1 <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
-<span style="color:#75715e"># Create another list # we will use this later</span>
-list_2 <span style="color:#f92672">=</span> [<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">9</span>,<span style="color:#ae81ff">10</span>]
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Import NumPy</span>
+<span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">numpy</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">np</span>
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Create a list</span>
+list_1 = [<span style="color:#3677a9">1</span>,<span style="color:#3677a9">2</span>,<span style="color:#3677a9">3</span>,<span style="color:#3677a9">4</span>,<span style="color:#3677a9">5</span>]
+<span style="color:#999;font-style:italic"># Create another list # we will use this later</span>
+list_2 = [<span style="color:#3677a9">6</span>,<span style="color:#3677a9">7</span>,<span style="color:#3677a9">8</span>,<span style="color:#3677a9">9</span>,<span style="color:#3677a9">10</span>]
 </code></pre></div><h2 id="create-an-array-with-a-list">Create an Array with a List</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a array by passing the list as an object</span>
-new_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(list_1)
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Create a array by passing the list as an object</span>
+new_array = np.array(list_1)
 new_array
 </code></pre></div><h2 id="create-a-multi-dimensional-array-or-matrix">Create a multi-dimensional array or matrix</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a list of lists</span>
-list_of_lists <span style="color:#f92672">=</span> [list_1, list_2]
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Create a list of lists</span>
+list_of_lists = [list_1, list_2]
 list_of_lists
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Create a multi-dimensional array or matrix </span>
-matrix_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(list_of_lists)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Create a multi-dimensional array or matrix </span>
+matrix_array = np.array(list_of_lists)
 matrix_array
 </code></pre></div><h2 id="check-array-data-type-dimension-or-shape">Check Array Data Type, Dimension or Shape</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Check Array Data Type # Can be Mixed</span>
-matrix_array<span style="color:#f92672">.</span>dtype
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Check Number of Dimensions</span>
-matrix_array<span style="color:#f92672">.</span>ndim
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Check Array Shape</span>
-matrix_array<span style="color:#f92672">.</span>shape
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Check Array Data Type # Can be Mixed</span>
+matrix_array.dtype
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Check Number of Dimensions</span>
+matrix_array.ndim
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Check Array Shape</span>
+matrix_array.shape
 </code></pre></div><h2 id="creating-arrays-with-ones-or-zeros">Creating Arrays with Ones or Zeros</h2>
 <h3 id="these-are-built-in-functions-for-creating-arrays-from-scratch">These are built-in functions for creating arrays from scratch</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## Create Zeros Array</span>
-np<span style="color:#f92672">.</span>zeros(<span style="color:#ae81ff">3</span>)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## Create Zeros Array</span>
-np<span style="color:#f92672">.</span>zeros((<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">2</span>))
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## Create Ones Array</span>
-np<span style="color:#f92672">.</span>ones(<span style="color:#ae81ff">3</span>)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## Create Ones Array with Shape</span>
-np<span style="color:#f92672">.</span>ones((<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">2</span>))
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Create Zeros Array</span>
+np.zeros(<span style="color:#3677a9">3</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Create Zeros Array</span>
+np.zeros((<span style="color:#3677a9">3</span>, <span style="color:#3677a9">2</span>))
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Create Ones Array</span>
+np.ones(<span style="color:#3677a9">3</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Create Ones Array with Shape</span>
+np.ones((<span style="color:#3677a9">3</span>, <span style="color:#3677a9">2</span>))
 </code></pre></div><h2 id="creating-arrays-with-arrange-examples">Creating Arrays with Arrange Examples</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Creating Arrays with Arrange</span>
-<span style="color:#75715e">#numpy.arange([start, ]stop, [step, ]dtype=None, *, like=None)</span>
-np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">3</span>)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">3.0</span>)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">9</span>)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">33</span>,<span style="color:#ae81ff">3</span>)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np<span style="color:#f92672">.</span>array()
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#Creating Arrays with Arrange</span>
+<span style="color:#999;font-style:italic">#numpy.arange([start, ]stop, [step, ]dtype=None, *, like=None)</span>
+np.arange(<span style="color:#3677a9">3</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np.arange(<span style="color:#3677a9">3.0</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np.arange(<span style="color:#3677a9">2</span>,<span style="color:#3677a9">9</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np.arange(<span style="color:#3677a9">3</span>,<span style="color:#3677a9">33</span>,<span style="color:#3677a9">3</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">np.array()
 </code></pre></div>
           
 <div id="bug"></div>
@@ -114,13 +119,12 @@ np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">3</span
     var _title =  document.title;   
     
     var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
-    var bug_snippet = "<h2>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h2>"
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
     function ready() {
         document.getElementById("bug").innerHTML = bug_snippet;    
     }
     document.addEventListener("DOMContentLoaded", ready);    
 </script>
-
 
       </main>
       </div>

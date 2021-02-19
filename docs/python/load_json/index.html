@@ -47,22 +47,27 @@
       <div class="wrap">
         <main class="container">
           <h1>Load a JSON file</h1>
+<p></p>
 
 
 
 
 
-<time>Published on: Jan 24, 2021</time>
+<time>Created on: Jan 24, 2021</time>
 
     <time> <br /> Edited on: Feb 18, 2021</time>
 
+
+
+
+
          <br /> <br />
           <hr>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Set JSON filepath</span>
-json_filepath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;data/new_json.json&#34;</span>
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Read JSON File</span>
-df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_json(json_filepath,  orient<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;split&#39;</span>)
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Set JSON filepath</span>
+json_filepath = <span style="color:#ed9d13">&#34;data/new_json.json&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Read JSON File</span>
+df = pd.read_json(json_filepath,  orient=<span style="color:#ed9d13">&#39;split&#39;</span>)
 df
 </code></pre></div><div>
 <style scoped>
@@ -323,13 +328,12 @@ df
     var _title =  document.title;   
     
     var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
-    var bug_snippet = "<h2>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h2>"
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
     function ready() {
         document.getElementById("bug").innerHTML = bug_snippet;    
     }
     document.addEventListener("DOMContentLoaded", ready);    
 </script>
-
 
       </main>
       </div>

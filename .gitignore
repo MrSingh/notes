@@ -7,3 +7,6 @@ notes.code-workspace
 todo.md
 in-progress/
 test/
+
+# external data eg Kaggle Datasets
+content/python/data/data

@@ -1,11 +1,15 @@
 <h1>{{ .Title }}</h1>
+<p>{{ .Description }}</p>
 <!-- <time>Published on: {{ .PublishDate.Format "Jan 2, 2006" }}</time><br />
 <time>Last modified: {{ .Lastmod.Format "Jan 2, 2006" }}</time> -->
 
 {{ $date := .Date.Format "Jan 2, 2006" }}
 {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
 
-<time>Published on: {{ $date }}</time>
+<time>Created on: {{ $date }}</time>
 {{ if ne $lastmod $date }}
     <time> <br /> Edited on: {{ $lastmod }}</time>
 {{ end }}
+
+<!-- <a href="https://github.com/MrSingh/notes/blob/master/content/python/{{ .Slug }}.ipynb" target="blank">See file on GitHub</a> -->
+

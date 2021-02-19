@@ -6,7 +6,18 @@
     <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 11 Feb 2021 06:00:00 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 07:00:00 +0000</lastBuildDate><atom:link href="/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primative Data Types</title>
+      <link>/python/primative_data_types/</link>
+      <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
+      
+      <guid>/python/primative_data_types/</guid>
+      <description>Resource
+ Python has a number of built-in data types but for the purpose of this notebook, we will focus on what are referred to as primitive data types. The primitive data types are as follows.
+ Integer - Whole numbers Float - Deciaml numbers String - Character data Boolean - True or False None - None Object or NoneType  Integers Whole Numbers # Positive Integer num = 10 # Check data type type(num) int # Negative Integer negative_num = -10 # Check data type type(num) int #Zero zero = 0 # Check data type type(zero) int Floats # Floating or Decimal Number decimal_num = 2.</description>
+    </item>
+    
     <item>
       <title>Creating Arrays with NumPy</title>
       <link>/python/creating_arrays/</link>
