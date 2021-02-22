@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K1PWW3YCPK');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <title>
+      Brooks Shoes Data Analysis
+    </title>
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Brooks Shoes Data Analysis" />
+    <meta property="og:image" content="https://puneet.uk/images/brooks_data_analysis.png" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Brooks Shoes Data Analysis" />
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">
+                <div class="f-left">
+                    <h1><a href="../../index.html" class="home">Puneet Singh Thukral</a> | <span id="page-title">Notes</span></h1>
+                </div>               
+                
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Brooks Shoes Data Analysis</h1>
+<p>Simple data analysis of Brooks Running Shoes. Data set available on Kaggle - see link below.</p>
+
+
+
+
+
+<time>Created on: Feb 19, 2021</time>
+
+    <time> <br /> Edited on: Feb 22, 2021</time>
+
+
+
+
+
+         <br /> <br />
+          <p><a href="https://www.kaggle.com/hannahcollins/2020-brooks-running-shoes" target="blank">Data</a></p>
+<hr>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">matplotlib.pyplot</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">plt</span>
+<span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+
+<span style="color:#999;font-style:italic"># set file path</span>
+<span style="color:#999;font-style:italic"># Source data is availle from the link above</span>
+filePath = <span style="color:#ed9d13">&#34;data/data/kaggle/brooks/BrooksShoes.csv&#34;</span>
+
+<span style="color:#999;font-style:italic"># read data to a DataFrame</span>
+df = pd.read_csv(filePath, parse_dates=True, delimiter=<span style="color:#ed9d13">&#39;,&#39;</span>)
+</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Check how many shoes we have</span>
+<span style="color:#999;font-style:italic"># Each row is a differnt shoe in some cases just a variation of an existing shoe.</span>
+<span style="color:#6ab825;font-weight:bold">print</span>(<span style="color:#ed9d13">&#34;Number of different shoes: &#34;</span>, <span style="color:#24909d">len</span>(df.index))
+</code></pre></div><pre><code>Number of different shoes:  50
+</code></pre>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Now lets see how many of the shoes are road shoes</span>
+<span style="color:#6ab825;font-weight:bold">print</span>(<span style="color:#ed9d13">&#34;Number of road shoes: &#34;</span>, <span style="color:#24909d">len</span>(df.loc[df[<span style="color:#ed9d13">&#39;Surface&#39;</span>] == <span style="color:#ed9d13">&#34;Road&#34;</span>]))
+</code></pre></div><pre><code>Number of road shoes:  39
+</code></pre>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">## Basic scatter plot</span>
+df.plot(x=<span style="color:#ed9d13">&#34;Price&#34;</span>, y=<span style="color:#ed9d13">&#34;Weight(g)&#34;</span>, kind = <span style="color:#ed9d13">&#39;scatter&#39;</span>)
+plt.show()
+</code></pre></div><p><img src="../../images/brooks_data_analysis_4_0.svg" alt="svg"></p>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Basic pie chart of &#39;Shoe Experience&#39;</span>
+df_1 = df[<span style="color:#ed9d13">&#39;Experience&#39;</span>]
+df_1 = df_1.value_counts()
+df_1.plot.pie(y=df_1,figsize=(<span style="color:#3677a9">8</span>, <span style="color:#3677a9">8</span>), autopct=<span style="color:#ed9d13">&#39;</span><span style="color:#ed9d13">%1.0f%%</span><span style="color:#ed9d13">&#39;</span>, pctdistance=<span style="color:#3677a9">1.1</span>, labeldistance=<span style="color:#3677a9">1.2</span>)
+plt.show()
+</code></pre></div><p><img src="../../images/brooks_data_analysis_5_0.svg" alt="svg"></p>
+
+          
+<div id="bug"></div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
+    function ready() {
+        document.getElementById("bug").innerHTML = bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+      </main>
+      </div>
+    
+    <footer>
+      <div class="container">Puneet Singh Thukral &#169;</div> 
+    </footer>
+  </body>
+</html>

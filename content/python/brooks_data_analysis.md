@@ -3,7 +3,7 @@ title: "Brooks Shoes Data Analysis"
 description: "Simple data analysis of Brooks Running Shoes. Data set available on Kaggle - see link below."
 author: "Puneet Thukral"
 date: 2021-02-19T07:00:00
-draft: true
+draft: false
 slug: "brooks_data_analysis"
 ---
 
