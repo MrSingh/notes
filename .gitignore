@@ -10,3 +10,5 @@ test/
 
 # external data eg Kaggle Datasets
 content/python/data/data
+
+content/python/.ipynb_checkpoints

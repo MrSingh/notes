@@ -19,19 +19,6 @@
     </item>
     
     <item>
-      <title>Add an Existing Project to GitHub</title>
-      <link>/git/git_add_project/</link>
-      <pubDate>Tue, 16 Feb 2021 06:00:00 +0000</pubDate>
-      
-      <guid>/git/git_add_project/</guid>
-      <description>Resource
-   Create a new repository for your project on GitHub.
-  Open Git Bash from your local folder.
-  Initialize the local directory as a Git repository.
-  git init -b main Add the files in your new Git repository. This will stage all the files in your project ready for the first commit.  git add . Commit the added files.  git commit -m &amp;#34;First commit&amp;#34;  From GitHub, copy the remote repository URL.</description>
-    </item>
-    
-    <item>
       <title>Creating Arrays with NumPy</title>
       <link>/python/creating_arrays/</link>
       <pubDate>Thu, 11 Feb 2021 06:00:00 +0000</pubDate>
@@ -160,38 +147,6 @@ Click on Install from above link or use the steps below.
       <guid>/python/load_csv/</guid>
       <description>Data Source  Import Pandas # Import Pandas import pandas as pd Read CSV file #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/cereal.csv&amp;#39;) #Output Dataframe df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
 namemfrtypecaloriesproteinfatsodiumfibercarbosugarspotassvitaminsshelfweightcupsrating0100% BranNC704113010.</description>
-    </item>
-    
-    <item>
-      <title>Basic Git Commands</title>
-      <link>/git/basic_git_commands/</link>
-      <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
-      
-      <guid>/git/basic_git_commands/</guid>
-      <description> Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Clone/Download git clone https://github.com/username/projectName.git Create a new branch git checkout -b new-branch Stage All Changes git stage -all Add Files git add . Commit git commit -a -m &amp;#34;Commit Comment&amp;#34; Push git push origin gh-pages </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/archive/get-started-with-angular-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/archive/get-started-with-angular-2/</guid>
-      <description>Get started with Angular 2 in 5 minutes This is quick guide to help you get started with Angular 2.
-Assumptions  Node, npm and Visual Studio Code are all already installed.  Get started From Visual Studio Code start up the Integrated Terminal via View &amp;gt; Integrated Terminal.
-Then install Angular CLI with the following command:
-npm i -g angular-cliNow you have Angular CLI installed lets create a sample app.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/powershell/powershell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/powershell/powershell/</guid>
-      <description>Intro to Powershell Things to know Execution Policy By default Powershell is secure a philosophy that means that doublecliking a Powershell script in Windows Explorer won&amp;rsquo;t execute the script.
-Powershell has four execution policies - these govern how a script is executed.
- Restricted AllSigned RemoteSigned Unrestricted  Get-ExecutionPolicy Set-ExecutionPolicy Restricted Set-ExecutionPolicy Unrestricted Set-ExecutionPolicy RemoteSigned </description>
     </item>
     
     <item>

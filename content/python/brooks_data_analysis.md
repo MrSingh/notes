@@ -52,7 +52,7 @@ plt.show()
 
 
     
-![svg](brooks_data_analysis_files/brooks_data_analysis_4_0.svg)
+![svg](../../images/brooks_data_analysis_4_0.svg)
     
 
 
@@ -67,6 +67,6 @@ plt.show()
 
 
     
-![svg](brooks_data_analysis_files/brooks_data_analysis_5_0.svg)
+![svg](../../images/brooks_data_analysis_5_0.svg)
     
 
