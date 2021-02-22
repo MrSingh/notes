@@ -6,6 +6,10 @@ These are my private notes on data and software engineering. This site is built 
 
 All notes are either a Juypter Notebook or a Markdown file.  The source files are in the ```content``` folder. The website is built and output to the ```docs``` folder.
 
+## Pre Deployemnt
+
+1. Create Preview image for Notes page and add to images folder with the same name as note name.
+
 ## Deploymemt
 
 ## Central to this deployment is the build file, `build.ipynb` that creates Markdown Copies of the Juypter Notebooks, moves images, deletes redundeunt folders and rewrites links(work in progress).
@@ -16,6 +20,10 @@ All notes are either a Juypter Notebook or a Markdown file.  The source files ar
 4. Run `git add -a` to add/stage all files.
 5. Run `git commit -m "commit text"`
 6. Run `git push` to remote.
+
+## Live Testing
+
+### [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 
 ## Data
 

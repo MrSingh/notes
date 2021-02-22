@@ -99,6 +99,11 @@ main.container .row {
     padding: 1.25rem;
 }
 
+.new-card-body { 
+  columns:unset;
+  padding: 1.25rem;
+}
+
 article {
     display: block;
     flex-wrap: wrap;
@@ -236,6 +241,12 @@ table.dataframe {
   display:block;
   font-size: 0.8rem;
   box-sizing: border-box;
+}
+
+.date {
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
   
