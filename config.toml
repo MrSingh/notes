@@ -1,12 +1,13 @@
 # https://gohugo.io/getting-started/configuration/
 # TODO - Set base URL
-baseURL = ""
+baseURL = "https://puneet.uk/"
 relativeURLs = true
 languageCode = "en-gb"
 title = "Puneet's Notes On Data & Software Engineering"
 description = "Puneet's notes on data & software engineering home page."
 
 # Enable Git Info
+
 enableGitInfo = true
 
 # https://pygments.org/demo/
