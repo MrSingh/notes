@@ -3,7 +3,7 @@ title: "Brooks Shoes Data Analysis"
 description: "Simple data analysis of Brooks Running Shoes. Data set available on Kaggle - see link below."
 author: "Puneet Thukral"
 date: 2021-02-19T07:00:00
-draft: false
+draft: true
 slug: "brooks_data_analysis"
 ---
 
@@ -47,6 +47,7 @@ print("Number of road shoes: ", len(df.loc[df['Surface'] == "Road"]))
 ```python
 ## Basic scatter plot
 df.plot(x="Price", y="Weight(g)", kind = 'scatter')
+#df.plot(y="Price", x="Midsole Drop(mm)", kind = 'bar')
 plt.show()
 ```
 
@@ -61,7 +62,7 @@ plt.show()
 # Basic pie chart of 'Shoe Experience'
 df_1 = df['Experience']
 df_1 = df_1.value_counts()
-df_1.plot.pie(y=df_1,figsize=(8, 8), autopct='%1.0f%%', pctdistance=1.1, labeldistance=1.2)
+df_1.plot.pie(y=df_1,figsize=(6, 6), autopct='%1.0f%%', pctdistance=1.1, labeldistance=1.2)
 plt.show()
 ```
 

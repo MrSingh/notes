@@ -8,16 +8,6 @@
     <language>en-gb</language>
     <lastBuildDate>Fri, 19 Feb 2021 07:00:00 +0000</lastBuildDate><atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Brooks Shoes Data Analysis</title>
-      <link>https://puneet.uk/python/brooks_data_analysis/</link>
-      <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
-      
-      <guid>https://puneet.uk/python/brooks_data_analysis/</guid>
-      <description>Data
- import matplotlib.pyplot as plt import pandas as pd # set file path # Source data is availle from the link above filePath = &amp;#34;data/data/kaggle/brooks/BrooksShoes.csv&amp;#34; # read data to a DataFrame df = pd.read_csv(filePath, parse_dates=True, delimiter=&amp;#39;,&amp;#39;) # Check how many shoes we have # Each row is a differnt shoe in some cases just a variation of an existing shoe. print(&amp;#34;Number of different shoes: &amp;#34;, len(df.index)) Number of different shoes: 50 ## Now lets see how many of the shoes are road shoes print(&amp;#34;Number of road shoes: &amp;#34;, len(df.</description>
-    </item>
-    
-    <item>
       <title>Primitive Data Types</title>
       <link>https://puneet.uk/python/primitive_data_types/</link>
       <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
