@@ -47,7 +47,6 @@ print("Number of road shoes: ", len(df.loc[df['Surface'] == "Road"]))
 ```python
 ## Basic scatter plot
 df.plot(x="Price", y="Weight(g)", kind = 'scatter')
-#df.plot(y="Price", x="Midsole Drop(mm)", kind = 'bar')
 plt.show()
 ```
 
