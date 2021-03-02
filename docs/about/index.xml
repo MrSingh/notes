@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 02 Mar 2021 07:00:00 +0000</lastBuildDate><atom:link href="https://puneet.uk/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Me in a Nutshell!</title>
-      <link>https://puneet.uk/about/aboutme/</link>
+      <link>https://puneet.uk/about/about_me/</link>
       <pubDate>Tue, 02 Mar 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://puneet.uk/about/aboutme/</guid>
+      <guid>https://puneet.uk/about/about_me/</guid>
       <description>Back when I left university, I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!
 Fast forward two decades, and my passion to build things, is undiminished. Albeit, now I have moved on to bigger challenges such as website redesigns, platform migration, PCI, database architecture, process implementation, agile coaching and team management.</description>
     </item>
