@@ -6,7 +6,17 @@
     <description>Recent content on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 19 Feb 2021 07:00:00 +0000</lastBuildDate><atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 07:00:00 +0000</lastBuildDate><atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Me in a Nutshell!</title>
+      <link>https://puneet.uk/about/aboutme/</link>
+      <pubDate>Tue, 02 Mar 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://puneet.uk/about/aboutme/</guid>
+      <description>Back when I left university, I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!
+Fast forward two decades, and my passion to build things, is undiminished. Albeit, now I have moved on to bigger challenges such as website redesigns, platform migration, PCI, database architecture, process implementation, agile coaching and team management.</description>
+    </item>
+    
     <item>
       <title>Primitive Data Types</title>
       <link>https://puneet.uk/python/primitive_data_types/</link>
@@ -16,6 +26,19 @@
       <description>Resource
  Python has a number of built-in data types but for the purpose of this notebook, we will focus on what are referred to as primitive data types. The primitive data types are as follows.
  Integer - Whole numbers Float - Deciaml numbers String - Character data Boolean - True or False None - None Object or NoneType  Integers Whole Numbers # Positive Integer num = 10 # Check data type type(num) int # Negative Integer negative_num = -10 # Check data type type(num) int #Zero zero = 0 # Check data type type(zero) int Floats # Floating or Decimal Number decimal_num = 2.</description>
+    </item>
+    
+    <item>
+      <title>Add an Existing Project to GitHub</title>
+      <link>https://puneet.uk/git/git_add_project/</link>
+      <pubDate>Tue, 16 Feb 2021 06:00:00 +0000</pubDate>
+      
+      <guid>https://puneet.uk/git/git_add_project/</guid>
+      <description>Resource
+   Create a new repository for your project on GitHub.
+  Open Git Bash from your local folder.
+  Initialize the local directory as a Git repository.
+  git init -b main Add the files in your new Git repository. This will stage all the files in your project ready for the first commit.  git add . Commit the added files.  git commit -m &amp;#34;First commit&amp;#34;  From GitHub, copy the remote repository URL.</description>
     </item>
     
     <item>
@@ -147,6 +170,15 @@ Click on Install from above link or use the steps below.
       <guid>https://puneet.uk/python/load_csv/</guid>
       <description>Data Source  Import Pandas # Import Pandas import pandas as pd Read CSV file #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/cereal.csv&amp;#39;) #Output Dataframe df .dataframe tbody tr th:only-of-type {vertical-align: middle;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;} 
 namemfrtypecaloriesproteinfatsodiumfibercarbosugarspotassvitaminsshelfweightcupsrating0100% BranNC704113010.</description>
+    </item>
+    
+    <item>
+      <title>Basic Git Commands</title>
+      <link>https://puneet.uk/git/basic_git_commands/</link>
+      <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
+      
+      <guid>https://puneet.uk/git/basic_git_commands/</guid>
+      <description> Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Clone/Download git clone https://github.com/username/projectName.git Create a new branch git checkout -b new-branch Stage All Changes git stage -all Add Files git add . Commit git commit -a -m &amp;#34;Commit Comment&amp;#34; Push git push origin gh-pages </description>
     </item>
     
     <item>
