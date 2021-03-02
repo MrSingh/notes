@@ -12,4 +12,4 @@ Back when I left university,  I already knew I was heading for a career in techn
 
 Fast forward two decades, and my passion to build things, is undiminished. Albeit, now I have moved on to bigger challenges such as website redesigns, platform migration, PCI, database architecture, process implementation, agile coaching and team management.
 
-I do the work because I love technology. I like the people I meet and working with them to solve the challenges at hand.
+I do the work because I love technology. I like the people I meet, and working with them to solve the challenges at hand.
