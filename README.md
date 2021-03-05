@@ -21,9 +21,9 @@ All notes are either a Juypter Notebook or a Markdown file.  The source files ar
 5. Run `git commit -m "commit text"`
 6. Run `git push` to remote.
 
-## Live Testing
-
-### [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+## Social Media
++  [Twitter Card Validator](https://cards-dev.twitter.com/validator)
++ Twitter Preview Card Image Size - 1200 x 675
 
 ## Data
 
