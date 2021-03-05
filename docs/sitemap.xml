@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://puneet.uk/javascript/</loc>
+    <lastmod>2021-03-05T15:57:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puneet.uk/javascript/master_javascript_mindmap/</loc>
+    <lastmod>2021-03-05T15:57:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puneet.uk/</loc>
+    <lastmod>2021-03-05T15:57:55+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://puneet.uk/about/</loc>
     <lastmod>2021-03-02T16:11:42+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://puneet.uk/about/about_me/</loc>
-    <lastmod>2021-03-02T16:11:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://puneet.uk/</loc>
     <lastmod>2021-03-02T16:11:42+00:00</lastmod>
   </url>
   

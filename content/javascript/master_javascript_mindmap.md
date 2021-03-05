@@ -3,7 +3,7 @@ title: "Master JavaScript Mindmap"
 description: "A mindmap of topics to master JavaScriptt"
 author: "Puneet Thukral"
 date: 2021-03-05T07:00:00
-draft: true
+draft: false
 slug: "master_javascript_mindmap"
 ---
 
