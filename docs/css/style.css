@@ -436,6 +436,27 @@ li a:hover {
 | MENU END
 -------------*/
 
+.avatar {
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 60px; */
+  flex-shrink: 0;
+  width: 180px;
+  height: 95px;
+  border-radius: 8px;
+  border: 2px solid black;
+  /* box-shadow: 3px 4px 0 var(--shadow); */
+  /* border-radius: 50%; */
+  overflow: hidden;
+  transform: scale(2.1);
+  transform-origin: top;
+  clear: both;
+
+}
+.avatar img {
+  max-width: 100%;
+}
+
 
   /* Buttons - ||| Maked for Removal |||
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
