@@ -8,7 +8,7 @@ slug: "about_me"
 ---
 
 
-Back when I left university,  I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!
+A long, long, time ago, back when I left university,  I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!
 
 Fast forward two decades, and my passion to build things and technology, is undiminished. Albeit, now I have moved on to bigger challenges such as building teams, platform migration, PCI, database architecture, process implementation, agile coaching and team management.
 
