@@ -14,10 +14,16 @@ slug: "bookshelf_home"
 
 ## Books
 
+
 ### Currently Reading
 
-- Atomic Habits - James Clear <a href="https://amzn.to/3bHpdLW" target="blank">[Link]</a>
+- Essentialism - The Disciplined Pursuit of Less - Greg McKeown <a href="https://amzn.to/3NZFY6E" target="blank">[Link]</a>
 - Almanack of Naval Ravikant - Eric Jorgenson
+
+### Recommended
+
+- Atomic Habits - James Clear <a href="https://amzn.to/3bHpdLW" target="blank">[Link]</a>
+- Almanack of Naval Ravikant - Eric Jorgenson <a href="https://amzn.to/3DsVovr" target="blank">[Link]</a>
 
 ## Articles & Blogs
 
@@ -30,13 +36,13 @@ slug: "bookshelf_home"
 
 - <a href="https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html" target="blank">The Day You Became A Better Writer by Scott Adams</a>
 
-### Health
+<!-- ### Health
 
 - <a href="https://litemind.com/boost-brain-power/" target="blank">120 Ways to Boost Your Brain Power</a>
-- <a href="https://daveasprey.com/beginners-guide-to-biohacking-101/" target="blank">A Beginner’s Guide to Biohacking by Dave Asprey</a>
+- <a href="https://daveasprey.com/beginners-guide-to-biohacking-101/" target="blank">A Beginner’s Guide to Biohacking by Dave Asprey</a> -->
 <!-- - \* <a href="https://www.newscientist.com/round-up/mind-guide/" target="blank">Mind guide</a> -->
 
-### Crypto
+<!-- ### Crypto
 
 - \* <a href="https://bitcoin.org/bitcoin.pdf" target="blank">Bitcoin paper</a>
-- \* <a href="https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1" target="blank">The Bullish Case for Bitcoin</a> 
+- \* <a href="https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1" target="blank">The Bullish Case for Bitcoin</a>  -->
