@@ -1,159 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://puneet.uk/read/bookshelf_home/</loc>
-    <lastmod>2021-03-15T11:05:27+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-02-01T10:50:57+00:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/</loc>
-    <lastmod>2023-07-25T13:21:04+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-02-01T10:50:57+00:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/read/</loc>
-    <lastmod>2021-03-15T11:05:27+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-02-01T10:50:57+00:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/javascript/</loc>
     <lastmod>2021-03-15T11:05:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/javascript/master_javascript_mindmap/</loc>
     <lastmod>2021-03-15T11:05:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/about/</loc>
-    <lastmod>2023-07-25T13:21:04+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-02-01T10:50:57+00:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/about/about_me/</loc>
-    <lastmod>2023-07-25T13:21:04+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-02-01T10:50:57+00:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/python/primitive_data_types/</loc>
     <lastmod>2021-02-19T16:57:38+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/</loc>
-    <lastmod>2021-02-19T16:57:38+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-07-25T13:06:04+01:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/git/git_add_project/</loc>
     <lastmod>2021-02-26T15:02:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/git/</loc>
     <lastmod>2021-02-26T15:02:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/creating_arrays/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/format_basics/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/while_loop_basics/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/for_loop_basics/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/drop_dataframe_columns/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/write_dataframe_to_json/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://puneet.uk/test/data_analysis/</loc>
-    <lastmod>2021-02-02T19:44:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://puneet.uk/test/jira_data_analysis/</loc>
-    <lastmod>2021-02-02T19:44:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://puneet.uk/test/</loc>
-    <lastmod>2021-02-02T19:44:38+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/ws_requests_and_beautifulsoup/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/oswalk/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/vscode/inserting_date_time/</loc>
     <lastmod>2021-01-31T19:54:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/vscode/vscode_shortcuts/</loc>
     <lastmod>2021-01-31T19:54:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/vscode/</loc>
     <lastmod>2021-01-31T19:54:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/load_json/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/load_csv/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/git/basic_git_commands/</loc>
     <lastmod>2021-02-26T15:02:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/python/untitled/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://puneet.uk/test/reddit_wallstreetbets/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://puneet.uk/vscode/vscode_python_issues/</loc>
     <lastmod>2020-12-31T10:17:29+00:00</lastmod>
   </url>
-  
 </urlset>

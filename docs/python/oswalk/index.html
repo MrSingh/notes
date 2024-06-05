@@ -76,19 +76,19 @@
          <br /> <br />
           <hr>
 <h2 id="import-modules">Import Modules</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Import Module</span>
-<span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">os</span>
-</code></pre></div><h2 id="set-path">Set Path</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Set Path</span>
-path = <span style="color:#ed9d13">&#39;../../content/&#39;</span>
-</code></pre></div><h2 id="find-all-markdown-files-in-all-content-folders">Find All Markdown Files In All Content Folders</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># Find all markdown filesin all content folders</span>
-all_md_files = [os.path.join(root, name)
-    <span style="color:#6ab825;font-weight:bold">for</span> root, dirs, files <span style="color:#6ab825;font-weight:bold">in</span> os.walk(path)
-        <span style="color:#6ab825;font-weight:bold">for</span> name <span style="color:#6ab825;font-weight:bold">in</span> files
-            <span style="color:#6ab825;font-weight:bold">if</span> name.endswith((<span style="color:#ed9d13">&#34;.md&#34;</span>))]
-all_md_files
-</code></pre></div><pre><code>['../../content/archive\\get-started-with-angular-2.md',
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import Module</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">os</span>
+</span></span></code></pre></div><h2 id="set-path">Set Path</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Set Path</span>
+</span></span><span style="display:flex;"><span>path = <span style="color:#ed9d13">&#39;../../content/&#39;</span>
+</span></span></code></pre></div><h2 id="find-all-markdown-files-in-all-content-folders">Find All Markdown Files In All Content Folders</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Find all markdown filesin all content folders</span>
+</span></span><span style="display:flex;"><span>all_md_files = [os.path.join(root, name)
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">for</span> root, dirs, files <span style="color:#6ab825;font-weight:bold">in</span> os.walk(path)
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">for</span> name <span style="color:#6ab825;font-weight:bold">in</span> files
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">if</span> name.endswith((<span style="color:#ed9d13">&#34;.md&#34;</span>))]
+</span></span><span style="display:flex;"><span>all_md_files
+</span></span></code></pre></div><pre><code>['../../content/archive\\get-started-with-angular-2.md',
  '../../content/content\\about\\about.md',
  '../../content/git\\basic_git_commands.md',
  '../../content/powershell\\PowerShell.md',

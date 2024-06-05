@@ -76,47 +76,47 @@
          <br /> <br />
           <hr>
 <h2 id="create-a-list-of-numbers">Create a List of Numbers</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">nums = [<span style="color:#3677a9">1</span>,<span style="color:#3677a9">2</span>,<span style="color:#3677a9">3</span>,<span style="color:#3677a9">4</span>,<span style="color:#3677a9">5</span>]
-</code></pre></div><h2 id="print-numbers-in-a-list-example">Print Numbers in a List Example</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
-    <span style="color:#6ab825;font-weight:bold">print</span>(num)
-</code></pre></div><pre><code>1
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>nums = [<span style="color:#3677a9">1</span>,<span style="color:#3677a9">2</span>,<span style="color:#3677a9">3</span>,<span style="color:#3677a9">4</span>,<span style="color:#3677a9">5</span>]
+</span></span></code></pre></div><h2 id="print-numbers-in-a-list-example">Print Numbers in a List Example</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(num)
+</span></span></code></pre></div><pre><code>1
 2
 3
 4
 5
 </code></pre>
 <h2 id="continue-example">Continue Example</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#continue moves to the next iteration - in the example below when num == 4, &#39;Found!&#39; will be printed and it will skip print(num) and go to the next iteration of the loop</span>
-<span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
-    <span style="color:#6ab825;font-weight:bold">if</span> num == <span style="color:#3677a9">4</span>:
-        <span style="color:#6ab825;font-weight:bold">print</span>(<span style="color:#ed9d13">&#39;Found!&#39;</span>)
-        <span style="color:#6ab825;font-weight:bold">continue</span>
-    <span style="color:#6ab825;font-weight:bold">print</span>(num)
-</code></pre></div><pre><code>1
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic">#continue moves to the next iteration - in the example below when num == 4, &#39;Found!&#39; will be printed and it will skip print(num) and go to the next iteration of the loop</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">if</span> num == <span style="color:#3677a9">4</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#39;Found!&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">continue</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(num)
+</span></span></code></pre></div><pre><code>1
 2
 3
 Found!
 5
 </code></pre>
 <h2 id="break-example">Break Example</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#break, breaks out of the loop</span>
-<span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
-    <span style="color:#6ab825;font-weight:bold">if</span> num == <span style="color:#3677a9">4</span>:
-        <span style="color:#6ab825;font-weight:bold">print</span>(<span style="color:#ed9d13">&#39;Found!&#39;</span>)
-        <span style="color:#6ab825;font-weight:bold">break</span>
-    <span style="color:#6ab825;font-weight:bold">print</span>(num)
-</code></pre></div><pre><code>1
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic">#break, breaks out of the loop</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">if</span> num == <span style="color:#3677a9">4</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#39;Found!&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(num)
+</span></span></code></pre></div><pre><code>1
 2
 3
 Found!
 </code></pre>
 <h2 id="nested-for-loop-example">Nested For Loop Example</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#loop within a loop</span>
-<span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
-    <span style="color:#6ab825;font-weight:bold">for</span> letter <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#ed9d13">&#39;abc&#39;</span>:
-        <span style="color:#6ab825;font-weight:bold">print</span>(num, letter)
-</code></pre></div><pre><code>1 a
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic">#loop within a loop</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> num <span style="color:#6ab825;font-weight:bold">in</span> nums:
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">for</span> letter <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#ed9d13">&#39;abc&#39;</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#24909d">print</span>(num, letter)
+</span></span></code></pre></div><pre><code>1 a
 1 b
 1 c
 2 a
@@ -133,10 +133,10 @@ Found!
 5 c
 </code></pre>
 <h2 id="for-loop-range-example">For Loop Range Example</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic">#run through a loop ten times</span>
-<span style="color:#6ab825;font-weight:bold">for</span> i <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#24909d">range</span>(<span style="color:#3677a9">10</span>):
-    <span style="color:#6ab825;font-weight:bold">print</span>(i)
-</code></pre></div><pre><code>0
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic">#run through a loop ten times</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> i <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#24909d">range</span>(<span style="color:#3677a9">10</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(i)
+</span></span></code></pre></div><pre><code>0
 1
 2
 3
@@ -148,10 +148,10 @@ Found!
 9
 </code></pre>
 <h2 id="for-loop-range-with-starting-point-example">For Loop Range with Starting Point Example</h2>
-<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#999;font-style:italic"># run through to ten starting at 2</span>
-<span style="color:#6ab825;font-weight:bold">for</span> i <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#24909d">range</span>(<span style="color:#3677a9">2</span>, <span style="color:#3677a9">11</span>):
-    <span style="color:#6ab825;font-weight:bold">print</span>(i)
-</code></pre></div><pre><code>2
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># run through to ten starting at 2</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> i <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#24909d">range</span>(<span style="color:#3677a9">2</span>, <span style="color:#3677a9">11</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(i)
+</span></span></code></pre></div><pre><code>2
 3
 4
 5

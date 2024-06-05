@@ -4,18 +4,16 @@
     <title>Abouts on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
     <link>https://puneet.uk/about/</link>
     <description>Recent content in Abouts on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 02 Mar 2021 07:00:00 +0000</lastBuildDate><atom:link href="https://puneet.uk/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 10:50:57 +0000</lastBuildDate>
+    <atom:link href="https://puneet.uk/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Me in a Nutshell!</title>
       <link>https://puneet.uk/about/about_me/</link>
       <pubDate>Tue, 02 Mar 2021 07:00:00 +0000</pubDate>
-      
       <guid>https://puneet.uk/about/about_me/</guid>
-      <description>A long, long, time ago, back when I left university, I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!
-Fast forward two decades, and my passion to build things and technology, is undiminished. Albeit, now I have moved on to bigger challenges such as building teams, agile transformations, platform migrations, support models, strategy, data governance, risk management, agile coaching and team management to name but a few.</description>
+      <description>A long, long, time ago, back when I left university, I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!&#xA;Fast forward two decades, and my passion to build things and technology, is undiminished. Albeit, now I have moved on to bigger challenges such as building teams, agile transformations, platform migrations, support models, strategy, data governance, risk management, agile coaching and team management to name but a few.</description>
     </item>
-    
   </channel>
 </rss>

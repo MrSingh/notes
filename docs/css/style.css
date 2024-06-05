@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";@media all and (max-width: 768px) {
   :root {
       --scale:0.85;
@@ -45,9 +47,12 @@
     font-size: 100%;
     height: 100%; }
   body {
+    --ff-sans: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+    --ff-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+    --ff-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
     font-size: 1rem; /* currently ems cause chrome bug misinterpreting rems on body element */
     font-weight: 400;
-    font-family: "Open Sans" ;
+    font-family: var(--ff-sans);
     color: #222;
     height: 100%;
     display: flex;
@@ -69,7 +74,7 @@ header {
     color: #222;
     text-align: center;
     text-transform: uppercase;
-    /* font-family: source-serif-pro, 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif; */
+     font-family: var(--ff-serif);
     border-bottom: 1px solid #E8E8E8;
     margin-bottom: 2em;
 }
@@ -81,6 +86,7 @@ header .container, footer .container {
     text-align: center;
     justify-content: space-between;
     margin: 0 auto;
+    font-family: var(--ff-mono);
 }
 
 main.container {
@@ -105,13 +111,20 @@ main.container .row {
 }
 
 .row h2 {
+
+  font-family: var(--ff-mono);
+}
+
+.row h2 {
     text-align: left;
     border: 1px solid #dcdcdd;
-    padding: 6px;px;
+    padding: 6px;
     background-color: #000000;
     color:white;
     border-radius: 4px;
 }
+
+
 
 .row .card {
     position: relative;
@@ -121,14 +134,14 @@ main.container .row {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    /* background-color: #fff; */
     background-clip: border-box;
     /* border: 1px solid rgba(0,0,0,.125); */
-    background: #8e9eab;
+    /* background: #a5bacb;
     background: -webkit-linear-gradient(to right, #e9e9e9, #ffffff);
-    background: linear-gradient(to right, #e9e9e9, #ffffff);
+    background: linear-gradient(to right, #e9e9e9, #ffffff); */
     border-radius: .6rem;
-    box-shadow: 1px 1px #b8b7b7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     text-align: left;
 }
 
@@ -183,7 +196,7 @@ footer {
 
   background: black;
   color: #777777;
-  font-family: 'HelveticaNeueW01-45Ligh','neue-haas-unica', sans-serif;
+  font-family: var(--ff-mono);
   font-weight: 300;
   font-size: 12px;
   line-height: 27px;
@@ -299,6 +312,7 @@ table.dataframe {
   color: red;
   font-size: 1rem;
   font-weight: bold;
+  font-family: var(--ff-mono);
 }
 
   

@@ -6,6 +6,14 @@ These are my private notes on data and software engineering. This site is built 
 
 All notes are either a Juypter Notebook or a Markdown file.  The source files are in the ```content``` folder. The website is built and output to the ```docs``` folder.
 
+# Prerequisites
+
+1. Install Visual Studio Code
+2. Install Github
+3. Install Node and select the option to install Chocolatey
+2. Install Hugo `choco install hugo -confirm`hugo
+
+
 ## Pre Deployemnt
 
 1. Create Preview image for Notes page and add to images folder with the same name as note name.
