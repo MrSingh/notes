@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://puneet.uk/read/bookshelf_home/</loc>
-    <lastmod>2024-02-01T10:50:57+00:00</lastmod>
+    <loc>https://puneet.uk/data/</loc>
+    <lastmod>2024-05-06T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puneet.uk/data/data/</loc>
+    <lastmod>2024-05-06T07:00:00+00:00</lastmod>
   </url><url>
     <loc>https://puneet.uk/</loc>
+    <lastmod>2024-05-06T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puneet.uk/read/bookshelf_home/</loc>
     <lastmod>2024-02-01T10:50:57+00:00</lastmod>
   </url><url>
     <loc>https://puneet.uk/read/</loc>

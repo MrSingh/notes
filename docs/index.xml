@@ -6,8 +6,15 @@
     <description>Recent content on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 01 Feb 2024 10:50:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data &amp; Analytics</title>
+      <link>https://puneet.uk/data/data/</link>
+      <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/data/data/</guid>
+      <description>Log 16:37 05/06/2024 - This page is under construction</description>
+    </item>
     <item>
       <title>Bookshelf</title>
       <link>https://puneet.uk/read/bookshelf_home/</link>
