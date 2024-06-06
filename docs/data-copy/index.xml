@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Copies on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
+    <link>http://localhost:1313/data-copy/</link>
+    <description>Recent content in Data Copies on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 06 May 2024 07:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/data-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data &amp; Analytics</title>
+      <link>http://localhost:1313/data-copy/data/</link>
+      <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/data-copy/data/</guid>
+      <description>&#xD;</description>
+    </item>
+  </channel>
+</rss>

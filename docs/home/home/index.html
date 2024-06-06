@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -27,7 +27,7 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Me in a Nutshell!" />
-    <meta property="og:image" content="https://puneet.uk/images/about_me.png" />
+    <meta property="og:image" content="https://puneet.uk/images/home.png" />
     <meta property="article:tag" content="Technical blog" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Me in a Nutshell!" />
@@ -47,15 +47,13 @@
                       
                       <li role="none" class="menu-item"><a role="menuitem" href="../../read/bookshelf_home/"><img src="../../images/book.svg"
                                   alt="bookshelf icon" height="18px" class="filter-icon"> bookshelf</a></li>
-                                  <li role="none" class="menu-item"><a role="menuitem" href="../../data/data/"><img src="../../images/data.svg"
+                      <li role="none" class="menu-item"><a role="menuitem" href="../../data/data/"><img src="../../images/profile.svg"
                                     alt="about page icon" height="18px" class="filter-icon"> data</a></li>
-                </ul>
                   </ul>
               </nav>             
               </div>           
           </nav>
       </header>
-                
             </div>           
         </nav>
     </header>
@@ -71,21 +69,31 @@
 
 <time>Created on: Mar 2, 2021</time>
 
-    <time> <br /> Edited on: Jun 6, 2024</time>
 
 
 
 
-
-          <hr />
-          <div class="avatar"><img src="../../images/about_me.jpg" alt="Puneet" title="Image of me"></div>
-          <hr />
+         <br /> <br />
           <p>After building my first website back in 2000, I knew I would spend the rest of my career in data and technology!</p>
 <p>Fast forward two decades, and my passion for building data and technology solutions remains undiminished. However, I have now moved on to bigger challenges such as building teams, leading agile transformations, managing platform migrations, establishing support models, formulating data strategies, implementing data governance, managing risk, coaching agile teams, and managing teams, to name but a few.</p>
 <p>I am particularly interested in data-driven decision-making and building systems where data propels businesses forward. I am motivated to meet business challenges and work with people to deliver on business strategy and vision.</p>
 <p>As a lifelong learner, I share some of what I learn here.</p>
 
           
+<div id="bug"></div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
+    function ready() {
+        document.getElementById("bug").innerHTML = bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
       </main>
       </div>
     

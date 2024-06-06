@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
+    <link>https://puneet.uk/notes/</link>
+    <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 06 May 2024 07:00:00 +0000</lastBuildDate>
+    <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>https://puneet.uk/notes/notes/</link>
+      <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/notes/</guid>
+      <description>Log 14:37 06/06/2024 - This page is under construction</description>
+    </item>
+  </channel>
+</rss>

@@ -4,7 +4,7 @@ date: 2021-03-02T07:00:00
 description: ""
 draft: false
 labels: ""
-slug: "about_me"
+slug: "home"
 ---
 
 
