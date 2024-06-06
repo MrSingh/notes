@@ -8,12 +8,10 @@ slug: "about_me"
 ---
 
 
-A long, long, time ago, back when I left university,  I already knew I was heading for a career in technology. After building my first website back in 2000 and getting instant gratification and praise - I was hooked!
+After building my first website back in 2000, I knew I would spend the rest of my career in data and technology!
 
-Fast forward two decades, and my passion to build things and technology, is undiminished. Albeit, now I have moved on to bigger challenges such as building teams, agile transformations, platform migrations, support models, strategy, data governance, risk management, agile coaching and team management to name but a few.
+Fast forward two decades, and my passion for building data and technology solutions remains undiminished. However, I have now moved on to bigger challenges such as building teams, leading agile transformations, managing platform migrations, establishing support models, formulating data strategies, implementing data governance, managing risk, coaching agile teams, and managing teams, to name but a few.
 
-I am particularly interested in data driven decision making, and how to build systems where data helps drive businesses forward.
+I am particularly interested in data-driven decision-making and building systems where data propels businesses forward. I am motivated to meet business challenges and work with people to deliver on business strategy and vision.
 
-I do the work because I love technology. I like the people I meet and working with them to solve the challenges at hand.  
-
-I'm a life long learner and share some of what I learn, here.
+As a lifelong learner, I share some of what I learn here.
