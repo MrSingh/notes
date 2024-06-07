@@ -15,26 +15,28 @@ slug: "bookshelf_home"
 ## Books
 
 
-### Currently Reading
-
-- Essentialism - The Disciplined Pursuit of Less - Greg McKeown <a href="https://amzn.to/3NZFY6E" target="blank">[Link]</a>
-- Almanack of Naval Ravikant - Eric Jorgenson
-
 ### Recommended
 
 - Atomic Habits - James Clear <a href="https://amzn.to/3bHpdLW" target="blank">[Link]</a>
 - Almanack of Naval Ravikant - Eric Jorgenson <a href="https://amzn.to/3DsVovr" target="blank">[Link]</a>
 
-## Articles & Blogs
+### Older Reads
+
+- Essentialism - The Disciplined Pursuit of Less - Greg McKeown <a href="https://amzn.to/3NZFY6E" target="blank">[Link]</a>
+- Almanack of Naval Ravikant - Eric Jorgenson
+- <a href="https://kk.org/thetechnium/68-bits-of-unsolicited-advice/" target="blank">68 Bits of Unsolicited Advice by Kevin Kelly</a>
+- <a href="http://www.paulgraham.com/vb.html" target="blank">Life is Short by Paul Graham</a>
+- <a href="https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html" target="blank">The Day You Became A Better Writer by Scott Adams</a>
+
+<!-- ## Articles & Blogs
 
 ### Life
 
-- <a href="https://kk.org/thetechnium/68-bits-of-unsolicited-advice/" target="blank">68 Bits of Unsolicited Advice by Kevin Kelly</a>
-- <a href="http://www.paulgraham.com/vb.html" target="blank">Life is Short by Paul Graham</a>
 
-### Writing
 
-- <a href="https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html" target="blank">The Day You Became A Better Writer by Scott Adams</a>
+### Writing -->
+
+
 
 <!-- ### Health
 
