@@ -1,7 +1,7 @@
 ---
 title: "Bookshelf"
 date: 2021-03-12T07:00:00
-#lastmod: 2021-03-12T07:00:00
+lastmod: 2021-03-12T07:00:00
 description: "Stuff that I have read and am reading"
 draft: false
 labels: ""
@@ -9,9 +9,6 @@ slug: "bookshelf_home"
 ---
 
 ***
-
-\* Marked to read
-
 ## Books
 
 
