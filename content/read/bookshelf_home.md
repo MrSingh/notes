@@ -2,36 +2,30 @@
 title: "Bookshelf"
 date: 2021-03-12T07:00:00
 lastmod: 2021-03-12T07:00:00
-description: "Stuff that I have read and am reading"
+description: "Reading Log"
 draft: false
 labels: ""
 slug: "bookshelf_home"
 ---
 
 ***
-## Books
 
 
-### Recommended
+## Currently Reading
 
-- Atomic Habits - James Clear <a href="https://amzn.to/3bHpdLW" target="blank">[Link]</a>
-- Almanack of Naval Ravikant - Eric Jorgenson <a href="https://amzn.to/3DsVovr" target="blank">[Link]</a>
+- Deep Work: Rules for Focused Success in a Distracted World  <a href="https://amzn.to/3RjExm8" target="blank">[Link]</a> #non-fiction #book
 
-### Older Reads
-
-- Essentialism - The Disciplined Pursuit of Less - Greg McKeown <a href="https://amzn.to/3NZFY6E" target="blank">[Link]</a>
-- Almanack of Naval Ravikant - Eric Jorgenson
+## Older Reads
+- <a href="https://amzn.to/3bHpdLW" target="blank">Atomic Habits - James Clear</a> #non-fiction #book
+- <a href="https://amzn.to/3DsVovr" target="blank">Almanack of Naval Ravikant - Eric Jorgenson</a> #non-fiction #book
+- <a href="https://amzn.to/3NZFY6E" target="blank">Essentialism - The Disciplined Pursuit of Less - Greg McKeown</a> #non-fiction #book
 - <a href="https://kk.org/thetechnium/68-bits-of-unsolicited-advice/" target="blank">68 Bits of Unsolicited Advice by Kevin Kelly</a>
 - <a href="http://www.paulgraham.com/vb.html" target="blank">Life is Short by Paul Graham</a>
 - <a href="https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html" target="blank">The Day You Became A Better Writer by Scott Adams</a>
 
-<!-- ## Articles & Blogs
-
-### Life
 
 
-
-### Writing -->
+<!-- ### Writing -->
 
 
 

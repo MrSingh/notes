@@ -7,5 +7,4 @@ labels: ""
 slug: "notes"
 ---
 
-## Log
-14:37 06/06/2024 - This page is under construction
+12/06/2024 - <a href="../euro_2024">Adding Euro 2024 Fixture list to your Calender</a>
