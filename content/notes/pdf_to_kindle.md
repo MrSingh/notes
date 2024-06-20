@@ -5,10 +5,11 @@ description: ""
 draft: false
 labels: ""
 slug: "pdf_to_kindle"
-images: football_time.jpg
+images: pdf_to_kindle.jpg
 ---
 
-<!-- ![Image dipicting Football and time](../../images/football_time.jpg) -->
+![Image dipicting dipicting making bokks Kindle friendly](../../images/pdf_to_kindle.jpg)
+
 This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.
 
 + Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks
