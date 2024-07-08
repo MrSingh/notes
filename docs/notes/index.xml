@@ -6,7 +6,7 @@
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Jun 2024 11:39:53 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 12:07:19 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Converting PDF ebooks to be Kindle friendly</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
+    </item>
+    <item>
+      <title>Project - Automating ESG Data Extraction Report</title>
+      <link>https://puneet.uk/notes/project_esg_report/</link>
+      <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/project_esg_report/</guid>
+      <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
       <title>Adding Euro 2024 fixture list to your calender</title>

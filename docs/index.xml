@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Me in a Nutshell! on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
+    <title>Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
     <link>https://puneet.uk/</link>
-    <description>Recent content in Me in a Nutshell! on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
+    <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Jun 2024 11:39:53 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 12:07:19 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Converting PDF ebooks to be Kindle friendly</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
+    </item>
+    <item>
+      <title>Project - Automating ESG Data Extraction Report</title>
+      <link>https://puneet.uk/notes/project_esg_report/</link>
+      <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/project_esg_report/</guid>
+      <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
       <title>Adding Euro 2024 fixture list to your calender</title>
@@ -30,10 +37,10 @@
       <description> 20/06/2024 - Converting PDF ebooks to be Kindle friendly 12/06/2024 - Adding Euro 2024 Fixture list to your Calender </description>
     </item>
     <item>
-      <title>Data &amp; Analytics</title>
-      <link>https://puneet.uk/data/data/</link>
+      <title>Code: Data &amp; Analytics</title>
+      <link>https://puneet.uk/code/code/</link>
       <pubDate>Sun, 02 May 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/data/data/</guid>
+      <guid>https://puneet.uk/code/code/</guid>
       <description>&#xD;</description>
     </item>
     <item>
@@ -51,11 +58,11 @@
       <description>JavaScript, the language of the web! It&amp;rsquo;s a powerful language. I wanted to share some of what I learnt over the years whilst giving myself a refresher course. To kick things off, I put a mindmap together. It&amp;rsquo;s a work in progress, but it&amp;rsquo;s a reference for me, and if I update the underlying mindmap, I&amp;rsquo;ll update this page too. I&amp;rsquo;m hoping it will be of some use to others beginning on their JavaScript journey.</description>
     </item>
     <item>
-      <title>Me in a Nutshell!</title>
+      <title>Home</title>
       <link>https://puneet.uk/home/home/</link>
       <pubDate>Tue, 02 Mar 2021 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/home/home/</guid>
-      <description>After building my first website back in 2000, I knew I would spend the rest of my career in data and technology!&#xA;Fast forward two decades, and my passion for building data and technology solutions remains undiminished. However, I have now moved on to bigger challenges such as building teams, leading agile transformations, managing platform migrations, establishing support models, formulating data strategies, implementing data governance, managing risk, coaching agile teams, and managing teams, to name but a few.</description>
+      <description></description>
     </item>
     <item>
       <title>Primitive Data Types</title>

@@ -1,10 +1,10 @@
 ---
-title: "Data & Analytics"
+title: "Code: Data & Analytics"
 date: 2021-05-02T07:00:00
 description: ""
 draft: false
 labels: ""
-slug: "data"
+slug: "code"
 ---
 
 <!-- ## Log
