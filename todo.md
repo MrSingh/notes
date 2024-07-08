@@ -24,3 +24,5 @@ draft: false
 ## Review
 
 [Review Running selected code in a Kernel](https://donjayamanne.github.io/pythonVSCodeDocs/docs/jupyter_getting-started/#Defining-a-cell)
+
+- Actions and Workflows
