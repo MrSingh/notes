@@ -19,7 +19,7 @@ pygmentsUseClasses=false
 
 # Publish Directory
 publishDir="docs"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [permalinks]
     posts = "blog/:year/:slug"

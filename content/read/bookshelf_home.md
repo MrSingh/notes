@@ -2,7 +2,7 @@
 title: "Bookshelf"
 date: 2021-03-12T07:00:00
 lastmod: 2021-03-12T07:00:00
-description: "Reading Log"
+# description: "Reading Log"
 draft: false
 labels: ""
 slug: "bookshelf_home"
@@ -13,9 +13,28 @@ slug: "bookshelf_home"
 
 ## Currently Reading
 
-- Deep Work: Rules for Focused Success in a Distracted World  <a href="https://amzn.to/3RjExm8" target="blank">[Link]</a> #non-fiction #book
+### Books
 
-## Older Reads
+- Deep Work: Rules for Focused Success in a Distracted World - Cal Newport <a href="https://amzn.to/3RjExm8" target="blank">[Link]</a>
+- The Daily Stoic - Ryan Holiday <a href="https://amzn.to/3XSVacB" target="blank">[Link]</a>
+- Halo Data - Caroline Carruthers & Peter Jackson <a href="https://amzn.to/4cwzzuX" target="blank">[Link]</a>
+- The Checklist Manifesto: How To Get Things Right - Atul Gawande <a href="https://amzn.to/3XZ1vmU" target="blank">[Link]</a>
+
+
+
+### Papers & Articles
+
+- [Simple tools for mastering color in scientific figures](https://www.molecularecologist.com/2020/04/23/simple-tools-for-mastering-color-in-scientific-figures/)
+
+## To Read
+
+### Books
+
+- Surviving AI: The promise and peril of artificial intelligence <a href="https://amzn.to/3XY2zr1" target="blank">[Link]</a>
+
+### Papers & Articles
+
+## Read
 - <a href="https://amzn.to/3bHpdLW" target="blank">Atomic Habits - James Clear</a> #non-fiction #book
 - <a href="https://amzn.to/3DsVovr" target="blank">Almanack of Naval Ravikant - Eric Jorgenson</a> #non-fiction #book
 - <a href="https://amzn.to/3NZFY6E" target="blank">Essentialism - The Disciplined Pursuit of Less - Greg McKeown</a> #non-fiction #book
