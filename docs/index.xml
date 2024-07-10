@@ -2,192 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>https://puneet.uk/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 10 Jul 2024 07:00:00 +0000</lastBuildDate>
-    <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 15:36:35 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carruthers &amp; Jackson - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/summer_school/</link>
+      <link>http://localhost:1313/summer_school/summer_school/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/summer_school/</guid>
+      <guid>http://localhost:1313/summer_school/summer_school/</guid>
       <description>[10/07/2024] - This page is for all the notes and resources related to the Summer School for Data Leaders. Notes to follow.&#xA;Week One - [26/06/2024] Notes Homework Resources Week Two - [03/07/2024] Notes Homework Resources Week Three - [10/07/2024] Notes Homework Resources </description>
     </item>
     <item>
       <title>Converting PDF ebooks to be Kindle friendly</title>
-      <link>https://puneet.uk/notes/pdf_to_kindle/</link>
+      <link>http://localhost:1313/notes/pdf_to_kindle/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
+      <guid>http://localhost:1313/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
     </item>
     <item>
       <title>Project - Automating ESG Data Extraction Report</title>
-      <link>https://puneet.uk/notes/project_esg_report/</link>
+      <link>http://localhost:1313/notes/project_esg_report/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/project_esg_report/</guid>
+      <guid>http://localhost:1313/notes/project_esg_report/</guid>
       <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
       <title>Adding Euro 2024 fixture list to your calender</title>
-      <link>https://puneet.uk/notes/euro_2024/</link>
+      <link>http://localhost:1313/notes/euro_2024/</link>
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/euro_2024/</guid>
+      <guid>http://localhost:1313/notes/euro_2024/</guid>
       <description>Did you know that Euro 2020 had a cumulative live audience of 5.23 billion[1]?&#xA;Based on previous viewing figures, it’s expected that over 100 million will tune in for every match of Euro 2024.&#xA;So, wherever you are watching it, here is a quick way to add the fixture list to your calendar:&#xA;Import or add the following URL by Sky Sports to your calendar app of choice: webcal://www.skysports.com/calendars/football/fixtures/competitions/euro-2024?live=false</description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://puneet.uk/notes/notes/</link>
+      <link>http://localhost:1313/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/notes/</guid>
+      <guid>http://localhost:1313/notes/notes/</guid>
       <description>[10/07/2024] - Carruthers &amp;amp; Jackson - Summer School For Data Leaders&#xA;[05/07/2024] - ESG Data Extraction Project&#xA;[20/06/2024] - Converting PDF ebooks to be Kindle friendly&#xA;[12/06/2024] - Adding Euro 2024 Fixture list to your Calender</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>
-      <link>https://puneet.uk/code/code/</link>
+      <link>http://localhost:1313/code/code/</link>
       <pubDate>Sun, 02 May 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/code/code/</guid>
+      <guid>http://localhost:1313/code/code/</guid>
       <description>&#xD;</description>
     </item>
     <item>
       <title>Bookshelf</title>
-      <link>https://puneet.uk/read/bookshelf_home/</link>
+      <link>http://localhost:1313/read/bookshelf_home/</link>
       <pubDate>Fri, 12 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/read/bookshelf_home/</guid>
+      <guid>http://localhost:1313/read/bookshelf_home/</guid>
       <description> Currently Reading Books Deep Work: Rules for Focused Success in a Distracted World - Cal Newport [Link] The Daily Stoic - Ryan Holiday [Link] Halo Data - Caroline Carruthers &amp;amp; Peter Jackson [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Papers &amp;amp; Articles Simple tools for mastering color in scientific figures To Read Books Surviving AI: The promise and peril of artificial intelligence [Link] Papers &amp;amp; Articles Read Atomic Habits - James Clear #non-fiction #book Almanack of Naval Ravikant - Eric Jorgenson #non-fiction #book Essentialism - The Disciplined Pursuit of Less - Greg McKeown #non-fiction #book 68 Bits of Unsolicited Advice by Kevin Kelly Life is Short by Paul Graham The Day You Became A Better Writer by Scott Adams </description>
     </item>
     <item>
       <title>Master JavaScript Mindmap</title>
-      <link>https://puneet.uk/javascript/master_javascript_mindmap/</link>
+      <link>http://localhost:1313/javascript/master_javascript_mindmap/</link>
       <pubDate>Fri, 05 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/javascript/master_javascript_mindmap/</guid>
+      <guid>http://localhost:1313/javascript/master_javascript_mindmap/</guid>
       <description>JavaScript, the language of the web! It&amp;rsquo;s a powerful language. I wanted to share some of what I learnt over the years whilst giving myself a refresher course. To kick things off, I put a mindmap together. It&amp;rsquo;s a work in progress, but it&amp;rsquo;s a reference for me, and if I update the underlying mindmap, I&amp;rsquo;ll update this page too. I&amp;rsquo;m hoping it will be of some use to others beginning on their JavaScript journey.</description>
     </item>
     <item>
       <title>Home</title>
-      <link>https://puneet.uk/home/home/</link>
+      <link>http://localhost:1313/home/home/</link>
       <pubDate>Tue, 02 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/home/home/</guid>
+      <guid>http://localhost:1313/home/home/</guid>
       <description></description>
     </item>
     <item>
-      <title>Primitive Data Types</title>
-      <link>https://puneet.uk/python/primitive_data_types/</link>
+      <title>Brooks Shoes Data Analysis</title>
+      <link>http://localhost:1313/python/brooks_data_analysis/</link>
       <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/primitive_data_types/</guid>
+      <guid>http://localhost:1313/python/brooks_data_analysis/</guid>
+      <description>Data&#xA;import matplotlib.pyplot as plt import pandas as pd # set file path # Source data is availle from the link above filePath = &amp;#34;data/data/kaggle/brooks/BrooksShoes.csv&amp;#34; # read data to a DataFrame df = pd.read_csv(filePath, parse_dates=True, delimiter=&amp;#39;,&amp;#39;) # Check how many shoes we have # Each row is a differnt shoe in some cases just a variation of an existing shoe. print(&amp;#34;Number of different shoes: &amp;#34;, len(df.index)) Number of different shoes: 50&#xD;## Now lets see how many of the shoes are road shoes print(&amp;#34;Number of road shoes: &amp;#34;, len(df.</description>
+    </item>
+    <item>
+      <title>Primitive Data Types</title>
+      <link>http://localhost:1313/python/primitive_data_types/</link>
+      <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/python/primitive_data_types/</guid>
       <description>Resource&#xA;Python has a number of built-in data types but for the purpose of this notebook, we will focus on what are referred to as primitive data types. The primitive data types are as follows.&#xA;Integer - Whole numbers Float - Deciaml numbers String - Character data Boolean - True or False None - None Object or NoneType Integers Whole Numbers # Positive Integer num = 10 # Check data type type(num) int&#xD;# Negative Integer negative_num = -10 # Check data type type(num) int&#xD;#Zero zero = 0 # Check data type type(zero) int&#xD;Floats # Floating or Decimal Number decimal_num = 2.</description>
     </item>
     <item>
       <title>Add an Existing Project to GitHub</title>
-      <link>https://puneet.uk/git/git_add_project/</link>
+      <link>http://localhost:1313/git/git_add_project/</link>
       <pubDate>Tue, 16 Feb 2021 06:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/git/git_add_project/</guid>
+      <guid>http://localhost:1313/git/git_add_project/</guid>
       <description>Resource&#xA;Create a new repository for your project on GitHub.&#xA;Open Git Bash from your local folder.&#xA;Initialize the local directory as a Git repository.&#xA;git init -b main Add the files in your new Git repository. This will stage all the files in your project ready for the first commit. git add . Commit the added files. git commit -m &amp;#34;First commit&amp;#34; From GitHub, copy the remote repository URL.</description>
     </item>
     <item>
       <title>Creating Arrays with NumPy</title>
-      <link>https://puneet.uk/python/creating_arrays/</link>
+      <link>http://localhost:1313/python/creating_arrays/</link>
       <pubDate>Thu, 11 Feb 2021 06:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/creating_arrays/</guid>
+      <guid>http://localhost:1313/python/creating_arrays/</guid>
       <description>Resources NumPy NumPy API # Import NumPy import numpy as np # Create a list list_1 = [1,2,3,4,5] # Create another list # we will use this later list_2 = [6,7,8,9,10] Create an Array with a List # Create a array by passing the list as an object new_array = np.array(list_1) new_array Create a multi-dimensional array or matrix # Create a list of lists list_of_lists = [list_1, list_2] list_of_lists # Create a multi-dimensional array or matrix matrix_array = np.</description>
     </item>
     <item>
       <title>New Format Basics</title>
-      <link>https://puneet.uk/python/format_basics/</link>
+      <link>http://localhost:1313/python/format_basics/</link>
       <pubDate>Mon, 08 Feb 2021 12:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/format_basics/</guid>
+      <guid>http://localhost:1313/python/format_basics/</guid>
       <description>Resource&#xA;Basic Example # Name input name = input() &amp;#39;Hello, {}&amp;#39;.format(name) &#39;Hello, SpiderMan&#39;&#xD;Dictionary Example data = {&amp;#39;first&amp;#39;: &amp;#39;Spider&amp;#39;, &amp;#39;last&amp;#39;: &amp;#39;-Man&amp;#39;} &amp;#39;{first}{last}&amp;#39;.format(**data) &#39;Spider-Man&#39;&#xD;List Example data = [&amp;#39;Spider&amp;#39;, &amp;#39;Man&amp;#39;] &amp;#39;{}-{}&amp;#39;.format(*data) &#39;Spider-Man&#39;&#xD;Class/Object Example class Person(object): type = &amp;#39;Enemies&amp;#39; names = [{&amp;#39;name&amp;#39;: &amp;#39;Doctor Octopus&amp;#39;}, {&amp;#39;name&amp;#39;: &amp;#39;Green Goblin&amp;#39;}] &amp;#39;{p.type}: {p.names[0][name]} and {p.names[1][name]}&amp;#39;.format(p=Person()) &#39;Enemies: Doctor Octopus and Green Goblin&#39;&#xD;Datetime Example from datetime import date &amp;#39;{:%Y-%m-%d}&amp;#39;.format(date.today()) &#39;2021-02-08&#39;&#xD;</description>
     </item>
     <item>
       <title>While Loops Basics</title>
-      <link>https://puneet.uk/python/while_loop_basics/</link>
+      <link>http://localhost:1313/python/while_loop_basics/</link>
       <pubDate>Fri, 05 Feb 2021 12:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/python/while_loop_basics/</guid>
+      <guid>http://localhost:1313/python/while_loop_basics/</guid>
       <description>Simple While Loop # while loops until a condition is met - when x = 10 the condition is no longer met and the while loop stops # Inistalise counter i = 0 while i &amp;lt; 10: print(i) i += 1 0&#xD;1&#xD;2&#xD;3&#xD;4&#xD;5&#xD;6&#xD;7&#xD;8&#xD;9&#xD;While Loop To Sum i = 0 sum = 0 while i &amp;lt; 10: sum = sum + i i += 1 # update counter print(&amp;#34;Inside Loop | Sum = &amp;#34;, sum) print(&amp;#34;Outside | Loop Sum = &amp;#34;, sum) Inside Loop | Sum = 0&#xD;Inside Loop | Sum = 1&#xD;Inside Loop | Sum = 3&#xD;Inside Loop | Sum = 6&#xD;Inside Loop | Sum = 10&#xD;Inside Loop | Sum = 15&#xD;Inside Loop | Sum = 21&#xD;Inside Loop | Sum = 28&#xD;Inside Loop | Sum = 36&#xD;Inside Loop | Sum = 45&#xD;Outside | Loop Sum = 45&#xD;While loop with condition and nested if statement # while loops until a condition is met - along with a nested if condition therefore if x is less than 10 and x is less than 5 ends the loop x = 0 while x &amp;lt; 10: if x == 5: break print(x) x += 1 0&#xD;1&#xD;2&#xD;3&#xD;4&#xD;Infinite Loop example - Commeneted out!</description>
     </item>
     <item>
       <title>For Loops Basics</title>
-      <link>https://puneet.uk/python/for_loop_basics/</link>
+      <link>http://localhost:1313/python/for_loop_basics/</link>
       <pubDate>Fri, 05 Feb 2021 12:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/for_loop_basics/</guid>
+      <guid>http://localhost:1313/python/for_loop_basics/</guid>
       <description>Create a List of Numbers nums = [1,2,3,4,5] Print Numbers in a List Example for num in nums: print(num) 1&#xD;2&#xD;3&#xD;4&#xD;5&#xD;Continue Example #continue moves to the next iteration - in the example below when num == 4, &amp;#39;Found!&amp;#39; will be printed and it will skip print(num) and go to the next iteration of the loop for num in nums: if num == 4: print(&amp;#39;Found!&amp;#39;) continue print(num) 1&#xD;2&#xD;3&#xD;Found!</description>
     </item>
     <item>
       <title>Delete Columns in a DataFrame</title>
-      <link>https://puneet.uk/python/drop_dataframe_columns/</link>
+      <link>http://localhost:1313/python/drop_dataframe_columns/</link>
       <pubDate>Thu, 04 Feb 2021 12:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/python/drop_dataframe_columns/</guid>
+      <guid>http://localhost:1313/python/drop_dataframe_columns/</guid>
       <description>Resource Data Source Import Pandas # Import Pandas import pandas as pd Set File Path and Read it into a DataFrame # Set file path fp = &amp;#34;data/cereal.csv&amp;#34; # Read file to DataFrame df = pd.read_csv(fp, delimiter=&amp;#39;,&amp;#39;) Example One # Example One # Delete All Columns Except Named Columns df_1 = df[[&amp;#39;name&amp;#39;, &amp;#39;rating&amp;#39;]] df_1 name&#xD;rating&#xD;0&#xD;100% Bran&#xD;68.402973&#xD;1&#xD;100% Natural Bran&#xD;33.983679&#xD;2&#xD;All-Bran&#xD;59.425505&#xD;3&#xD;All-Bran with Extra Fiber&#xD;93.</description>
     </item>
     <item>
       <title>Write a Dataframe to a JSON File</title>
-      <link>https://puneet.uk/python/write_dataframe_to_json/</link>
+      <link>http://localhost:1313/python/write_dataframe_to_json/</link>
       <pubDate>Wed, 03 Feb 2021 00:00:00 -0700</pubDate>
-      <guid>https://puneet.uk/python/write_dataframe_to_json/</guid>
+      <guid>http://localhost:1313/python/write_dataframe_to_json/</guid>
       <description>Resource Data Source Import Pandas # Import Pandas import pandas as pd df = pd.read_csv(&amp;#34;data/cereal.csv&amp;#34;) Output as a JSON string # output as a JSON string df.to_json() &#39;{&amp;quot;name&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;100% Bran&amp;quot;,&amp;quot;1&amp;quot;:&amp;quot;100% Natural Bran&amp;quot;,&amp;quot;2&amp;quot;:&amp;quot;All-Bran&amp;quot;,&amp;quot;3&amp;quot;:&amp;quot;All-Bran with Extra Fiber&amp;quot;,&amp;quot;4&amp;quot;:&amp;quot;Almond Delight&amp;quot;,&amp;quot;5&amp;quot;:&amp;quot;Apple Cinnamon Cheerios&amp;quot;,&amp;quot;6&amp;quot;:&amp;quot;Apple Jacks&amp;quot;,&amp;quot;7&amp;quot;:&amp;quot;Basic 4&amp;quot;,&amp;quot;8&amp;quot;:&amp;quot;Bran Chex&amp;quot;,&amp;quot;9&amp;quot;:&amp;quot;Bran Flakes&amp;quot;,&amp;quot;10&amp;quot;:&amp;quot;Cap\&#39;n\&#39;Crunch&amp;quot;,&amp;quot;11&amp;quot;:&amp;quot;Cheerios&amp;quot;,&amp;quot;12&amp;quot;:&amp;quot;Cinnamon Toast Crunch&amp;quot;,&amp;quot;13&amp;quot;:&amp;quot;Clusters&amp;quot;,&amp;quot;14&amp;quot;:&amp;quot;Cocoa Puffs&amp;quot;,&amp;quot;15&amp;quot;:&amp;quot;Corn Chex&amp;quot;,&amp;quot;16&amp;quot;:&amp;quot;Corn Flakes&amp;quot;,&amp;quot;17&amp;quot;:&amp;quot;Corn Pops&amp;quot;,&amp;quot;18&amp;quot;:&amp;quot;Count Chocula&amp;quot;,&amp;quot;19&amp;quot;:&amp;quot;Cracklin\&#39; Oat Bran&amp;quot;,&amp;quot;20&amp;quot;:&amp;quot;Cream of Wheat (Quick)&amp;quot;,&amp;quot;21&amp;quot;:&amp;quot;Crispix&amp;quot;,&amp;quot;22&amp;quot;:&amp;quot;Crispy Wheat &amp;amp; Raisins&amp;quot;,&amp;quot;23&amp;quot;:&amp;quot;Double Chex&amp;quot;,&amp;quot;24&amp;quot;:&amp;quot;Froot Loops&amp;quot;,&amp;quot;25&amp;quot;:&amp;quot;Frosted Flakes&amp;quot;,&amp;quot;26&amp;quot;:&amp;quot;Frosted Mini-Wheats&amp;quot;,&amp;quot;27&amp;quot;:&amp;quot;Fruit &amp;amp; Fibre Dates; Walnuts; and Oats&amp;quot;,&amp;quot;28&amp;quot;:&amp;quot;Fruitful Bran&amp;quot;,&amp;quot;29&amp;quot;:&amp;quot;Fruity Pebbles&amp;quot;,&amp;quot;30&amp;quot;:&amp;quot;Golden Crisp&amp;quot;,&amp;quot;31&amp;quot;:&amp;quot;Golden Grahams&amp;quot;,&amp;quot;32&amp;quot;:&amp;quot;Grape Nuts Flakes&amp;quot;,&amp;quot;33&amp;quot;:&amp;quot;Grape-Nuts&amp;quot;,&amp;quot;34&amp;quot;:&amp;quot;Great Grains Pecan&amp;quot;,&amp;quot;35&amp;quot;:&amp;quot;Honey Graham Ohs&amp;quot;,&amp;quot;36&amp;quot;:&amp;quot;Honey Nut Cheerios&amp;quot;,&amp;quot;37&amp;quot;:&amp;quot;Honey-comb&amp;quot;,&amp;quot;38&amp;quot;:&amp;quot;Just Right Crunchy Nuggets&amp;quot;,&amp;quot;39&amp;quot;:&amp;quot;Just Right Fruit &amp;amp; Nut&amp;quot;,&amp;quot;40&amp;quot;:&amp;quot;Kix&amp;quot;,&amp;quot;41&amp;quot;:&amp;quot;Life&amp;quot;,&amp;quot;42&amp;quot;:&amp;quot;Lucky Charms&amp;quot;,&amp;quot;43&amp;quot;:&amp;quot;Maypo&amp;quot;,&amp;quot;44&amp;quot;:&amp;quot;Muesli Raisins; Dates; &amp;amp; Almonds&amp;quot;,&amp;quot;45&amp;quot;:&amp;quot;Muesli Raisins; Peaches; &amp;amp; Pecans&amp;quot;,&amp;quot;46&amp;quot;:&amp;quot;Mueslix Crispy Blend&amp;quot;,&amp;quot;47&amp;quot;:&amp;quot;Multi-Grain Cheerios&amp;quot;,&amp;quot;48&amp;quot;:&amp;quot;Nut&amp;amp;Honey Crunch&amp;quot;,&amp;quot;49&amp;quot;:&amp;quot;Nutri-Grain Almond-Raisin&amp;quot;,&amp;quot;50&amp;quot;:&amp;quot;Nutri-grain Wheat&amp;quot;,&amp;quot;51&amp;quot;:&amp;quot;Oatmeal Raisin Crisp&amp;quot;,&amp;quot;52&amp;quot;:&amp;quot;Post Nat.</description>
     </item>
     <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/python/resources/</link>
+      <pubDate>Mon, 01 Feb 2021 10:05:19 +0000</pubDate>
+      <guid>http://localhost:1313/python/resources/</guid>
+      <description>Cheat Sheets See: https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/&#xA;E-books </description>
+    </item>
+    <item>
       <title>Requests and Beautiful Soup</title>
-      <link>https://puneet.uk/python/ws_requests_and_beautifulsoup/</link>
+      <link>http://localhost:1313/python/ws_requests_and_beautifulsoup/</link>
       <pubDate>Fri, 29 Jan 2021 14:50:18 +0000</pubDate>
-      <guid>https://puneet.uk/python/ws_requests_and_beautifulsoup/</guid>
+      <guid>http://localhost:1313/python/ws_requests_and_beautifulsoup/</guid>
       <description>Import Modules import requests from bs4 import BeautifulSoup # Example adapted from the links below # https://requests.readthedocs.io/en/master/ # https://www.crummy.com/software/BeautifulSoup/bs4/doc/ Request a Web Page html_page = requests.get(&amp;#39;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&amp;#39;, auth=(&amp;#39;user&amp;#39;, &amp;#39;pass&amp;#39;)) Return Page Headers # Return Page Headers html_page.headers[&amp;#39;content-type&amp;#39;] &#39;text/html; charset=UTF-8&#39;&#xD;Return Page Status Code # Return Page Status Code html_page.status_code 200&#xD;Create a Beautiful Soup Object with HTML text # Create a Beautiful Soup Object with HTML text soup = BeautifulSoup(html_page.text, &amp;#39;html.</description>
     </item>
     <item>
       <title>Python os.walk()</title>
-      <link>https://puneet.uk/python/oswalk/</link>
+      <link>http://localhost:1313/python/ossystem/</link>
       <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
-      <guid>https://puneet.uk/python/oswalk/</guid>
+      <guid>http://localhost:1313/python/ossystem/</guid>
+      <description> # SYSTEM OS EXAMPLE # Command to execute # Using Windows OS command # cmd = &amp;#39;start chrome&amp;#39; cmd = &amp;#39;notepad&amp;#39; # Using os.system() method os.system(cmd) </description>
+    </item>
+    <item>
+      <title>Python os.walk()</title>
+      <link>http://localhost:1313/python/oswalk/</link>
+      <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
+      <guid>http://localhost:1313/python/oswalk/</guid>
       <description> Import Modules # Import Module import os Set Path # Set Path path = &amp;#39;../../content/&amp;#39; Find All Markdown Files In All Content Folders # Find all markdown filesin all content folders all_md_files = [os.path.join(root, name) for root, dirs, files in os.walk(path) for name in files if name.endswith((&amp;#34;.md&amp;#34;))] all_md_files [&#39;../../content/archive\\get-started-with-angular-2.md&#39;,&#xD;&#39;../../content/content\\about\\about.md&#39;,&#xD;&#39;../../content/git\\basic_git_commands.md&#39;,&#xD;&#39;../../content/powershell\\PowerShell.md&#39;,&#xD;&#39;../../content/python\\drop_dataframe_columns.md&#39;,&#xD;&#39;../../content/python\\load_csv.md&#39;,&#xD;&#39;../../content/python\\load_json.md&#39;,&#xD;&#39;../../content/python\\ossystem.md&#39;,&#xD;&#39;../../content/python\\oswalk.md&#39;,&#xD;&#39;../../content/python\\resources.md&#39;,&#xD;&#39;../../content/python\\write_dataframe_to_json.md&#39;,&#xD;&#39;../../content/python\\ws_requests_and_beautifulsoup.md&#39;,&#xD;&#39;../../content/test\\data_analysis.md&#39;,&#xD;&#39;../../content/test\\jira_data_analysis.md&#39;,&#xD;&#39;../../content/test\\reddit_wallstreetbets.md&#39;,&#xD;&#39;../../content/vscode\\inserting_date_time.md&#39;,&#xD;&#39;../../content/vscode\\vscode_python_issues.md&#39;,&#xD;&#39;../../content/vscode\\vscode_shortcuts.md&#39;]&#xD;</description>
     </item>
     <item>
       <title>Insert Date Time String in Visual Studio Code</title>
-      <link>https://puneet.uk/vscode/inserting_date_time/</link>
+      <link>http://localhost:1313/vscode/inserting_date_time/</link>
       <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/inserting_date_time/</guid>
+      <guid>http://localhost:1313/vscode/inserting_date_time/</guid>
       <description>Install &amp;lsquo;Insert Date String&amp;rsquo; Extension Extension&#xA;Click on Install from above link or use the steps below.&#xA;Open Command Palette: Ctrl + Shift + P Find: Install Extensions Search: Insert Date String Install Use Ctrl + Shift + I to insert the date time to the cursor location. Check documentation for more options.</description>
     </item>
     <item>
       <title>Visual Studio Code | Shortcuts</title>
-      <link>https://puneet.uk/vscode/vscode_shortcuts/</link>
+      <link>http://localhost:1313/vscode/vscode_shortcuts/</link>
       <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/vscode_shortcuts/</guid>
+      <guid>http://localhost:1313/vscode/vscode_shortcuts/</guid>
       <description>Toggle Integrated Terminal Ctrl + &#39;&#xD;Toggle Side Bar Ctrl + B&#xD;Open Settings Ctrl + ,&#xD;Quick Open File Ctrl + p&#xD;Open Preview Mode ToDO&#xD;Move File to Split Editor Ctrl + \&#xD;Find and Replace Find Ctrl + f&#xD;Find Selection Ctrl + h&#xD;Find &amp;amp; Replace Selection Execute Ctrl + Enter&#xD;Find &amp;amp; Replace All Execute Ctrl + Alt + Enter&#xD;Command Palette Ctrl + Shift + P&#xD;Toggle Comment Ctrl + /&#xD;Copy Line - selects the line the cursur is on Ctrl + C&#xD;Duplicate Line // Above&#xD;Ctrl + Alt + Up&#xD;// Below&#xD;Ctrl + Alt + Down&#xD;Multiple Cursors Ctrl + Click&#xD;// Or&#xD;Ctrl + Shift + Alt + Up/Down&#xD;Select Word Ctrl + D&#xD;Select All Words ToDo&#xD;Function to Rename f2&#xD;Go to Function Definition Ctrl + Click&#xD;Zen Mode Toggle Ctrl + K&#xD;// Then&#xD;Z&#xD;</description>
     </item>
     <item>
       <title>Load a JSON file</title>
-      <link>https://puneet.uk/python/load_json/</link>
+      <link>http://localhost:1313/python/load_json/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
-      <guid>https://puneet.uk/python/load_json/</guid>
+      <guid>http://localhost:1313/python/load_json/</guid>
       <description>import pandas as pd # Set JSON filepath json_filepath = &amp;#34;data/new_json.json&amp;#34; # Read JSON File df = pd.read_json(json_filepath, orient=&amp;#39;split&amp;#39;) df name&#xD;mfr&#xD;type&#xD;calories&#xD;protein&#xD;fat&#xD;sodium&#xD;fiber&#xD;carbo&#xD;sugars&#xD;potass&#xD;vitamins&#xD;shelf&#xD;weight&#xD;cups&#xD;rating&#xD;0&#xD;100% Bran&#xD;N&#xD;C&#xD;70&#xD;4&#xD;1&#xD;130&#xD;10.0&#xD;5.0&#xD;6&#xD;280&#xD;25&#xD;3&#xD;1.0&#xD;0.33&#xD;68.402973&#xD;1&#xD;100% Natural Bran&#xD;Q&#xD;C&#xD;120&#xD;3&#xD;5&#xD;15&#xD;2.0&#xD;8.0&#xD;8&#xD;135&#xD;0&#xD;3&#xD;1.</description>
     </item>
     <item>
       <title>Load a CSV File</title>
-      <link>https://puneet.uk/python/load_csv/</link>
+      <link>http://localhost:1313/python/load_csv/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 -0700</pubDate>
-      <guid>https://puneet.uk/python/load_csv/</guid>
+      <guid>http://localhost:1313/python/load_csv/</guid>
       <description>Data Source Import Pandas # Import Pandas import pandas as pd Read CSV file #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/cereal.csv&amp;#39;) #Output Dataframe df name&#xD;mfr&#xD;type&#xD;calories&#xD;protein&#xD;fat&#xD;sodium&#xD;fiber&#xD;carbo&#xD;sugars&#xD;potass&#xD;vitamins&#xD;shelf&#xD;weight&#xD;cups&#xD;rating&#xD;0&#xD;100% Bran&#xD;N&#xD;C&#xD;70&#xD;4&#xD;1&#xD;130&#xD;10.0&#xD;5.0&#xD;6&#xD;280&#xD;25&#xD;3&#xD;1.0&#xD;0.33&#xD;68.402973&#xD;1&#xD;100% Natural Bran&#xD;Q&#xD;C&#xD;120&#xD;3&#xD;5&#xD;15&#xD;2.</description>
     </item>
     <item>
       <title>Basic Git Commands</title>
-      <link>https://puneet.uk/git/basic_git_commands/</link>
+      <link>http://localhost:1313/git/basic_git_commands/</link>
       <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
-      <guid>https://puneet.uk/git/basic_git_commands/</guid>
+      <guid>http://localhost:1313/git/basic_git_commands/</guid>
       <description> Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Clone/Download git clone https://github.com/username/projectName.git Create a new branch git checkout -b new-branch Stage All Changes git stage -all Add Files git add . Commit git commit -a -m &amp;#34;Commit Comment&amp;#34; Push git push origin gh-pages </description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/python/untitled/</link>
+      <link>http://localhost:1313/python/untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/untitled/</guid>
+      <guid>http://localhost:1313/python/untitled/</guid>
       <description>## Arrays and Scalars </description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/vscode/vscode_python_issues/</link>
+      <link>http://localhost:1313/vscode/vscode_python_issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/vscode_python_issues/</guid>
+      <guid>http://localhost:1313/vscode/vscode_python_issues/</guid>
       <description>Python Issues in VSCode Jupyter notebook fails to export to python script Error 2020-12-16 16:06:17: Jupyter Kernel Spec not found for a local connection Fix pip install nbconvert </description>
     </item>
   </channel>

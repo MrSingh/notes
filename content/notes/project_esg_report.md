@@ -22,7 +22,7 @@ This project was started as a side of the desk project in late 2020 to build a s
 
 ## Project Details
 
-1. Stage One: Successfully completed the task of building a list of sites for the S&P 500, including website links.
+1. Stage One: Successfully completed the task of building a database of sites for the S&P 500, including website links.
 2. Stage Two: Developed a Python program to query the list and download annual reports for each company. While progress was made, further work is needed. Although more automation and data extraction are possible, I began questioning its overall value.
 3. Stage Three: Originally invisaged as the extraction of ESG data. The focus will now turn to 'any' ESG data, it's storage and relavance to regulatory requirements, sources, analysis, and addressing missing information within the regulatory and governance context.
 
