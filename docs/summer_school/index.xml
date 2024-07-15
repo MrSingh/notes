@@ -2,18 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summer_schools on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>http://localhost:1313/summer_school/</link>
+    <link>https://puneet.uk/summer_school/</link>
     <description>Recent content in Summer_schools on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 10 Jul 2024 15:36:35 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/summer_school/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://puneet.uk/summer_school/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carruthers &amp; Jackson - Summer School For Data Leaders</title>
-      <link>http://localhost:1313/summer_school/summer_school/</link>
+      <link>https://puneet.uk/summer_school/summer_school/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/summer_school/summer_school/</guid>
-      <description>[10/07/2024] - This page is for all the notes and resources related to the Summer School for Data Leaders. Notes to follow.&#xA;Week One - [26/06/2024] Notes Homework Resources Week Two - [03/07/2024] Notes Homework Resources Week Three - [10/07/2024] Notes Homework Resources </description>
+      <guid>https://puneet.uk/summer_school/summer_school/</guid>
+      <description>Notes and resources related to the Summer School for Data Leaders.&#xA;Week One - [26/06/2024] Notes&#xA;Homework Resources Week Two - [03/07/2024] Notes&#xA;Homework Resources Week Three - [10/07/2024] Notes&#xA;Homework Resources </description>
+    </item>
+    <item>
+      <title>Week One - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_one/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_one/</guid>
+      <description>What is a Data Leader? Is the most senior individual in an organisation that is responsible for data.&#xA;Peter Jackson started as a Business Analyst, then became a Full-Stack Engineer before moving into digital strategy as head of data and then CDO.&#xA;Different Types of CDO 1st Generation - Lays the foundation or groundwork 2nd Generation - Reimagining of the role based on business value 3rd Generation - It&amp;rsquo;s a business role that uses technology This is to help you have that conversation to see where you fit in with the organisation and to understand the organisations data journey up until now.</description>
+    </item>
+    <item>
+      <title>Week Three - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_three/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_three/</guid>
+      <description>Quantum Data - Halo Data Data in multiple locations is OK Multiple Outputs Value in Problem Solving Under your data Master source of data isn&amp;rsquo;t necessarily needed Linking datasets release value Assumptions Reduce the value But verifying assumptions can realease value&#xA;The First 100 Days &amp;gt; Objectives The case for change Pre-work Vision and Strategy Get the Basics right - Understand the state of play(Audit and understand) Governance Information Architecture Engagement Quick Wins ( Low Hanging Fruit) - Must still deliver value For vision on day one - it can be aspirational - it can be high level.</description>
+    </item>
+    <item>
+      <title>Week Two - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_two/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_two/</guid>
+      <description>Making the case for the CDO and Business Case Development What Challenges will you face Legacy data&#xA;Siloes No MDM No Ownership Data Offloading Legacy Systems/Applications&#xA;Shadow IT &amp;amp; Data (Spreadsheets)&#xA;Strategy must avoid shadow data Spreadsheets &amp;lsquo;can&amp;rsquo;, cause governance, linage and quality issues&#xA;Multiple suppliers(operational) - Rationalise and Reduce (IT &amp;amp; Data)&#xA;Avoiding the &amp;lsquo;Hype Cycle&amp;rsquo; - See Chart in Slides&#xA;Trigger of data awareness Peak of expectations Table of Enlightenment Cliff of reality Acceleration of delivery and value Manage Expectations, Create Starategy and Define Reality.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_eight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_eight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_five/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_five/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_four/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_four/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_nine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_nine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_seven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_seven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_six/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_six/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/summer_school/week_ten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_ten/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

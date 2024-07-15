@@ -8,23 +8,26 @@ labels: ""
 slug: "summer_school"
 ---
 
-<span class="date">[10/07/2024]</span> - This page is for all the notes and resources related to the Summer School for Data Leaders. Notes to follow.
+Notes and resources related to the Summer School for Data Leaders.
+
+
+
 
 ## Week One  - <span class="date">[26/06/2024]</span>
 
-- Notes
+- <a href="/summer_school/week_one/">Notes</a><br />
 - Homework
 - Resources
 
 ## Week Two - <span class="date">[03/07/2024]</span>
 
-- Notes
+- <a href="/summer_school/week_two/">Notes</a><br />
 - Homework
 - Resources
 
 ## Week Three - <span class="date">[10/07/2024]</span>
 
-- Notes
+- <a href="/summer_school/week_three/">Notes</a><br />
 - Homework
 - Resources
 
