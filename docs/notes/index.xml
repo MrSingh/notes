@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>https://puneet.uk/notes/</link>
+    <link>http://localhost:1313/notes/</link>
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 10 Jul 2024 15:49:00 +0100</lastBuildDate>
-    <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Converting PDF ebooks to be Kindle friendly</title>
-      <link>https://puneet.uk/notes/pdf_to_kindle/</link>
+      <link>http://localhost:1313/notes/pdf_to_kindle/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
+      <guid>http://localhost:1313/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
     </item>
     <item>
       <title>Project - Automating ESG Data Extraction Report</title>
-      <link>https://puneet.uk/notes/project_esg_report/</link>
+      <link>http://localhost:1313/notes/project_esg_report/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/project_esg_report/</guid>
+      <guid>http://localhost:1313/notes/project_esg_report/</guid>
       <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
       <title>Adding Euro 2024 fixture list to your calender</title>
-      <link>https://puneet.uk/notes/euro_2024/</link>
+      <link>http://localhost:1313/notes/euro_2024/</link>
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/euro_2024/</guid>
+      <guid>http://localhost:1313/notes/euro_2024/</guid>
       <description>Did you know that Euro 2020 had a cumulative live audience of 5.23 billion[1]?&#xA;Based on previous viewing figures, it’s expected that over 100 million will tune in for every match of Euro 2024.&#xA;So, wherever you are watching it, here is a quick way to add the fixture list to your calendar:&#xA;Import or add the following URL by Sky Sports to your calendar app of choice: webcal://www.skysports.com/calendars/football/fixtures/competitions/euro-2024?live=false</description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://puneet.uk/notes/notes/</link>
+      <link>http://localhost:1313/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/notes/</guid>
+      <guid>http://localhost:1313/notes/notes/</guid>
       <description>[10/07/2024] - Carruthers &amp;amp; Jackson - Summer School For Data Leaders&#xA;[05/07/2024] - ESG Data Extraction Project&#xA;[20/06/2024] - Converting PDF ebooks to be Kindle friendly&#xA;[12/06/2024] - Adding Euro 2024 Fixture list to your Calender</description>
     </item>
   </channel>
