@@ -6,14 +6,42 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 10 Jul 2024 15:49:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 15:41:46 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carruthers &amp; Jackson - Summer School For Data Leaders</title>
       <link>https://puneet.uk/summer_school/summer_school/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/summer_school/summer_school/</guid>
-      <description>Notes and resources related to the Summer School for Data Leaders.&#xA;Week One - [26/06/2024] Notes&#xA;Homework Resources Week Two - [03/07/2024] Notes&#xA;Homework Resources Week Three - [10/07/2024] Notes&#xA;Homework Resources </description>
+      <description>Notes and resources related to the Summer School for Data Leaders.&#xA;Week One - [26/06/2024] Notes&#xA;Homework Resources Week Two - [03/07/2024] Notes&#xA;Homework Resources Week Three - [10/07/2024] Notes&#xA;Homework Resources Week Four - [10/07/2024] Notes&#xA;Homework Resources Week Five - [10/07/2024] Notes&#xA;Homework Resources Week Six - [10/07/2024] Notes&#xA;Homework Resources Week Seven - [10/07/2024] Notes&#xA;Homework Resources Week Eight - [10/07/2024] Notes&#xA;Homework Resources Week Nine - [10/07/2024] Notes</description>
+    </item>
+    <item>
+      <title>Week Eight - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_eight/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_eight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Week Five - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_five/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_five/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Week Four - The Three Ds of Data Strategy - Discovery, Definition and Delivery</title>
+      <link>https://puneet.uk/summer_school/week_four/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_four/</guid>
+      <description>[26/07/2024] - The Three Ds of Data Startegy was developed following week five of attending Curruthers &amp;amp; Jacksons Summer School for Data Leaders. It brings togther their(Caroline Carruthers, Peter Jackson and Dave Atherton) expertise and my experince to form the basis of how you may go about develping your own data startegy.&#xA;Purpose What is the (business) purpose of the data strategy - what is the &amp;lsquo;why&amp;rsquo; that will drive the data startegy and transformation required to deliver it?</description>
+    </item>
+    <item>
+      <title>Week Nine - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_nine/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_nine/</guid>
+      <description></description>
     </item>
     <item>
       <title>Week One - Summer School For Data Leaders</title>
@@ -21,6 +49,27 @@
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/summer_school/week_one/</guid>
       <description>What is a Data Leader? Is the most senior individual in an organisation that is responsible for data.&#xA;Peter Jackson started as a Business Analyst, then became a Full-Stack Engineer before moving into digital strategy as head of data and then CDO.&#xA;Different Types of CDO 1st Generation - Lays the foundation or groundwork 2nd Generation - Reimagining of the role based on business value 3rd Generation - It&amp;rsquo;s a business role that uses technology This is to help you have that conversation to see where you fit in with the organisation and to understand the organisations data journey up until now.</description>
+    </item>
+    <item>
+      <title>Week Seven - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_seven/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_seven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Week Six - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_six/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_six/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Week Ten - Summer School For Data Leaders</title>
+      <link>https://puneet.uk/summer_school/week_ten/</link>
+      <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/summer_school/week_ten/</guid>
+      <description></description>
     </item>
     <item>
       <title>Week Three - Summer School For Data Leaders</title>
@@ -203,55 +252,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puneet.uk/python/untitled/</guid>
       <description>## Arrays and Scalars </description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_eight/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_eight/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_five/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_five/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_four/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_four/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_nine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_nine/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_seven/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_seven/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_six/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_six/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://puneet.uk/summer_school/week_ten/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_ten/</guid>
-      <description></description>
     </item>
     <item>
       <title></title>

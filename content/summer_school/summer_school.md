@@ -31,6 +31,48 @@ Notes and resources related to the Summer School for Data Leaders.
 - Homework
 - Resources
 
+## Week Four - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_four/">Notes</a><br />
+- Homework
+- Resources
+
+## Week Five - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_five/">Notes</a><br />
+- Homework
+- Resources
+
+## Week Six - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_six/">Notes</a><br />
+- Homework
+- Resources
+
+## Week Seven - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_seven/">Notes</a><br />
+- Homework
+- Resources
+
+## Week Eight - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_eight/">Notes</a><br />
+- Homework
+- Resources
+
+## Week Nine - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_nine/">Notes</a><br />
+- Homework
+- Resources
+
+## Week Ten - <span class="date">[10/07/2024]</span>
+
+- <a href="/summer_school/week_ten/">Notes</a><br />
+- Homework
+- Resources
+
 
 
 
