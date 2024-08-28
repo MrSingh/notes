@@ -15,8 +15,7 @@ slug: "bookshelf_home"
 
 ### Books
 
-- Deep Work: Rules for Focused Success in a Distracted World - Cal Newport <a href="https://amzn.to/3RjExm8" target="blank">[Link]</a>
-- The Daily Stoic - Ryan Holiday <a href="https://amzn.to/3XSVacB" target="blank">[Link]</a>
+- Dopamine Nation - Dr Anna Lembke - <a href="https://amzn.to/4dvyxzW" target="blank">[Link]</a>
 - Halo Data - Caroline Carruthers & Peter Jackson <a href="https://amzn.to/4cwzzuX" target="blank">[Link]</a>
 - The Checklist Manifesto: How To Get Things Right - Atul Gawande <a href="https://amzn.to/3XZ1vmU" target="blank">[Link]</a>
 
@@ -26,21 +25,25 @@ slug: "bookshelf_home"
 
 - [Simple tools for mastering color in scientific figures](https://www.molecularecologist.com/2020/04/23/simple-tools-for-mastering-color-in-scientific-figures/)
 
-## To Read
 
-### Books
+## Completed
 
-- Surviving AI: The promise and peril of artificial intelligence <a href="https://amzn.to/3XY2zr1" target="blank">[Link]</a>
+#### Aug 2024
 
-### Papers & Articles
+- Man's Search for Meaning - Victor E Frankl - <a href="https://amzn.to/4dvudjX" target="blank">[Link]</a>
 
-## Read
-- <a href="https://amzn.to/3bHpdLW" target="blank">Atomic Habits - James Clear</a> #non-fiction #book
+This is an amazing book written soon after WW2 and his release from a concentration camp.  The book is written in two parts, the first is his account of his time in the concentration camp from the point of view of the mind and how he and others felt hope in the direst of circumstances and what happens when one finally gives up.  The second part talks about Logotherapy - logo means 'meaning' in Greek.  It's different from psychotherapy and focuses on an individual's meaning in life.  I highly recommend this book.
+
+- Deep Work: Rules for Focused Success in a Distracted World - Cal Newport <a href="https://amzn.to/3RjExm8" target="blank">[Link]</a>
+
+Carl lays out what it means to do great work and sets out a number of strategies to get more done of what counts. Carl's writing is succinct, easy to read and full of great ideas and wisdom. If you are drowning in a sea of email and even after a hard day's work feel that you haven't accomplished much of anything, this is the book for you.
+
+<!-- - <a href="https://amzn.to/3bHpdLW" target="blank">Atomic Habits - James Clear</a> #non-fiction #book
 - <a href="https://amzn.to/3DsVovr" target="blank">Almanack of Naval Ravikant - Eric Jorgenson</a> #non-fiction #book
 - <a href="https://amzn.to/3NZFY6E" target="blank">Essentialism - The Disciplined Pursuit of Less - Greg McKeown</a> #non-fiction #book
 - <a href="https://kk.org/thetechnium/68-bits-of-unsolicited-advice/" target="blank">68 Bits of Unsolicited Advice by Kevin Kelly</a>
 - <a href="http://www.paulgraham.com/vb.html" target="blank">Life is Short by Paul Graham</a>
-- <a href="https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html" target="blank">The Day You Became A Better Writer by Scott Adams</a>
+- <a href="https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html" target="blank">The Day You Became A Better Writer by Scott Adams</a> -->
 
 
 

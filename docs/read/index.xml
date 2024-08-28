@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reads on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>http://localhost:1313/read/</link>
+    <link>https://puneet.uk/read/</link>
     <description>Recent content in Reads on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 10 Jul 2024 15:36:35 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/read/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://puneet.uk/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookshelf</title>
-      <link>http://localhost:1313/read/bookshelf_home/</link>
+      <link>https://puneet.uk/read/bookshelf_home/</link>
       <pubDate>Fri, 12 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/read/bookshelf_home/</guid>
-      <description> Currently Reading Books Deep Work: Rules for Focused Success in a Distracted World - Cal Newport [Link] The Daily Stoic - Ryan Holiday [Link] Halo Data - Caroline Carruthers &amp;amp; Peter Jackson [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Papers &amp;amp; Articles Simple tools for mastering color in scientific figures To Read Books Surviving AI: The promise and peril of artificial intelligence [Link] Papers &amp;amp; Articles Read Atomic Habits - James Clear #non-fiction #book Almanack of Naval Ravikant - Eric Jorgenson #non-fiction #book Essentialism - The Disciplined Pursuit of Less - Greg McKeown #non-fiction #book 68 Bits of Unsolicited Advice by Kevin Kelly Life is Short by Paul Graham The Day You Became A Better Writer by Scott Adams </description>
+      <guid>https://puneet.uk/read/bookshelf_home/</guid>
+      <description>Currently Reading Books Dopamine Nation - Dr Anna Lembke - [Link] Halo Data - Caroline Carruthers &amp;amp; Peter Jackson [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Papers &amp;amp; Articles Simple tools for mastering color in scientific figures Completed Aug 2024 Man&amp;rsquo;s Search for Meaning - Victor E Frankl - [Link] This is an amazing book written soon after WW2 and his release from a concentration camp.</description>
     </item>
   </channel>
 </rss>
