@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 28 Aug 2024 11:31:13 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Log</title>
+      <link>https://puneet.uk/notes/log/</link>
+      <pubDate>Wed, 28 Aug 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/log/</guid>
+      <description>[15/07/2024] 1st draft of notes for week 1-3 for Summer School For Data Leaders have been uploaded.&#xD;[10/07/2024] Notes page for Carruthers &amp;amp; Jackson - Summer School For Data Leaders here. [05/07/2024] A summary of the ESG data extraction project I started back in 2020(and in the process of resurrecting) can be found here.&#xD;[20/06/2024] Converting PDF ebooks to be Kindle friendly&#xD;[12/06/2024] Adding Euro 2024 fixture list to your calender&#xD;[07/06/2024] Delighted to have been accepted into this year’s Carruthers and Jackson Summer School for Data Leaders and aspiring CDOs.</description>
+    </item>
+    <item>
       <title>Converting PDF ebooks to be Kindle friendly</title>
       <link>https://puneet.uk/notes/pdf_to_kindle/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
@@ -28,13 +35,6 @@
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/euro_2024/</guid>
       <description>Did you know that Euro 2020 had a cumulative live audience of 5.23 billion[1]?&#xA;Based on previous viewing figures, it’s expected that over 100 million will tune in for every match of Euro 2024.&#xA;So, wherever you are watching it, here is a quick way to add the fixture list to your calendar:&#xA;Import or add the following URL by Sky Sports to your calendar app of choice: webcal://www.skysports.com/calendars/football/fixtures/competitions/euro-2024?live=false</description>
-    </item>
-    <item>
-      <title>Log</title>
-      <link>https://puneet.uk/notes/log/</link>
-      <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/log/</guid>
-      <description>[15/07/2024] 1st draft of notes for week 1-3 for Summer School For Data Leaders have been uploaded.&#xD;[10/07/2024] Notes page for Carruthers &amp;amp; Jackson - Summer School For Data Leaders here. [05/07/2024] A summary of the ESG data extraction project I started back in 2020(and in the process of resurrecting) can be found here.&#xD;[20/06/2024] Converting PDF ebooks to be Kindle friendly&#xD;[12/06/2024] Adding Euro 2024 fixture list to your calender&#xD;[07/06/2024] Delighted to have been accepted into this year’s Carruthers and Jackson Summer School for Data Leaders and aspiring CDOs.</description>
     </item>
     <item>
       <title>Notes</title>
