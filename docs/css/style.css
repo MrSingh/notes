@@ -682,6 +682,12 @@ li a:hover {
     header .container, footer .container {
         padding-left: 1rem;
     }
+
+    .menu-icon {
+      height: 2rem;
+      margin-right: -10px;
+}
+
 }
 
 /* Desktop styles */
@@ -696,7 +702,7 @@ li a:hover {
         background-color: #fff;
         box-shadow: -2px 0 5px rgba(0,0,0,0.5);
         transition: right 0.3s ease;
-        z-index: 1000; /* Ensure the menu is on top */
+        z-index: 1001; /* Ensure the menu is on top */
     }
 
     .custom-menu-toggle {
@@ -707,7 +713,7 @@ li a:hover {
         background: none;
         border: none;
         cursor: pointer;
-        z-index: 1001; /* Ensure the toggle button is on top */
+        z-index: 999; /* Ensure the toggle button is on top */
     }
 
     .custom-menu-toggle .material-icons {
