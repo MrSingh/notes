@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Montserrat:400,500,700|Roboto+Mono:400,700');
 
 @charset "UTF-8";@media all and (max-width: 768px) {
   :root {
@@ -43,10 +44,24 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   /* NOTE
 */
-  html {
+
+
+  html, body {
     font-size: 100%;
     height: 100%;
     overflow-y: scroll;  
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: Segoe UI,Segoe UI Midlevel,Segoe WP,Arial,Sans-Serif;
+
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-synthesis: none;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    background: #f7f3ed;
   }
   body {
     --ff-sans: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
@@ -54,7 +69,7 @@
     --ff-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
     font-size: 1rem; /* currently ems cause chrome bug misinterpreting rems on body element */
     font-weight: 400;
-    font-family: var(--ff-sans);
+    /* font-family: var(--ff-sans); */
     color: #222;
     height: 100%;
     display: flex;
@@ -64,6 +79,10 @@
     .wrap {
       flex: 1 0 auto;
 
+    }
+
+    .sans-serif {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     /* img {
@@ -82,8 +101,8 @@ header {
 }
 
 header .container, footer .container {
-  padding-left: 0.5rem;
-    max-width: 940px;
+  padding-left: 4rem;
+   
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -250,16 +269,67 @@ nav {
 /* Typography
 –––––––––––––*/
 
-h1, h2, h3, h4 {
+/* h1, h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 1rem;
-  /* font-weight: 300;  */
-  font-family: var(--ff-mono);
+  font-family: var(--ff-mono);  
+} */
 
+  h1, h2, h3, h4, h5, h6 {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* color: #313131; */
+    /* color: #8B0000; */
+    color: #36454F;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.04rem;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
-h1 { font-size: 3.0rem; line-height: 1.2; }
+h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -.08rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: .75rem;
+  /* margin-top: 1.75rem; */
+}
+h3 {
+  font-size: 1.25rem;
+  /* margin-top: 1.75rem; */
+}
+h4, h5, h6 {
+  font-size: 1rem;
+  letter-spacing: 0;
+  /* margin-top: 1rem; */
+}
+h4 {
+  /* margin-top: 1.5rem; */
+  text-transform: uppercase;
+}
+h6 {
+  font-size: 78%;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+h1 #page-title {
+
+font-size: 1rem;
+color: #006400;
+}
+
+/* h1 { font-size: 3.0rem; line-height: 1.2; }
 h2 { font-size: 1.5rem; line-height: 1.25;  font-weight: bold;}
-h3 { font-size: 1.1rem; line-height: 1.25;  font-weight: bold; color: #0057D9; }
+h3 { font-size: 1.1rem; line-height: 1.25;  font-weight: bold; color: #0057D9; } */
 /* Blue, Science Blue */
 
 span.minor-size {
@@ -283,12 +353,23 @@ h1 > a:hover {
   text-decoration: none;
 }
 
+/* Base styles */
+.f-left {
+  display: flex;
+  align-items: center;
+}
 
 #page-title {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #32CD32;
+  margin-left: 10px;
 }
+
+.desktop-bar {
+  margin: 0 10px;
+}
+
+
+
+
 
 .highlight > pre {
   white-space: pre-wrap;
@@ -329,12 +410,49 @@ table.dataframe {
   box-sizing: border-box;
 }
 
-.date {
+/* .date {
   color: #0057D9;
   font-size: 1rem;
   font-weight: bold;
   font-family: var(--ff-mono);
+} */
+
+.item-date {
+  /* color: #0057D9; */
+  color: #8B0000;
+  display: table-cell;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 3px;
+  vertical-align: top;
+  width: 100px;
 }
+
+ time {
+  color: #36454F;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 1px;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.item-info {
+  display: table-cell;
+  font-size: 14px;
+  /* line-height: 1; */
+  padding: 0 100px 0 0;
+  vertical-align: top;
+}
+
+.item-info ul li {
+  float: left;
+  list-style: none;
+  margin-right: .5rem;
+}
+
+
 
   
 /* Links
@@ -342,7 +460,7 @@ table.dataframe {
 
 
 a {
-    color: #4603ff;
+    color: #00008B;
     text-decoration: none;
 }
   a:hover {
@@ -374,10 +492,13 @@ li a:hover {
 }
 
 #menu {
+  display: block;
   /* width: 0%; */
-  float:right;
   text-transform: lowercase;
+  margin-left: auto;
+  padding-right: 1rem;
 }
+
 
 @media all and (max-width: 768px) {
   #menu {
@@ -466,6 +587,130 @@ li a:hover {
 #menu-mobile ul li.menu-item:hover {
   background-color: var(--link-hover-underline)
 }
+
+/* NEW MENU */
+
+/* Import Google Material Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Base styles */
+.custom-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-menu-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.custom-menu-item a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.custom-filter-icon {
+    height: 1rem;
+    margin-right: 10px; /* Add some space between the icon and the text */
+}
+
+.menu-icon {
+    height: 3rem;
+    margin-right: 10px; /* Add some space between the icon and the text */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .custom-menu {
+        flex-direction: column;
+        display: none; /* Hide menu by default */
+        position: absolute;
+        top: 50px; /* Adjust based on your header height */
+        right: 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        width: 200px; /* Adjust width as needed */
+    }
+
+    .custom-menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+
+    .custom-menu-toggle .material-icons {
+        font-size: 24px;
+    }
+
+    #custom-menu:focus-within .custom-menu,
+    .custom-menu-toggle:focus + .custom-menu,
+    .custom-menu-toggle:active + .custom-menu {
+        display: flex; /* Show menu when focused or active */
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .f-left {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .desktop-bar {
+      display: none; /* Hide the bar on mobile */
+  }
+
+  #page-title {
+      margin-left: 0;
+      font-size: 0.8rem; /* Adjust the size as needed */
+      color: #006400;
+      display: none;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .custom-menu {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -250px; /* Hide the menu off-screen */
+        width: 250px;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+        transition: right 0.3s ease;
+    }
+
+    .custom-menu-toggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .custom-menu-toggle .material-icons {
+        font-size: 24px;
+    }
+
+    #custom-menu:hover .custom-menu {
+        right: 0; /* Slide the menu into view on hover */
+    }
+}
+
 
 /*-----------
 | MENU END

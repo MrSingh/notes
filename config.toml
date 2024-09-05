@@ -54,3 +54,18 @@ date = ["date", "publishDate", "lastmod"]
 lastmod = [":git", "lastmod", "date", "publishDate"]
 publishDate = ["publishDate", "date"]
 expiryDate = ["expiryDate"]
+
+[menu]
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/notes/"
+    weight = 1
+  [[menu.main]]
+    name = "Code"
+    url = "/code/code/"
+    weight = 2
+  [[menu.main]]
+    name = "Bookshelf"
+    url = "/read/bookshelf_home/"
+    weight = 3
+

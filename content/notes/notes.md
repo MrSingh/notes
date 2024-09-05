@@ -6,9 +6,42 @@ draft: false
 labels: ""
 slug: "notes"
 ---
-<span class="date">[10/07/2024]</span> - <a
-                                        href="/summer_school/summer_school/">Carruthers & Jackson - Summer School For Data Leaders</a><br />
-<span class="date">[05/07/2024]</span> - <a
+<!-- <div class="item-date sans-serif">29 AUG 2024</div> -->
+<div class="note-item">
+<div class="item-date sans-serif">10 JUN 2024</div>
+ <div class="item-info">
+                                <h3 class="sans-serif"><a class="color-inherit" href="../../summer_school/summer_school/">Carruthers & Jackson - Summer School For Data Leaders</a></h3>
+                                <p>This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. </p>
+                                <!-- <ul class="sans-serif">            <li><a href="/tag/data" target="_self">#DATA</a><a href="/tag/leadership" target="_self"> #LEADERSHIP</a></li>
+                                <div class="clearfix"></div></ul> -->
+                            </div>
+</div>
+<hr />
+<div class="note-item">
+<div class="item-date sans-serif">05 JUL 2024</div>
+<div class="item-info">
+    <h3 class="sans-serif"><a class="color-inherit" href="../project_esg_report">ESG Data Extraction Project</a></h3>
+    <p>This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.</p>
+</div>
+</div>
+<hr />
+<div class="note-item">
+<div class="item-date sans-serif">20 JUN 2024</div>
+<div class="item-info">
+    <h3 class="sans-serif"><a class="color-inherit" href="../pdf_to_kindle">Converting PDF ebooks to be Kindle friendly</a></h3>
+    <p>Learn how to convert PDF ebooks into a format that is easily readable on Kindle devices.</p>
+</div>
+</div>
+<hr />
+<div class="note-item">
+<div class="item-date sans-serif">12 JUN 2024</div>
+<div class="item-info">
+    <h3 class="sans-serif"><a class="color-inherit" href="../euro_2024">Adding Euro 2024 Fixture list to your Calendar</a></h3>
+    <p>Get the complete Euro 2024 fixture list added to your calendar for easy access to match schedules.</p>
+</div>
+</div>
+<hr />
+<!-- <span class="date">[05/07/2024]</span> - <a
                                         href="../project_esg_report">ESG Data Extraction Project</a><br />
 <span class="date">[20/06/2024]</span> - <a href="../pdf_to_kindle">Converting PDF ebooks to be Kindle friendly</a><br />
-<span class="date">[12/06/2024]</span> - <a href="../euro_2024">Adding Euro 2024 Fixture list to your Calender</a><br />
+<span class="date">[12/06/2024]</span> - <a href="../euro_2024">Adding Euro 2024 Fixture list to your Calender</a><br /> -->

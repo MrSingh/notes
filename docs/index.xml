@@ -6,8 +6,15 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 29 Aug 2024 11:05:03 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://puneet.uk/about_me/about_me/</link>
+      <pubDate>Tue, 03 Sep 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/about_me/about_me/</guid>
+      <description>After building my first website back in 2000, I was hooked.&#xA;Fast forward two decades, and my passion for building data and technology solutions remains undiminished. Over the years the challenges have grown significantly. From building teams, leading agile transformations, managing platform migrations, establishing support models, formulating data strategies, implementing data governance, managing risk, coaching agile teams, and managing teams, to name but a few. Problem solving is at the heart of data and technology and I enjoy working with a diverse set of people to deliver.</description>
+    </item>
     <item>
       <title>Log</title>
       <link>https://puneet.uk/notes/log/</link>
@@ -118,7 +125,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>[10/07/2024] - Carruthers &amp;amp; Jackson - Summer School For Data Leaders&#xA;[05/07/2024] - ESG Data Extraction Project&#xA;[20/06/2024] - Converting PDF ebooks to be Kindle friendly&#xA;[12/06/2024] - Adding Euro 2024 Fixture list to your Calender</description>
+      <description>10 JUN 2024&#xD;Carruthers &amp; Jackson - Summer School For Data Leaders&#xD;This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. 05 JUL 2024&#xD;ESG Data Extraction Project&#xD;This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.&#xA;20 JUN 2024&#xD;Converting PDF ebooks to be Kindle friendly&#xD;Learn how to convert PDF ebooks into a format that is easily readable on Kindle devices.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>
