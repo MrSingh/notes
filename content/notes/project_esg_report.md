@@ -8,7 +8,8 @@ slug: "project_esg_report"
 images: project_esg_report.jpg
 ---
 <!-- {{< figure src="../../images/python_esg.jpg" title="An elephant at sunset" >}} -->
-![Image dipicting a man programming with Python and analysing ESG data](../../images/python_esg.jpg)
+
+<p><img class="preview" src="../../images/python_esg.jpg" alt="Image dipicting a man programming with Python and analysing ESG data"></p>
 
 ## Log
 
