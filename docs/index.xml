@@ -6,8 +6,15 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 05 Sep 2024 13:49:19 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Revamped My Website Menu in Just Half a Day!</title>
+      <link>https://puneet.uk/notes/copilot_menu/</link>
+      <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/copilot_menu/</guid>
+      <description>The Problem My website had a static menu along the top bar and, whilst it served a purpose, it was not working on mobile. I knew it needed fixing and evolving.&#xA;Step 1 - Give Copilot some context I cut and paste the current menu system into Copilot.&#xA;Step 2 - The Prompt I need to create a responsive dropdown menu for mobile and a side panel for desktop. Can you provide the HTML and CSS for this?</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>https://puneet.uk/about_me/about_me/</link>
@@ -125,7 +132,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>10 JUN 2024&#xD;Carruthers &amp; Jackson - Summer School For Data Leaders&#xD;This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. 05 JUL 2024&#xD;ESG Data Extraction Project&#xD;This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.&#xA;20 JUN 2024&#xD;Converting PDF ebooks to be Kindle friendly&#xD;Learn how to convert PDF ebooks into a format that is easily readable on Kindle devices.</description>
+      <description>06 SEPT 2024&#xD;How I Revamped My Website Menu in Just Half a Day!&#xD;A ten step guide on how I updated the website menu using Gen AI in Copiliot.&#xA;10 JUN 2024&#xD;Carruthers &amp; Jackson - Summer School For Data Leaders&#xD;This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. 05 JUL 2024&#xD;ESG Data Extraction Project&#xD;This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>

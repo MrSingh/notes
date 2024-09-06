@@ -7,6 +7,17 @@ labels: ""
 slug: "notes"
 ---
 <!-- <div class="item-date sans-serif">29 AUG 2024</div> -->
+
+<div class="note-item">
+<div class="item-date sans-serif">06 SEPT 2024</div>
+ <div class="item-info">
+    <h3 class="sans-serif"><a class="color-inherit" href="../copilot_menu">How I Revamped My Website Menu in Just Half a Day!</a></h3>
+    <p>A ten step guide on how I updated the website menu using Gen AI in Copiliot.</p>
+</div>
+                               
+                            
+</div>
+<hr />
 <div class="note-item">
 <div class="item-date sans-serif">10 JUN 2024</div>
  <div class="item-info">
@@ -41,7 +52,4 @@ slug: "notes"
 </div>
 </div>
 <hr />
-<!-- <span class="date">[05/07/2024]</span> - <a
-                                        href="../project_esg_report">ESG Data Extraction Project</a><br />
-<span class="date">[20/06/2024]</span> - <a href="../pdf_to_kindle">Converting PDF ebooks to be Kindle friendly</a><br />
-<span class="date">[12/06/2024]</span> - <a href="../euro_2024">Adding Euro 2024 Fixture list to your Calender</a><br /> -->
+

@@ -22,15 +22,15 @@
     <link href="../../css/style.css" rel="stylesheet" media="all">
     <link href="../../css/syntax.css" rel="stylesheet" media="all">
     <title>
-      Notes
+      How I Revamped My Website Menu in Just Half a Day!
     </title>
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Notes" />
-    <meta property="og:image" content="https://puneet.uk/images/notes.png" />
+    <meta property="og:title" content="How I Revamped My Website Menu in Just Half a Day!" />
+    <meta property="og:image" content="https://puneet.uk/images/copilot_menu.png" />
     <meta property="article:tag" content="Technical blog" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Notes" />
+    <meta name="twitter:title" content="How I Revamped My Website Menu in Just Half a Day!" />
   </head>
 <body>
  <header>
@@ -79,16 +79,14 @@
   
   <div class="wrap">
     <main class="container">
-      <h1>Notes</h1>
+      <h1>How I Revamped My Website Menu in Just Half a Day!</h1>
 <p></p>
 
 
 
 
 
-<time>Created on: May 6, 2024</time>
-
-    <time> <br /> Edited on: Sep 5, 2024</time>
+<time>Created on: Sep 6, 2024</time>
 
 
 
@@ -96,49 +94,32 @@
 
       <hr />
      
-      <!-- <div class="item-date sans-serif">29 AUG 2024</div> -->
-<div class="note-item">
-<div class="item-date sans-serif">06 SEPT 2024</div>
- <div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../copilot_menu">How I Revamped My Website Menu in Just Half a Day!</a></h3>
-    <p>A ten step guide on how I updated the website menu using Gen AI in Copiliot.</p>
-</div>
-</div>
-<hr />
-<div class="note-item">
-<div class="item-date sans-serif">10 JUN 2024</div>
- <div class="item-info">
-                                <h3 class="sans-serif"><a class="color-inherit" href="../../summer_school/summer_school/">Carruthers & Jackson - Summer School For Data Leaders</a></h3>
-                                <p>This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. </p>
-                                <!-- <ul class="sans-serif">            <li><a href="../../tag/data" target="_self">#DATA</a><a href="../../tag/leadership" target="_self"> #LEADERSHIP</a></li>
-                                <div class="clearfix"></div></ul> -->
-                            </div>
-</div>
-<hr />
-<div class="note-item">
-<div class="item-date sans-serif">05 JUL 2024</div>
-<div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../project_esg_report">ESG Data Extraction Project</a></h3>
-    <p>This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.</p>
-</div>
-</div>
-<hr />
-<div class="note-item">
-<div class="item-date sans-serif">20 JUN 2024</div>
-<div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../pdf_to_kindle">Converting PDF ebooks to be Kindle friendly</a></h3>
-    <p>Learn how to convert PDF ebooks into a format that is easily readable on Kindle devices.</p>
-</div>
-</div>
-<hr />
-<div class="note-item">
-<div class="item-date sans-serif">12 JUN 2024</div>
-<div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../euro_2024">Adding Euro 2024 Fixture list to your Calendar</a></h3>
-    <p>Get the complete Euro 2024 fixture list added to your calendar for easy access to match schedules.</p>
-</div>
-</div>
-<hr />
+      <img class="preview" src="../../images/copilot_menu.jpg" alt="Playful image of a rabbit in a suit working on his laptop in an office">
+<h2 id="the-problem">The Problem</h2>
+<p>My website had a static menu along the top bar and, whilst it served a purpose, it was not working on mobile. I knew it needed fixing and evolving.</p>
+<h2 id="step-1---give-copilot-some-context">Step 1 - Give Copilot some context</h2>
+<p>I cut and paste the current menu system into Copilot.</p>
+<h2 id="step-2---the-prompt">Step 2 - The Prompt</h2>
+<pre><code>I need to create a responsive dropdown menu for mobile and a side panel for desktop. Can you provide the HTML and CSS for this?
+</code></pre>
+<p>Copilot gave me the HTML code and CSS. I noticed an error, not by Copilot but one I had previously made. There were some height attributes hard-coded into the HTML, so I asked it to revise this and move the height styling into the CSS.</p>
+<h2 id="step-3---change-class-and-id-names">Step 3 - Change class and ID names</h2>
+<p>I asked it to change the class and ID names to prevent any conflicts.</p>
+<h2 id="step-4---test-and-review">Step 4 - Test and review</h2>
+<p>Everything worked well except I decided I wanted a side panel to hold the menu. So I prompted it to do that and asked it to select an appropriate menu icon from the Google Material library.</p>
+<h2 id="step-5---mobile-styles-adjustment">Step 5 - Mobile styles adjustment</h2>
+<p>The styles on mobile were not quite right. I observed what needed changing and requested those changes be made.</p>
+<h2 id="step-6---merge-css">Step 6 - Merge CSS</h2>
+<p>Something was still wrong. I reverted the code and realized I had tweaked the CSS to fix something. So I pasted my CSS into Copilot and asked it to merge that with the last iteration.</p>
+<h2 id="step-7---test-and-review-again">Step 7 - Test and review again</h2>
+<p>Looking good!</p>
+<h2 id="step-8---create-reusable-code">Step 8 - Create reusable code</h2>
+<p>I use Hugo for my website, so I asked it to create a menu ‘partial’, a snippet of code that can be used in a templating system.</p>
+<h2 id="step-9---test-and-review-again">Step 9 - Test and review again</h2>
+<p>Looking good!</p>
+<h2 id="step-10---deploy">Step 10 - Deploy</h2>
+<p>What’s important here is I was able to do this in half a day. If I had to do this from scratch, it would have taken 3-5 days, possibly longer! The other important thing here is the Pilot - me, guiding this process. I have the environment to test, develop, and deploy, and most importantly, the technical background and know-how to facilitate this fast development.</p>
+<p>This process allowed me to quickly and efficiently update my website’s menu system, ensuring it works seamlessly across all devices.</p>
 
 
     </main>
