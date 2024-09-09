@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 06 Sep 2024 14:33:03 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How I Revamped My Website Menu in Just Half a Day!</title>
+      <title>How I revamped my website menu in just half a day!</title>
       <link>https://puneet.uk/notes/copilot_menu/</link>
       <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/copilot_menu/</guid>
@@ -30,14 +30,14 @@
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
     </item>
     <item>
-      <title>Project - Automating ESG Data Extraction Report</title>
+      <title>Project - Automating ESG Data Extraction to a report</title>
       <link>https://puneet.uk/notes/project_esg_report/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/project_esg_report/</guid>
       <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
-      <title>Adding Euro 2024 fixture list to your calender</title>
+      <title>Adding the Euro 2024 fixture list to your calender</title>
       <link>https://puneet.uk/notes/euro_2024/</link>
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/euro_2024/</guid>
@@ -48,7 +48,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>06 SEPT 2024&#xD;How I Revamped My Website Menu in Just Half a Day!&#xD;A ten step guide on how I updated the website menu using Gen AI in Copiliot.&#xA;10 JUN 2024&#xD;Carruthers &amp; Jackson - Summer School For Data Leaders&#xD;This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. 05 JUL 2024&#xD;ESG Data Extraction Project&#xD;This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.</description>
+      <description>06 SEPT 2024&#xD;How I revamped my website menu in just half a day!&#xD;A ten step guide on how I updated the website menu using Gen AI in Copiliot.&#xA;10 JUN 2024&#xD;Carruthers &amp; Jackson - Summer School for data leaders&#xD;This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. 05 JUL 2024&#xD;ESG data extraction project&#xD;This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.</description>
     </item>
   </channel>
 </rss>

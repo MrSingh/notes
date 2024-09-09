@@ -199,8 +199,8 @@ article {
 
 
 img.preview {
-  width: 100%;
-  max-width: 100%;
+  /* width: 100%;
+  max-width: 100%; */
   height: auto;
   display: block;
   margin-left: auto;
@@ -218,14 +218,12 @@ img.preview {
 /* img.headline {
   transform: scale(0.6); } */
 
-#bug {
-
-  border: 1px solid #cd0303;
-  padding:8px;
-  background-color: #ff4646;
-  margin-bottom:1rem;
-  border-radius: 6px;
-
+  #bug {
+    border: 1px solid #bb8000;
+    padding: 1rem;
+    background-color: #f1c40f;
+    margin-bottom: 1rem;
+    border-radius: 6px;
 }
 
 #bug h2 {
@@ -692,7 +690,150 @@ li a:hover {
       margin-right: -10px;
 }
 
+img.preview {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  border-radius: 20%;
+  overflow: hidden;
+    clear: both;
+  }
 }
+
+/* Alerts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Ensure the alerts have borders */
+.alert {
+  border: 1px solid transparent;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Custom styles for primary alert */
+.alert-primary {
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  color: #004085;
+}
+
+/* Custom styles for secondary alert */
+.alert-secondary {
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+  color: #383d41;
+}
+
+/* Custom styles for success alert */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+/* Custom styles for danger alert */
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+/* Custom styles for warning alert */
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+/* Custom styles for info alert */
+.alert-info {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+/* Custom styles for light alert */
+.alert-light {
+  background-color: #fefefe;
+  border-color: #fdfdfe;
+  color: #818182;
+}
+
+/* Custom styles for dark alert */
+.alert-dark {
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+  color: #1b1e21;
+}
+
+/* Align icons and text */
+.alert .material-icons {
+  margin-right: 0.5rem;
+}
+
+/* Add space above the thoughts box */
+.thoughts-box {
+  border: 2px solid #f1c40f; /* Subtle yellow border */
+  background-color: #fcf3cf; /* Subtle yellow background */
+  color: #343a40;
+  padding: 20px;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top: 20px; /* Space above the box */
+}
+
+/* Styles for the main icon */
+.thoughts-box .material-icons {
+  font-size: 3rem; /* Larger icon */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+/* Styles for the content */
+.thoughts-content {
+  margin-left: 50px; /* Adjust this value to ensure proper spacing */
+}
+
+.thoughts-content h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Styles for the thoughts list */
+.thoughts-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.thoughts-list li {
+  display: flex;
+  align-items: flex-start; /* Ensure icons are at the top left */
+  margin-bottom: 1rem;
+}
+
+/* Styles for the list icons */
+.thoughts-list li .material-icons {
+  font-size: 2rem;
+  margin-right: 1rem; /* Add space between icon and text */
+  color: #f1c40f; /* Yellow color for bulb icon */
+  position: relative;
+  top: -3px; /* Align icon with the first line of text */
+}
+
+
+
+
 
 /* Desktop styles */
 @media (min-width: 769px) {

@@ -1,5 +1,5 @@
 ---
-title: "Carruthers & Jackson - Summer School For Data Leaders"
+title: "Carruthers & Jackson - Summer School for data leaders"
 date: 2024-07-10T07:00:00
 lastmod: 2024-07-10T07:00:00
 # description: "Reading Log"
@@ -7,11 +7,10 @@ draft: false
 labels: ""
 slug: "summer_school"
 ---
-
-Notes and resources related to the Summer School for Data Leaders.
-
-
-
+<div class="alert alert-info" role="alert">
+  <i class="material-icons">info</i>This page needs updating. Both the structure and content needs work.
+</div>
+Notes and resources related to the summer school for data leaders.
 
 ## Week One  - <span class="date">[26/06/2024]</span>
 

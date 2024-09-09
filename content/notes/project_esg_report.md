@@ -1,5 +1,5 @@
 ---
-title: "Project - Automating ESG Data Extraction Report"
+title: "Project - Automating ESG Data Extraction to a report"
 date: 2024-06-20T07:00:00
 description: ""
 draft: false

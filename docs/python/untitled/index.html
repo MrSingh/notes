@@ -21,6 +21,7 @@
     
     <link href="../../css/style.css" rel="stylesheet" media="all">
     <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>
       
     </title>
@@ -101,20 +102,23 @@
           <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic">## Arrays and Scalars</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div>
           
-<div id="bug"></div>
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
 <script>
     
     var current_page = document.location.href;
     var _title =  document.title;   
     
     var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
-    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
     function ready() {
-        document.getElementById("bug").innerHTML = bug_snippet;    
+        document.getElementById("bug").innerHTML += bug_snippet;    
     }
     document.addEventListener("DOMContentLoaded", ready);    
 </script>
 
+  
       </main>
       </div>
     

@@ -1,5 +1,5 @@
 ---
-title: "How I Revamped My Website Menu in Just Half a Day!"
+title: "How I revamped my website menu in just half a day!"
 date: 2024-09-06T07:00:00
 description: ""
 draft: false
@@ -9,6 +9,7 @@ images: ["copilot_menu.jpg"]
 ---
 
 <img class="preview" src="../../images/copilot_menu.jpg" alt="Playful image of a rabbit in a suit working on his laptop in an office">
+
 
 ## The Problem
 
@@ -54,6 +55,21 @@ Looking good!
 
 ## Step 10 - Deploy
 
-What’s important here is I was able to do this in half a day. If I had to do this from scratch, it would have taken 3-5 days, possibly longer! The other important thing here is the Pilot - me, guiding this process. I have the environment to test, develop, and deploy, and most importantly, the technical background and know-how to facilitate this fast development.
+ <div class="thoughts-box">
+  <i class="material-icons">psychology</i>
+  <div class="thoughts-content">
+    <h4>Thoughts</h4>
+    <ul class="thoughts-list">
+      <li><i class="material-icons">lightbulb</i>I was able to do this in half a day. If I had to do this from scratch, it would have taken 3-5 days, possibly longer!</li>
+      <li><i class="material-icons">lightbulb</i>The other important thing here is the Pilot - me, guiding this process. I have the environment to test, develop, and deploy, and most importantly, the technical background and know-how to facilitate this fast development.</li>
+      <li><i class="material-icons">lightbulb</i>This process allowed me to quickly and efficiently update my website’s menu system, ensuring it works seamlessly across all devices.</li>
+      <li><i class="material-icons">lightbulb</i>Did it reduce time resource? Yes, absolutely - 100%!</li>
+       <li><i class="material-icons">lightbulb</i>Rather than reduce teams, the potential is to increase output and improve products and services.</li>
+    </ul>
+  </div>
+</div>
 
-This process allowed me to quickly and efficiently update my website’s menu system, ensuring it works seamlessly across all devices.
+<!-- 
+What’s important here is I was able to do this in half a day. If I had to do this from scratch, it would have taken 3-5 days, possibly longer! The other important thing here is the Pilot - me, guiding this process. I have the environment to test, develop, and deploy, and most importantly, the technical background and know-how to facilitate this fast development. -->
+
+

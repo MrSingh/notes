@@ -21,6 +21,7 @@
     
     <link href="../../css/style.css" rel="stylesheet" media="all">
     <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>
       Master JavaScript Mindmap
     </title>
@@ -104,20 +105,23 @@
 <p>The red arrows in the diagram are links but Freemind doesn&rsquo;t export those when output to PDF.  Most of the links are from the <a href="https://developer.mozilla.org/en-US/">Mozilla developer website</a>.</p>
 
           
-<div id="bug"></div>
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
 <script>
     
     var current_page = document.location.href;
     var _title =  document.title;   
     
     var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
-    var bug_snippet = "<h3>Report an error or bug <a href=" + _url + " target='blank'>here</a>.</h3>"
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
     function ready() {
-        document.getElementById("bug").innerHTML = bug_snippet;    
+        document.getElementById("bug").innerHTML += bug_snippet;    
     }
     document.addEventListener("DOMContentLoaded", ready);    
 </script>
 
+  
       </main>
       </div>
     

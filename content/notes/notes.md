@@ -11,7 +11,7 @@ slug: "notes"
 <div class="note-item">
 <div class="item-date sans-serif">06 SEPT 2024</div>
  <div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../copilot_menu">How I Revamped My Website Menu in Just Half a Day!</a></h3>
+    <h3 class="sans-serif"><a class="color-inherit" href="../copilot_menu">How I revamped my website menu in just half a day!</a></h3>
     <p>A ten step guide on how I updated the website menu using Gen AI in Copiliot.</p>
 </div>
                                
@@ -21,7 +21,7 @@ slug: "notes"
 <div class="note-item">
 <div class="item-date sans-serif">10 JUN 2024</div>
  <div class="item-info">
-                                <h3 class="sans-serif"><a class="color-inherit" href="../../summer_school/summer_school/">Carruthers & Jackson - Summer School For Data Leaders</a></h3>
+                                <h3 class="sans-serif"><a class="color-inherit" href="../../summer_school/summer_school/">Carruthers & Jackson - Summer School for data leaders</a></h3>
                                 <p>This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation. </p>
                                 <!-- <ul class="sans-serif">            <li><a href="/tag/data" target="_self">#DATA</a><a href="/tag/leadership" target="_self"> #LEADERSHIP</a></li>
                                 <div class="clearfix"></div></ul> -->
@@ -31,7 +31,7 @@ slug: "notes"
 <div class="note-item">
 <div class="item-date sans-serif">05 JUL 2024</div>
 <div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../project_esg_report">ESG Data Extraction Project</a></h3>
+    <h3 class="sans-serif"><a class="color-inherit" href="../project_esg_report">ESG data extraction project</a></h3>
     <p>This project focuses on extracting and analyzing ESG data to help organizations meet sustainability goals.</p>
 </div>
 </div>
@@ -47,7 +47,7 @@ slug: "notes"
 <div class="note-item">
 <div class="item-date sans-serif">12 JUN 2024</div>
 <div class="item-info">
-    <h3 class="sans-serif"><a class="color-inherit" href="../euro_2024">Adding Euro 2024 Fixture list to your Calendar</a></h3>
+    <h3 class="sans-serif"><a class="color-inherit" href="../euro_2024">Adding Euro 2024 fixture list to your calendar</a></h3>
     <p>Get the complete Euro 2024 fixture list added to your calendar for easy access to match schedules.</p>
 </div>
 </div>
