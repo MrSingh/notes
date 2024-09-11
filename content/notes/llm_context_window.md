@@ -4,7 +4,7 @@ date: 2024-09-11T07:00:00
 description: ""
 draft: false
 labels: "Draft version"
-slug: "understanding_the_llm_context_window"
+slug: "llm_context_window"
 images: ["llm_context_window"]
 ---
 
