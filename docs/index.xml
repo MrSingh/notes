@@ -6,8 +6,15 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 06 Sep 2024 14:33:03 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding the LLM context window and why it matters</title>
+      <link>https://puneet.uk/notes/understanding_the_llm_context_window/</link>
+      <pubDate>Wed, 11 Sep 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/understanding_the_llm_context_window/</guid>
+      <description>What are context windows? A context window is simply the chat you have with an LLM (like ChatGPT). Think of it as short-term memory! It keeps track of your prompts and its outputs as you chat. So, if you start a new chat, that context will be lost.&#xA;A context window has a limit. For example, the limit in Copilot in the Edge Browser is 8,000 tokens. A token can be a word, part of a word, character, or space.</description>
+    </item>
     <item>
       <title>How I revamped my website menu in just half a day!</title>
       <link>https://puneet.uk/notes/copilot_menu/</link>
