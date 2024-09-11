@@ -7,7 +7,13 @@ labels: ""
 slug: "notes"
 ---
 <!-- <div class="item-date sans-serif">29 AUG 2024</div> -->
-
+<div class="note-item">
+<div class="item-date sans-serif">11 SEPT 2024</div>
+<div class="item-info">
+<h3 class="sans-serif"><a class="color-inherit" href="../notes/understanding_the_llm_context_window ">Understanding the LLM context window and why it matters</a></h3>
+<p>A short intro to context windows and why they matter in a business context.</p>
+</div>
+</div><hr />
 <div class="note-item">
 <div class="item-date sans-serif">06 SEPT 2024</div>
  <div class="item-info">
@@ -28,6 +34,7 @@ slug: "notes"
                             </div>
 </div>
 <hr />
+
 <div class="note-item">
 <div class="item-date sans-serif">05 JUL 2024</div>
 <div class="item-info">
