@@ -1,7 +1,7 @@
 ---
 title: "Understanding the LLM context window and why it matters"
 date: 2024-09-11T07:00:00
-description: "Draft v0.1"
+description: ""
 draft: false
 labels: "Draft version"
 slug: "understanding_the_llm_context_window"
@@ -47,11 +47,26 @@ However, in business or any activity that requires lengthy inputs, this limit wo
 | **Efficiency**     | Less need to remind it of past info        | Uses more resources with each conversation     |
 
 
-### Less Hallucinations
+### Less Hallucinations!?
 
 Yes and no. It really depends on the context you are giving. The quallity of the data will largly impact the output here. But given good data, yes you will get better results and less hallucnations.  There is a lot more to this and context windows are increasing in size as we speak. 
 
 ### Increased Cost
 
+Extended context windows require more computational power which can result in increased costs.
 
-## Final Thoughts
+### Resource Efficiency Trade-offs
+
+While larger context windows can imporve understaning it can slow down processing and increase costs. 
+
+ <div class="thoughts-box">
+  <i class="material-icons">psychology</i>
+  <div class="thoughts-content">
+    <h4>Final Thoughts</h4>
+    <ul class="thoughts-list">
+      <li><i class="material-icons">lightbulb</i>Larger context windows can be useful in particular business seniros but they can come at a finacial and performace cost.</li>
+      <li><i class="material-icons">lightbulb</i>It's important to understand the output you are expecting so you can chose the best LLM for your requirements.</li>
+      <li><i class="material-icons">lightbulb</i>Finally it's impotant to understand that the data you input in a context window is probably the most important aspect in achiving the right result.</li>     
+    </ul>
+  </div>
+</div>
