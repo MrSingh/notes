@@ -3,8 +3,8 @@ title: "Understanding the LLM context window and why it matters"
 date: 2024-09-11T07:00:00
 description: ""
 draft: false
-labels: "Draft version"
-slug: "llm_context_window"
+labels: ""
+slug: "understanding_the_llm_context_window"
 images: ["llm_context_window"]
 ---
 
@@ -16,17 +16,17 @@ images: ["llm_context_window"]
 
 A context window is simply the chat you have with an LLM (like ChatGPT). Think of it as short-term memory! It keeps track of your prompts and its outputs as you chat. So, if you start a new chat, that context will be lost.
 
-A context window has a limit. For example, the limit in Copilot in the Edge Browser is 8,000 tokens. A token can be a word, part of a word, character, or space. Here are some examples of when you might hit the limit:
+A context window has a limit. For example, the limit in Copilot in the Edge Browser is 8,000 tokens. A token can be a word, part of a word, character, or space. Here are some examples:
 
-+ A document: A 12-14 page single-spaced document is approximately 6,000 - 7,000 words, which is about 8,000 tokens.
-+ A short story: Many short stories fall within the 5,000 to 10,000-word range.
-+ A research paper: Typically between 3,000 to 7,000 words long.
+- **A document**: A 12-14 page single-spaced document is approximately 6,000 - 7,000 words, which is about 8,000 tokens.
+- **A short story**: Many short stories fall within the 5,000 to 10,000-word range, which is about 6,000 to 12,000 tokens.
+- **A research paper**: Typically between 3,000 to 7,000 words long, which is about 4,000 to 9,000 tokens.
 
 ## Why does this matter?
 
-Depending on your user case it makes a big difference.
+Depending on your user cases, it makes a big difference.
 
-On your phone and on the go for most social usercases such as information retreival, personal assitance, entertainement, reccomendations, learning and health the 8000 limit will surfice in most cases.
+On your phone and on the go for most social usercases such as information retrieval, personal assitance, entertainement, reccomendations, learning and health the 8000 limit will suffice in most cases.
 
 However, in business or any activity that requires lengthy inputs, this limit won’t work. Let’s look at two business examples. Both examples need governance, but given that is in place, both can benefit from increased efficiency.
 
@@ -49,7 +49,7 @@ However, in business or any activity that requires lengthy inputs, this limit wo
 
 ### Less Hallucinations!?
 
-Yes and no. It really depends on the context you are giving. The quallity of the data will largly impact the output here. But given good data, yes you will get better results and less hallucnations.  There is a lot more to this and context windows are increasing in size as we speak. 
+Yes and no. It really depends on the context you are giving. The quality of the data will largly impact the output here. But given good data, yes you will get better results and less hallucinations.  There is a lot more to this and context windows are increasing in size as we speak. 
 
 ### Increased Cost
 
@@ -57,7 +57,7 @@ Extended context windows require more computational power which can result in in
 
 ### Resource Efficiency Trade-offs
 
-While larger context windows can imporve understaning it can slow down processing and increase costs. 
+While larger context windows can improve understanding it can slow down processing and increase costs. 
 
  <div class="thoughts-box">
   <i class="material-icons">psychology</i>
