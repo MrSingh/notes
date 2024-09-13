@@ -1,5 +1,5 @@
 ---
-title: "How to deal with data quaility issues"
+title: "How to deal with data quality issues"
 date: 2024-09-13T07:00:00
 description: ""
 draft: false
