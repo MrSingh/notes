@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 12 Sep 2024 12:19:02 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 16:04:07 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to deal with data quaility issues</title>
+      <link>https://puneet.uk/notes/data_quality/</link>
+      <pubDate>Fri, 13 Sep 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/data_quality/</guid>
+      <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;lsquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data driven.&amp;rsquo;&#xA;What are Data Quality Issues? Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. The table below shows a more comprehensive list of data issues.</description>
+    </item>
     <item>
       <title>Understanding the LLM context window and why it matters</title>
       <link>https://puneet.uk/notes/understanding_the_llm_context_window/</link>
@@ -21,13 +28,6 @@
       <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/copilot_menu/</guid>
       <description>The Problem My website had a static menu along the top bar and, whilst it served a purpose, it was not working on mobile. I knew it needed fixing and evolving.&#xA;Step 1 - Give Copilot some context I cut and paste the current menu system into Copilot.&#xA;Step 2 - The Prompt I need to create a responsive dropdown menu for mobile and a side panel for desktop. Can you provide the HTML and CSS for this?</description>
-    </item>
-    <item>
-      <title>How to deal with data quaility issues</title>
-      <link>https://puneet.uk/notes/data_quality/</link>
-      <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/data_quality/</guid>
-      <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;lsquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data driven.&amp;rsquo;&#xA;What are data quality issues? Data quality issues range from basic things like duplicate data, format issues and invalid data to more complex data issues such as data bias, ambigious data and unstructured data. You can see the full list in the resources below.</description>
     </item>
     <item>
       <title>Log</title>
