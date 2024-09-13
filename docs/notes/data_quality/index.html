@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      How to deal with data quaility issues
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="How to deal with data quaility issues" />
+    <meta property="og:image" content="https://puneet.uk/images/data_quality.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="How to deal with data quaility issues" />
+    <meta name="twitter:image" content="https://puneet.uk/images/data_quality.jpg" />
+ 
+  </head>
+<body>
+ <header>
+            <nav role="navigation">
+                <div class="container">
+                  
+                    <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Puneet Singh Thukral</a>
+        <span class="desktop-bar">|</span>
+        <span id="page-title">Open To Work</span>
+    </h1>
+</div>  
+                    <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </nav>
+        </header>
+
+  
+  <div class="wrap">
+    <main class="container">
+      <h1>How to deal with data quaility issues</h1>
+<p>DRAFT</p>
+
+
+
+
+
+<time>Created on: Sep 6, 2024</time>
+
+
+
+
+
+      <hr />
+     
+      <img class="preview" src="../../images/data_quality.jpg" alt="Man fustreated with dirty data">
+<blockquote>
+<p>According to <a href="https://www.experian.com/blogs/news/2021/02/25/highlights-2021-global-data-management-research" target="_blank">Experian&rsquo;s 2021 Global Data Management Research</a>, &lsquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data driven.&rsquo;</p>
+</blockquote>
+<h2 id="what-are-data-quality-issues">What are data quality issues?</h2>
+<p>Data quality issues range from basic things like duplicate data, format issues and invalid data to more complex data issues such as data bias, ambigious data and unstructured data.  You can see the full list in the resources below.</p>
+<h2 id="steps-to-better-quality-data">Steps to better quality data</h2>
+<p>Sometimes it&rsquo;s obvious where the the issue is from, it&rsquo;s always been around and someone knows how to fix it temporaly to get a report out in time.  Sound familiar!?  But to start fixing things you have to ask a number of questions. Discob</p>
+<h3 id="discovery">Discovery</h3>
+<ul>
+<li>What are the data quality issues?</li>
+<li>Where are the data quality issues arising?</li>
+<li>Is it at source, before it enters your main database, datawarehouse or Datelake?</li>
+<li>Is it happening during the ETL process, when data is added to the database?</li>
+<li>Is it a problem that is manifesting itself during the anaysis phase and or when it is publised in the report or dashboard.</li>
+<li>Most importanty, do we have a data owner that can help?</li>
+</ul>
+<p>Understanding the linaege of your data will help to fix these problems. Where the data comes from, how it is transformed to new data points. What calculations are are done and how that is presented in reports or dashboards. Normally many aspects of definition(see below) are already in place however more then likely it will be incomplete.</p>
+<p>If you can&rsquo;t show the linage of the data then how can you trust the data?</p>
+<h3 id="defining-your-data">Defining your data</h3>
+<p>This includes:</p>
+<ol>
+<li>Data Catalogue</li>
+<li>Data Structure</li>
+<li>Data Lineage</li>
+<li>Data Classification</li>
+<li>Data Ownership</li>
+</ol>
+<p>Defining your data will go a long way to making sure you you can tackle data quality issues quickly and efficiently. But most importantly, identifying who owns that data can go along way to solving problems quickly.  If you can&rsquo;t identify an owner can you assign an owner that you can work with? The problems in quality may be technical, human, governance and lack of operational systems that allow for problesm to creep in.</p>
+<blockquote>
+<p>“Without clean data, or clean enough data, your data science is worthless.” — Michael Stonebraker</p>
+</blockquote>
+<h3 id="deliver-of-quality-data">Deliver of Quality Data</h3>
+<ul>
+<li>
+<p><strong>Data Integration</strong>:</p>
+<ul>
+<li>Seamless integration from various sources.</li>
+<li>Use ETL processes for cleaning, transforming, and loading data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Quality Management</strong>:</p>
+<ul>
+<li>Implement data validation rules.</li>
+<li>Regularly monitor and cleanse data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Security and Privacy</strong>:</p>
+<ul>
+<li>Encrypt data in transit and at rest.</li>
+<li>Implement access controls.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Governance</strong>:</p>
+<ul>
+<li>Establish clear policies and procedures.</li>
+<li>Define roles and responsibilities.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Documentation</strong>:</p>
+<ul>
+<li>Maintain comprehensive documentation.</li>
+<li>Use a data catalog for metadata.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Delivery Mechanisms</strong>:</p>
+<ul>
+<li>Use APIs, data feeds, or pipelines.</li>
+<li>Ensure timely data delivery.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Visualization and Reporting</strong>:</p>
+<ul>
+<li>Use visualization tools for dashboards and reports.</li>
+<li>Ensure reports are accurate and up-to-date.</li>
+</ul>
+</li>
+<li>
+<p><strong>User Training and Support</strong>:</p>
+<ul>
+<li>Provide training on data access and use.</li>
+<li>Offer ongoing support for data-related issues.</li>
+</ul>
+</li>
+</ul>
+<div class="thoughts-box">
+  <i class="material-icons">psychology</i>
+  <div class="thoughts-content">
+    <h4>Thoughts</h4>
+    <ul class="thoughts-list">
+      <li><i class="material-icons">lightbulb</i>Data Lineage is so important in tracking data quility issues</li>
+      <li><i class="material-icons">lightbulb</i>Data Governance can help to catch and define the data quality issues.</li>
+      <li><i class="material-icons">lightbulb</i>Working with people to delivery better data is fundamental. Especially with large date sets. Not everything can be automated, it's important to data owners who understand the data and how that data can be leveregd for business outcomes.</li>
+      </ul>
+  </div>
+</div>
+<h2 id="resources">Resources</h2>
+<h3 id="table-of-data-issues">Table of Data Issues</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Title</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Duplicate Data</strong></td>
+<td>Multiple records for the same entity, such as a customer appearing more than once in a database.</td>
+</tr>
+<tr>
+<td><strong>Redundant Data</strong></td>
+<td>Data that is repeated unnecessarily, such as multiple copies of the same file or record stored in different locations.</td>
+</tr>
+<tr>
+<td><strong>Orphaned Data</strong></td>
+<td>Data that has no link to other data, such as a transaction record without a corresponding customer record.</td>
+</tr>
+<tr>
+<td><strong>Incomplete Data</strong></td>
+<td>Missing critical information, such as an address without a postal code or a customer record without a phone number.</td>
+</tr>
+<tr>
+<td><strong>Truncated Data</strong></td>
+<td>Data that is cut off or incomplete due to system constraints or field limitations, such as a name being shortened.</td>
+</tr>
+<tr>
+<td><strong>Inaccurate Data</strong></td>
+<td>Incorrect information, such as misspelled names, wrong addresses, or incorrect numerical values.</td>
+</tr>
+<tr>
+<td><strong>Outdated Data</strong></td>
+<td>Information that is no longer current, such as old contact details or outdated product information.</td>
+</tr>
+<tr>
+<td><strong>Conflicting Data</strong></td>
+<td>Data where different sources or systems provide conflicting information, such as different addresses for the same entity.</td>
+</tr>
+<tr>
+<td><strong>Invalid Data</strong></td>
+<td>Data that doesn’t meet specific validation rules, such as an email address without a valid format (e.g., missing “@”).</td>
+</tr>
+<tr>
+<td><strong>Data Format Issues</strong></td>
+<td>Data that does not conform to expected formats, such as text in a numerical field.</td>
+</tr>
+<tr>
+<td><strong>Data Type Mismatch</strong></td>
+<td>Data entered in the wrong type or format, such as letters in a numeric field.</td>
+</tr>
+<tr>
+<td><strong>Data Integrity Violations</strong></td>
+<td>Data that violates predefined rules or constraints, such as duplicate primary keys or foreign key mismatches.</td>
+</tr>
+<tr>
+<td><strong>Inconsistent Data</strong></td>
+<td>Data that varies in format or structure, such as dates recorded in different formats (e.g., DD/MM/YYYY vs. MM/DD/YYYY).</td>
+</tr>
+<tr>
+<td><strong>Non-Standardized Data</strong></td>
+<td>Data that lacks consistent standards for naming, classification, or measurement, such as different units of measure.</td>
+</tr>
+<tr>
+<td><strong>Ambiguous Data</strong></td>
+<td>Data that lacks clarity or context, making it difficult to interpret, such as unclear abbreviations or codes.</td>
+</tr>
+<tr>
+<td><strong>Outliers or Anomalies</strong></td>
+<td>Data points that are significantly different from the norm, potentially due to input errors or exceptional cases.</td>
+</tr>
+<tr>
+<td><strong>Noise</strong></td>
+<td>Irrelevant or meaningless data, such as extraneous characters or unintended values.</td>
+</tr>
+<tr>
+<td><strong>Unstructured Data</strong></td>
+<td>Data that is not organized in a predefined manner, such as free-text fields or social media posts.</td>
+</tr>
+<tr>
+<td><strong>Hidden or Dark Data</strong></td>
+<td>Data that is collected but not used or analyzed, often because it is difficult to access or integrate.</td>
+</tr>
+<tr>
+<td><strong>Data Bias</strong></td>
+<td>Systematic errors or patterns in data that distort results, often caused by biased data collection or selection.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resources-1">Resources</h2>
+
+
+    </main>
+  </div>
+  
+  <footer>
+    <div class="container">Puneet Singh Thukral &#169; 2024</div>
+</footer>
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous"></script>
+     
+</body>
