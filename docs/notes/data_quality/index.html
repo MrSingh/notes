@@ -23,16 +23,16 @@
     <link href="../../css/syntax.css" rel="stylesheet" media="all">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>
-      How to deal with data quality issues
+      From Chaos to Clarity: Managing Data Quality Effectively
     </title>
 
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="How to deal with data quality issues" />
+    <meta property="og:title" content="From Chaos to Clarity: Managing Data Quality Effectively" />
     <meta property="og:image" content="https://puneet.uk/images/data_quality.jpg" />
     <meta property="article:tag" content="Technical blog" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="How to deal with data quality issues" />
+    <meta name="twitter:title" content="From Chaos to Clarity: Managing Data Quality Effectively" />
     <meta name="twitter:image" content="https://puneet.uk/images/data_quality.jpg" />
  
   </head>
@@ -83,7 +83,7 @@
   
   <div class="wrap">
     <main class="container">
-      <h1>How to deal with data quality issues</h1>
+      <h1>From Chaos to Clarity: Managing Data Quality Effectively</h1>
 <p></p>
 
 
@@ -100,10 +100,130 @@
      
       <img class="preview" src="../../images/data_quality.jpg" alt="Man fustreated with dirty data">
 <blockquote>
-<p>According to <a href="https://www.experian.com/blogs/news/2021/02/25/highlights-2021-global-data-management-research" target="_blank">Experian&rsquo;s 2021 Global Data Management Research</a>, &lsquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data driven.&rsquo;</p>
+<p>According to <a href="https://www.experian.com/blogs/news/2021/02/25/highlights-2021-global-data-management-research" target="_blank">Experian&rsquo;s 2021 Global Data Management Research</a>, &ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&rdquo;</p>
 </blockquote>
 <h2 id="what-are-data-quality-issues">What are Data Quality Issues?</h2>
-<p>Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. The table below shows a more comprehensive list of data issues.</p>
+<p>Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. View a more comprehensive list of data issues <a href="#table-of-data-issues">here</a>.</p>
+<h2 id="steps-to-better-quality-data">Steps to Better Quality Data</h2>
+<p>Sometimes it’s obvious where the issue is coming from - it’s always been around, and someone knows how to fix it temporarily to get a report out in time. Sound familiar? But to start fixing things, you have to ask a number of questions. I call it discovery! Discovery is about asking questions, the foundation of your strategy to clean dirty data.</p>
+<h3 id="discovery">Discovery</h3>
+<ul>
+<li>What are the data quality issues?</li>
+<li>Where are the data quality issues arising?</li>
+<li>Is it at the source, before it enters your main database, data warehouse, or data lake?</li>
+<li>Is it happening during the ETL process, when data is added to the database?</li>
+<li>Is it a problem that is manifesting itself during the analysis phase or when it is published in the report or dashboard?</li>
+<li>Most importantly, do we have a data owner that can help?</li>
+</ul>
+<p>Understanding the lineage of your data will greatly help. Where the data comes from, how it is transformed into new data points, what calculations are done, and how that is presented in reports or dashboards. Normally, many aspects of definition (see below) are already in place; however, more than likely, it will be incomplete.</p>
+<blockquote>
+<p>&ldquo;If you can&rsquo;t show the lineage of your data, how can you trust it?&rdquo; - Puneet Thukral</p>
+</blockquote>
+<p>Defining data is critical in cleaning bad data but also maintaining quality data. It&rsquo;s an important part of the strategy to maintain quality data sources to help drive data-decision making to achieve positive business outcomes.</p>
+<h3 id="defining-your-data">Defining Your Data</h3>
+<p>This includes:</p>
+<ol>
+<li>Data Catalogue</li>
+<li>Data Structure</li>
+<li>Data Lineage</li>
+<li>Data Classification</li>
+<li>Data Ownership</li>
+</ol>
+<p>Defining your data will go a long way in ensuring you can tackle data quality issues quickly and efficiently. But most importantly, identifying who owns the data is equally important. If you can’t identify an owner, can you assign one that you can work with? The problems in quality may be technical, human, governance-related, and/or due to a lack of operational systems that allow for issues to creep in.</p>
+<blockquote>
+<p>“Without clean data, or clean enough data, your data science is worthless.” — Michael Stonebraker</p>
+</blockquote>
+<p>To bring it all together, you need data management and operational and technological systems in place to reduce and eliminate data quality issues. The list below is a good start in what is needed to bring everything together to deliver on your data quality strategy. Data Teams, Data Owners, and Data Champions are vital as they are the glue to make things work. People are at the heart of solving problems, implementing solutions, and delivering outcomes that align with business strategy.</p>
+<h3 id="data-management">Data Management</h3>
+<ul>
+<li>
+<p><strong>Data Teams</strong>:</p>
+<ul>
+<li>Data Management</li>
+<li>Data Teams</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Owners and Data Champions</strong>:</p>
+<ul>
+<li>Identify data owners to support data management.</li>
+<li>Identify data champions who understand data and the benefits of quality data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Integration</strong>:</p>
+<ul>
+<li>Seamless integration from various sources.</li>
+<li>Use ETL processes for cleaning, transforming, and loading data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Quality Management</strong>:</p>
+<ul>
+<li>Implement data validation rules.</li>
+<li>Regularly monitor and cleanse data.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Security and Privacy</strong>:</p>
+<ul>
+<li>Encrypt data in transit and at rest.</li>
+<li>Implement access controls.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Governance</strong>:</p>
+<ul>
+<li>Establish clear policies and procedures.</li>
+<li>Define roles and responsibilities.</li>
+<li>KPIs and metrics</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Documentation</strong>:</p>
+<ul>
+<li>Maintain comprehensive documentation.</li>
+<li>Use a data catalog for metadata.</li>
+<li>Data lineage</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Delivery Mechanisms</strong>:</p>
+<ul>
+<li>Use APIs, data feeds, or pipelines.</li>
+<li>Ensure timely data delivery.</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Visualization and Reporting</strong>:</p>
+<ul>
+<li>Use visualization tools for dashboards and reports.</li>
+<li>Ensure reports are accurate and up-to-date.</li>
+</ul>
+</li>
+<li>
+<p><strong>User Training and Support</strong>:</p>
+<ul>
+<li>Provide training on data access and use.</li>
+<li>Offer ongoing support for data-related issues.</li>
+</ul>
+</li>
+</ul>
+<p>I don&rsquo;t talk about technical solutions to data quality issues here as each issue will be different, but having a clear strategy and systems in place will help to tackle the problems that present themselves. That&rsquo;s where discovery, definition, and management will form the basis of a data strategy that will help resolve data quality issues and provide the foundation for building data products that will give you insights.</p>
+<h2 id="summary">Summary</h2>
+<p>Data quality issues can range from basic problems like duplication and formatting errors to complex ones such as data bias and unstructured data. Tackling these challenges requires a strategic approach that begins with data discovery—identifying and understanding where the data quality issues arise, whether at the source or during the transformation and analysis phases. The next step is defining your data through a data catalog, structure, lineage, classification, and ownership to ensure clarity and accountability.</p>
+<div class="thoughts-box">
+  <i class="material-icons">psychology</i>
+  <div class="thoughts-content">
+    <h4>Thoughts</h4>
+    <ul class="thoughts-list">
+      <!-- <li><i class="material-icons">lightbulb</i>Data Lineage is important in tracking data quility issues. Cloud services such as Snowflake and Azure provide a suite of tools that can help.</li>
+      <li><i class="material-icons">lightbulb</i>Data Governance along with Data Management can help to catch and define the data quality issues.</li> -->
+      <li><i class="material-icons">lightbulb</i>Working with people to deliver better data is essential, especially with big data. While automation has its place, human insight is irreplaceable. Work with those who understand your data to leverage impactful business outcomes.</li>
+      </ul>
+  </div>
+</div>
+<h2 id="refernces">Refernces</h2>
 <h4 id="table-of-data-issues">Table of Data Issues</h4>
 <table>
 <thead>
@@ -195,112 +315,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="steps-to-better-quality-data">Steps to Better Quality Data</h2>
-<p>Sometimes it’s obvious where the issue is coming from - it’s always been around, and someone knows how to fix it temporarily to get a report out in time. Sound familiar!? But to start fixing things, you have to ask a number of questions. That&rsquo;s where dsicovery comes in.</p>
-<h3 id="discovery">Discovery</h3>
-<ul>
-<li>What are the data quality issues?</li>
-<li>Where are the data quality issues arising?</li>
-<li>Is it at the source, before it enters your main database, data warehouse, or data lake?</li>
-<li>Is it happening during the ETL process, when data is added to the database?</li>
-<li>Is it a problem that is manifesting itself during the analysis phase or when it is published in the report or dashboard?</li>
-<li>Most importantly, do we have a data owner that can help?</li>
-</ul>
-<p>Understanding the lineage of your data will help to fix these problems. Where the data comes from, how it is transformed into new data points, what calculations are done, and how that is presented in reports or dashboards. Normally, many aspects of definition (see below) are already in place; however, more than likely, it will be incomplete.</p>
-<p>If you can&rsquo;t show the lineage of the data, then how can you trust the data?</p>
-<h3 id="defining-your-data">Defining Your Data</h3>
-<p>This includes:</p>
-<ol>
-<li>Data Catalogue</li>
-<li>Data Structure</li>
-<li>Data Lineage</li>
-<li>Data Classification</li>
-<li>Data Ownership</li>
-</ol>
-<p>Defining your data will go a long way to making sure you can tackle data quality issues quickly and efficiently. But most importantly, identifying who owns that data can go a long way to solving problems quickly. If you can&rsquo;t identify an owner, can you assign an owner that you can work with? The problems in quality may be technical, human, governance-related, and due to a lack of operational systems that allow for problems to creep in.</p>
-<blockquote>
-<p>“Without clean data, or clean enough data, your data science is worthless.” — Michael Stonebraker</p>
-</blockquote>
-<p>To bring it all together you need data management and operational and technological systems in place to reduce and eliminate data quality issues.</p>
-<h3 id="data-management">Data Management</h3>
-<ul>
-<li>
-<p><strong>Data Integration</strong>:</p>
-<ul>
-<li>Seamless integration from various sources.</li>
-<li>Use ETL processes for cleaning, transforming, and loading data.</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Quality Management</strong>:</p>
-<ul>
-<li>Implement data validation rules.</li>
-<li>Regularly monitor and cleanse data.</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Security and Privacy</strong>:</p>
-<ul>
-<li>Encrypt data in transit and at rest.</li>
-<li>Implement access controls.</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Governance</strong>:</p>
-<ul>
-<li>Establish clear policies and procedures.</li>
-<li>Define roles and responsibilities.</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Documentation</strong>:</p>
-<ul>
-<li>Maintain comprehensive documentation.</li>
-<li>Use a data catalog for metadata.</li>
-<li>Data lineage</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Delivery Mechanisms</strong>:</p>
-<ul>
-<li>Use APIs, data feeds, or pipelines.</li>
-<li>Ensure timely data delivery.</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Visualization and Reporting</strong>:</p>
-<ul>
-<li>Use visualization tools for dashboards and reports.</li>
-<li>Ensure reports are accurate and up-to-date.</li>
-</ul>
-</li>
-<li>
-<p><strong>User Training and Support</strong>:</p>
-<ul>
-<li>Provide training on data access and use.</li>
-<li>Offer ongoing support for data-related issues.</li>
-</ul>
-</li>
-<li>
-<p><strong>Data Owners and Data Champions</strong>:</p>
-<ul>
-<li>Identify data owners to support data management.</li>
-<li>Identify data champions who understand data and the benefits of quality data.</li>
-</ul>
-<p>I don&rsquo;t talk about technical solutions here as data quality issues are rearly about technology and software. Those problems are solved easily. It&rsquo;s all the other problems that require discovery, defenition and management.</p>
-</li>
-</ul>
-<div class="thoughts-box">
-  <i class="material-icons">psychology</i>
-  <div class="thoughts-content">
-    <h4>Thoughts</h4>
-    <ul class="thoughts-list">
-      <li><i class="material-icons">lightbulb</i>Data Lineage is important in tracking data quility issues. Cloud services such as Snowflake and Azure provide a suite of tools that can help.</li>
-      <li><i class="material-icons">lightbulb</i>Data Governance along with Data Management can help to catch and define the data quality issues.</li>
-      <li><i class="material-icons">lightbulb</i>Working with people to delivery better data is fundamental. Especially with large date sets. Not everything can or should be automated, it's important to work with people who understand the data and how that data can be leveregd for business outcomes.</li>
-      </ul>
-  </div>
-</div>
+
 
     </main>
   </div>

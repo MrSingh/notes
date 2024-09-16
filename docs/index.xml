@@ -6,14 +6,14 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 13 Sep 2024 18:05:39 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 18:36:04 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to deal with data quality issues</title>
+      <title>From Chaos to Clarity: Managing Data Quality Effectively</title>
       <link>https://puneet.uk/notes/data_quality/</link>
       <pubDate>Fri, 13 Sep 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/data_quality/</guid>
-      <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;lsquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data driven.&amp;rsquo;&#xA;What are Data Quality Issues? Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. The table below shows a more comprehensive list of data issues.</description>
+      <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&amp;rdquo;&#xA;What are Data Quality Issues? Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. View a more comprehensive list of data issues here.</description>
     </item>
     <item>
       <title>Understanding the LLM context window and why it matters</title>
@@ -146,7 +146,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>11 SEPT 2024&#xD;Understanding the LLM context window and why it matters&#xD;A short intro to context windows and why they matter in a business context.&#xA;06 SEPT 2024&#xD;How I revamped my website menu in just half a day!&#xD;A ten step guide on how I updated the website menu using Gen AI in Copiliot.&#xA;10 JUN 2024&#xD;Carruthers &amp; Jackson - Summer School for data leaders&#xD;This ten week program, covers everything from Data Strategy to Visualisation and how to embark on that data journey with your organisation.</description>
+      <description>16 SEPT 2024&#xD;From Chaos to Clarity: Managing Data Quality Effectively&#xD;A introduction to a robust data strategy, broken down into discovery, definition and management.&#xA;11 SEPT 2024&#xD;Understanding the LLM context window and why it matters&#xD;A short intro to context windows and why they matter in a business context.&#xA;06 SEPT 2024&#xD;How I revamped my website menu in just half a day!&#xD;A ten step guide on how I updated the website menu using Gen AI in Copiliot.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>
