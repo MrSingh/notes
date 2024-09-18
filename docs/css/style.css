@@ -910,6 +910,61 @@ img.preview {
 }
 
 
+  /*--------------
+   LinkedIn Button
+  ––––––––––––––-- */
+  .share-container {
+    display: flex;
+    align-items: center;
+    float:right;
+}
+
+.share-icon,
+.linkedin-icon,
+.facebook-icon,
+.twitter-icon,
+.email-icon {
+    width: 22px;
+    height: 22px;
+    fill: grey; /* Default grey color */
+    transition: fill 0.3s;
+}
+
+.share-icon {
+    margin-right: 8px;
+}
+
+.linkedin-btn,
+.facebook-btn,
+.twitter-btn,
+.email-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    /* display: flex;
+    align-items: center; */
+    margin-left: 8px; /* Space between each button */
+}
+
+.linkedin-btn:hover .linkedin-icon {
+    fill: #0077B7; /* LinkedIn blue */
+}
+
+.facebook-btn:hover .facebook-icon {
+    fill: #1877F2; /* Facebook blue */
+}
+
+.twitter-btn:hover .twitter-icon {
+    fill: #1DA1F2; /* Twitter blue */
+}
+
+.email-btn:hover .email-icon {
+    fill: #D44638; /* Email red (Gmail color) */
+}
+
+
+
   /* Buttons - ||| Maked for Removal |||
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .button,
