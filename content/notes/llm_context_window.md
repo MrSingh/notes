@@ -1,7 +1,7 @@
 ---
 title: "Understanding the LLM context window and why it matters"
 date: 2024-09-11T07:00:00
-description: ""
+description: "Version: 1.0.0"
 draft: false
 labels: ""
 slug: "understanding_the_llm_context_window"

@@ -8,6 +8,13 @@ labels: ""
 slug: "notes"
 ---
 <div class="note-item">
+<div class="item-date sans-serif">25 SEPT 2024</div>
+<div class="item-info">
+<h3 class="sans-serif"><a class="color-inherit" href="../alternative_data_alpha">Leveraging Alternative Data for Alpha Generation in Investment Strategies</a></h3>
+<p>A look at the alternative data market and it's growing importance in alpha generation.</p>
+</div>
+</div><hr />
+<div class="note-item">
 <div class="item-date sans-serif">16 SEPT 2024</div>
 <div class="item-info">
 <h3 class="sans-serif"><a class="color-inherit" href="../data_quality">From Chaos to Clarity: Managing Data Quality Effectively</a></h3>

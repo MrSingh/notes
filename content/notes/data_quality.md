@@ -1,7 +1,7 @@
 ---
 title: "From Chaos to Clarity: Managing Data Quality Effectively"
 date: 2024-09-13T07:00:00
-description: ""
+description: "Version: 1.0.0"
 draft: false
 labels: ""
 slug: "data_quality"

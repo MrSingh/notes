@@ -6,8 +6,15 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 16 Sep 2024 13:37:21 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging Alternative Data for Alpha Generation in Investment Strategies</title>
+      <link>https://puneet.uk/notes/alternative_data_alpha/</link>
+      <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/alternative_data_alpha/</guid>
+      <description>Alternative data is becoming increasingly important in investment finance as analysts strive to beat the benchmark index and overall market. Alpha refers to the excess return relative to the benchmark, adjusted for risk.&#xA;What is alternative data? Traditional data includes corporate filings, analyst predictions, and ticker data.&#xA;Alternative data is non-traditional data. It can come from various sources in both structured and unstructured formats. Examples include ESG data, transaction data, web traffic, media sentiment, social media sentiment, and sensor data, among others.</description>
+    </item>
     <item>
       <title>From Chaos to Clarity: Managing Data Quality Effectively</title>
       <link>https://puneet.uk/notes/data_quality/</link>
@@ -146,7 +153,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>16 SEPT 2024&#xD;From Chaos to Clarity: Managing Data Quality Effectively&#xD;A introduction to a robust data strategy, broken down into discovery, definition and management.&#xA;11 SEPT 2024&#xD;Understanding the LLM context window and why it matters&#xD;A short intro to context windows and why they matter in a business context.&#xA;06 SEPT 2024&#xD;How I revamped my website menu in just half a day!&#xD;A ten step guide on how I updated the website menu using Gen AI in Copiliot.</description>
+      <description>25 SEPT 2024&#xD;Leveraging Alternative Data for Alpha Generation in Investment Strategies&#xD;A look at the alternative data market and it&#39;s growing importance in alpha generation.&#xA;16 SEPT 2024&#xD;From Chaos to Clarity: Managing Data Quality Effectively&#xD;A introduction to a robust data strategy, broken down into discovery, definition and management.&#xA;11 SEPT 2024&#xD;Understanding the LLM context window and why it matters&#xD;A short intro to context windows and why they matter in a business context.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>
