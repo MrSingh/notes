@@ -6,12 +6,12 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 01 Oct 2024 14:41:02 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 14:49:54 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Comprehensive Guide to Financial Crime Regulation and Anti-Financial Crime Strategies</title>
+      <title>Financial Crime Regulation and Anti-Financial Crime Strategies</title>
       <link>https://puneet.uk/notes/financial_crime/</link>
-      <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/financial_crime/</guid>
       <description>Financial crime is a huge problem and the blanket term is used to describe any crime relating to financial institutions and markets. The scale of the problem can be seen in Nasdaq&amp;rsquo;s first Financial Crime Report published in 2024[1].&#xA;The Nasdaq 2024 Global Financial Crime Report found that more than $3.1 trillion in illicit funds flowed through the global financial system last year alone. This includes nearly $800 billion in drug trafficking, nearly $350 billion in human trafficking, and more than $11 billion in terrorist financing.</description>
     </item>
@@ -30,14 +30,14 @@
       <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&amp;rdquo;&#xA;What are Data Quality Issues? Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. View a more comprehensive list of data issues here.</description>
     </item>
     <item>
-      <title>Understanding the LLM context window and why it matters</title>
+      <title>Understanding the LLM Context Window and Why It Matters</title>
       <link>https://puneet.uk/notes/understanding_the_llm_context_window/</link>
       <pubDate>Wed, 11 Sep 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/understanding_the_llm_context_window/</guid>
       <description>What are context windows? A context window is simply the chat you have with an LLM (like ChatGPT). Think of it as short-term memory! It keeps track of your prompts and its outputs as you chat. So, if you start a new chat, that context will be lost.&#xA;A context window has a limit. For example, the limit in Copilot in the Edge Browser is 8,000 tokens. A token can be a word, part of a word, character, or space.</description>
     </item>
     <item>
-      <title>How I revamped my website menu in just half a day!</title>
+      <title>How I Revamped My Website Menu in Half a Day!</title>
       <link>https://puneet.uk/notes/copilot_menu/</link>
       <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/copilot_menu/</guid>
@@ -58,7 +58,7 @@
       <description>[15/07/2024] 1st draft of notes for week 1-3 for Summer School For Data Leaders have been uploaded.&#xD;[10/07/2024] Notes page for Carruthers &amp;amp; Jackson - Summer School For Data Leaders here. [05/07/2024] A summary of the ESG data extraction project I started back in 2020(and in the process of resurrecting) can be found here.&#xD;[20/06/2024] Converting PDF ebooks to be Kindle friendly&#xD;[12/06/2024] Adding Euro 2024 fixture list to your calender&#xD;[07/06/2024] Delighted to have been accepted into this year’s Carruthers and Jackson Summer School for Data Leaders and aspiring CDOs.</description>
     </item>
     <item>
-      <title>Carruthers &amp; Jackson - Summer School for data leaders</title>
+      <title>Carruthers &amp; Jackson - Summer School for Data Leaders</title>
       <link>https://puneet.uk/summer_school/summer_school/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/summer_school/summer_school/</guid>
@@ -135,21 +135,21 @@
       <description>Making the case for the CDO and Business Case Development What Challenges will you face Legacy data&#xA;Siloes No MDM No Ownership Data Offloading Legacy Systems/Applications&#xA;Shadow IT &amp;amp; Data (Spreadsheets)&#xA;Strategy must avoid shadow data Spreadsheets &amp;lsquo;can&amp;rsquo;, cause governance, linage and quality issues&#xA;Multiple suppliers(operational) - Rationalise and Reduce (IT &amp;amp; Data)&#xA;Avoiding the &amp;lsquo;Hype Cycle&amp;rsquo; - See Chart in Slides&#xA;Trigger of data awareness Peak of expectations Table of Enlightenment Cliff of reality Acceleration of delivery and value Manage Expectations, Create Starategy and Define Reality.</description>
     </item>
     <item>
-      <title>Converting PDF ebooks to be Kindle friendly</title>
+      <title>Converting PDF Ebooks to Be Kindle Friendly</title>
       <link>https://puneet.uk/notes/pdf_to_kindle/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
     </item>
     <item>
-      <title>Project - Automating ESG Data Extraction to a report</title>
+      <title>Project - Automating ESG Data Extraction to a Report</title>
       <link>https://puneet.uk/notes/project_esg_report/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/project_esg_report/</guid>
       <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
-      <title>Adding the Euro 2024 fixture list to your calender</title>
+      <title>Adding the Euro 2024 Fixture List to Your Calender</title>
       <link>https://puneet.uk/notes/euro_2024/</link>
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/euro_2024/</guid>
@@ -160,7 +160,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>25 SEPT 2024&#xD;Leveraging Alternative Data for Alpha Generation in Investment Strategies&#xD;A look at the alternative data market and it&#39;s growing importance in alpha generation.&#xA;16 SEPT 2024&#xD;From Chaos to Clarity: Managing Data Quality Effectively&#xD;A introduction to a robust data strategy, broken down into discovery, definition and management.&#xA;11 SEPT 2024&#xD;Understanding the LLM context window and why it matters&#xD;A short intro to context windows and why they matter in a business context.</description>
+      <description>01 OCT 2024&#xD;Financial Crime Regulation and Anti-Financial Crime Strategies&#xD;A overview of financial crime regulation and anti-financial crime strateigies.&#xA;25 SEPT 2024&#xD;Leveraging Alternative Data for Alpha Generation in Investment Strategies&#xD;A look at the alternative data market and it&#39;s growing importance in alpha generation.&#xA;16 SEPT 2024&#xD;From Chaos to Clarity: Managing Data Quality Effectively&#xD;A introduction to a robust data strategy, broken down into discovery, definition and management.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>

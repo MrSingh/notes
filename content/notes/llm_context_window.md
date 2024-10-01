@@ -1,5 +1,5 @@
 ---
-title: "Understanding the LLM context window and why it matters"
+title: "Understanding the LLM Context Window and Why It Matters"
 date: 2024-09-11T07:00:00
 description: "Version: 1.0.0"
 draft: false

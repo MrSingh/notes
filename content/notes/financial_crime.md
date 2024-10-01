@@ -1,6 +1,6 @@
 ---
-title: "Comprehensive Guide to Financial Crime Regulation and Anti-Financial Crime Strategies"
-date: 2024-09-25T07:00:00
+title: "Financial Crime Regulation and Anti-Financial Crime Strategies"
+date: 2024-10-01T07:00:00
 description: "Version: 1.0.1"
 draft: false
 labels: ""
@@ -135,7 +135,7 @@ Bringing the technical and soft skills together to implement a strategy, create 
 Once to have the right people then the stratgey to fight Financial Crime can be broken down into three distinct areas.
 
 - **Collaboration**: Working closely with stakeholders to capture and articulate business requirements.
-- **Innovation**: Utilizing advanced analytics and AI to identify and mitigate financial crime.
+- **Innovation**: Utilising advanced analytics and AI to identify and mitigate financial crime.
 - **Continuous Learning**: Staying updated with the latest trends and regulatory changes.
 
 The key here is to understand that this is *not simply the role of a data analyst but the role of a finacial crime data analyst*. The person(s) must have an interest in this area as this will require continuous learning and continuous adaption to changing regulation and criminal startegies to avoid these controls and regulations.

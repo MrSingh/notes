@@ -1,5 +1,5 @@
 ---
-title: "Carruthers & Jackson - Summer School for data leaders"
+title: "Carruthers & Jackson - Summer School for Data Leaders"
 date: 2024-07-10T07:00:00
 lastmod: 2024-07-10T07:00:00
 # description: "Reading Log"

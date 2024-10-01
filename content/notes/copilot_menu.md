@@ -1,5 +1,5 @@
 ---
-title: "How I revamped my website menu in just half a day!"
+title: "How I Revamped My Website Menu in Half a Day!"
 date: 2024-09-06T07:00:00
 description: ""
 draft: false

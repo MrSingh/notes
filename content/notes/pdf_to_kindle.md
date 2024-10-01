@@ -1,5 +1,5 @@
 ---
-title: "Converting PDF ebooks to be Kindle friendly"
+title: "Converting PDF Ebooks to Be Kindle Friendly"
 date: 2024-06-20T07:00:00
 description: ""
 draft: false
