@@ -1,7 +1,7 @@
 ---
 title: "Leveraging Alternative Data for Alpha Generation in Investment Strategies"
 date: 2024-09-25T07:00:00
-description: "Version: 1.0.0"
+description: "Version: 1.0.1"
 draft: false
 labels: ""
 slug: "alternative_data_alpha"

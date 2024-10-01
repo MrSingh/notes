@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://puneet.uk/notes/financial_crime/</loc>
+    <lastmod>2024-09-25T07:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://puneet.uk/notes/alternative_data_alpha/</loc>
-    <lastmod>2024-09-25T13:31:26+01:00</lastmod>
+    <lastmod>2024-09-25T14:04:31+01:00</lastmod>
   </url><url>
     <loc>https://puneet.uk/notes/</loc>
-    <lastmod>2024-09-25T13:31:26+01:00</lastmod>
+    <lastmod>2024-09-25T14:04:31+01:00</lastmod>
   </url><url>
     <loc>https://puneet.uk/notes/data_quality/</loc>
     <lastmod>2024-09-25T13:31:26+01:00</lastmod>

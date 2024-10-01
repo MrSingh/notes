@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 25 Sep 2024 13:31:26 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 14:04:31 +0100</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprehensive Guide to Financial Crime Regulation and Anti-Financial Crime Strategies</title>
+      <link>https://puneet.uk/notes/financial_crime/</link>
+      <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/financial_crime/</guid>
+      <description>Financial crime is a huge problem and the blanket term is used to describe any crime relating to financial institutions and markets. The scale of the problem can be seen in Nasdaq&amp;rsquo;s first Financial Crime Report published in 2024[1].&#xA;The Nasdaq 2024 Global Financial Crime Report found that more than $3.1 trillion in illicit funds flowed through the global financial system last year alone. This includes nearly $800 billion in drug trafficking, nearly $350 billion in human trafficking, and more than $11 billion in terrorist financing.</description>
+    </item>
     <item>
       <title>Leveraging Alternative Data for Alpha Generation in Investment Strategies</title>
       <link>https://puneet.uk/notes/alternative_data_alpha/</link>
