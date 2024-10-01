@@ -1,12 +1,12 @@
 ---
 title: "Comprehensive Guide to Financial Crime Regulation and Anti-Financial Crime Strategies"
 date: 2024-09-25T07:00:00
-description: "Version: 1.0.0"
+description: "Version: 1.0.1"
 draft: false
 labels: ""
 slug: "financial_crime"
 images: 
-version: 1.0.0
+version: 1.0.1
 ---
 
 <img class="preview" src="../../images/financial_crime.jpg" alt="A thief rabbit stealing money from a safe">
@@ -32,7 +32,7 @@ in this definition, "offence" includes an act or omission which would be an offe
 
 ## Importance of Financial Crime Regulation
 
-Unchecked, financial crime undermines market integrity and confidence. Sentiment is a key driver of confidence - markets, organsiations and consumers can suffer greatly from financial crime.  
+Unchecked, financial crime undermines market integrity and confidence. Sentiment is a key driver of confidence - markets, organisations and consumers can suffer greatly from financial crime.  
 
 > Tackling financial crime requires a collective effort – from us, regulated firms, Government, law enforcement and our regulatory partners[2]. - FCA
 
@@ -45,11 +45,11 @@ Here are some of the biggest fines handed out by the FCA in recent years.
 | 13/12/2021 | National Westminster Bank Plc       | £264,772,619.95   | Court (following FCA prosecution) | UK | Money laundering                     |
 | 19/10/2021 | Credit Suisse International, Credit Suisse Securities (Europe) Ltd, and Credit Suisse AG | £147,190,200 | FCA | UK | Serious financial crime control failings |
 
-The risks for financial organisations is clear. Not only is there great potential for financial risk and reputational damage but the tragic human impact as a result of drug trafficking, human trafficking and terriorist activities is tragic for individuals caught up these activities and has a wider impact on families and wider society.  As we move to a cashless society the importance of putting controls in place becomes evermore important. 
+The risks for financial organisations is clear. Not only is there great potential for financial risk and reputational damage but the tragic human impact as a result of drug trafficking, human trafficking and terrorist activities is tragic for individuals caught up these activities and has a wider impact on families and wider society.  As we move to a cashless society the importance of putting controls in place becomes evermore important. 
 
 ## Role of Financial Crime Analytics
 
-With global payments transactions in the billions and the amount of money relating to those transactions in the trillions annually the scope of financial crime has also grown.  This where the financial crime analytics comes in. Analysing big data to find patterns in relation to regulatory requirements is an important step to implementing systems that can then be automated. Analysts must understand the regulations and the types of financial crime to make sure steps to detect and avoid financial crime are correctly implemented.  Further to this, they must contribute to the polices and systems that are implemented. The FCA consider the tackling financial crime as collaborative process, which is correct and to do this you have to have people that understand the types of financial crime, the regulations and quality data to do their jobs effectively. I mention data here because if the data has problems or is incomplete then then the analysts can't do their job properly. Listed below are the key types of financial crime and the key regulations that govern them. 
+With global payments transactions in the billions and the amount of money relating to those transactions in the trillions annually the scope of financial crime has also grown.  This where the financial crime analytics comes in. Analysing big data to find patterns in relation to regulatory requirements is an important step to implementing systems that can then be automated. Analysts must understand the regulations and the types of financial crime to make sure steps to detect and avoid financial crime are correctly implemented.  Further to this, they must contribute to the policies and systems that are implemented. The FCA consider the tackling financial crime as collaborative process, which is correct and to do this you have to have people that understand the types of financial crime, the regulations and quality data to do their jobs effectively. I mention data here because if the data has problems or is incomplete then then the analysts can't do their job properly. Listed below are the key types of financial crime and the key regulations that govern them. 
 
 ## Key Types of Financial Crime
 
@@ -64,7 +64,7 @@ With global payments transactions in the billions and the amount of money relati
 9. **Forgery and Counterfeiting**: Creating fake documents or money.
 10. **Terrorist Financing**: Providing financial support to terrorist organizations.
 
-Each is significant in it's own way and putting controls in place will vary depending on the crime you are targeting. Following the regularoy guidline is a great place to start and having teams to implemnet, monitor and continously improve is key to building robust controls to manage the risks.
+Each is significant in it's own way and putting controls in place will vary depending on the crime you are targeting. Following the regularoy guidline is a great place to start and having teams to implement, monitor and continuously improve is key to building robust controls to manage the risks.
 
 ## Key Regulations
 
@@ -116,7 +116,7 @@ Key policies and regulations have been established globally to tackle various ty
 
 There are a number of challenges to overcome and having a starategy in place will help to meet those challenges.
 
-The key to a successful strategy is having the the right teams to lead the the project - to implement, monitor and continously evolve strategy, policies and controls. I'll emphasis again, having the key personnel in place is paramount to the success of any financial crime startegy.  This is because the right Finacial Crime Anaylyst will have a combination of skills that include indepth understanding of the following:
+The key to a successful strategy is having the the right teams to lead the the project - to implement, monitor and continously evolve strategy, policies and controls. I'll emphasis again, having the key personnel in place is paramount to the success of any financial crime strategy.  This is because the right Financial Crime Analyst will have a combination of skills that include indepth understanding of the following:
 
 ### Technical and Soft Skills
 
@@ -124,21 +124,21 @@ The key to a successful strategy is having the the right teams to lead the the p
 - **Transaction monitoring**
 - **Understanding financial regulations**
 
-With the these skills they(Finacial Crime Analysts) can help implement startegy, policy and controls.  But to be trully effective they will also need excellent soft skills such as:
+With the these skills they(Financial Crime Analysts) can help implement strategy, policy and controls.  But to be trully effective they will also need excellent soft skills such as:
 
 - **Communication**
 - **problem-solving**
 - **stakeholder management**
 
-Bringing the technical and soft skills together to implement a strategy, create policies and collaborate to deliver controls and monitoriing in line with buisnessobjectives is the foundation of a good startegy.
+Bringing the technical and soft skills together to implement a strategy, create policies and collaborate to deliver controls and monitoriing in line with buisness objectives is the foundation of a good strategy.
 
-Once to have the right people then the stratgey to fight Finacial Crime can be broken down into three destinct areas.
+Once to have the right people then the stratgey to fight Financial Crime can be broken down into three distinct areas.
 
 - **Collaboration**: Working closely with stakeholders to capture and articulate business requirements.
 - **Innovation**: Utilizing advanced analytics and AI to identify and mitigate financial crime.
 - **Continuous Learning**: Staying updated with the latest trends and regulatory changes.
 
-The key here is to understand that this is *not simply the role of a data analyst but the role of a finacial crime data analyst*. The person(s) must have an interest in this area as this will require continous learning and continuous adaption to changing regulation and criminal startegies to avoid these controls and regulations.
+The key here is to understand that this is *not simply the role of a data analyst but the role of a finacial crime data analyst*. The person(s) must have an interest in this area as this will require continuous learning and continuous adaption to changing regulation and criminal startegies to avoid these controls and regulations.
 
 ## Summary
 
