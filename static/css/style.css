@@ -39,6 +39,18 @@
     background: transparent;
 }
 
+/* TEMP - FILTER STYLES */
+
+.post { display: block; } /* Make all posts visible by default */
+.tag-list {
+  margin-bottom: 1rem;;
+}
+.tags { cursor: pointer;
+    color: #36454f;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 0.6rem;}
+
 
   /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -295,14 +307,14 @@ nav {
     /* color: #8B0000; */
     color: #36454F;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 200;
     letter-spacing: -.04rem;
     line-height: 1.2;
     margin-bottom: .5rem;
     margin-bottom: .5rem;
 }
 h1 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 2.4rem;
   letter-spacing: -.08rem;
   line-height: 1.1;
@@ -310,12 +322,12 @@ h1 {
   margin-top: 0;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: .75rem;
-  /* margin-top: 1.75rem; */
+  font-weight: 600;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   /* margin-top: 1.75rem; */
   color: rgb(130, 0, 0);
 
@@ -410,8 +422,8 @@ pre code {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 3rem; }
-  h2 { font-size: 1.5rem; font-weight: bold;}
+  h1 { font-size: 3rem; font-weight:bold;}
+  h2 { font-size: 1.5rem;  font-weight: 400;}
 }
 
 p {

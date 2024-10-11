@@ -32,4 +32,14 @@ $(document).ready(function() {
         const mailToUrl = `mailto:?subject=${subject}&body=${body}`;
         window.open(mailToUrl, '_self');
     });
+    // Filter
+    $('.tags').click(function() {
+        var tag = $(this).data('tag');
+        if (tag === 'reset') {
+            $('.post').show(); // Show all posts
+        } else {
+            $('.post').hide(); // Hide all posts
+            $('.post[data-tags*="' + tag + '"]').show(); // Show posts with the selected tag
+        }
+    });
 });

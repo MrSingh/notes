@@ -8,6 +8,13 @@ labels: ""
 slug: "notes"
 ---
 <div class="note-item">
+<div class="item-date sans-serif">11 OCT 2024</div>
+<div class="item-info">
+<h3 class="sans-serif"><a class="color-inherit" href="../first_30_days">The First 30-90 Days as a Data Delivery Leader</a></h3>
+<p>Quick sumaary of what waht you need to cover in the first 30-90 days as a data leader.</p>
+</div>
+</div><hr />
+<div class="note-item">
 <div class="item-date sans-serif">01 OCT 2024</div>
 <div class="item-info">
 <h3 class="sans-serif"><a class="color-inherit" href="../financial_crime">Financial Crime Regulation and Anti-Financial Crime Strategies</a></h3>
