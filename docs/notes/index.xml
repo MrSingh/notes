@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Oct 2024 16:45:32 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding the PPDAC Framework</title>
+      <link>https://puneet.uk/notes/intro_ppdac/</link>
+      <pubDate>Mon, 21 Oct 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/intro_ppdac/</guid>
+      <description>I have been reading, &amp;lsquo;The Art of Statistics: Learning from Data&amp;rsquo; and came across the PPDAC framework fairly early on in the book. David Spiegelhalter, the author, is a big proponent of the framework. I have outlined it below with a view as a data leader.&#xA;What is PPDAC? Having a structured framework in statistical analysis is important to help bring order to complex statistical analysis problems. It does this by bring clarity, a step-by-step approach, consistency, effective solutions aswell as documentation and communication.</description>
+    </item>
     <item>
       <title>The First 30-90 Days as a Data Delivery Leader</title>
       <link>https://puneet.uk/notes/first_30_days/</link>
@@ -83,7 +90,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>11 OCT 2024&#xD;The First 30-90 Days as a Data Delivery Leader&#xD;Quick sumaary of what waht you need to cover in the first 30-90 days as a data leader.&#xA;01 OCT 2024&#xD;Financial Crime Regulation and Anti-Financial Crime Strategies&#xD;A overview of financial crime regulation and anti-financial crime strateigies.&#xA;25 SEPT 2024&#xD;Leveraging Alternative Data for Alpha Generation in Investment Strategies&#xD;A look at the alternative data market and it&#39;s growing importance in alpha generation.</description>
+      <description>21 OCT 2024&#xD;Understanding the PPDAC Framework&#xD;The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.&#xA;11 OCT 2024&#xD;The First 30-90 Days as a Data Delivery Leader&#xD;Quick sumaary of what waht you need to cover in the first 30-90 days as a data leader.&#xA;01 OCT 2024&#xD;Financial Crime Regulation and Anti-Financial Crime Strategies&#xD;A overview of financial crime regulation and anti-financial crime strateigies.</description>
     </item>
   </channel>
 </rss>
