@@ -303,6 +303,25 @@ nav {
     display: none;
 }
 
+#linkedin-follow-button a {
+  margin-left: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-transform:none;
+  /* font-family: Arial, sans-serif; */
+}
+
+#linkedin-follow-button a:hover {
+  background-color: #005582;
+}
+
+
+
 
 
 /* Typography
@@ -362,7 +381,7 @@ h6 {
   margin-top: 0;
 }
 
-h1 #page-title {
+#page-title {
 
 font-size: 1rem;
 color: #006400;
