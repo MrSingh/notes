@@ -313,7 +313,7 @@ nav {
   border-radius: 5px;
   font-size: 0.8rem;
   text-transform:none;
-  /* font-family: Arial, sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #linkedin-follow-button a:hover {
@@ -425,6 +425,7 @@ h1 > a:hover {
 
 .desktop-bar {
   margin: 0 10px;
+  font-size: 3rem;
 }
 
 
@@ -652,6 +653,9 @@ li a:hover {
 
 /* Import Google Material Icons */
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/* Import Source Sans Font */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 
 /* Base styles */
 .custom-menu {
