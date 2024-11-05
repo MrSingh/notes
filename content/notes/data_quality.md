@@ -29,7 +29,7 @@ Sometimes it’s obvious where the issue is coming from - it’s always been aro
 + Is it a problem that is manifesting itself during the analysis phase or when it is published in the report or dashboard?
 + Most importantly, do we have a data owner that can help?
 
-Part of 'Discovery', is to understand the data quality issues and the business impact they have. Is it easier to wrangle the data post data entry than it is to change systems and proceeses that will lead to better data?  Changing well defined processes that may inconvenience a customer for better data input may have an adverse effect - especially if you can fix it relatively easily. It's important to understand at which stage you will tackle that data issue. It's important to frame it in the value or risk associated with it to the business - you must be able to measure the impact in some way.
+Part of ‘Discovery’ is to understand the data quality issues and their impact on business. Is it easier to wrangle the data post-data entry than it is to change systems and processes that will lead to better data? Changing well-defined processes that may inconvenience a customer for better data input may have an adverse effect - especially if you can fix it relatively easily. It’s important to understand at which stage you will tackle that data issue. It’s important to frame it in the value or risk associated with it to the business - you must be able to measure the impact in some way.
 
 > “No data is clean, but most is useful.” — Dean Abbott
 
