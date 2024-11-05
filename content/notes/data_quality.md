@@ -1,7 +1,7 @@
 ---
-title: "From Chaos to Clarity: Managing Data Quality Effectively"
+title: "Implementing a Data Quality Strategy"
 date: 2024-09-13T07:00:00
-description: "Version: 1.0.0"
+description: "Version: 2.0.0"
 draft: false
 labels: ""
 slug: "data_quality"
@@ -21,15 +21,21 @@ Sometimes it’s obvious where the issue is coming from - it’s always been aro
 ### Discovery
 
 + What are the data quality issues?
++ What are the business impacts of these data quality issues?
++ Can you measure the impact and or risk?
 + Where are the data quality issues arising?
 + Is it at the source, before it enters your main database, data warehouse, or data lake?
 + Is it happening during the ETL process, when data is added to the database?
 + Is it a problem that is manifesting itself during the analysis phase or when it is published in the report or dashboard?
 + Most importantly, do we have a data owner that can help?
 
-Understanding the lineage of your data will greatly help. Where the data comes from, how it is transformed into new data points, what calculations are done, and how that is presented in reports or dashboards. Normally, many aspects of definition (see below) are already in place; however, more than likely, it will be incomplete.
+Part of 'Discovery', is to understand the data quality issues and the business impact they have. Is it easier to wrangle the data post data entry than it is to change systems and proceeses that will lead to better data?  Changing well defined processes that may inconvience a customer for better data input may have an adverse effect - especially if you can fix it relatively easily. It's important to to understand at which stage you will tackle that data issue. It's impotant to frame it in the value or risk associated with it to the business - you must be able to meaure the impact in some way.
 
-> "If you can't show the lineage of your data, how can you trust it?" - Puneet Thukral
+> “No data is clean, but most is useful.” — Dean Abbott
+
+Understanding the lineage of your data will greatly help. Where the data comes from, how it is transformed into new data points, what calculations are done, and how that is presented in reports or dashboards. Normally, many aspects of definition (see below) are already in place; however, more than likely, it will be incomplete. If you can't show the lineage of your data, how can you trust it? 
+
+Data Lineage is important in tracking data quility issues. There are a number of Cloud services such as Snowflake and Azure that provide a suite of tools that can help.
 
 Defining data is critical in cleaning bad data but also maintaining quality data. It's an important part of the strategy to maintain quality data sources to help drive data-decision making to achieve positive business outcomes.
 
@@ -93,23 +99,11 @@ To bring it all together, you need data management and operational and technolog
   - Provide training on data access and use.
   - Offer ongoing support for data-related issues.
 
-I don't talk about technical solutions to data quality issues here as each issue will be different, but having a clear strategy and systems in place will help to tackle the problems that present themselves. That's where discovery, definition, and management will form the basis of a data strategy that will help resolve data quality issues and provide the foundation for building data products that will give you insights.
-
 ## Summary
 
-Data quality issues can range from basic problems like duplication and formatting errors to complex ones such as data bias and unstructured data. Tackling these challenges requires a strategic approach that begins with data discovery—identifying and understanding where the data quality issues arise, whether at the source or during the transformation and analysis phases. The next step is defining your data through a data catalog, structure, lineage, classification, and ownership to ensure clarity and accountability.
+Data quality issues can range from basic problems like duplication and formatting errors to complex ones such as data bias and unstructured data. Tackling these challenges requires a strategic approach that begins with data discovery—identifying and understanding where the data quality issues arise, whether at the source or during the transformation and analysis phases. The next step is defining your data through a data catalog, structure, lineage, classification, and ownership to ensure clarity and accountability. All the while, viewing through the lens of the impact it has on the business. We are not looking for perfection; we are looking for quality data to help us gain meaningful insights to deliver business outcomes.
 
-<div class="thoughts-box">
-  <i class="material-icons">psychology</i>
-  <div class="thoughts-content">
-    <h4>Thoughts</h4>
-    <ul class="thoughts-list">
-      <!-- <li><i class="material-icons">lightbulb</i>Data Lineage is important in tracking data quility issues. Cloud services such as Snowflake and Azure provide a suite of tools that can help.</li>
-      <li><i class="material-icons">lightbulb</i>Data Governance along with Data Management can help to catch and define the data quality issues.</li> -->
-      <li><i class="material-icons">lightbulb</i>Working with people to deliver better data is essential, especially with big data. While automation has its place, human insight is irreplaceable. Work with those who understand your data to leverage impactful business outcomes.</li>
-      </ul>
-  </div>
-</div>
+Having a clear strategy and systems in place will help address the problems that arise. Discovery, definition, and management will form the basis of a data strategy that resolves data quality issues and provides the foundation for building data products that deliver valuable insights.
 
 ## Refernces
 

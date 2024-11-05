@@ -37,7 +37,7 @@
       <description>Alternative data is becoming increasingly important in investment finance as analysts strive to beat the benchmark index and overall market. Alpha refers to the excess return relative to the benchmark, adjusted for risk.&#xA;What is alternative data? Traditional data includes corporate filings, analyst predictions, and ticker data.&#xA;Alternative data is non-traditional data. It can come from various sources in both structured and unstructured formats. Examples include ESG data, transaction data, web traffic, media sentiment, social media sentiment, and sensor data, among others.</description>
     </item>
     <item>
-      <title>From Chaos to Clarity: Managing Data Quality Effectively</title>
+      <title>Implementing a Data Quality Strategy</title>
       <link>https://puneet.uk/notes/data_quality/</link>
       <pubDate>Fri, 13 Sep 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/data_quality/</guid>
@@ -90,7 +90,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>21 OCT 2024&#xD;Understanding the PPDAC Framework&#xD;The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.&#xA;11 OCT 2024&#xD;The First 30-90 Days as a Data Delivery Leader&#xD;Quick sumaary of what waht you need to cover in the first 30-90 days as a data leader.&#xA;01 OCT 2024&#xD;Financial Crime Regulation and Anti-Financial Crime Strategies&#xD;A overview of financial crime regulation and anti-financial crime strateigies.</description>
+      <description>05 NOV 2024&#xD;Implementing a Data Quality Strategy&#xD;Added a bit more clarity around the strategy and business impact of data quality to a previous blog.&#xA;21 OCT 2024&#xD;Understanding the PPDAC Framework&#xD;The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.&#xA;11 OCT 2024&#xD;The First 30-90 Days as a Data Delivery Leader&#xD;Quick sumaary of what waht you need to cover in the first 30-90 days as a data leader.</description>
     </item>
   </channel>
 </rss>
