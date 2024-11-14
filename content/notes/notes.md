@@ -16,11 +16,18 @@ slug: "notes"
                 <span class="tags" data-tag="AI">#AI</span>
                 <span class="tags" data-tag="AI">#analytics</span>
             </div>
+            <div class="note-item post" data-tags="data finance">
+                <div class="item-date sans-serif">14 NOV 2024</div>
+                <div class="item-info">
+                <h3 class="sans-serif"><a class="color-inherit" href="../notes/normalising_data">Normalising Financial Data</a></h3>
+                <p>A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.</p>
+                </div>
+            </div>
  <div class="note-item post" data-tags="analytics finance">
                 <div class="item-date sans-serif">14 NOV 2024</div>
                 <div class="item-info">
                 <h3 class="sans-serif"><a class="color-inherit" href="../python/normalise_multiindex_data">Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</a></h3>
-                <p>I'm working on the a stock market analysis model and have broken elemnets of it down. This is the first of many. </p>
+                <p>I'm developing a stock market analysis model and have broken down its components. This is the first in a series of many.</p>
                 </div>
                 </div>
             <div class="note-item post" data-tags="data strategy leadership">

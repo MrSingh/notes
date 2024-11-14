@@ -106,6 +106,15 @@
           <!-- # [Resource](https://docs.python.org/3/library/stdtypes.html) -->
 <hr>
 <p>This example fetches historical price data for two ETFs, &lsquo;VOO&rsquo; and &lsquo;VTWO&rsquo;, using the yfinance library and storing it in a Multi-Index DataFrame. It then iterates through each ticker symbol to normalise their adjusted closing prices based on the first day&rsquo;s value. The normalised prices are stored in new columns in the DataFrame.</p>
+<p>Normalising data is important for a number of reasons:</p>
+<ul>
+<li>Comparison Across Assets</li>
+<li>Trend Analysis</li>
+<li>Volatility Assessment</li>
+<li>Portfolio Management</li>
+<li>Visualization</li>
+</ul>
+<p>See my short guide to normalising data <a href="../../notes/normalising_data">here</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">yfinance</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">yf</span>
@@ -122,7 +131,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Get the base value, the adjusted closing price on the first day</span>
 </span></span><span style="display:flex;"><span>    base_value = df[(<span style="color:#ed9d13">&#39;Adj Close&#39;</span>, ticker)].iloc[<span style="color:#3677a9">0</span>]
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Normalis e the adjusted closing prices by dividing by the base value and multiplying by 100</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Normalise the adjusted closing prices by dividing by the base value and multiplying by 100</span>
 </span></span><span style="display:flex;"><span>    normalised_column = (df[(<span style="color:#ed9d13">&#39;Adj Close&#39;</span>, ticker)] / base_value) * <span style="color:#3677a9">100</span>
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Store the normalised prices in a new column in the DataFrame</span>

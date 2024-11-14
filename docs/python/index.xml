@@ -6,14 +6,14 @@
     <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Nov 2024 07:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 16:29:21 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</title>
       <link>https://puneet.uk/python/normalise_multiindex_data/</link>
       <pubDate>Thu, 14 Nov 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/python/normalise_multiindex_data/</guid>
-      <description>This example fetches historical price data for two ETFs, &amp;lsquo;VOO&amp;rsquo; and &amp;lsquo;VTWO&amp;rsquo;, using the yfinance library and storing it in a Multi-Index DataFrame. It then iterates through each ticker symbol to normalise their adjusted closing prices based on the first day&amp;rsquo;s value. The normalised prices are stored in new columns in the DataFrame.&#xA;# Import import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX tickers = [&amp;#39;VOO&amp;#39;,&amp;#39;VTWO&amp;#39;] df = yf.</description>
+      <description>This example fetches historical price data for two ETFs, &amp;lsquo;VOO&amp;rsquo; and &amp;lsquo;VTWO&amp;rsquo;, using the yfinance library and storing it in a Multi-Index DataFrame. It then iterates through each ticker symbol to normalise their adjusted closing prices based on the first day&amp;rsquo;s value. The normalised prices are stored in new columns in the DataFrame.&#xA;Normalising data is important for a number of reasons:&#xA;Comparison Across Assets Trend Analysis Volatility Assessment Portfolio Management Visualization See my short guide to normalising data here</description>
     </item>
     <item>
       <title>Primitive Data Types</title>

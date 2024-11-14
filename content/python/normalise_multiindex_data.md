@@ -12,6 +12,16 @@ slug: "normalise_multiindex_data"
 
 This example fetches historical price data for two ETFs, 'VOO' and 'VTWO', using the yfinance library and storing it in a Multi-Index DataFrame. It then iterates through each ticker symbol to normalise their adjusted closing prices based on the first day's value. The normalised prices are stored in new columns in the DataFrame.
 
+Normalising data is important for a number of reasons:
+
++ Comparison Across Assets
++ Trend Analysis
++ Volatility Assessment
++ Portfolio Management
++ Visualization
+
+See my short guide to normalising data [here](../../notes/normalising_data)
+
 
 ```python
 # Import
@@ -39,7 +49,7 @@ for ticker in ['VOO', 'VTWO']:
     # Get the base value, the adjusted closing price on the first day
     base_value = df[('Adj Close', ticker)].iloc[0]
     
-    # Normalis e the adjusted closing prices by dividing by the base value and multiplying by 100
+    # Normalise the adjusted closing prices by dividing by the base value and multiplying by 100
     normalised_column = (df[('Adj Close', ticker)] / base_value) * 100
     
     # Store the normalised prices in a new column in the DataFrame
