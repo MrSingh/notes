@@ -6,8 +6,15 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 05 Nov 2024 11:32:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</title>
+      <link>https://puneet.uk/python/normalise_multiindex_data/</link>
+      <pubDate>Thu, 14 Nov 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/normalise_multiindex_data/</guid>
+      <description>This example fetches historical price data for two ETFs, &amp;lsquo;VOO&amp;rsquo; and &amp;lsquo;VTWO&amp;rsquo;, using the yfinance library and storing it in a Multi-Index DataFrame. It then iterates through each ticker symbol to normalise their adjusted closing prices based on the first day&amp;rsquo;s value. The normalised prices are stored in new columns in the DataFrame.&#xA;# Import import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX tickers = [&amp;#39;VOO&amp;#39;,&amp;#39;VTWO&amp;#39;] df = yf.</description>
+    </item>
     <item>
       <title>Understanding the PPDAC Framework</title>
       <link>https://puneet.uk/notes/intro_ppdac/</link>
@@ -174,7 +181,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>05 NOV 2024&#xD;Implementing a Data Quality Strategy&#xD;Added a bit more clarity around the strategy and business impact of data quality to a previous blog.&#xA;21 OCT 2024&#xD;Understanding the PPDAC Framework&#xD;The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.&#xA;11 OCT 2024&#xD;The First 30-90 Days as a Data Delivery Leader&#xD;Quick sumaary of what waht you need to cover in the first 30-90 days as a data leader.</description>
+      <description>#reset&#xD;#data&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;14 NOV 2024&#xD;Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame&#xD;I&#39;m working on the a stock market analysis model and have broken elemnets of it down. This is the first of many. 05 NOV 2024&#xD;Implementing a Data Quality Strategy&#xD;Added a bit more clarity around the strategy and business impact of data quality to a previous blog.&#xA;21 OCT 2024&#xD;Understanding the PPDAC Framework&#xD;The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>
@@ -308,6 +315,34 @@
       <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
       <guid>https://puneet.uk/git/basic_git_commands/</guid>
       <description> Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Clone/Download git clone https://github.com/username/projectName.git Create a new branch git checkout -b new-branch Stage All Changes git stage -all Add Files git add . Commit git commit -a -m &amp;#34;Commit Comment&amp;#34; Push git push origin gh-pages </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/python/image_to_passport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/image_to_passport/</guid>
+      <description>import cv2 from PIL import Image # Load the image image_path = &amp;#39;data/amrit_full.jpg&amp;#39; image = cv2.imread(image_path) # Define the size for the passport photo (e.g., 2x2 inches at 300 DPI) passport_width = int(35 * 11.81) # 35mm to pixels passport_height = int(45 * 11.81) # 45mm to pixels # Resize the image resized_image = cv2.resize(image, (passport_width, passport_height)) # Save the resized image cv2.imwrite(&amp;#39;data/amrit_passport.jpg&amp;#39;, resized_image) # Optional: Convert to RGB and save using Pillow for better quality passport_image = Image.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/python/investment_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/investment_analysis/</guid>
+      <description>import yfinance as yf import pandas as pd import numpy as np import matplotlib.pyplot as plt # Download data from Yahoo Finance etf = &amp;#34;VUSA.L&amp;#34; # Replace with the relevant ticker for your ETF data = yf.download(etf, start=&amp;#34;1990-01-01&amp;#34;, end=&amp;#34;2024-01-01&amp;#34;) # Plot the closing price history plt.figure(figsize=(10,6)) plt.plot(data[&amp;#39;Close&amp;#39;], label=f&amp;#39;{etf} Closing Price&amp;#39;) # Annotate the starting and ending prices start_price = data[&amp;#39;Close&amp;#39;].iloc[0] end_price = data[&amp;#39;Close&amp;#39;].iloc[-1] start_date = data.index[0].strftime(&amp;#39;%Y-%m-%d&amp;#39;) end_date = data.index[-1].strftime(&amp;#39;%Y-%m-%d&amp;#39;) # Add text annotations on the plot for start and end prices plt.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/python/moving_average_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/moving_average_analysis/</guid>
+      <description># Import the required libraries import yfinance as yf import pandas as pd import numpy as np import matplotlib.pyplot as plt # Step 1: Define the stock and download the data # You can change &amp;#39;AAPL&amp;#39; to any other stock ticker symbol stock_ticker = &amp;#39;AAPL&amp;#39; start_date = &amp;#39;2020-01-01&amp;#39; end_date = &amp;#39;2023-01-01&amp;#39; # Download stock data from Yahoo Finance stock_data = yf.download(stock_ticker, start=start_date, end=end_date) [*********************100%***********************] 1 of 1 completed&#xD;# Display the first few rows of the data to ensure it&amp;#39;s been downloaded correctly print(stock_data.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/python/stock_market_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/stock_market_analysis/</guid>
+      <description># Import # In case of a an &amp;#39;No module named&amp;#39; error, install dash, pandas etc # pip install dash import dash import seaborn as sns import matplotlib.pyplot as plt from dash import dcc, html import plotly.express as px import plotly.graph_objs as go import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 - ^GSPC #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX #Vanguard Russel Index ETF - VTWO #FTSE 100 - ^FTSE #FTSE 200 - ^FTMC # You can define the various tickers - ticker_symbol = &amp;#39;^GSPC&amp;#39; tickers = [&amp;#39;^GSPC&amp;#39;, &amp;#39;VOO&amp;#39;, &amp;#39;BSPIX&amp;#39;, &amp;#39;VTWO&amp;#39;, &amp;#39;^FTSE&amp;#39;, &amp;#39;^FTMC&amp;#39;] df = yf.</description>
     </item>
     <item>
       <title></title>
