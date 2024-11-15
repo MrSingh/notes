@@ -6,8 +6,15 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Nov 2024 16:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flatten a Multi-Index DataFrame</title>
+      <link>https://puneet.uk/python/flatten_multiindex_dataframe/</link>
+      <pubDate>Fri, 15 Nov 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/flatten_multiindex_dataframe/</guid>
+      <description>Resource Whilst a multi-index datafame can be useful for complex data orginisation, for example across multiple markets and time periods. Flattening the data has it&amp;rsquo;s own advantages; making for easier data manipulation, merging with other datasets and visulising. Here is a quick example.&#xA;# Import import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX tickers = [&amp;#39;VOO&amp;#39;,&amp;#39;VTWO&amp;#39;] df = yf.</description>
+    </item>
     <item>
       <title>Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</title>
       <link>https://puneet.uk/python/normalise_multiindex_data/</link>
@@ -188,7 +195,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>#reset&#xD;#data&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;14 NOV 2024&#xD;Normalising Financial Data&#xD;A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.&#xA;14 NOV 2024&#xD;Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame&#xD;I&#39;m developing a stock market analysis model and have broken down its components. This is the first in a series of many.&#xA;05 NOV 2024&#xD;Implementing a Data Quality Strategy&#xD;Added a bit more clarity around the strategy and business impact of data quality to a previous blog.</description>
+      <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;15 NOV 2024&#xD;Flatten a Multi-Index DataFrame&#xD;Python example of how to flatten a multi-index DataFrame.&#xA;14 NOV 2024&#xD;Normalising Financial Data&#xD;A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.&#xA;14 NOV 2024&#xD;Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame&#xD;I&#39;m developing a stock market analysis model and have broken down its components.</description>
     </item>
     <item>
       <title>Code: Data &amp; Analytics</title>

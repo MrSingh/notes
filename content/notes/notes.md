@@ -8,13 +8,21 @@ labels: ""
 slug: "notes"
 ---
 <div class="tag-list">
-                <span class="tags" data-tag="reset">#reset</span>
-                <span class="tags" data-tag="data">#data</span>
+                <span class="tags" data-tag="reset">#reset</span><span>&nbsp;|</span>
+                <!-- <span class="tags" data-tag="data">#data</span> -->
                 <span class="tags" data-tag="leadership">#leadership</span>
                 <span class="tags" data-tag="strategy">#strategy</span>
                 <span class="tags" data-tag="finance">#finance</span>
                 <span class="tags" data-tag="AI">#AI</span>
-                <span class="tags" data-tag="AI">#analytics</span>
+                <span class="tags" data-tag="analytics">#analytics</span>
+                <span class="tags" data-tag="python">#python</span>
+            </div>
+             <div class="note-item post" data-tags="finance analytics python">
+                <div class="item-date sans-serif">15 NOV 2024</div>
+                <div class="item-info">
+                <h3 class="sans-serif"><a class="color-inherit" href="../../python/flatten_multiindex_dataframe">Flatten a Multi-Index DataFrame</a></h3>
+                <p>Python example of how to flatten a multi-index DataFrame.</p>
+                </div>
             </div>
             <div class="note-item post" data-tags="data finance">
                 <div class="item-date sans-serif">14 NOV 2024</div>
@@ -23,11 +31,11 @@ slug: "notes"
                 <p>A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.</p>
                 </div>
             </div>
- <div class="note-item post" data-tags="analytics finance">
+ <div class="note-item post" data-tags="finance analytics python">
                 <div class="item-date sans-serif">14 NOV 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../python/normalise_multiindex_data">Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</a></h3>
-                <p>I'm developing a stock market analysis model and have broken down its components. This is the first in a series of many.</p>
+                <h3 class="sans-serif"><a class="color-inherit" href="../../python/normalise_multiindex_data">Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</a></h3>
+                <p>I'm developing a stock market analysis model and have broken down its components. This is the first in a series of Python code examples.</p>
                 </div>
                 </div>
             <div class="note-item post" data-tags="data strategy leadership">

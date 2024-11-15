@@ -6,8 +6,15 @@
     <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Nov 2024 16:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flatten a Multi-Index DataFrame</title>
+      <link>https://puneet.uk/python/flatten_multiindex_dataframe/</link>
+      <pubDate>Fri, 15 Nov 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/flatten_multiindex_dataframe/</guid>
+      <description>Resource Whilst a multi-index datafame can be useful for complex data orginisation, for example across multiple markets and time periods. Flattening the data has it&amp;rsquo;s own advantages; making for easier data manipulation, merging with other datasets and visulising. Here is a quick example.&#xA;# Import import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX tickers = [&amp;#39;VOO&amp;#39;,&amp;#39;VTWO&amp;#39;] df = yf.</description>
+    </item>
     <item>
       <title>Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</title>
       <link>https://puneet.uk/python/normalise_multiindex_data/</link>

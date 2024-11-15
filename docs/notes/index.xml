@@ -6,7 +6,7 @@
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Nov 2024 16:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 19:35:02 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Normalising Financial Data</title>
@@ -97,7 +97,7 @@
       <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/notes/</guid>
-      <description>#reset&#xD;#data&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;14 NOV 2024&#xD;Normalising Financial Data&#xD;A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.&#xA;14 NOV 2024&#xD;Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame&#xD;I&#39;m developing a stock market analysis model and have broken down its components. This is the first in a series of many.&#xA;05 NOV 2024&#xD;Implementing a Data Quality Strategy&#xD;Added a bit more clarity around the strategy and business impact of data quality to a previous blog.</description>
+      <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;15 NOV 2024&#xD;Flatten a Multi-Index DataFrame&#xD;Python example of how to flatten a multi-index DataFrame.&#xA;14 NOV 2024&#xD;Normalising Financial Data&#xD;A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.&#xA;14 NOV 2024&#xD;Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame&#xD;I&#39;m developing a stock market analysis model and have broken down its components.</description>
     </item>
   </channel>
 </rss>
