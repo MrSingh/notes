@@ -6,8 +6,22 @@
     <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 15 Nov 2024 07:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explortatory Data Analysis of CO2 Emmisions Data with Python</title>
+      <link>https://puneet.uk/python/co2_emmisions_eda/</link>
+      <pubDate>Mon, 18 Nov 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/co2_emmisions_eda/</guid>
+      <description>EDGAR CO2 emmisions data&#xA;ToDo: Remove Global Total Row From the Top 20 and 5 Datasets % Increase in Avaiation and Shipping Extract Figures for Aviation and Shipping % of Total Emissions by the Top 20 - 1970 % of Total Emissions by the Top 5 - 1970 % of Total Emissions by the Top 20 - 2023 % of Total Emissions by the Top 5 - 2023 Total CO2 Emissions for Each Year Grand Total Emissions of Co2 Create a ToC Create A Visual/Dashboard An EDA of CO2 emmisons based on EDGAR(Emissions Database for Global Atmospheric Research) data.</description>
+    </item>
+    <item>
+      <title>CO2 Emmisions Analysis</title>
+      <link>https://puneet.uk/python/co2_emmisions_analysis/</link>
+      <pubDate>Sun, 17 Nov 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/python/co2_emmisions_analysis/</guid>
+      <description>Data Resource An analysis of CO2 emmisons based on Glaobal 2023 data.&#xA;# Import import pandas as pd import matplotlib.pyplot as plt import seaborn as sns # Load the dataset data = pd.read_csv(&amp;#39;data/world-data-2023.csv&amp;#39;) # Display The column names and data types print(data.dtypes) Country object&#xD;Density\n(P/Km2) object&#xD;Abbreviation object&#xD;Agricultural Land( %) object&#xD;Land Area(Km2) object&#xD;Armed Forces size object&#xD;Birth Rate float64&#xD;Calling Code float64&#xD;Capital/Major City object&#xD;Co2-Emissions object&#xD;CPI object&#xD;CPI Change (%) object&#xD;Currency-Code object&#xD;Fertility Rate float64&#xD;Forested Area (%) object&#xD;Gasoline Price object&#xD;GDP object&#xD;Gross primary education enrollment (%) object&#xD;Gross tertiary education enrollment (%) object&#xD;Infant mortality float64&#xD;Largest city object&#xD;Life expectancy float64&#xD;Maternal mortality ratio float64&#xD;Minimum wage object&#xD;Official language object&#xD;Out of pocket health expenditure object&#xD;Physicians per thousand float64&#xD;Population object&#xD;Population: Labor force participation (%) object&#xD;Tax revenue (%) object&#xD;Total tax rate object&#xD;Unemployment rate object&#xD;Urban_population object&#xD;Latitude float64&#xD;Longitude float64&#xD;dtype: object&#xD;# Convert &amp;#39;Co2-Emissions&amp;#39; to numeric data[&amp;#39;Co2-Emissions&amp;#39;] = pd.</description>
+    </item>
     <item>
       <title>Flatten a Multi-Index DataFrame</title>
       <link>https://puneet.uk/python/flatten_multiindex_dataframe/</link>
