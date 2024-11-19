@@ -1,5 +1,5 @@
 ---
-title: "Explortatory Data Analysis of CO2 Emmisions Data with Python"
+title: "Exploratory Data Analysis of CO2 Emmisions Data with Python"
 author: "Puneet Thukral"
 date: 2024-11-18T07:00:00 
 draft: false
