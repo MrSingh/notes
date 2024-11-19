@@ -872,7 +872,7 @@ plt.show()
 
 
 ```python
-################################# REMOVE GLOBAL TODAT FROM TOP 20 and TOP 5 ##################################
+################################# REMOVE GLOBAL TOTAL FROM TOP 20 and TOP 5 ##################################
 ```
 
 # % of Total Emissions by the Top 20 - 1970
