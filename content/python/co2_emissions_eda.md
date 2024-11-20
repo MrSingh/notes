@@ -1,11 +1,13 @@
 ---
-title: "Exploratory Data Analysis of CO2 Emmisions Data with Python"
+title: "Exploratory Data Analysis of CO2 Emissions Data with Python"
 author: "Puneet Thukral"
 date: 2024-11-18T07:00:00 
 draft: false
-slug: "co2_emmisions_eda"
+slug: "co2_emissions_eda"
 ---
-[EDGAR CO2 emmisions data](https://edgar.jrc.ec.europa.eu/report_2024)
+[EDGAR CO2 emissions data](https://edgar.jrc.ec.europa.eu/report_2024)
+
+This EDA is a work in progress and is the groundwork for a visulisation in Power Bi.
 
 ## ToDo:
 + [ ] Remove Global Total Row From the Top 20 and 5 Datasets
@@ -24,7 +26,7 @@ slug: "co2_emmisions_eda"
 
 ***
 
-An EDA of CO2 emmisons based on EDGAR(Emissions Database for Global Atmospheric Research) data.
+An EDA of CO2 emissons based on EDGAR(Emissions Database for Global Atmospheric Research) data.
 
 
 ```python

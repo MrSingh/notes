@@ -6,14 +6,14 @@
     <description>Recent content in Pythons on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 19 Nov 2024 13:42:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 13:33:51 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exploratory Data Analysis of CO2 Emmisions Data with Python</title>
-      <link>https://puneet.uk/python/co2_emmisions_eda/</link>
+      <title>Exploratory Data Analysis of CO2 Emissions Data with Python</title>
+      <link>https://puneet.uk/python/co2_emissions_eda/</link>
       <pubDate>Mon, 18 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/co2_emmisions_eda/</guid>
-      <description>EDGAR CO2 emmisions data&#xA;ToDo: Remove Global Total Row From the Top 20 and 5 Datasets % Increase in Avaiation and Shipping Extract Figures for Aviation and Shipping % of Total Emissions by the Top 20 - 1970 % of Total Emissions by the Top 5 - 1970 % of Total Emissions by the Top 20 - 2023 % of Total Emissions by the Top 5 - 2023 Total CO2 Emissions for Each Year Grand Total Emissions of Co2 Create a ToC Create A Visual/Dashboard An EDA of CO2 emmisons based on EDGAR(Emissions Database for Global Atmospheric Research) data.</description>
+      <guid>https://puneet.uk/python/co2_emissions_eda/</guid>
+      <description>EDGAR CO2 emissions data&#xA;This EDA is a work in progress and is the groundwork for a visulisation in Power Bi.&#xA;ToDo: Remove Global Total Row From the Top 20 and 5 Datasets % Increase in Avaiation and Shipping Extract Figures for Aviation and Shipping % of Total Emissions by the Top 20 - 1970 % of Total Emissions by the Top 5 - 1970 % of Total Emissions by the Top 20 - 2023 % of Total Emissions by the Top 5 - 2023 Total CO2 Emissions for Each Year Grand Total Emissions of Co2 Create a ToC Create A Visual/Dashboard An EDA of CO2 emissons based on EDGAR(Emissions Database for Global Atmospheric Research) data.</description>
     </item>
     <item>
       <title>CO2 Emmisions Analysis</title>

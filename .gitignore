@@ -4,7 +4,7 @@ ${workspaceroot}/*
 .vscode
 notes.code-workspace
 
-todo.md
+notes.md
 in-progress/
 test/
 

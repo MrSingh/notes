@@ -2,6 +2,8 @@
 
 These are my private notes on data and software engineering. This site is built using Hugo and deployed to GitHub pages at https://puneet.uk.
 
+* Additional Notes and Todo can be found in `notes.md`
+
 ## Summary
 
 All notes are either a Juypter Notebook or a Markdown file.  The source files are in the ```content``` folder. The website is built and output to the ```docs``` folder.
