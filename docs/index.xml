@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
+    <title>Paul Singh on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
     <link>https://puneet.uk/</link>
-    <description>Recent content in Puneet.uk on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
+    <description>Recent content in Paul Singh on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 19 Nov 2024 13:33:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 13:10:42 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploratory Data Analysis of CO2 Emissions Data with Python</title>
