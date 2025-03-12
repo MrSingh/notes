@@ -1,13 +1,13 @@
 ---
 title: "Master Book List"
-date: 2025-03-12T07:00:00
-description: "Reading Log"
+date: 2025-03-11T07:12:00
+description: "This is my first pass at putting all the books I own, have borrowed or been recommended in one place. The list is incomplete but I will refine it it periodically."
 draft: false
 labels: ""
 slug: "master_book_list"
 ---
 
-11/03/2025 - My first pass at putting all the books I have in one place.
+  
 
 ### Business & Entrepreneurship
 - Good to Great: Why Some Companies Make the Leap and Others Don’t - Jim Collins  

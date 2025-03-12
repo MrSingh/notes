@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>https://puneet.uk/notes/</link>
     <description>Recent content in Notes on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 20 Nov 2024 13:10:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://puneet.uk/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Normalising Financial Data</title>
-      <link>http://localhost:1313/notes/normalising_data/</link>
+      <link>https://puneet.uk/notes/normalising_data/</link>
       <pubDate>Thu, 14 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/normalising_data/</guid>
+      <guid>https://puneet.uk/notes/normalising_data/</guid>
       <description>Normalising financial data serves several important purposes. Here are some examples:&#xA;Comparison Across Assets: It allows you to compare the performance of different assets or financial instruments on a like-for-like basis. By expressing prices as a percentage of a base value (e.g., the starting price), you can easily see which assets have performed better over time, regardless of their original price levels.&#xA;Trend Analysis: Normalised data helps in identifying trends and patterns more clearly.</description>
     </item>
     <item>
       <title>Understanding the PPDAC Framework</title>
-      <link>http://localhost:1313/notes/intro_ppdac/</link>
+      <link>https://puneet.uk/notes/intro_ppdac/</link>
       <pubDate>Mon, 21 Oct 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/intro_ppdac/</guid>
+      <guid>https://puneet.uk/notes/intro_ppdac/</guid>
       <description>I have been reading, &amp;lsquo;The Art of Statistics: Learning from Data&amp;rsquo; and came across the PPDAC framework fairly early on in the book. David Spiegelhalter, the author, is a big proponent of the framework. I have outlined it below with a view as a data leader.&#xA;What is PPDAC? Having a structured framework in statistical analysis is important to help bring order to complex statistical analysis problems. It does this by bring clarity, a step-by-step approach, consistency, effective solutions aswell as documentation and communication.</description>
     </item>
     <item>
       <title>The First 30-90 Days as a Data Delivery Leader</title>
-      <link>http://localhost:1313/notes/first_30_days/</link>
+      <link>https://puneet.uk/notes/first_30_days/</link>
       <pubDate>Fri, 11 Oct 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/first_30_days/</guid>
+      <guid>https://puneet.uk/notes/first_30_days/</guid>
       <description>I was recently asked about how I would tackle the first 30-90 days as a data leader should I get the job. This is an interesting question, and having a plan will certainly help you get started on the right foot. In my mind, it’s always been clear: start with what you have, build relationships, and identify quick wins. The role was for a Head of Delivery and Product - someone who understood and had implemented agile methodologies and recognized the importance of being product-led in the area of data.</description>
     </item>
     <item>
       <title>Financial Crime Regulation and Anti-Financial Crime Strategies</title>
-      <link>http://localhost:1313/notes/financial_crime/</link>
+      <link>https://puneet.uk/notes/financial_crime/</link>
       <pubDate>Tue, 01 Oct 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/financial_crime/</guid>
+      <guid>https://puneet.uk/notes/financial_crime/</guid>
       <description>Financial crime is a huge problem and the blanket term is used to describe any crime relating to financial institutions and markets. The scale of the problem can be seen in Nasdaq&amp;rsquo;s first Financial Crime Report published in 2024[1].&#xA;The Nasdaq 2024 Global Financial Crime Report found that more than $3.1 trillion in illicit funds flowed through the global financial system last year alone. This includes nearly $800 billion in drug trafficking, nearly $350 billion in human trafficking, and more than $11 billion in terrorist financing.</description>
     </item>
     <item>
       <title>Leveraging Alternative Data for Alpha Generation in Investment Strategies</title>
-      <link>http://localhost:1313/notes/alternative_data_alpha/</link>
+      <link>https://puneet.uk/notes/alternative_data_alpha/</link>
       <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/alternative_data_alpha/</guid>
+      <guid>https://puneet.uk/notes/alternative_data_alpha/</guid>
       <description>Alternative data is becoming increasingly important in investment finance as analysts strive to beat the benchmark index and overall market. Alpha refers to the excess return relative to the benchmark, adjusted for risk.&#xA;What is alternative data? Traditional data includes corporate filings, analyst predictions, and ticker data.&#xA;Alternative data is non-traditional data. It can come from various sources in both structured and unstructured formats. Examples include ESG data, transaction data, web traffic, media sentiment, social media sentiment, and sensor data, among others.</description>
     </item>
     <item>
       <title>Implementing a Data Quality Strategy</title>
-      <link>http://localhost:1313/notes/data_quality/</link>
+      <link>https://puneet.uk/notes/data_quality/</link>
       <pubDate>Fri, 13 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/data_quality/</guid>
+      <guid>https://puneet.uk/notes/data_quality/</guid>
       <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&amp;rdquo;&#xA;What are Data Quality Issues? Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. View a more comprehensive list of data issues here.</description>
     </item>
     <item>
       <title>Understanding the LLM Context Window and Why It Matters</title>
-      <link>http://localhost:1313/notes/understanding_the_llm_context_window/</link>
+      <link>https://puneet.uk/notes/understanding_the_llm_context_window/</link>
       <pubDate>Wed, 11 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/understanding_the_llm_context_window/</guid>
+      <guid>https://puneet.uk/notes/understanding_the_llm_context_window/</guid>
       <description>What are context windows? A context window is simply the chat you have with an LLM (like ChatGPT). Think of it as short-term memory! It keeps track of your prompts and its outputs as you chat. So, if you start a new chat, that context will be lost.&#xA;A context window has a limit. For example, the limit in Copilot in the Edge Browser is 8,000 tokens. A token can be a word, part of a word, character, or space.</description>
     </item>
     <item>
       <title>How I Revamped My Website Menu in Half a Day!</title>
-      <link>http://localhost:1313/notes/copilot_menu/</link>
+      <link>https://puneet.uk/notes/copilot_menu/</link>
       <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/copilot_menu/</guid>
+      <guid>https://puneet.uk/notes/copilot_menu/</guid>
       <description>The Problem My website had a static menu along the top bar and, whilst it served a purpose, it was not working on mobile. I knew it needed fixing and evolving.&#xA;Step 1 - Give Copilot some context I cut and paste the current menu system into Copilot.&#xA;Step 2 - The Prompt I need to create a responsive dropdown menu for mobile and a side panel for desktop. Can you provide the HTML and CSS for this?</description>
     </item>
     <item>
       <title>Log</title>
-      <link>http://localhost:1313/notes/log/</link>
+      <link>https://puneet.uk/notes/log/</link>
       <pubDate>Wed, 28 Aug 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/log/</guid>
+      <guid>https://puneet.uk/notes/log/</guid>
       <description>[15/07/2024] 1st draft of notes for week 1-3 for Summer School For Data Leaders have been uploaded.&#xD;[10/07/2024] Notes page for Carruthers &amp;amp; Jackson - Summer School For Data Leaders here. [05/07/2024] A summary of the ESG data extraction project I started back in 2020(and in the process of resurrecting) can be found here.&#xD;[20/06/2024] Converting PDF ebooks to be Kindle friendly&#xD;[12/06/2024] Adding Euro 2024 fixture list to your calender&#xD;[07/06/2024] Delighted to have been accepted into this year’s Carruthers and Jackson Summer School for Data Leaders and aspiring CDOs.</description>
     </item>
     <item>
       <title>Converting PDF Ebooks to Be Kindle Friendly</title>
-      <link>http://localhost:1313/notes/pdf_to_kindle/</link>
+      <link>https://puneet.uk/notes/pdf_to_kindle/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/pdf_to_kindle/</guid>
+      <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
     </item>
     <item>
       <title>Project - Automating ESG Data Extraction to a Report</title>
-      <link>http://localhost:1313/notes/project_esg_report/</link>
+      <link>https://puneet.uk/notes/project_esg_report/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/project_esg_report/</guid>
+      <guid>https://puneet.uk/notes/project_esg_report/</guid>
       <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
       <title>Adding the Euro 2024 Fixture List to Your Calender</title>
-      <link>http://localhost:1313/notes/euro_2024/</link>
+      <link>https://puneet.uk/notes/euro_2024/</link>
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/euro_2024/</guid>
+      <guid>https://puneet.uk/notes/euro_2024/</guid>
       <description>Did you know that Euro 2020 had a cumulative live audience of 5.23 billion[1]?&#xA;Based on previous viewing figures, it’s expected that over 100 million will tune in for every match of Euro 2024.&#xA;So, wherever you are watching it, here is a quick way to add the fixture list to your calendar:&#xA;Import or add the following URL by Sky Sports to your calendar app of choice: webcal://www.skysports.com/calendars/football/fixtures/competitions/euro-2024?live=false</description>
     </item>
     <item>
       <title>Notes</title>
-      <link>http://localhost:1313/notes/notes/</link>
+      <link>https://puneet.uk/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/notes/</guid>
-      <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;#ESG&#xD;20 NOV 2024&#xD;ESG - Exploratory Data Analysis of Global CO2 Emissions&#xD;An EDA of CO2 emissions as part of a wider ESG project to better understand ESG data and merge datasets for analysis and insights.&#xA;15 NOV 2024&#xD;Flatten a Multi-Index DataFrame&#xD;Python example of how to flatten a multi-index DataFrame.&#xA;14 NOV 2024&#xD;Normalising Financial Data&#xD;A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.</description>
+      <guid>https://puneet.uk/notes/notes/</guid>
+      <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;#ESG&#xD;11 Mar 2025&#xD;Master Book List&#xD;This is my first pass at putting all the books I own, have borrowed or been recommended in one place. The list is incomplete but I will refine it periodically.&#xA;20 NOV 2024&#xD;ESG - Exploratory Data Analysis of Global CO2 Emissions&#xD;An EDA of CO2 emissions as part of a wider ESG project to better understand ESG data and merge datasets for analysis and insights.</description>
     </item>
   </channel>
 </rss>
