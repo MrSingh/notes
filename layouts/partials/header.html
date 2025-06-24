@@ -6,10 +6,12 @@
 {{ $date := .Date.Format "Jan 2, 2006" }}
 {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
 
-<time>Created on: {{ $date }}</time>
+<time>Updated on: {{ $lastmod }}</time>
+<!-- The code below shows Created on and Updated dates -->
+<!-- <time>Created on: {{ $date }}</time>
 {{ if ne $lastmod $date }}
-    <time> <br /> Edited on: {{ $lastmod }}</time>
-{{ end }}
+    <time> <br /> Updated on: {{ $lastmod }}</time>
+{{ end }} -->
 
 <!-- <a href="https://github.com/MrSingh/notes/blob/master/content/python/{{ .Slug }}.ipynb" target="blank">See file on GitHub</a> -->
 

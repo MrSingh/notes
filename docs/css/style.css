@@ -4,8 +4,11 @@
 
 @charset "UTF-8";
 
+
+
 /* --- CSS Variables - Theme Colors --- */
 :root {
+
   /* Japanese Inspired Palette */
   --color-primary: #5C888A; /* Teal/Jade Green - reminiscent of nature */
   --color-secondary: #D9D9D9; /* Light Gray - subtle, like paper or stone */
@@ -28,9 +31,9 @@
   --main-width: 80%; /* Base content width */
 
   /* Font Families */
-  --ff-sans: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
-  --ff-serif: 'PT Serif', Georgia, Cambria, "Times New Roman", Times, serif;
-  --ff-mono: 'Roboto Mono', ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+  --mono-font: "BerkeleyMono-Regular", monospace;
+  /* --ff-serif: 'PT Serif', Georgia, Cambria, "Times New Roman", Times, serif;
+  --ff-mono: 'Roboto Mono', ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace; */
   --code-font: 'Roboto Mono', monospace; /* Specific for code */
 
   /* Spacing */
@@ -85,8 +88,8 @@ body {
   overflow-y: scroll;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, Sans-Serif;
-  font-size: 1.25rem;
+  font-family: var(--mono-font);
+  font-size: 1rem;
   font-synthesis: none;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -104,14 +107,17 @@ body {
 
 .wrap {
   flex: 1 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .sans-serif {
-  font-family: var(--ff-sans);
+  font-family: var(--mono-font);
 }
 
 /* --- Layout Containers --- */
 header {
+
   color: var(--color-text-dark);
   text-align: center;
   text-transform: uppercase;
@@ -119,8 +125,14 @@ header {
   border-bottom: 1px solid var(--color-border-light);
   margin-bottom: 2em;
 }
+.container {
+    position: relative;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-header .container,
+/* header .container,
 footer .container {
   padding-left: 4rem;
   display: flex;
@@ -128,7 +140,7 @@ footer .container {
   justify-content: space-between;
   margin: 0 auto;
   font-family: var(--ff-mono);
-}
+} */
 
 main.container {
   padding-left: 0.5rem;
@@ -160,7 +172,8 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--color-text-dark);
-  font-family: var(--ff-sans);
+ 
+  font-family: var(--mono-font);
   font-weight: 200;
   letter-spacing: -0.04rem;
   line-height: 1.2;
@@ -177,14 +190,16 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 0.75rem;
-  font-weight: 600;
+   
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--color-accent-1);
+  border-bottom: 1px dashed var(--color-border-light);
+  padding-bottom: 0.3em;
 }
 
 h4,
@@ -234,6 +249,7 @@ h1>a:hover {
 
 p {
   margin-top: 0;
+  max-width:940px;
 }
 
 .item-date {
@@ -380,17 +396,29 @@ blockquote {
 }
 
 /* --- Footer --- */
-footer {
-  background: var(--color-background-dark);
-  color: var(--color-secondary);
-  font-family: var(--ff-mono);
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 27px;
-  padding-top: 40px;
-  padding-bottom: 32px;
-  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
-  flex-shrink: 0;
+footer.site-footer {
+     display: flex !important;
+    border-top: 1px solid var(--color-background-dark);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    font-family: var(--mono-font);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-footer .container
+ {
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 /* --- Navigation --- */
@@ -614,10 +642,10 @@ nav {
     display: none;
   }
 
-  header .container,
+  /* header .container,
   footer .container {
     padding-left: var(--spacing-unit);
-  }
+  } */
 
   .menu-icon {
     height: 2rem;
@@ -1121,8 +1149,6 @@ pre code {
   cursor: pointer;
   color: var(--color-text-dark);
   text-decoration: underline;
-  font-family: monospace;
-  font-size: 0.6rem;
 }
 
 /* --- Header & Desktop Bar --- */

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reads on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>http://localhost:54453/read/</link>
+    <link>http://localhost:1313/read/</link>
     <description>Recent content in Reads on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 12 Mar 2025 13:05:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54453/read/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Master Book List</title>
-      <link>http://localhost:54453/read/master_book_list/</link>
+      <link>http://localhost:1313/read/master_book_list/</link>
       <pubDate>Tue, 11 Mar 2025 07:12:00 +0000</pubDate>
-      <guid>http://localhost:54453/read/master_book_list/</guid>
+      <guid>http://localhost:1313/read/master_book_list/</guid>
       <description>Business &amp;amp; Entrepreneurship Good to Great: Why Some Companies Make the Leap and Others Don’t - Jim Collins Built to Last: Successful Habits of Visionary Companies - Jim Collins Zero to One - Peter Thiel The Hard Thing About Hard Things - Ben Horowitz The Millionaire Master Plan - Roger James Hamilton $100M Offers: How To Make Offers So Good People Feel Stupid Saying No - Alex Hormozi Business Adventures: Twelve Classic Tales from the World of Wall Street - John Brooks The Personal MBA: Master the Art of Business - Josh Kaufman Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers - Timothy Ferriss The Checklist Manifesto: How To Get Things Right - Atul Gawande Think Like a Rocket Scientist: Simple Strategies for Giant Leaps in Work and Life - Ozan Varol The Practice - Seth Godin The Culture Code: The Secrets of Highly Successful Groups - Daniel Coyle Bad Blood: Secrets and Lies in a Silicon Valley Startup - John Carreyrou One Up On Wall Street: How To Use What You Already Know To Make Money In - Peter Lynch Money: Know More, Make More, Give More - Rob Moore Start Now.</description>
     </item>
     <item>
       <title>Bookshelf</title>
-      <link>http://localhost:54453/read/bookshelf_home/</link>
+      <link>http://localhost:1313/read/bookshelf_home/</link>
       <pubDate>Fri, 12 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>http://localhost:54453/read/bookshelf_home/</guid>
+      <guid>http://localhost:1313/read/bookshelf_home/</guid>
       <description>Reading The Art of Statistics: Learning from Data - David Spiegelhalter [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Completed Oct 2024 Poor - Katriona O&amp;rsquo;Sullivan - [Link] Bought this on a whim when I saw it as a Kindle special deal, and I’m glad I did. It covers what it means to be poor, and how some of the most vulnerable in society can fall through the cracks, how the system can let them down.</description>
     </item>
   </channel>

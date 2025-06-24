@@ -34,8 +34,6 @@ slug: "master_book_list"
 - Making Numbers Count - Chip Heath & Karla Starr  
 - The Intelligent Investor - Benjamin Graham  
 
----
-
 ### Personal Development & Self-Help
 - Atomic Habits: The life-changing million-copy #1 bestseller - James Clear  
 - The 7 Habits of Highly Effective People: The Infographics Edition - Stephen R. Covey  
@@ -66,8 +64,6 @@ slug: "master_book_list"
 - First You Write a Sentence.: The Elements of Reading, Writing … and Life - Joe Moran  
 - Limitless - Jim Kwik  
 
----
-
 ### Psychology & Behavioral Science
 - Thinking, Fast and Slow - Daniel Kahneman  
 - Quiet: The Power of Introverts in a World That Can't Stop Talking - Susan Cain  
@@ -78,8 +74,6 @@ slug: "master_book_list"
 - The Winner Effect - Ian H. Robertson  
 - The Expectation Effect - David Robson  
 - Good Habits, Bad Habits - Wendy Wood  
-
----
 
 ### Science & Technology
 - Sapiens: A Brief History of Humankind - Yuval Noah Harari  
@@ -96,7 +90,6 @@ slug: "master_book_list"
 - How AI Will Change Your Life - Patrick D. Dixon  
 - SQL Queries for Mere Mortals - John L. Viescas and Michael J. Hernandez  
 
----
 
 ### History & Society
 - Factfulness: Ten Reasons We're Wrong About The World - And Why Things Are Better Than You Think - Hans Rosling, Ola Rosling, Anna Rosling Rönnlund  
@@ -106,15 +99,12 @@ slug: "master_book_list"
 - Flash Boys - Michael Lewis  
 - A Brief History of Japan - Jonathan Clements  
 
----
 
 ### Memoirs & Biographies
 - Shoe Dog: A Memoir by the Creator of NIKE - Phil Knight  
 - Finding My Virginity: The New Autobiography - Richard Branson  
 - 38 Letters to his Son - John D. Rockefeller  
 - The Salt Path: The prize-winning, Sunday Times bestseller - Raynor Winn  
-
----
 
 ### Fiction & Literature
 - The Secret Life of Bees - Sue Monk Kidd  
@@ -126,7 +116,6 @@ slug: "master_book_list"
 - The Importance of Being Earnest Illustrated - Oscar Wilde  
 - The Remains of the Day - Kazuo Ishiguro  
 
----
 
 ### Fantasy & Sci-Fi
 - The Return of the King (The Lord of the Rings, Book 3) - J.R.R. Tolkien  
@@ -134,7 +123,6 @@ slug: "master_book_list"
 - Artemis: A gripping sci-fi thriller from the author of The Martian - Andy Weir  
 - Divergent (Divergent Trilogy, Book 1) - Veronica Roth  
 
----
 
 ### Health & Wellness
 - The Gut Feeling: Recipes to Calm, Nourish & Heal - Naomi Devlin  
@@ -142,12 +130,11 @@ slug: "master_book_list"
 - Veggie BBQ: 10 brand-new Lean in 15 recipes - Joe Wicks  
 - Ottolenghi SIMPLE - Yotam Ottolenghi  
 
----
+
 
 ### Writing & Communication
 - Write Great Essays! - Peter Levin  
 
----
 
 ### Sports & Recreation
 - How to Win the Premier League - Ian Graham  
