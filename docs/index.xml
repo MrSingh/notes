@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paul Singh on Puneet&#39;s Notes On Data &amp; Software Engineering</title>
+    <title>Paul Singh on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Paul Singh on Puneet&#39;s Notes On Data &amp; Software Engineering</description>
+    <description>Recent content in Paul Singh on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 24 Jun 2025 11:03:46 +0100</lastBuildDate>
@@ -226,18 +226,11 @@
       <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;#ESG&#xD;11 Mar 2025&#xD;Master Book List&#xD;This is my first pass at putting all the books I own, have borrowed or been recommended in one place. The list is incomplete but I will refine it periodically.&#xA;20 NOV 2024&#xD;ESG - Exploratory Data Analysis of Global CO2 Emissions&#xD;An EDA of CO2 emissions as part of a wider ESG project to better understand ESG data and merge datasets for analysis and insights.</description>
     </item>
     <item>
-      <title>Code: Data &amp; Analytics</title>
-      <link>http://localhost:1313/code/code/</link>
-      <pubDate>Sun, 02 May 2021 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/code/code/</guid>
-      <description>&#xD;</description>
-    </item>
-    <item>
       <title>Bookshelf</title>
       <link>http://localhost:1313/read/bookshelf_home/</link>
       <pubDate>Fri, 12 Mar 2021 07:00:00 +0000</pubDate>
       <guid>http://localhost:1313/read/bookshelf_home/</guid>
-      <description>Reading The Art of Statistics: Learning from Data - David Spiegelhalter [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Completed Oct 2024 Poor - Katriona O&amp;rsquo;Sullivan - [Link] Bought this on a whim when I saw it as a Kindle special deal, and I’m glad I did. It covers what it means to be poor, and how some of the most vulnerable in society can fall through the cracks, how the system can let them down.</description>
+      <description>Reading The Art of Statistics: Learning from Data - David Spiegelhalter [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Completed Poor - Katriona O&amp;rsquo;Sullivan - [Link] Bought this on a whim when I saw it as a Kindle special deal, and I’m glad I did. It covers what it means to be poor, and how some of the most vulnerable in society can fall through the cracks, how the system can let them down.</description>
     </item>
     <item>
       <title>Master JavaScript Mindmap</title>

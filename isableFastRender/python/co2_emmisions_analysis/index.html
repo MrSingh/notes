@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      CO2 Emmisions Analysis
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="CO2 Emmisions Analysis" />
+    <meta property="og:image" content="https://puneet.uk/images/co2_emmisions_analysis.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CO2 Emmisions Analysis" />
+    <meta name="twitter:image" content="https://puneet.uk/images/co2_emmisions_analysis.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Paul Singh</a>
+             
+       
+    </h1>
+    <span class="desktop-bar">|</span>
+    
+    
+    <span id="linkedin-follow-button">
+        <a href="https://www.linkedin.com/in/puneetthukral" target="_blank">Follow me on LinkedIn</a>
+    </span>
+</div>  
+                <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>CO2 Emmisions Analysis</h1>
+<p></p>
+
+
+
+
+
+<time>Updated on: Nov 19, 2024</time>
+
+
+
+
+
+
+         
+          <h1 id="data-resourcehttpswwwkagglecomdatasetsnelgiriyewithanacountries-of-the-world-2023data"><a href="https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023/data">Data Resource</a></h1>
+<hr>
+<p>An analysis of CO2 emmisons based on Glaobal 2023 data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">matplotlib.pyplot</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">plt</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">seaborn</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">sns</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the dataset</span>
+</span></span><span style="display:flex;"><span>data = pd.read_csv(<span style="color:#ed9d13">&#39;data/world-data-2023.csv&#39;</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Display The column names and data types</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(data.dtypes)
+</span></span></code></pre></div><pre><code>Country                                       object
+Density\n(P/Km2)                              object
+Abbreviation                                  object
+Agricultural Land( %)                         object
+Land Area(Km2)                                object
+Armed Forces size                             object
+Birth Rate                                   float64
+Calling Code                                 float64
+Capital/Major City                            object
+Co2-Emissions                                 object
+CPI                                           object
+CPI Change (%)                                object
+Currency-Code                                 object
+Fertility Rate                               float64
+Forested Area (%)                             object
+Gasoline Price                                object
+GDP                                           object
+Gross primary education enrollment (%)        object
+Gross tertiary education enrollment (%)       object
+Infant mortality                             float64
+Largest city                                  object
+Life expectancy                              float64
+Maternal mortality ratio                     float64
+Minimum wage                                  object
+Official language                             object
+Out of pocket health expenditure              object
+Physicians per thousand                      float64
+Population                                    object
+Population: Labor force participation (%)     object
+Tax revenue (%)                               object
+Total tax rate                                object
+Unemployment rate                             object
+Urban_population                              object
+Latitude                                     float64
+Longitude                                    float64
+dtype: object
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Convert &#39;Co2-Emissions&#39; to numeric</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Drop rows with missing values in &#39;Co2-Emissions&#39;</span>
+</span></span><span style="display:flex;"><span>data = data.dropna(subset=[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Sort the data by &#39;Co2-Emissions&#39; in descending order and select the top 10</span>
+</span></span><span style="display:flex;"><span>top_polluters = data.sort_values(by=<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>, ascending=<span style="color:#6ab825;font-weight:bold">False</span>).head(<span style="color:#3677a9">10</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Plot a bar chart</span>
+</span></span><span style="display:flex;"><span>plt.figure(figsize=(<span style="color:#3677a9">12</span>, <span style="color:#3677a9">8</span>))
+</span></span><span style="display:flex;"><span>plt.bar(top_polluters[<span style="color:#ed9d13">&#39;Country&#39;</span>], top_polluters[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>], color=<span style="color:#ed9d13">&#39;skyblue&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#ed9d13">&#39;Country&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#ed9d13">&#39;CO2 Emissions (Million Metric Tons)&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#ed9d13">&#39;Top 10 CO2 Emitting Countries&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xticks(rotation=<span style="color:#3677a9">45</span>)
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div><p><img src="co2_emmisions_analysis_files/co2_emmisions_analysis_4_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Convert &#39;Co2-Emissions&#39; and &#39;Population&#39; to numeric</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Population&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Population&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check for missing values after conversion</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(data[[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>, <span style="color:#ed9d13">&#39;Population&#39;</span>]].isnull().sum())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Drop rows with missing values in &#39;Co2-Emissions&#39; or &#39;Population&#39;</span>
+</span></span><span style="display:flex;"><span>data = data.dropna(subset=[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>, <span style="color:#ed9d13">&#39;Population&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Calculate CO2 emissions per capita</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>] = data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] / data[<span style="color:#ed9d13">&#39;Population&#39;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check the top 10 countries by CO2 emissions per capita</span>
+</span></span><span style="display:flex;"><span>top_polluters_per_capita = data.sort_values(by=<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>, ascending=<span style="color:#6ab825;font-weight:bold">False</span>).head(<span style="color:#3677a9">10</span>)
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(top_polluters_per_capita[[<span style="color:#ed9d13">&#39;Country&#39;</span>, <span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>]])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Plot a bar chart</span>
+</span></span><span style="display:flex;"><span>plt.figure(figsize=(<span style="color:#3677a9">12</span>, <span style="color:#3677a9">8</span>))
+</span></span><span style="display:flex;"><span>plt.bar(top_polluters_per_capita[<span style="color:#ed9d13">&#39;Country&#39;</span>], top_polluters_per_capita[<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>], color=<span style="color:#ed9d13">&#39;skyblue&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#ed9d13">&#39;Country&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#ed9d13">&#39;CO2 Emissions per Capita (Metric Tons)&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#ed9d13">&#39;Top 10 CO2 Emitting Countries per Capita&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xticks(rotation=<span style="color:#3677a9">45</span>)
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div><pre><code>Co2-Emissions    0
+Population       0
+dtype: int64
+Empty DataFrame
+Columns: [Country, CO2_per_Capita]
+Index: []
+</code></pre>
+<p><img src="co2_emmisions_analysis_files/co2_emmisions_analysis_5_1.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check unique values in &#39;Co2-Emissions&#39; and &#39;Population&#39; before conversion</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#34;Unique values in &#39;Co2-Emissions&#39;:&#34;</span>, data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>].unique())
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#34;Unique values in &#39;Population&#39;:&#34;</span>, data[<span style="color:#ed9d13">&#39;Population&#39;</span>].unique())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Convert &#39;Co2-Emissions&#39; and &#39;Population&#39; to numeric</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Population&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Population&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check for missing values after conversion</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(data[[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>, <span style="color:#ed9d13">&#39;Population&#39;</span>]].isnull().sum())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Drop rows with missing values in &#39;Co2-Emissions&#39; or &#39;Population&#39;</span>
+</span></span><span style="display:flex;"><span>data = data.dropna(subset=[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>, <span style="color:#ed9d13">&#39;Population&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Calculate CO2 emissions per capita</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>] = data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] / data[<span style="color:#ed9d13">&#39;Population&#39;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check the top 10 countries by CO2 emissions per capita</span>
+</span></span><span style="display:flex;"><span>top_polluters_per_capita = data.sort_values(by=<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>, ascending=<span style="color:#6ab825;font-weight:bold">False</span>).head(<span style="color:#3677a9">10</span>)
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(top_polluters_per_capita[[<span style="color:#ed9d13">&#39;Country&#39;</span>, <span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>]])
+</span></span></code></pre></div><pre><code>Unique values in 'Co2-Emissions': []
+Unique values in 'Population': []
+Co2-Emissions    0
+Population       0
+dtype: int64
+Empty DataFrame
+Columns: [Country, CO2_per_Capita]
+Index: []
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the dataset</span>
+</span></span><span style="display:flex;"><span>file_path = <span style="color:#ed9d13">&#39;data/world-data-2023.csv&#39;</span>  <span style="color:#999;font-style:italic"># Update this with the correct file path</span>
+</span></span><span style="display:flex;"><span>data = pd.read_csv(file_path)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Display the first few rows of the dataset</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(data.head())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Display the data types of all columns</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(data.dtypes)
+</span></span></code></pre></div><pre><code>       Country Density\n(P/Km2) Abbreviation Agricultural Land( %)  \
+0  Afghanistan               60           AF                58.10%   
+1      Albania              105           AL                43.10%   
+2      Algeria               18           DZ                17.40%   
+3      Andorra              164           AD                40.00%   
+4       Angola               26           AO                47.50%   
+
+  Land Area(Km2) Armed Forces size  Birth Rate  Calling Code  \
+0        652,230           323,000       32.49          93.0   
+1         28,748             9,000       11.78         355.0   
+2      2,381,741           317,000       24.28         213.0   
+3            468               NaN        7.20         376.0   
+4      1,246,700           117,000       40.73         244.0   
+
+  Capital/Major City Co2-Emissions  ... Out of pocket health expenditure  \
+0              Kabul         8,672  ...                           78.40%   
+1             Tirana         4,536  ...                           56.90%   
+2            Algiers       150,006  ...                           28.10%   
+3   Andorra la Vella           469  ...                           36.40%   
+4             Luanda        34,693  ...                           33.40%   
+
+  Physicians per thousand  Population  \
+0                    0.28  38,041,754   
+1                    1.20   2,854,191   
+2                    1.72  43,053,054   
+3                    3.33      77,142   
+4                    0.21  31,825,295   
+
+   Population: Labor force participation (%) Tax revenue (%) Total tax rate  \
+0                                     48.90%           9.30%         71.40%   
+1                                     55.70%          18.60%         36.60%   
+2                                     41.20%          37.20%         66.10%   
+3                                        NaN             NaN            NaN   
+4                                     77.50%           9.20%         49.10%   
+
+  Unemployment rate Urban_population   Latitude  Longitude  
+0            11.12%        9,797,273  33.939110  67.709953  
+1            12.33%        1,747,593  41.153332  20.168331  
+2            11.70%       31,510,100  28.033886   1.659626  
+3               NaN           67,873  42.506285   1.521801  
+4             6.89%       21,061,025 -11.202692  17.873887  
+
+[5 rows x 35 columns]
+Country                                       object
+Density\n(P/Km2)                              object
+Abbreviation                                  object
+Agricultural Land( %)                         object
+Land Area(Km2)                                object
+Armed Forces size                             object
+Birth Rate                                   float64
+Calling Code                                 float64
+Capital/Major City                            object
+Co2-Emissions                                 object
+CPI                                           object
+CPI Change (%)                                object
+Currency-Code                                 object
+Fertility Rate                               float64
+Forested Area (%)                             object
+Gasoline Price                                object
+GDP                                           object
+Gross primary education enrollment (%)        object
+Gross tertiary education enrollment (%)       object
+Infant mortality                             float64
+Largest city                                  object
+Life expectancy                              float64
+Maternal mortality ratio                     float64
+Minimum wage                                  object
+Official language                             object
+Out of pocket health expenditure              object
+Physicians per thousand                      float64
+Population                                    object
+Population: Labor force participation (%)     object
+Tax revenue (%)                               object
+Total tax rate                                object
+Unemployment rate                             object
+Urban_population                              object
+Latitude                                     float64
+Longitude                                    float64
+dtype: object
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Remove commas and convert &#39;Co2-Emissions&#39; and &#39;Population&#39; to numeric</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>].str.replace(<span style="color:#ed9d13">&#39;,&#39;</span>, <span style="color:#ed9d13">&#39;&#39;</span>), errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Population&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Population&#39;</span>].str.replace(<span style="color:#ed9d13">&#39;,&#39;</span>, <span style="color:#ed9d13">&#39;&#39;</span>), errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Drop rows with missing values in &#39;Co2-Emissions&#39; or &#39;Population&#39;</span>
+</span></span><span style="display:flex;"><span>data = data.dropna(subset=[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>, <span style="color:#ed9d13">&#39;Population&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Calculate CO2 emissions per capita</span>
+</span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>] = data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] / data[<span style="color:#ed9d13">&#39;Population&#39;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Sort the data by &#39;CO2_per_Capita&#39; in descending order and select the top 10</span>
+</span></span><span style="display:flex;"><span>top_polluters_per_capita = data.sort_values(by=<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>, ascending=<span style="color:#6ab825;font-weight:bold">False</span>).head(<span style="color:#3677a9">10</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Plot a bar chart</span>
+</span></span><span style="display:flex;"><span>plt.figure(figsize=(<span style="color:#3677a9">12</span>, <span style="color:#3677a9">8</span>))
+</span></span><span style="display:flex;"><span>plt.bar(top_polluters_per_capita[<span style="color:#ed9d13">&#39;Country&#39;</span>], top_polluters_per_capita[<span style="color:#ed9d13">&#39;CO2_per_Capita&#39;</span>], color=<span style="color:#ed9d13">&#39;skyblue&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#ed9d13">&#39;Country&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#ed9d13">&#39;CO2 Emissions per Capita (Metric Tons)&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#ed9d13">&#39;Top 10 CO2 Emitting Countries per Capita&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xticks(rotation=<span style="color:#3677a9">45</span>)
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div><p><img src="co2_emmisions_analysis_files/co2_emmisions_analysis_8_0.png" alt="png"></p>
+
+          
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
+    function ready() {
+        document.getElementById("bug").innerHTML += bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+  
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+            <div>Site last updated: June 2025</div>
+                    
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>

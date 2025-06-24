@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      Flatten a Multi-Index DataFrame
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Flatten a Multi-Index DataFrame" />
+    <meta property="og:image" content="https://puneet.uk/images/flatten_multiindex_dataframe.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Flatten a Multi-Index DataFrame" />
+    <meta name="twitter:image" content="https://puneet.uk/images/flatten_multiindex_dataframe.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Paul Singh</a>
+             
+       
+    </h1>
+    <span class="desktop-bar">|</span>
+    
+    
+    <span id="linkedin-follow-button">
+        <a href="https://www.linkedin.com/in/puneetthukral" target="_blank">Follow me on LinkedIn</a>
+    </span>
+</div>  
+                <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Flatten a Multi-Index DataFrame</h1>
+<p></p>
+
+
+
+
+
+<time>Updated on: Nov 15, 2024</time>
+
+
+
+
+
+
+         
+          <h1 id="resourcehttpspandaspydataorgpandas-docsstablereferenceapipandasdataframestackhtml"><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html">Resource</a></h1>
+<hr>
+<p>Whilst a multi-index datafame can be useful for complex data orginisation, for example across multiple markets and time periods.  Flattening the data has it&rsquo;s own advantages; making for easier data manipulation, merging with other datasets and visulising. Here is a quick example.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">yfinance</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">yf</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Fetch data</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">#S&amp;P 500 Vanguard - VOO</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">#S&amp;P 500 Black Rock - BSPIX</span>
+</span></span><span style="display:flex;"><span>tickers = [<span style="color:#ed9d13">&#39;VOO&#39;</span>,<span style="color:#ed9d13">&#39;VTWO&#39;</span>]
+</span></span><span style="display:flex;"><span>df = yf.download(tickers,  start=<span style="color:#ed9d13">&#39;2019-01-01&#39;</span>, end=<span style="color:#ed9d13">&#39;2024-10-11&#39;</span>)
+</span></span></code></pre></div><pre><code>[*********************100%***********************]  2 of 2 completed
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#24909d">print</span>(df.columns)
+</span></span></code></pre></div><pre><code>MultiIndex([('Adj Close',  'VOO'),
+            ('Adj Close', 'VTWO'),
+            (    'Close',  'VOO'),
+            (    'Close', 'VTWO'),
+            (     'High',  'VOO'),
+            (     'High', 'VTWO'),
+            (      'Low',  'VOO'),
+            (      'Low', 'VTWO'),
+            (     'Open',  'VOO'),
+            (     'Open', 'VTWO'),
+            (   'Volume',  'VOO'),
+            (   'Volume', 'VTWO')],
+           names=['Price', 'Ticker'])
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Completely flatten the DataFrame</span>
+</span></span><span style="display:flex;"><span>df_flattened = df.stack(future_stack=<span style="color:#6ab825;font-weight:bold">True</span>).reset_index()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#24909d">print</span>(df_flattened.columns)
+</span></span></code></pre></div><pre><code>Index(['Date', 'Ticker', 'Adj Close', 'Close', 'High', 'Low', 'Open',
+       'Volume'],
+      dtype='object', name='Price')
+</code></pre>
+
+          
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
+    function ready() {
+        document.getElementById("bug").innerHTML += bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+  
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+            <div>Site last updated: June 2025</div>
+                    
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>

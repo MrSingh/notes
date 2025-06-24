@@ -37,7 +37,7 @@ All notes are either a Juypter Notebook or a Markdown file.  The source files ar
 
 ## Data
 
-MData used in the examples are from freely available datasets and a link is provided at the the to of each note.
+Data used in the examples are from freely available datasets and a link is provided at the the top of each note.
 
 ## Hugo Specific Notes
 

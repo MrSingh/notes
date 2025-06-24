@@ -3,8 +3,8 @@
 baseURL = "https://puneet.uk/"
 relativeURLs = true
 languageCode = "en-gb"
-title = "Puneet's Notes On Data & Software Engineering"
-description = "Puneet's notes on data & software engineering home page."
+title = "Pauls's Notes On Data & Software Engineering"
+description = "Pauls's notes on data & software engineering home page."
 
 # Enable Git Info
 

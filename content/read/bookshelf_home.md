@@ -1,7 +1,7 @@
 ---
 title: "Bookshelf"
 date: 2021-03-12T07:00:00
-lastmod: 2021-03-12T07:00:00
+# lastmod: 2021-03-12T07:00:00
 # description: "Reading Log"
 draft: false
 labels: ""
@@ -14,16 +14,14 @@ slug: "bookshelf_home"
 
 ### The Art of Statistics: Learning from Data - David Spiegelhalter <a href="https://amzn.to/4hhbwTE" target="blank">[Link]</a>
 ### The Checklist Manifesto: How To Get Things Right - Atul Gawande <a href="https://amzn.to/3XZ1vmU" target="blank">[Link]</a>
+sdad
 
 ## Completed
 
-#### Oct 2024
 
 ### Poor - Katriona O'Sullivan - <a href="https://amzn.to/4dLSdi3" target="blank">[Link]</a>
 
 Bought this on a whim when I saw it as a Kindle special deal, and I’m glad I did. It covers what it means to be poor, and how some of the most vulnerable in society can fall through the cracks, how the system can let them down. The failure of the state, society, and people to help the most vulnerable. Whilst this is a difficult read in parts, it’s also a book about hope, and whilst there were failures in the system, it’s that same system that allowed Katriona to escape that life through the help of people, education, and her determination for something better.
-
-#### Aug 2024
 
 ### Man's Search for Meaning - Victor E Frankl - <a href="https://amzn.to/4dvudjX" target="blank">[Link]</a>
 

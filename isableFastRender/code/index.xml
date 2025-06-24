@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
+    <link>http://localhost:1313/code/</link>
+    <description>Recent content in Codes on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 08 Jul 2024 14:34:51 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code: Data &amp; Analytics</title>
+      <link>http://localhost:1313/code/code/</link>
+      <pubDate>Sun, 02 May 2021 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/code/code/</guid>
+      <description>&amp;lt;div class=&amp;quot;row&amp;quot; id=&amp;quot;python&amp;quot;&amp;gt;&#xD;&amp;lt;div&amp;gt;&#xD;&amp;lt;h2 class=&amp;quot;category_header&amp;quot;&amp;gt;AI&amp;lt;/h2&amp;gt;&#xD;&amp;lt;/div&amp;gt;&#xD;&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;&#xD;&amp;lt;h4 class=&amp;quot;card-header&amp;quot;&amp;gt;AI&amp;lt;/h4&amp;gt;&#xD;&amp;lt;div class=&amp;quot;card-body&amp;quot;&amp;gt;&#xD;&amp;lt;ul&amp;gt;&#xD;&amp;lt;/ul&amp;gt;&#xD;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;&#xD;&amp;lt;br /&amp;gt;&#xD;&amp;lt;!------------------ SQL Start --------------------&amp;gt;&#xD;&amp;lt;!-- &amp;lt;div class=&amp;quot;row&amp;quot; id=&amp;quot;python&amp;quot;&amp;gt;&#xD;&amp;lt;div&amp;gt;&#xD;&amp;lt;h2 class=&amp;quot;category_header&amp;quot;&amp;gt;SQL&amp;lt;/h2&amp;gt;&#xD;&amp;lt;/div&amp;gt;&#xD;&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;&#xD;&amp;lt;h4 class=&amp;quot;card-header&amp;quot;&amp;gt;Data Analysis&amp;lt;/h4&amp;gt;&#xD;&amp;lt;div class=&amp;quot;card-body&amp;quot;&amp;gt;&#xD;&amp;lt;ul&amp;gt;&#xD;&amp;lt;/ul&amp;gt;&#xD;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;&#xD;&amp;lt;br /&amp;gt; --&amp;gt;&#xD;&amp;lt;!------------------ Python Start --------------------&amp;gt;&#xD;&amp;lt;div class=&amp;quot;row&amp;quot; id=&amp;quot;python&amp;quot;&amp;gt;&#xD;&amp;lt;div&amp;gt;&#xD;&amp;lt;h2 class=&amp;quot;category_header&amp;quot;&amp;gt;Python&amp;lt;/h2&amp;gt;&#xD;&amp;lt;/div&amp;gt;&#xD;&amp;lt;!-- Basics Card --&amp;gt;&#xD;&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;&#xD;&amp;lt;h4 class=&amp;quot;card-header&amp;quot;&amp;gt;Basics&amp;lt;/h4&amp;gt;&#xD;&amp;lt;div class=&amp;quot;card-body&amp;quot;&amp;gt;&#xD;&amp;lt;ul&amp;gt;&#xD;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;../../python/primitive_data_types/&amp;quot;&amp;gt;Primitive Data Types&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&#xD;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;.</description>
+    </item>
+  </channel>
+</rss>
