@@ -14,7 +14,6 @@ slug: "bookshelf_home"
 
 ### The Art of Statistics: Learning from Data - David Spiegelhalter <a href="https://amzn.to/4hhbwTE" target="blank">[Link]</a>
 ### The Checklist Manifesto: How To Get Things Right - Atul Gawande <a href="https://amzn.to/3XZ1vmU" target="blank">[Link]</a>
-sdad
 
 ## Completed
 

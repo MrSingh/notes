@@ -1,14 +1,13 @@
 ---
 title: "Implementing a Data Quality Strategy"
 date: 2024-09-13T07:00:00
-description: "Version: 2.0.0"
 draft: false
 labels: ""
-slug: "data_quality"
-images: ["data_quality.jpg"]
+slug: "menu"
+
 ---
 
-<img class="preview" src="../../images/data_quality.jpg" alt="Man fustreated with dirty data">
+<!-- <img class="preview" src="../../images/data_quality.jpg" alt="Man fustreated with dirty data"> -->
 
 > According to <a href="https://www.experian.com/blogs/news/2021/02/25/highlights-2021-global-data-management-research" target="_blank">Experian's 2021 Global Data Management Research</a>, "Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven."
 

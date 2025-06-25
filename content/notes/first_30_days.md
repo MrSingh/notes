@@ -1,15 +1,13 @@
 ---
 title: "The First 30-90 Days as a Data Delivery Leader"
 date: 2024-10-11T07:00:00
-description: "Version: 1.0.0"
 draft: false
 labels: ""
 slug: "first_30_days"
-images: 
 version: 1.0.0
 ---
 
-<img class="preview" src="../../images/first_30_days.jpg" alt="Rabbit dressed as a suit starting his first day at as boss">
+<!-- <img class="preview" src="../../images/first_30_days.jpg" alt="Rabbit dressed as a suit starting his first day at as boss"> -->
 
 I was recently asked about how I would tackle the first 30-90 days as a data leader should I get the job. This is an interesting question, and having a plan will certainly help you get started on the right foot. In my mind, it’s always been clear: start with what you have, build relationships, and identify quick wins. The role was for a Head of Delivery and Product - someone who understood and had implemented agile methodologies and recognized the importance of being product-led in the area of data. So, let’s break it down in relation to that particular role. Think of it as an outline of the things you should cover.
 

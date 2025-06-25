@@ -5,10 +5,10 @@ description: ""
 draft: false
 labels: ""
 slug: "copilot_menu"
-images: ["copilot_menu.jpg"]
+
 ---
 
-<img class="preview" src="../../images/copilot_menu.jpg" alt="Playful image of a rabbit in a suit working on his laptop in an office">
+<!-- <img class="preview" src="../../images/copilot_menu.jpg" alt="Playful image of a rabbit in a suit working on his laptop in an office"> -->
 
 
 ## The Problem

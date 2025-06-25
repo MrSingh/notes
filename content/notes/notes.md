@@ -42,7 +42,7 @@ slug: "notes"
             <div class="note-item post" data-tags="data finance">
                 <div class="item-date sans-serif">14 NOV 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../notes/normalising_data">Normalising Financial Data</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="..//normalising_data">Normalising Financial Data</a></h3>
                 <p>A short guide to understanding the importance of normalising financial data and its impact on meaningful comparisons, trend analysis, and decision-making.</p>
                 </div>
             </div>
@@ -56,42 +56,42 @@ slug: "notes"
             <div class="note-item post" data-tags="data strategy leadership">
                 <div class="item-date sans-serif">05 NOV 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../notes/data_quality">Implementing a Data Quality Strategy</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="..//data_quality">Implementing a Data Quality Strategy</a></h3>
                 <p>Added a bit more clarity around the strategy and business impact of data quality to a previous blog.</p>
                 </div>
                 </div>
             <div class="note-item" data-tags="data strategy">
                 <div class="item-date sans-serif">21 OCT 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../notes/intro_ppdac">Understanding the PPDAC Framework</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="..//intro_ppdac">Understanding the PPDAC Framework</a></h3>
                 <p>The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.</p>
                 </div>
                 </div>
             <div class="note-item post" data-tags="leadership data strategy">
                 <div class="item-date sans-serif">11 OCT 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../notes/first_30_days">The First 30-90 Days as a Data Delivery Leader</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="../first_30_days">The First 30-90 Days as a Data Delivery Leader</a></h3>
                 <p>Quick summary of what waht you need to cover in the first 30-90 days as a data leader.</p>
                 </div>
                 </div>
                 <div class="note-item post" data-tags="finance data strategy">
                 <div class="item-date sans-serif">01 OCT 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../notes/financial_crime">Financial Crime Regulation and Anti-Financial Crime Strategies</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="..//financial_crime">Financial Crime Regulation and Anti-Financial Crime Strategies</a></h3>
                 <p>A overview of financial crime regulation and anti-financial crime strateigies.</p>
                 </div>
                 </div>
                 <div class="note-item post" data-tags="AI data">
                 <div class="item-date sans-serif">25 SEPT 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="../notes/alternative_data_alpha">Leveraging Alternative Data for Alpha Generation in Investment Strategies</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="..//alternative_data_alpha">Leveraging Alternative Data for Alpha Generation in Investment Strategies</a></h3>
                 <p>A look at the alternative data market and it's growing importance in alpha generation.</p>
                 </div>
             </div>
             <div class="note-item post" data-tags="data strategy leadership">
             <div class="item-date sans-serif">16 SEPT 2024</div>
                 <div class="item-info">
-                    <h3 class="sans-serif"><a class="color-inherit" href="../notes/data_quality">From Chaos to Clarity: Managing Data Quality Effectively</a></h3>
+                    <h3 class="sans-serif"><a class="color-inherit" href="..//data_quality">From Chaos to Clarity: Managing Data Quality Effectively</a></h3>
                     <p>A introduction to a robust data strategy, broken down into discovery, definition and management.</p>
                 </div>
             </div>
@@ -99,7 +99,7 @@ slug: "notes"
 <div class="note-item post" data-tags="AI">
     <div class="item-date sans-serif">11 SEPT 2024</div>
     <div class="item-info">
-        <h3 class="sans-serif"><a class="color-inherit" href="../notes/understanding_the_llm_context_window">Understanding the LLM Context Window and Why It Matters</a></h3>
+        <h3 class="sans-serif"><a class="color-inherit" href="..//understanding_the_llm_context_window">Understanding the LLM Context Window and Why It Matters</a></h3>
         <p>A short intro to context windows and why they matter in a business context.</p>
     </div>
 </div>
@@ -107,7 +107,7 @@ slug: "notes"
 <div class="note-item post" data-tags="AI">
     <div class="item-date sans-serif">06 SEPT 2024</div>
     <div class="item-info">
-        <h3 class="sans-serif"><a class="color-inherit" href="../notes/copilot_menu">How I revamped My Website Menu in Half a Day!</a></h3>
+        <h3 class="sans-serif"><a class="color-inherit" href="../copilot_menu">How I revamped My Website Menu in Half a Day!</a></h3>
         <p>A ten step guide on how I updated the website menu using Gen AI in Copilot.</p>
     </div>
 </div>

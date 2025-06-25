@@ -5,11 +5,8 @@ description: "Version: 1.0.0"
 draft: false
 labels: ""
 slug: "understanding_the_llm_context_window"
-images: ["llm_context_window"]
+
 ---
-
-<img class="preview" src="../../images/llm_context_window.jpg" alt="Conceptual image of LLM and thier context windows">
-
 
 
 ## What are context windows? 

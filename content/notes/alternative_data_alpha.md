@@ -5,11 +5,10 @@ description: "Version: 1.0.1"
 draft: false
 labels: ""
 slug: "alternative_data_alpha"
-images: 
 version: 1.0.0
 ---
 
-<img class="preview" src="../../images/alternative_data_alpha.jpg" alt="Couple of rabbits in suits analysing data">
+<!-- <img class="preview" src="../../images/alternative_data_alpha.jpg" alt="Couple of rabbits in suits analysing data"> -->
 
 
 

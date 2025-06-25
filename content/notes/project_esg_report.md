@@ -9,7 +9,7 @@ images: project_esg_report.jpg
 ---
 <!-- {{< figure src="../../images/python_esg.jpg" title="An elephant at sunset" >}} -->
 
-<p><img class="preview" src="../../images/python_esg.jpg" alt="Image dipicting a man programming with Python and analysing ESG data"></p>
+<!-- <p><img class="preview" src="../../images/python_esg.jpg" alt="Image dipicting a man programming with Python and analysing ESG data"></p> -->
 
 ## Log
 

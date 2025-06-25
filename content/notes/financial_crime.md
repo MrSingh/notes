@@ -1,15 +1,14 @@
 ---
 title: "Financial Crime Regulation and Anti-Financial Crime Strategies"
 date: 2024-10-01T07:00:00
-description: "Version: 1.0.1"
 draft: false
 labels: ""
 slug: "financial_crime"
-images: 
+
 version: 1.0.1
 ---
 
-<img class="preview" src="../../images/financial_crime.jpg" alt="A thief rabbit stealing money from a safe">
+<!-- <img class="preview" src="../../images/financial_crime.jpg" alt="A thief rabbit stealing money from a safe"> -->
 
 Financial crime is a huge problem and the blanket term is used to describe any crime relating to financial institutions and markets.  The scale of the problem can be seen in Nasdaq's first Financial Crime Report published in 2024[1].
 

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="https://puneet.uk/images/.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="https://puneet.uk/images/.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Paul Singh</a>
+    </h1>
+    
+    
+    
+    
+</div>  
+                <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1></h1>
+<p></p>
+
+
+
+
+
+<time>Updated on: Nov 14, 2024</time>
+
+
+
+
+
+
+         
+          <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">yfinance</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">yf</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">numpy</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">np</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">matplotlib.pyplot</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">plt</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Download data from Yahoo Finance</span>
+</span></span><span style="display:flex;"><span>etf = <span style="color:#ed9d13">&#34;VUSA.L&#34;</span>  <span style="color:#999;font-style:italic"># Replace with the relevant ticker for your ETF</span>
+</span></span><span style="display:flex;"><span>data = yf.download(etf, start=<span style="color:#ed9d13">&#34;1990-01-01&#34;</span>, end=<span style="color:#ed9d13">&#34;2024-01-01&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Plot the closing price history</span>
+</span></span><span style="display:flex;"><span>plt.figure(figsize=(<span style="color:#3677a9">10</span>,<span style="color:#3677a9">6</span>))
+</span></span><span style="display:flex;"><span>plt.plot(data[<span style="color:#ed9d13">&#39;Close&#39;</span>], label=<span style="color:#ed9d13">f</span><span style="color:#ed9d13">&#39;</span><span style="color:#ed9d13">{</span>etf<span style="color:#ed9d13">}</span><span style="color:#ed9d13"> Closing Price&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Annotate the starting and ending prices</span>
+</span></span><span style="display:flex;"><span>start_price = data[<span style="color:#ed9d13">&#39;Close&#39;</span>].iloc[<span style="color:#3677a9">0</span>]
+</span></span><span style="display:flex;"><span>end_price = data[<span style="color:#ed9d13">&#39;Close&#39;</span>].iloc[-<span style="color:#3677a9">1</span>]
+</span></span><span style="display:flex;"><span>start_date = data.index[<span style="color:#3677a9">0</span>].strftime(<span style="color:#ed9d13">&#39;%Y-%m-</span><span style="color:#ed9d13">%d</span><span style="color:#ed9d13">&#39;</span>)
+</span></span><span style="display:flex;"><span>end_date = data.index[-<span style="color:#3677a9">1</span>].strftime(<span style="color:#ed9d13">&#39;%Y-%m-</span><span style="color:#ed9d13">%d</span><span style="color:#ed9d13">&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Add text annotations on the plot for start and end prices</span>
+</span></span><span style="display:flex;"><span>plt.text(data.index[<span style="color:#3677a9">0</span>], start_price, <span style="color:#ed9d13">f</span><span style="color:#ed9d13">&#39;Start: £</span><span style="color:#ed9d13">{</span>start_price<span style="color:#ed9d13">:</span><span style="color:#ed9d13">.2f</span><span style="color:#ed9d13">}</span><span style="color:#ed9d13">&#39;</span>, verticalalignment=<span style="color:#ed9d13">&#39;bottom&#39;</span>, color=<span style="color:#ed9d13">&#39;green&#39;</span>, fontsize=<span style="color:#3677a9">10</span>)
+</span></span><span style="display:flex;"><span>plt.text(data.index[-<span style="color:#3677a9">1</span>], end_price, <span style="color:#ed9d13">f</span><span style="color:#ed9d13">&#39;End: £</span><span style="color:#ed9d13">{</span>end_price<span style="color:#ed9d13">:</span><span style="color:#ed9d13">.2f</span><span style="color:#ed9d13">}</span><span style="color:#ed9d13">&#39;</span>, verticalalignment=<span style="color:#ed9d13">&#39;top&#39;</span>, color=<span style="color:#ed9d13">&#39;red&#39;</span>, fontsize=<span style="color:#3677a9">10</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Add title and labels</span>
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#ed9d13">f</span><span style="color:#ed9d13">&#39;</span><span style="color:#ed9d13">{</span>etf<span style="color:#ed9d13">}</span><span style="color:#ed9d13"> Closing Price History (</span><span style="color:#ed9d13">{</span>start_date<span style="color:#ed9d13">}</span><span style="color:#ed9d13"> to </span><span style="color:#ed9d13">{</span>end_date<span style="color:#ed9d13">}</span><span style="color:#ed9d13">)&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#ed9d13">&#39;Date&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#ed9d13">&#39;Price (£)&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.legend()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div><pre><code>[*********************100%***********************]  1 of 1 completed
+</code></pre>
+<p><img src="investment_analysis_files/investment_analysis_0_1.png" alt="png"></p>
+<pre><code>The Kernel crashed while executing code in the current cell or a previous cell. 
+
+
+Please review the code in the cell(s) to identify a possible cause of the failure. 
+
+
+Click &lt;a href='https://aka.ms/vscodeJupyterKernelCrash'&gt;here&lt;/a&gt; for more info. 
+
+
+View Jupyter &lt;a href='command:jupyter.viewOutput'&gt;log&lt;/a&gt; for further details.
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Function to calculate lump-sum growth</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">def</span> <span style="color:#447fcf">lump_sum_investment</span>(data, initial_investment, years):
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Calculate annual returns from daily close prices</span>
+</span></span><span style="display:flex;"><span>    data[<span style="color:#ed9d13">&#39;Return&#39;</span>] = data[<span style="color:#ed9d13">&#39;Close&#39;</span>].pct_change()
+</span></span><span style="display:flex;"><span>    avg_annual_return = data[<span style="color:#ed9d13">&#39;Return&#39;</span>].mean() * <span style="color:#3677a9">252</span>  <span style="color:#999;font-style:italic"># 252 trading days in a year</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Compounded growth over the years</span>
+</span></span><span style="display:flex;"><span>    future_value = initial_investment * (<span style="color:#3677a9">1</span> + avg_annual_return) ** years
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">return</span> future_value, avg_annual_return
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Lump-sum investment simulation</span>
+</span></span><span style="display:flex;"><span>initial_investment = <span style="color:#3677a9">10000</span>  <span style="color:#999;font-style:italic"># Example amount</span>
+</span></span><span style="display:flex;"><span>years = [<span style="color:#3677a9">10</span>, <span style="color:#3677a9">20</span>, <span style="color:#3677a9">30</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> year <span style="color:#6ab825;font-weight:bold">in</span> years:
+</span></span><span style="display:flex;"><span>    future_value, avg_return = lump_sum_investment(data, initial_investment, year)
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(<span style="color:#ed9d13">f</span><span style="color:#ed9d13">&#34;After </span><span style="color:#ed9d13">{</span>year<span style="color:#ed9d13">}</span><span style="color:#ed9d13"> years, the investment would be worth £</span><span style="color:#ed9d13">{</span>future_value<span style="color:#ed9d13">:</span><span style="color:#ed9d13">.2f</span><span style="color:#ed9d13">}</span><span style="color:#ed9d13">, with an average annual return of </span><span style="color:#ed9d13">{</span>avg_return<span style="color:#ed9d13">:</span><span style="color:#ed9d13">.2%</span><span style="color:#ed9d13">}</span><span style="color:#ed9d13">&#34;</span>)
+</span></span></code></pre></div><pre><code>After 10 years, the investment would be worth £37614.43, with an average annual return of 14.17%
+After 20 years, the investment would be worth £141484.53, with an average annual return of 14.17%
+After 30 years, the investment would be worth £532186.00, with an average annual return of 14.17%
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Function to calculate growth with monthly contributions</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">def</span> <span style="color:#447fcf">monthly_contributions</span>(data, monthly_contribution, years):
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic"># Monthly returns</span>
+</span></span><span style="display:flex;"><span>    data[<span style="color:#ed9d13">&#39;Monthly Return&#39;</span>] = data[<span style="color:#ed9d13">&#39;Close&#39;</span>].pct_change().resample(<span style="color:#ed9d13">&#39;M&#39;</span>).ffill().mean()
+</span></span><span style="display:flex;"><span>    data = data.dropna()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    future_value = <span style="color:#3677a9">0</span>
+</span></span><span style="display:flex;"><span>    months = years * <span style="color:#3677a9">12</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">for</span> month <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#24909d">range</span>(months):
+</span></span><span style="display:flex;"><span>        future_value = (future_value + monthly_contribution) * (<span style="color:#3677a9">1</span> + data[<span style="color:#ed9d13">&#39;Monthly Return&#39;</span>].mean())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">return</span> future_value
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Monthly contributions simulation</span>
+</span></span><span style="display:flex;"><span>monthly_contribution = <span style="color:#3677a9">100</span>  <span style="color:#999;font-style:italic"># Example amount</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> year <span style="color:#6ab825;font-weight:bold">in</span> years:
+</span></span><span style="display:flex;"><span>    future_value = monthly_contributions(data, monthly_contribution, year)
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(<span style="color:#ed9d13">f</span><span style="color:#ed9d13">&#34;After </span><span style="color:#ed9d13">{</span>year<span style="color:#ed9d13">}</span><span style="color:#ed9d13"> years of £</span><span style="color:#ed9d13">{</span>monthly_contribution<span style="color:#ed9d13">}</span><span style="color:#ed9d13">/month contributions, the investment would be worth £</span><span style="color:#ed9d13">{</span>future_value<span style="color:#ed9d13">:</span><span style="color:#ed9d13">.2f</span><span style="color:#ed9d13">}</span><span style="color:#ed9d13">&#34;</span>)
+</span></span></code></pre></div><pre><code>After 10 years of £100/month contributions, the investment would be worth £11692.32
+After 20 years of £100/month contributions, the investment would be worth £22795.06
+After 30 years of £100/month contributions, the investment would be worth £33337.96
+
+
+C:\Users\pthuk\AppData\Local\Temp\ipykernel_17580\2917145678.py:4: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  data['Monthly Return'] = data['Close'].pct_change().resample('M').ffill().mean()
+C:\Users\pthuk\AppData\Local\Temp\ipykernel_17580\2917145678.py:4: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  data['Monthly Return'] = data['Close'].pct_change().resample('M').ffill().mean()
+</code></pre>
+
+          
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
+    function ready() {
+        document.getElementById("bug").innerHTML += bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+  
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+            <div>Site last updated: June 2025</div>
+                    
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>

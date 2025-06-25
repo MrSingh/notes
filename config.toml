@@ -18,7 +18,7 @@ pygmentsstyle="native"
 pygmentsUseClasses=false
 
 # Publish Directory
-publishDir="docs"
+publishDir="public"
 disableKinds = ["taxonomy"]
 
 [permalinks]

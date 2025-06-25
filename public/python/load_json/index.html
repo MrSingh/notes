@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      Load a JSON file
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Load a JSON file" />
+    <meta property="og:image" content="https://puneet.uk/images/.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Load a JSON file" />
+    <meta name="twitter:image" content="https://puneet.uk/images/.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Paul Singh</a>
+    </h1>
+    
+    
+    
+    
+</div>  
+                <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Load a JSON file</h1>
+<p></p>
+
+
+
+
+
+<time>Updated on: Feb 18, 2021</time>
+
+
+
+
+
+
+         
+          <hr>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Set JSON filepath</span>
+</span></span><span style="display:flex;"><span>json_filepath = <span style="color:#ed9d13">&#34;data/new_json.json&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Read JSON File</span>
+</span></span><span style="display:flex;"><span>df = pd.read_json(json_filepath,  orient=<span style="color:#ed9d13">&#39;split&#39;</span>)
+</span></span><span style="display:flex;"><span>df
+</span></span></code></pre></div><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p></style></p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>mfr</th>
+      <th>type</th>
+      <th>calories</th>
+      <th>protein</th>
+      <th>fat</th>
+      <th>sodium</th>
+      <th>fiber</th>
+      <th>carbo</th>
+      <th>sugars</th>
+      <th>potass</th>
+      <th>vitamins</th>
+      <th>shelf</th>
+      <th>weight</th>
+      <th>cups</th>
+      <th>rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>100% Bran</td>
+      <td>N</td>
+      <td>C</td>
+      <td>70</td>
+      <td>4</td>
+      <td>1</td>
+      <td>130</td>
+      <td>10.0</td>
+      <td>5.0</td>
+      <td>6</td>
+      <td>280</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.33</td>
+      <td>68.402973</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100% Natural Bran</td>
+      <td>Q</td>
+      <td>C</td>
+      <td>120</td>
+      <td>3</td>
+      <td>5</td>
+      <td>15</td>
+      <td>2.0</td>
+      <td>8.0</td>
+      <td>8</td>
+      <td>135</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>33.983679</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>All-Bran</td>
+      <td>K</td>
+      <td>C</td>
+      <td>70</td>
+      <td>4</td>
+      <td>1</td>
+      <td>260</td>
+      <td>9.0</td>
+      <td>7.0</td>
+      <td>5</td>
+      <td>320</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.33</td>
+      <td>59.425505</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>All-Bran with Extra Fiber</td>
+      <td>K</td>
+      <td>C</td>
+      <td>50</td>
+      <td>4</td>
+      <td>0</td>
+      <td>140</td>
+      <td>14.0</td>
+      <td>8.0</td>
+      <td>0</td>
+      <td>330</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.50</td>
+      <td>93.704912</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Almond Delight</td>
+      <td>R</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>2</td>
+      <td>200</td>
+      <td>1.0</td>
+      <td>14.0</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>34.384843</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Triples</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>1</td>
+      <td>250</td>
+      <td>0.0</td>
+      <td>21.0</td>
+      <td>3</td>
+      <td>60</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>39.106174</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Trix</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>1</td>
+      <td>1</td>
+      <td>140</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>12</td>
+      <td>25</td>
+      <td>25</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>27.753301</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Wheat Chex</td>
+      <td>R</td>
+      <td>C</td>
+      <td>100</td>
+      <td>3</td>
+      <td>1</td>
+      <td>230</td>
+      <td>3.0</td>
+      <td>17.0</td>
+      <td>3</td>
+      <td>115</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.67</td>
+      <td>49.787445</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Wheaties</td>
+      <td>G</td>
+      <td>C</td>
+      <td>100</td>
+      <td>3</td>
+      <td>1</td>
+      <td>200</td>
+      <td>3.0</td>
+      <td>17.0</td>
+      <td>3</td>
+      <td>110</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>51.592193</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Wheaties Honey Gold</td>
+      <td>G</td>
+      <td>C</td>
+      <td>110</td>
+      <td>2</td>
+      <td>1</td>
+      <td>200</td>
+      <td>1.0</td>
+      <td>16.0</td>
+      <td>8</td>
+      <td>60</td>
+      <td>25</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.75</td>
+      <td>36.187559</td>
+    </tr>
+  </tbody>
+</table>
+<p>77 rows × 16 columns</p>
+</div>
+
+          
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
+    function ready() {
+        document.getElementById("bug").innerHTML += bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+  
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+            <div>Site last updated: June 2025</div>
+                    
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>

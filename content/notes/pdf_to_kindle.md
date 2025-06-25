@@ -5,10 +5,10 @@ description: ""
 draft: false
 labels: ""
 slug: "pdf_to_kindle"
-images: pdf_to_kindle.jpg
+# images: pdf_to_kindle.jpg
 ---
 
-<p><img class="preview" src="../../images/pdf_to_kindle.jpg" alt="Image dipicting dipicting making bokks Kindle friendly"></p>
+<!-- <p><img class="preview" src="../../images/pdf_to_kindle.jpg" alt="Image dipicting dipicting making bokks Kindle friendly"></p> -->
 
 This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.
 
