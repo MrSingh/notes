@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      Requests and Beautiful Soup
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Requests and Beautiful Soup" />
+    <meta property="og:image" content="https://puneet.uk/images/.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Requests and Beautiful Soup" />
+    <meta name="twitter:image" content="https://puneet.uk/images/.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Paul Singh</a>
+    </h1>
+    
+    
+    
+    
+</div>  
+                <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1>Requests and Beautiful Soup</h1>
+<p>Requesting a web page as an object and then usining Beautiful Soup to access various elemets of that object.</p>
+
+
+
+
+
+<time>Updated on: Feb 18, 2021</time>
+
+
+
+
+
+
+         
+          <hr>
+<h2 id="import-modules">Import Modules</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">requests</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">from</span> <span style="color:#447fcf;text-decoration:underline">bs4</span> <span style="color:#6ab825;font-weight:bold">import</span> BeautifulSoup
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Example adapted from the links below</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># https://requests.readthedocs.io/en/master/</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># https://www.crummy.com/software/BeautifulSoup/bs4/doc/</span>
+</span></span></code></pre></div><h2 id="request-a-web-page">Request a Web Page</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>html_page = requests.get(<span style="color:#ed9d13">&#39;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&#39;</span>, auth=(<span style="color:#ed9d13">&#39;user&#39;</span>, <span style="color:#ed9d13">&#39;pass&#39;</span>))
+</span></span></code></pre></div><h2 id="return-page-headers">Return Page Headers</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Headers</span>
+</span></span><span style="display:flex;"><span>html_page.headers[<span style="color:#ed9d13">&#39;content-type&#39;</span>]
+</span></span></code></pre></div><pre><code>'text/html; charset=UTF-8'
+</code></pre>
+<h2 id="return-page-status-code">Return Page Status Code</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Status Code</span>
+</span></span><span style="display:flex;"><span>html_page.status_code
+</span></span></code></pre></div><pre><code>200
+</code></pre>
+<h2 id="create-a-beautiful-soup-object-with-html-text">Create a Beautiful Soup Object with HTML text</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Create a Beautiful Soup Object with HTML text</span>
+</span></span><span style="display:flex;"><span>soup = BeautifulSoup(html_page.text, <span style="color:#ed9d13">&#39;html.parser&#39;</span>)
+</span></span></code></pre></div><h2 id="prettify-html-text">Prettify HTML Text</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Prettify HTML Text</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># print(soup.prettify()) # Uncomment this line to run this cell</span>
+</span></span></code></pre></div><h2 id="return-page-title">Return Page Title</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Title</span>
+</span></span><span style="display:flex;"><span>soup.title
+</span></span></code></pre></div><pre><code>&lt;title&gt;Beautiful Soup Documentation — Beautiful Soup 4.9.0 documentation&lt;/title&gt;
+</code></pre>
+<h2 id="extract-all-links">Extract all Links</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Extract all links</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> link <span style="color:#6ab825;font-weight:bold">in</span> soup.find_all(<span style="color:#ed9d13">&#39;a&#39;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(link.get(<span style="color:#ed9d13">&#39;href&#39;</span>))
+</span></span></code></pre></div><pre><code>genindex.html
+#
+
+#beautiful-soup-documentation
+http://www.crummy.com/software/BeautifulSoup/
+http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+#porting-code-to-bs4
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
+http://kondou.com/BS4/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.ko/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.ru/
+#getting-help
+https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup
+#diagnose
+#quick-start
+#installing-beautiful-soup
+http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+http://www.crummy.com/software/BeautifulSoup/download/4.x/
+#problems-after-installation
+#installing-a-parser
+http://lxml.de/
+http://code.google.com/p/html5lib/
+#differences-between-parsers
+#making-the-soup
+#id17
+#kinds-of-objects
+#tag
+#navigating-the-tree
+#searching-the-tree
+#name
+#attributes
+#multi-valued-attributes
+#navigablestring
+#navigating-the-tree
+#searching-the-tree
+#replace-with
+#navigating-the-tree
+#searching-the-tree
+#beautifulsoup
+#tag
+#navigating-the-tree
+#searching-the-tree
+#modifying-the-tree
+#tag
+#comments-and-other-special-strings
+#navigating-the-tree
+#going-down
+#navigating-using-tag-names
+#searching-the-tree
+#contents-and-children
+#descendants
+#string
+#strings-and-stripped-strings
+#going-up
+#parent
+#parents
+#going-sideways
+#next-sibling-and-previous-sibling
+#next-siblings-and-previous-siblings
+#going-back-and-forth
+#next-element-and-previous-element
+#next-elements-and-previous-elements
+#searching-the-tree
+#kinds-of-filters
+#a-string
+#a-regular-expression
+#a-list
+#true
+#a-function
+#find-all
+#id12
+#attrs
+#recursive
+#id13
+#limit
+#kwargs
+#kinds-of-filters
+#the-name-argument
+#kinds-of-filters
+#a-string
+#a-regular-expression
+#a-list
+#a-function
+#the-value-true
+#the-keyword-arguments
+#a-string
+#a-regular-expression
+#a-list
+#a-function
+#the-value-true
+#searching-by-css-class
+#multivalue
+#the-string-argument
+#a-string
+#a-regular-expression
+#a-list
+#a-function
+#the-value-true
+#the-limit-argument
+#the-recursive-argument
+#calling-a-tag-is-like-calling-find-all
+#find
+#id12
+#attrs
+#recursive
+#id13
+#kwargs
+#navigating-using-tag-names
+#find-parents-and-find-parent
+#id12
+#attrs
+#id13
+#limit
+#kwargs
+#id12
+#attrs
+#id13
+#kwargs
+#parent
+#parents
+#find-next-siblings-and-find-next-sibling
+#id12
+#attrs
+#id13
+#limit
+#kwargs
+#id12
+#attrs
+#id13
+#kwargs
+#sibling-generators
+#find-previous-siblings-and-find-previous-sibling
+#id12
+#attrs
+#id13
+#limit
+#kwargs
+#id12
+#attrs
+#id13
+#kwargs
+#sibling-generators
+#find-all-next-and-find-next
+#id12
+#attrs
+#id13
+#limit
+#kwargs
+#id12
+#attrs
+#id13
+#kwargs
+#element-generators
+#find-all-previous-and-find-previous
+#id12
+#attrs
+#id13
+#limit
+#kwargs
+#id12
+#attrs
+#id13
+#kwargs
+#element-generators
+#css-selectors
+https://facelessuser.github.io/soupsieve/
+https://facelessuser.github.io/soupsieve/
+#modifying-the-tree
+#changing-tag-names-and-attributes
+#attributes
+#modifying-string
+#append
+#extend
+#navigablestring-and-new-tag
+#insert
+#insert-before-and-insert-after
+#clear
+#extract
+#decompose
+#replace-with
+#wrap
+#unwrap
+#smooth
+#output
+#pretty-printing
+#non-pretty-printing
+#encodings
+#output-formatters
+#get-text
+#string-generators
+#specifying-the-parser-to-use
+#installing-a-parser
+#differences-between-parsers
+#encodings
+#unicode-dammit
+#output-encoding
+#unicode-dammit
+#smart-quotes
+#inconsistent-encodings
+#line-numbers
+#comparing-objects-for-equality
+#copying-beautiful-soup-objects
+#advanced-parser-customization
+#parsing-only-part-of-a-document
+#soupstrainer
+#searching-the-tree
+#id12
+#attrs
+#id13
+#kwargs
+#searching-the-tree
+#customizing-multi-valued-attributes
+#handling-duplicate-attributes
+#instantiating-custom-subclasses
+#troubleshooting
+#diagnose
+#errors-when-parsing-a-document
+#installing-a-parser
+#parser-installation
+#parser-installation
+#version-mismatch-problems
+#parsing-xml
+#parser-installation
+#other-parser-problems
+#differences-between-parsers
+http://www.w3.org/TR/html5/syntax.html#syntax
+#parsing-xml
+#miscellaneous
+http://wiki.python.org/moin/PrintFails
+#improving-performance
+http://lxml.de/
+#parser-installation
+http://pypi.python.org/pypi/cchardet/
+#parsing-only-part-of-a-document
+#translating-this-documentation
+#id18
+http://www.crummy.com/software/BeautifulSoup/bs3/download/3.x/BeautifulSoup-3.2.0.tar.gz
+http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+#porting-code-to-bs4
+http://www.python.org/dev/peps/pep-0008/
+#you-need-a-parser
+#installing-a-parser
+#method-names
+#generators
+#string-generators
+#xml
+#entities
+#unicode-dammit
+#output-formatters
+#id19
+#string
+#multi-valued-attributes
+#id13
+#id12
+#string
+#id13
+#
+#
+#getting-help
+#quick-start
+#installing-beautiful-soup
+#problems-after-installation
+#installing-a-parser
+#making-the-soup
+#kinds-of-objects
+#tag
+#name
+#attributes
+#multi-valued-attributes
+#navigablestring
+#beautifulsoup
+#comments-and-other-special-strings
+#navigating-the-tree
+#going-down
+#navigating-using-tag-names
+#contents-and-children
+#descendants
+#string
+#strings-and-stripped-strings
+#going-up
+#parent
+#parents
+#going-sideways
+#next-sibling-and-previous-sibling
+#next-siblings-and-previous-siblings
+#going-back-and-forth
+#next-element-and-previous-element
+#next-elements-and-previous-elements
+#searching-the-tree
+#kinds-of-filters
+#a-string
+#a-regular-expression
+#a-list
+#true
+#a-function
+#find-all
+#the-name-argument
+#the-keyword-arguments
+#searching-by-css-class
+#the-string-argument
+#the-limit-argument
+#the-recursive-argument
+#calling-a-tag-is-like-calling-find-all
+#find
+#find-parents-and-find-parent
+#find-next-siblings-and-find-next-sibling
+#find-previous-siblings-and-find-previous-sibling
+#find-all-next-and-find-next
+#find-all-previous-and-find-previous
+#css-selectors
+#modifying-the-tree
+#changing-tag-names-and-attributes
+#modifying-string
+#append
+#extend
+#navigablestring-and-new-tag
+#insert
+#insert-before-and-insert-after
+#clear
+#extract
+#decompose
+#replace-with
+#wrap
+#unwrap
+#smooth
+#output
+#pretty-printing
+#non-pretty-printing
+#output-formatters
+#get-text
+#specifying-the-parser-to-use
+#differences-between-parsers
+#encodings
+#output-encoding
+#unicode-dammit
+#smart-quotes
+#inconsistent-encodings
+#line-numbers
+#comparing-objects-for-equality
+#copying-beautiful-soup-objects
+#advanced-parser-customization
+#parsing-only-part-of-a-document
+#soupstrainer
+#customizing-multi-valued-attributes
+#handling-duplicate-attributes
+#instantiating-custom-subclasses
+#troubleshooting
+#diagnose
+#errors-when-parsing-a-document
+#version-mismatch-problems
+#parsing-xml
+#other-parser-problems
+#miscellaneous
+#improving-performance
+#translating-this-documentation
+#id18
+#porting-code-to-bs4
+#you-need-a-parser
+#method-names
+#generators
+#xml
+#entities
+#id19
+_sources/index.rst.txt
+genindex.html
+#
+
+https://www.sphinx-doc.org/
+</code></pre>
+<h2 id="extract-all-text">Extract all Text</h2>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Extracting Text</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># print(soup.get_text()) # Uncomment this line to run this cell</span>
+</span></span></code></pre></div>
+          
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
+    function ready() {
+        document.getElementById("bug").innerHTML += bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+  
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+            <div>Site last updated: June 2025</div>
+                    
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vscodes on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
+    <link>https://puneet.uk/vscode/</link>
+    <description>Recent content in Vscodes on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 31 Jan 2021 19:54:57 +0000</lastBuildDate>
+    <atom:link href="https://puneet.uk/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insert Date Time String in Visual Studio Code</title>
+      <link>https://puneet.uk/vscode/inserting_date_time/</link>
+      <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
+      <guid>https://puneet.uk/vscode/inserting_date_time/</guid>
+      <description>Install &amp;lsquo;Insert Date String&amp;rsquo; Extension Extension&#xA;Click on Install from above link or use the steps below.&#xA;Open Command Palette: Ctrl + Shift + P Find: Install Extensions Search: Insert Date String Install Use Ctrl + Shift + I to insert the date time to the cursor location. Check documentation for more options.</description>
+    </item>
+    <item>
+      <title>Visual Studio Code | Shortcuts</title>
+      <link>https://puneet.uk/vscode/vscode_shortcuts/</link>
+      <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
+      <guid>https://puneet.uk/vscode/vscode_shortcuts/</guid>
+      <description>Toggle Integrated Terminal Ctrl + &#39;&#xD;Toggle Side Bar Ctrl + B&#xD;Open Settings Ctrl + ,&#xD;Quick Open File Ctrl + p&#xD;Open Preview Mode ToDO&#xD;Move File to Split Editor Ctrl + \&#xD;Find and Replace Find Ctrl + f&#xD;Find Selection Ctrl + h&#xD;Find &amp;amp; Replace Selection Execute Ctrl + Enter&#xD;Find &amp;amp; Replace All Execute Ctrl + Alt + Enter&#xD;Command Palette Ctrl + Shift + P&#xD;Toggle Comment Ctrl + /&#xD;Copy Line - selects the line the cursur is on Ctrl + C&#xD;Duplicate Line // Above&#xD;Ctrl + Alt + Up&#xD;// Below&#xD;Ctrl + Alt + Down&#xD;Multiple Cursors Ctrl + Click&#xD;// Or&#xD;Ctrl + Shift + Alt + Up/Down&#xD;Select Word Ctrl + D&#xD;Select All Words ToDo&#xD;Function to Rename f2&#xD;Go to Function Definition Ctrl + Click&#xD;Zen Mode Toggle Ctrl + K&#xD;// Then&#xD;Z&#xD;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://puneet.uk/vscode/vscode_python_issues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/vscode/vscode_python_issues/</guid>
+      <description>Python Issues in VSCode Jupyter notebook fails to export to python script Error 2020-12-16 16:06:17: Jupyter Kernel Spec not found for a local connection Fix pip install nbconvert </description>
+    </item>
+  </channel>
+</rss>

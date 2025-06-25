@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="https://puneet.uk/images/.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="https://puneet.uk/images/.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <div class="f-left">
+    <h1>
+        <a href="../../index.html" class="home">Paul Singh</a>
+    </h1>
+    
+    
+    
+    
+</div>  
+                <nav aria-label="Victoria.dev main menu" id="custom-menu">
+    <button class="custom-menu-toggle" aria-label="Toggle menu">
+        <a role="menuitem" href="#"><img src="../../images/menu.svg" alt="menu icon" class="menu-icon"></a>
+    </button>
+    <ul role="menubar" class="custom-menu">
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../notes/notes/">
+                <img src="../../images/notes.svg" alt="Notes icon" class="custom-filter-icon"> Notes
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../code/code/">
+                <img src="../../images/code.svg" alt="Code icon" class="custom-filter-icon"> Code
+            </a>
+        </li>
+        
+        <li role="none" class="custom-menu-item">
+            <a role="menuitem" href="../../read/bookshelf_home/">
+                <img src="../../images/bookshelf.svg" alt="Bookshelf icon" class="custom-filter-icon"> Bookshelf
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <h1></h1>
+<p></p>
+
+
+
+
+
+<time>Updated on: Nov 14, 2024</time>
+
+
+
+
+
+
+         
+          <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">cv2</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">from</span> <span style="color:#447fcf;text-decoration:underline">PIL</span> <span style="color:#6ab825;font-weight:bold">import</span> Image
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the image</span>
+</span></span><span style="display:flex;"><span>image_path = <span style="color:#ed9d13">&#39;data/amrit_full.jpg&#39;</span>
+</span></span><span style="display:flex;"><span>image = cv2.imread(image_path)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Define the size for the passport photo (e.g., 2x2 inches at 300 DPI)</span>
+</span></span><span style="display:flex;"><span>passport_width = <span style="color:#24909d">int</span>(<span style="color:#3677a9">35</span> * <span style="color:#3677a9">11.81</span>)  <span style="color:#999;font-style:italic"># 35mm to pixels</span>
+</span></span><span style="display:flex;"><span>passport_height = <span style="color:#24909d">int</span>(<span style="color:#3677a9">45</span> * <span style="color:#3677a9">11.81</span>)  <span style="color:#999;font-style:italic"># 45mm to pixels</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Resize the image</span>
+</span></span><span style="display:flex;"><span>resized_image = cv2.resize(image, (passport_width, passport_height))
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Save the resized image</span>
+</span></span><span style="display:flex;"><span>cv2.imwrite(<span style="color:#ed9d13">&#39;data/amrit_passport.jpg&#39;</span>, resized_image)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Optional: Convert to RGB and save using Pillow for better quality</span>
+</span></span><span style="display:flex;"><span>passport_image = Image.open(<span style="color:#ed9d13">&#39;data/amrit_passport.jpg&#39;</span>)
+</span></span><span style="display:flex;"><span>passport_image = passport_image.convert(<span style="color:#ed9d13">&#39;RGB&#39;</span>)
+</span></span><span style="display:flex;"><span>passport_image.save(<span style="color:#ed9d13">&#39;data/amrit_passport_final.jpg&#39;</span>, <span style="color:#ed9d13">&#39;JPEG&#39;</span>, quality=<span style="color:#3677a9">95</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#34;Passport photo saved as &#39;amrit_passport_final.jpg&#39;&#34;</span>)
+</span></span></code></pre></div>
+          
+
+<div class="alert alert-thoughts" role="alert" id="bug"> 
+</div>
+<script>
+    
+    var current_page = document.location.href;
+    var _title =  document.title;   
+    
+    var _url = 'https://github.com/MrSingh/notes/issues/new?body=' + current_page;
+    var bug_snippet = "<i class='material-icons'>bug_report</i>Report an error or bug <a href=" + _url + " target='blank'>&nbsp;here</a>.</li>"
+    function ready() {
+        document.getElementById("bug").innerHTML += bug_snippet;    
+    }
+    document.addEventListener("DOMContentLoaded", ready);    
+</script>
+
+  
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+            <div>Site last updated: June 2025</div>
+                    
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>
