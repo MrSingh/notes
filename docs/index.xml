@@ -2,402 +2,430 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Singh on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>https://puneet.uk/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Paul Singh on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 25 Jun 2025 11:01:47 +0100</lastBuildDate>
-    <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 07:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snowflakes Data Trends 2025 - Financial Services</title>
+      <link>http://localhost:1313/notes/snowflake_2025_trends/</link>
+      <pubDate>Tue, 01 Jul 2025 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/snowflake_2025_trends/</guid>
+      <description>Snowflake has just released its 2025 Data Trends Report for Financial services.&#xA;Here&amp;rsquo;s a quick summary:&#xA;➡️ Foundational Data Infrastructure is a non-negotiable.&#xA;➡️ ROI is becoming increasingly important - what value are we deriving from Data and AI?&#xA;Lorraine Knerr, Global Head of Generative AI and Data Solutions, Architecture and Strategy at AWS, agrees. &amp;ldquo;Coming into this year, we&amp;rsquo;re seeing a much more measured approach with customers in terms of validating their data foundations are in place.</description>
+    </item>
     <item>
       <title>Data Resources</title>
-      <link>https://puneet.uk/notes/data_resources/</link>
+      <link>http://localhost:1313/notes/data_resources/</link>
       <pubDate>Tue, 18 Mar 2025 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/data_resources/</guid>
+      <guid>http://localhost:1313/notes/data_resources/</guid>
       <description>1. By Region Asia Asia Big Data Association - Asia Big Data Association. Big Data &amp;amp; AI World Asia - Big Data &amp;amp; AI World Asia. Data.gov.sg - Singapore&amp;rsquo;s Open Data. India Open Data - India Open Data. China Data Online - China Data Online. Korea Open Data - South Korea Open Data. Taiwan Open Data - Taiwan Open Data. Hong Kong Open Data - Hong Kong Open Data. Japan Meteorological Agency - Japan Meteorological Agency.</description>
     </item>
     <item>
       <title>Master Book List</title>
-      <link>https://puneet.uk/read/master_book_list/</link>
+      <link>http://localhost:1313/read/master_book_list/</link>
       <pubDate>Tue, 11 Mar 2025 07:12:00 +0000</pubDate>
-      <guid>https://puneet.uk/read/master_book_list/</guid>
+      <guid>http://localhost:1313/read/master_book_list/</guid>
       <description>Business &amp;amp; Entrepreneurship Good to Great: Why Some Companies Make the Leap and Others Don’t - Jim Collins Built to Last: Successful Habits of Visionary Companies - Jim Collins Zero to One - Peter Thiel The Hard Thing About Hard Things - Ben Horowitz The Millionaire Master Plan - Roger James Hamilton $100M Offers: How To Make Offers So Good People Feel Stupid Saying No - Alex Hormozi Business Adventures: Twelve Classic Tales from the World of Wall Street - John Brooks The Personal MBA: Master the Art of Business - Josh Kaufman Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers - Timothy Ferriss The Checklist Manifesto: How To Get Things Right - Atul Gawande Think Like a Rocket Scientist: Simple Strategies for Giant Leaps in Work and Life - Ozan Varol The Practice - Seth Godin The Culture Code: The Secrets of Highly Successful Groups - Daniel Coyle Bad Blood: Secrets and Lies in a Silicon Valley Startup - John Carreyrou One Up On Wall Street: How To Use What You Already Know To Make Money In - Peter Lynch Money: Know More, Make More, Give More - Rob Moore Start Now.</description>
     </item>
     <item>
       <title>Exploratory Data Analysis of CO2 Emissions Data with Python</title>
-      <link>https://puneet.uk/python/co2_emissions_eda/</link>
+      <link>http://localhost:1313/python/co2_emissions_eda/</link>
       <pubDate>Mon, 18 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/co2_emissions_eda/</guid>
+      <guid>http://localhost:1313/python/co2_emissions_eda/</guid>
       <description>EDGAR CO2 emissions data&#xA;This EDA is a work in progress and is the groundwork for a visulisation in Power Bi.&#xA;ToDo: Remove Global Total Row From the Top 20 and 5 Datasets % Increase in Avaiation and Shipping Extract Figures for Aviation and Shipping % of Total Emissions by the Top 20 - 1970 % of Total Emissions by the Top 5 - 1970 % of Total Emissions by the Top 20 - 2023 % of Total Emissions by the Top 5 - 2023 Total CO2 Emissions for Each Year Grand Total Emissions of Co2 Create a ToC Create A Visual/Dashboard An EDA of CO2 emissons based on EDGAR(Emissions Database for Global Atmospheric Research) data.</description>
     </item>
     <item>
       <title>CO2 Emmisions Analysis</title>
-      <link>https://puneet.uk/python/co2_emmisions_analysis/</link>
+      <link>http://localhost:1313/python/co2_emmisions_analysis/</link>
       <pubDate>Sun, 17 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/co2_emmisions_analysis/</guid>
+      <guid>http://localhost:1313/python/co2_emmisions_analysis/</guid>
       <description>Data Resource An analysis of CO2 emmisons based on Glaobal 2023 data.&#xA;# Import import pandas as pd import matplotlib.pyplot as plt import seaborn as sns # Load the dataset data = pd.read_csv(&amp;#39;data/world-data-2023.csv&amp;#39;) # Display The column names and data types print(data.dtypes) Country object&#xD;Density\n(P/Km2) object&#xD;Abbreviation object&#xD;Agricultural Land( %) object&#xD;Land Area(Km2) object&#xD;Armed Forces size object&#xD;Birth Rate float64&#xD;Calling Code float64&#xD;Capital/Major City object&#xD;Co2-Emissions object&#xD;CPI object&#xD;CPI Change (%) object&#xD;Currency-Code object&#xD;Fertility Rate float64&#xD;Forested Area (%) object&#xD;Gasoline Price object&#xD;GDP object&#xD;Gross primary education enrollment (%) object&#xD;Gross tertiary education enrollment (%) object&#xD;Infant mortality float64&#xD;Largest city object&#xD;Life expectancy float64&#xD;Maternal mortality ratio float64&#xD;Minimum wage object&#xD;Official language object&#xD;Out of pocket health expenditure object&#xD;Physicians per thousand float64&#xD;Population object&#xD;Population: Labor force participation (%) object&#xD;Tax revenue (%) object&#xD;Total tax rate object&#xD;Unemployment rate object&#xD;Urban_population object&#xD;Latitude float64&#xD;Longitude float64&#xD;dtype: object&#xD;# Convert &amp;#39;Co2-Emissions&amp;#39; to numeric data[&amp;#39;Co2-Emissions&amp;#39;] = pd.</description>
     </item>
     <item>
       <title>Flatten a Multi-Index DataFrame</title>
-      <link>https://puneet.uk/python/flatten_multiindex_dataframe/</link>
+      <link>http://localhost:1313/python/flatten_multiindex_dataframe/</link>
       <pubDate>Fri, 15 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/flatten_multiindex_dataframe/</guid>
+      <guid>http://localhost:1313/python/flatten_multiindex_dataframe/</guid>
       <description>Resource Whilst a multi-index datafame can be useful for complex data orginisation, for example across multiple markets and time periods. Flattening the data has it&amp;rsquo;s own advantages; making for easier data manipulation, merging with other datasets and visulising. Here is a quick example.&#xA;# Import import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX tickers = [&amp;#39;VOO&amp;#39;,&amp;#39;VTWO&amp;#39;] df = yf.</description>
     </item>
     <item>
       <title>Normalising ETF Adjusted Close Prices in a Multi-Index DataFrame</title>
-      <link>https://puneet.uk/python/normalise_multiindex_data/</link>
+      <link>http://localhost:1313/python/normalise_multiindex_data/</link>
       <pubDate>Thu, 14 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/normalise_multiindex_data/</guid>
+      <guid>http://localhost:1313/python/normalise_multiindex_data/</guid>
       <description>This example fetches historical price data for two ETFs, &amp;lsquo;VOO&amp;rsquo; and &amp;lsquo;VTWO&amp;rsquo;, using the yfinance library and storing it in a Multi-Index DataFrame. It then iterates through each ticker symbol to normalise their adjusted closing prices based on the first day&amp;rsquo;s value. The normalised prices are stored in new columns in the DataFrame.&#xA;Normalising data is important for a number of reasons:&#xA;Comparison Across Assets Trend Analysis Volatility Assessment Portfolio Management Visualization See my short guide to normalising data here</description>
     </item>
     <item>
       <title>Normalising Financial Data</title>
-      <link>https://puneet.uk/notes/normalising_data/</link>
+      <link>http://localhost:1313/notes/normalising_data/</link>
       <pubDate>Thu, 14 Nov 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/normalising_data/</guid>
+      <guid>http://localhost:1313/notes/normalising_data/</guid>
       <description>Normalising financial data serves several important purposes. Here are some examples:&#xA;Comparison Across Assets: It allows you to compare the performance of different assets or financial instruments on a like-for-like basis. By expressing prices as a percentage of a base value (e.g., the starting price), you can easily see which assets have performed better over time, regardless of their original price levels.&#xA;Trend Analysis: Normalised data helps in identifying trends and patterns more clearly.</description>
     </item>
     <item>
       <title>Understanding the PPDAC Framework</title>
-      <link>https://puneet.uk/notes/intro_ppdac/</link>
+      <link>http://localhost:1313/notes/intro_ppdac/</link>
       <pubDate>Mon, 21 Oct 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/intro_ppdac/</guid>
+      <guid>http://localhost:1313/notes/intro_ppdac/</guid>
       <description>I have been reading, &amp;lsquo;The Art of Statistics: Learning from Data&amp;rsquo; and came across the PPDAC framework fairly early on in the book. David Spiegelhalter, the author, is a big proponent of the framework. I have outlined it below with a view as a data leader.&#xA;What is PPDAC? Having a structured framework in statistical analysis is important to help bring order to complex statistical analysis problems. It does this by bring clarity, a step-by-step approach, consistency, effective solutions aswell as documentation and communication.</description>
     </item>
     <item>
       <title>The First 30-90 Days as a Data Delivery Leader</title>
-      <link>https://puneet.uk/notes/first_30_days/</link>
+      <link>http://localhost:1313/notes/first_30_days/</link>
       <pubDate>Fri, 11 Oct 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/first_30_days/</guid>
+      <guid>http://localhost:1313/notes/first_30_days/</guid>
       <description>I was recently asked about how I would tackle the first 30-90 days as a data leader should I get the job. This is an interesting question, and having a plan will certainly help you get started on the right foot. In my mind, it’s always been clear: start with what you have, build relationships, and identify quick wins. The role was for a Head of Delivery and Product - someone who understood and had implemented agile methodologies and recognized the importance of being product-led in the area of data.</description>
     </item>
     <item>
       <title>Financial Crime Regulation and Anti-Financial Crime Strategies</title>
-      <link>https://puneet.uk/notes/financial_crime/</link>
+      <link>http://localhost:1313/notes/financial_crime/</link>
       <pubDate>Tue, 01 Oct 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/financial_crime/</guid>
+      <guid>http://localhost:1313/notes/financial_crime/</guid>
       <description>Financial crime is a huge problem and the blanket term is used to describe any crime relating to financial institutions and markets. The scale of the problem can be seen in Nasdaq&amp;rsquo;s first Financial Crime Report published in 2024[1].&#xA;The Nasdaq 2024 Global Financial Crime Report found that more than $3.1 trillion in illicit funds flowed through the global financial system last year alone. This includes nearly $800 billion in drug trafficking, nearly $350 billion in human trafficking, and more than $11 billion in terrorist financing.</description>
     </item>
     <item>
       <title>Leveraging Alternative Data for Alpha Generation in Investment Strategies</title>
-      <link>https://puneet.uk/notes/alternative_data_alpha/</link>
+      <link>http://localhost:1313/notes/alternative_data_alpha/</link>
       <pubDate>Wed, 25 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/alternative_data_alpha/</guid>
+      <guid>http://localhost:1313/notes/alternative_data_alpha/</guid>
       <description>Alternative data is becoming increasingly important in investment finance as analysts strive to beat the benchmark index and overall market. Alpha refers to the excess return relative to the benchmark, adjusted for risk.&#xA;What is alternative data? Traditional data includes corporate filings, analyst predictions, and ticker data.&#xA;Alternative data is non-traditional data. It can come from various sources in both structured and unstructured formats. Examples include ESG data, transaction data, web traffic, media sentiment, social media sentiment, and sensor data, among others.</description>
     </item>
     <item>
       <title>Implementing a Data Quality Strategy</title>
-      <link>https://puneet.uk/notes/menu/</link>
+      <link>http://localhost:1313/notes/menu/</link>
       <pubDate>Fri, 13 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/menu/</guid>
+      <guid>http://localhost:1313/notes/menu/</guid>
       <description>According to Experian&amp;rsquo;s 2021 Global Data Management Research, &amp;ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&amp;rdquo;&#xA;What are Data Quality Issues? Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. View a more comprehensive list of data issues here.</description>
     </item>
     <item>
       <title>Understanding the LLM Context Window and Why It Matters</title>
-      <link>https://puneet.uk/notes/understanding_the_llm_context_window/</link>
+      <link>http://localhost:1313/notes/understanding_the_llm_context_window/</link>
       <pubDate>Wed, 11 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/understanding_the_llm_context_window/</guid>
+      <guid>http://localhost:1313/notes/understanding_the_llm_context_window/</guid>
       <description>What are context windows? A context window is simply the chat you have with an LLM (like ChatGPT). Think of it as short-term memory! It keeps track of your prompts and its outputs as you chat. So, if you start a new chat, that context will be lost.&#xA;A context window has a limit. For example, the limit in Copilot in the Edge Browser is 8,000 tokens. A token can be a word, part of a word, character, or space.</description>
     </item>
     <item>
       <title>How I Revamped My Website Menu in Half a Day!</title>
-      <link>https://puneet.uk/notes/copilot_menu/</link>
+      <link>http://localhost:1313/notes/copilot_menu/</link>
       <pubDate>Fri, 06 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/copilot_menu/</guid>
+      <guid>http://localhost:1313/notes/copilot_menu/</guid>
       <description>The Problem My website had a static menu along the top bar and, whilst it served a purpose, it was not working on mobile. I knew it needed fixing and evolving.&#xA;Step 1 - Give Copilot some context I cut and paste the current menu system into Copilot.&#xA;Step 2 - The Prompt I need to create a responsive dropdown menu for mobile and a side panel for desktop. Can you provide the HTML and CSS for this?</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://puneet.uk/about_me/about_me/</link>
+      <link>http://localhost:1313/about_me/about_me/</link>
       <pubDate>Tue, 03 Sep 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/about_me/about_me/</guid>
+      <guid>http://localhost:1313/about_me/about_me/</guid>
       <description>After building my first website back in 2000, I was hooked.&#xA;Fast forward two decades, and my passion for building data and technology solutions remains undiminished. Over the years the challenges have grown significantly. From building teams, leading agile transformations, managing platform migrations, establishing support models, formulating data strategies, implementing data governance, managing risk, coaching agile teams, and managing teams, to name but a few. Problem solving is at the heart of data and technology and I enjoy working with a diverse set of people to deliver.</description>
     </item>
     <item>
       <title>Log</title>
-      <link>https://puneet.uk/notes/log/</link>
+      <link>http://localhost:1313/notes/log/</link>
       <pubDate>Wed, 28 Aug 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/log/</guid>
+      <guid>http://localhost:1313/notes/log/</guid>
       <description>[15/07/2024] 1st draft of notes for week 1-3 for Summer School For Data Leaders have been uploaded.&#xD;[10/07/2024] Notes page for Carruthers &amp;amp; Jackson - Summer School For Data Leaders here. [05/07/2024] A summary of the ESG data extraction project I started back in 2020(and in the process of resurrecting) can be found here.&#xD;[20/06/2024] Converting PDF ebooks to be Kindle friendly&#xD;[12/06/2024] Adding Euro 2024 fixture list to your calender&#xD;[07/06/2024] Delighted to have been accepted into this year’s Carruthers and Jackson Summer School for Data Leaders and aspiring CDOs.</description>
     </item>
     <item>
       <title>Carruthers &amp; Jackson - Summer School for Data Leaders</title>
-      <link>https://puneet.uk/summer_school/summer_school/</link>
+      <link>http://localhost:1313/summer_school/summer_school/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/summer_school/</guid>
+      <guid>http://localhost:1313/summer_school/summer_school/</guid>
       <description>Week 1 Different kinds of CDOs We explored how to present ourselves as a data leaders and explored the various types of Chief Data Officers (CDOs), including Functional CDOs (FCDO), Strategic CDOs (SCDO), and Transformational CDOs (TCDO).&#xA;Week 2 Making the case for the CDO and business case development We navigated the hype cycle of the CDO journey by utilizing the DIKW (Data, Information, Knowledge, Wisdom) Pyramid, gaining insights into the progression from raw data to actionable wisdom.</description>
     </item>
     <item>
       <title>Week Eight - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_eight/</link>
+      <link>http://localhost:1313/summer_school/week_eight/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_eight/</guid>
+      <guid>http://localhost:1313/summer_school/week_eight/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Five - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_five/</link>
+      <link>http://localhost:1313/summer_school/week_five/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_five/</guid>
+      <guid>http://localhost:1313/summer_school/week_five/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Four - The Three Ds of Data Strategy - Discovery, Definition and Delivery</title>
-      <link>https://puneet.uk/summer_school/week_four/</link>
+      <link>http://localhost:1313/summer_school/week_four/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_four/</guid>
+      <guid>http://localhost:1313/summer_school/week_four/</guid>
       <description>[26/07/2024] - The Three Ds of Data Strategy was developed following week five of attending Curruthers &amp;amp; Jacksons Summer School for Data Leaders. It brings together their (Caroline Carruthers, Peter Jackson and Dave Atherton) expertise and my experience to form the basis of how you may go about developing your own data strategy.&#xA;Purpose What is the (business) purpose of the data strategy - what is the &amp;lsquo;why&amp;rsquo; that will drive the data strategy and transformation required to deliver it?</description>
     </item>
     <item>
       <title>Week Nine - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_nine/</link>
+      <link>http://localhost:1313/summer_school/week_nine/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_nine/</guid>
+      <guid>http://localhost:1313/summer_school/week_nine/</guid>
       <description></description>
     </item>
     <item>
       <title>Week One - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_one/</link>
+      <link>http://localhost:1313/summer_school/week_one/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_one/</guid>
+      <guid>http://localhost:1313/summer_school/week_one/</guid>
       <description>What is a Data Leader? Is the most senior individual in an organisation that is responsible for data.&#xA;Peter Jackson started as a Business Analyst, then became a Full-Stack Engineer before moving into digital strategy as head of data and then CDO.&#xA;Different Types of CDO 1st Generation - Lays the foundation or groundwork 2nd Generation - Reimagining of the role based on business value 3rd Generation - It&amp;rsquo;s a business role that uses technology This is to help you have that conversation to see where you fit in with the organisation and to understand the organisations data journey up until now.</description>
     </item>
     <item>
       <title>Week Seven - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_seven/</link>
+      <link>http://localhost:1313/summer_school/week_seven/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_seven/</guid>
+      <guid>http://localhost:1313/summer_school/week_seven/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Six - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_six/</link>
+      <link>http://localhost:1313/summer_school/week_six/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_six/</guid>
+      <guid>http://localhost:1313/summer_school/week_six/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Ten - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_ten/</link>
+      <link>http://localhost:1313/summer_school/week_ten/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_ten/</guid>
+      <guid>http://localhost:1313/summer_school/week_ten/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Three - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_three/</link>
+      <link>http://localhost:1313/summer_school/week_three/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_three/</guid>
+      <guid>http://localhost:1313/summer_school/week_three/</guid>
       <description>Quantum Data - Halo Data Data in multiple locations is OK Multiple Outputs Value in Problem Solving Under your data Master source of data isn&amp;rsquo;t necessarily needed Linking datasets release value Assumptions Reduce the value But verifying assumptions can realease value&#xA;The First 100 Days &amp;gt; Objectives The case for change Pre-work Vision and Strategy Get the Basics right - Understand the state of play(Audit and understand) Governance Information Architecture Engagement Quick Wins ( Low Hanging Fruit) - Must still deliver value For vision on day one - it can be aspirational - it can be high level.</description>
     </item>
     <item>
       <title>Week Two - Summer School For Data Leaders</title>
-      <link>https://puneet.uk/summer_school/week_two/</link>
+      <link>http://localhost:1313/summer_school/week_two/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/summer_school/week_two/</guid>
+      <guid>http://localhost:1313/summer_school/week_two/</guid>
       <description>Making the case for the CDO and Business Case Development What Challenges will you face Legacy data&#xA;Siloes No MDM No Ownership Data Offloading Legacy Systems/Applications&#xA;Shadow IT &amp;amp; Data (Spreadsheets)&#xA;Strategy must avoid shadow data Spreadsheets &amp;lsquo;can&amp;rsquo;, cause governance, linage and quality issues&#xA;Multiple suppliers(operational) - Rationalise and Reduce (IT &amp;amp; Data)&#xA;Avoiding the &amp;lsquo;Hype Cycle&amp;rsquo; - See Chart in Slides&#xA;Trigger of data awareness Peak of expectations Table of Enlightenment Cliff of reality Acceleration of delivery and value Manage Expectations, Create Starategy and Define Reality.</description>
     </item>
     <item>
       <title>Converting PDF Ebooks to Be Kindle Friendly</title>
-      <link>https://puneet.uk/notes/pdf_to_kindle/</link>
+      <link>http://localhost:1313/notes/pdf_to_kindle/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/pdf_to_kindle/</guid>
+      <guid>http://localhost:1313/notes/pdf_to_kindle/</guid>
       <description>This is great way to get the technical ebooks released by publishers(normally in pdf format) on to your Kindle to make it easier to read.&#xA;Download and install Calibre to convert PDF ebooks to Kindle friendly ebooks Open Calibre and add the PDF ebook that you would like to convert. Expand Formats &amp;gt; PDF &amp;gt; Select book Then Click on Convert books and and a pop window will appear. In the top right hand corner, select theh Output format: EPUB.</description>
     </item>
     <item>
       <title>Project - Automating ESG Data Extraction to a Report</title>
-      <link>https://puneet.uk/notes/project_esg_report/</link>
+      <link>http://localhost:1313/notes/project_esg_report/</link>
       <pubDate>Thu, 20 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/project_esg_report/</guid>
+      <guid>http://localhost:1313/notes/project_esg_report/</guid>
       <description>Log 05/07/2024 This project is being reserectted but pivoting it in the direction of an ESG Database. Originally the focus was reporting and whist reporting will play a part the focus will be the database and it&amp;rsquo;s architecture. More deatils to follow.&#xA;Summary This project was started as a side of the desk project in late 2020 to build a system that would automatically download S&amp;amp;P 500 annual reports and extract ESG data for the purpose of collecting data and providing a report on the state of ESG reporting for the S&amp;amp;P 500.</description>
     </item>
     <item>
       <title>Adding the Euro 2024 Fixture List to Your Calender</title>
-      <link>https://puneet.uk/notes/euro_2024/</link>
+      <link>http://localhost:1313/notes/euro_2024/</link>
       <pubDate>Wed, 12 Jun 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/euro_2024/</guid>
+      <guid>http://localhost:1313/notes/euro_2024/</guid>
       <description>Did you know that Euro 2020 had a cumulative live audience of 5.23 billion[1]?&#xA;Based on previous viewing figures, it’s expected that over 100 million will tune in for every match of Euro 2024.&#xA;So, wherever you are watching it, here is a quick way to add the fixture list to your calendar:&#xA;Import or add the following URL by Sky Sports to your calendar app of choice: webcal://www.skysports.com/calendars/football/fixtures/competitions/euro-2024?live=false</description>
     </item>
     <item>
       <title>Code and Anlytics</title>
-      <link>https://puneet.uk/code/code/</link>
+      <link>http://localhost:1313/code/code/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/code/code/</guid>
+      <guid>http://localhost:1313/code/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://puneet.uk/notes/notes/</link>
+      <link>http://localhost:1313/notes/notes/</link>
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/notes/notes/</guid>
-      <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;#ESG&#xD;11 Mar 2025&#xD;Master Book List&#xD;This is my first pass at putting all the books I own, have borrowed or been recommended in one place. The list is incomplete but I will refine it periodically.&#xA;20 NOV 2024&#xD;ESG - Exploratory Data Analysis of Global CO2 Emissions&#xD;An EDA of CO2 emissions as part of a wider ESG project to better understand ESG data and merge datasets for analysis and insights.</description>
+      <guid>http://localhost:1313/notes/notes/</guid>
+      <description>#reset&amp;nbsp;|&#xD;#leadership&#xD;#strategy&#xD;#finance&#xD;#AI&#xD;#analytics&#xD;#python&#xD;#ESG&#xD;July 2025&#xD;Snowflakes Data Trends 2025 - Financial Services&#xD;A brief summary of Snowflake 2025 Data Trends Report for Financial services.&#xA;11 Mar 2025&#xD;Master Book List&#xD;This is my first pass at putting all the books I own, have borrowed or been recommended in one place. The list is incomplete but I will refine it periodically.&#xA;20 NOV 2024&#xD;ESG - Exploratory Data Analysis of Global CO2 Emissions&#xD;An EDA of CO2 emissions as part of a wider ESG project to better understand ESG data and merge datasets for analysis and insights.</description>
     </item>
     <item>
       <title>Bookshelf</title>
-      <link>https://puneet.uk/read/bookshelf_home/</link>
+      <link>http://localhost:1313/read/bookshelf_home/</link>
       <pubDate>Fri, 12 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/read/bookshelf_home/</guid>
+      <guid>http://localhost:1313/read/bookshelf_home/</guid>
       <description>Reading The Art of Statistics: Learning from Data - David Spiegelhalter [Link] The Checklist Manifesto: How To Get Things Right - Atul Gawande [Link] Completed Poor - Katriona O&amp;rsquo;Sullivan - [Link] Bought this on a whim when I saw it as a Kindle special deal, and I’m glad I did. It covers what it means to be poor, and how some of the most vulnerable in society can fall through the cracks, how the system can let them down.</description>
     </item>
     <item>
       <title>Master JavaScript Mindmap</title>
-      <link>https://puneet.uk/javascript/master_javascript_mindmap/</link>
+      <link>http://localhost:1313/javascript/master_javascript_mindmap/</link>
       <pubDate>Fri, 05 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/javascript/master_javascript_mindmap/</guid>
+      <guid>http://localhost:1313/javascript/master_javascript_mindmap/</guid>
       <description>JavaScript, the language of the web! It&amp;rsquo;s a powerful language. I wanted to share some of what I learnt over the years whilst giving myself a refresher course. To kick things off, I put a mindmap together. It&amp;rsquo;s a work in progress, but it&amp;rsquo;s a reference for me, and if I update the underlying mindmap, I&amp;rsquo;ll update this page too. I&amp;rsquo;m hoping it will be of some use to others beginning on their JavaScript journey.</description>
     </item>
     <item>
       <title>Home</title>
-      <link>https://puneet.uk/home/home/</link>
+      <link>http://localhost:1313/home/home/</link>
       <pubDate>Tue, 02 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/home/home/</guid>
+      <guid>http://localhost:1313/home/home/</guid>
       <description></description>
     </item>
     <item>
-      <title>Primitive Data Types</title>
-      <link>https://puneet.uk/python/primitive_data_types/</link>
+      <title>Brooks Shoes Data Analysis</title>
+      <link>http://localhost:1313/python/brooks_data_analysis/</link>
       <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/primitive_data_types/</guid>
+      <guid>http://localhost:1313/python/brooks_data_analysis/</guid>
+      <description>Data&#xA;import matplotlib.pyplot as plt import pandas as pd # set file path # Source data is availle from the link above filePath = &amp;#34;data/data/kaggle/brooks/BrooksShoes.csv&amp;#34; # read data to a DataFrame df = pd.read_csv(filePath, parse_dates=True, delimiter=&amp;#39;,&amp;#39;) # Check how many shoes we have # Each row is a differnt shoe in some cases just a variation of an existing shoe. print(&amp;#34;Number of different shoes: &amp;#34;, len(df.index)) Number of different shoes: 50&#xD;## Now lets see how many of the shoes are road shoes print(&amp;#34;Number of road shoes: &amp;#34;, len(df.</description>
+    </item>
+    <item>
+      <title>Primitive Data Types</title>
+      <link>http://localhost:1313/python/primitive_data_types/</link>
+      <pubDate>Fri, 19 Feb 2021 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/python/primitive_data_types/</guid>
       <description>Resource&#xA;Python has a number of built-in data types but for the purpose of this notebook, we will focus on what are referred to as primitive data types. The primitive data types are as follows.&#xA;Integer - Whole numbers Float - Deciaml numbers String - Character data Boolean - True or False None - None Object or NoneType Integers Whole Numbers # Positive Integer num = 10 # Check data type type(num) int&#xD;# Negative Integer negative_num = -10 # Check data type type(num) int&#xD;#Zero zero = 0 # Check data type type(zero) int&#xD;Floats # Floating or Decimal Number decimal_num = 2.</description>
     </item>
     <item>
       <title>Add an Existing Project to GitHub</title>
-      <link>https://puneet.uk/git/git_add_project/</link>
+      <link>http://localhost:1313/git/git_add_project/</link>
       <pubDate>Tue, 16 Feb 2021 06:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/git/git_add_project/</guid>
+      <guid>http://localhost:1313/git/git_add_project/</guid>
       <description>Resource&#xA;Create a new repository for your project on GitHub.&#xA;Open Git Bash from your local folder.&#xA;Initialize the local directory as a Git repository.&#xA;git init -b main Add the files in your new Git repository. This will stage all the files in your project ready for the first commit. git add . Commit the added files. git commit -m &amp;#34;First commit&amp;#34; From GitHub, copy the remote repository URL.</description>
     </item>
     <item>
       <title>Creating Arrays with NumPy</title>
-      <link>https://puneet.uk/python/creating_arrays/</link>
+      <link>http://localhost:1313/python/creating_arrays/</link>
       <pubDate>Thu, 11 Feb 2021 06:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/creating_arrays/</guid>
+      <guid>http://localhost:1313/python/creating_arrays/</guid>
       <description>Resources NumPy NumPy API # Import NumPy import numpy as np # Create a list list_1 = [1,2,3,4,5] # Create another list # we will use this later list_2 = [6,7,8,9,10] Create an Array with a List # Create a array by passing the list as an object new_array = np.array(list_1) new_array Create a multi-dimensional array or matrix # Create a list of lists list_of_lists = [list_1, list_2] list_of_lists # Create a multi-dimensional array or matrix matrix_array = np.</description>
     </item>
     <item>
       <title>New Format Basics</title>
-      <link>https://puneet.uk/python/format_basics/</link>
+      <link>http://localhost:1313/python/format_basics/</link>
       <pubDate>Mon, 08 Feb 2021 12:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/format_basics/</guid>
+      <guid>http://localhost:1313/python/format_basics/</guid>
       <description>Resource&#xA;Basic Example # Name input name = input() &amp;#39;Hello, {}&amp;#39;.format(name) &#39;Hello, SpiderMan&#39;&#xD;Dictionary Example data = {&amp;#39;first&amp;#39;: &amp;#39;Spider&amp;#39;, &amp;#39;last&amp;#39;: &amp;#39;-Man&amp;#39;} &amp;#39;{first}{last}&amp;#39;.format(**data) &#39;Spider-Man&#39;&#xD;List Example data = [&amp;#39;Spider&amp;#39;, &amp;#39;Man&amp;#39;] &amp;#39;{}-{}&amp;#39;.format(*data) &#39;Spider-Man&#39;&#xD;Class/Object Example class Person(object): type = &amp;#39;Enemies&amp;#39; names = [{&amp;#39;name&amp;#39;: &amp;#39;Doctor Octopus&amp;#39;}, {&amp;#39;name&amp;#39;: &amp;#39;Green Goblin&amp;#39;}] &amp;#39;{p.type}: {p.names[0][name]} and {p.names[1][name]}&amp;#39;.format(p=Person()) &#39;Enemies: Doctor Octopus and Green Goblin&#39;&#xD;Datetime Example from datetime import date &amp;#39;{:%Y-%m-%d}&amp;#39;.format(date.today()) &#39;2021-02-08&#39;&#xD;</description>
     </item>
     <item>
       <title>While Loops Basics</title>
-      <link>https://puneet.uk/python/while_loop_basics/</link>
+      <link>http://localhost:1313/python/while_loop_basics/</link>
       <pubDate>Fri, 05 Feb 2021 12:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/python/while_loop_basics/</guid>
+      <guid>http://localhost:1313/python/while_loop_basics/</guid>
       <description>Simple While Loop # while loops until a condition is met - when x = 10 the condition is no longer met and the while loop stops # Inistalise counter i = 0 while i &amp;lt; 10: print(i) i += 1 0&#xD;1&#xD;2&#xD;3&#xD;4&#xD;5&#xD;6&#xD;7&#xD;8&#xD;9&#xD;While Loop To Sum i = 0 sum = 0 while i &amp;lt; 10: sum = sum + i i += 1 # update counter print(&amp;#34;Inside Loop | Sum = &amp;#34;, sum) print(&amp;#34;Outside | Loop Sum = &amp;#34;, sum) Inside Loop | Sum = 0&#xD;Inside Loop | Sum = 1&#xD;Inside Loop | Sum = 3&#xD;Inside Loop | Sum = 6&#xD;Inside Loop | Sum = 10&#xD;Inside Loop | Sum = 15&#xD;Inside Loop | Sum = 21&#xD;Inside Loop | Sum = 28&#xD;Inside Loop | Sum = 36&#xD;Inside Loop | Sum = 45&#xD;Outside | Loop Sum = 45&#xD;While loop with condition and nested if statement # while loops until a condition is met - along with a nested if condition therefore if x is less than 10 and x is less than 5 ends the loop x = 0 while x &amp;lt; 10: if x == 5: break print(x) x += 1 0&#xD;1&#xD;2&#xD;3&#xD;4&#xD;Infinite Loop example - Commeneted out!</description>
     </item>
     <item>
       <title>For Loops Basics</title>
-      <link>https://puneet.uk/python/for_loop_basics/</link>
+      <link>http://localhost:1313/python/for_loop_basics/</link>
       <pubDate>Fri, 05 Feb 2021 12:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/for_loop_basics/</guid>
+      <guid>http://localhost:1313/python/for_loop_basics/</guid>
       <description>Create a List of Numbers nums = [1,2,3,4,5] Print Numbers in a List Example for num in nums: print(num) 1&#xD;2&#xD;3&#xD;4&#xD;5&#xD;Continue Example #continue moves to the next iteration - in the example below when num == 4, &amp;#39;Found!&amp;#39; will be printed and it will skip print(num) and go to the next iteration of the loop for num in nums: if num == 4: print(&amp;#39;Found!&amp;#39;) continue print(num) 1&#xD;2&#xD;3&#xD;Found!</description>
     </item>
     <item>
       <title>Delete Columns in a DataFrame</title>
-      <link>https://puneet.uk/python/drop_dataframe_columns/</link>
+      <link>http://localhost:1313/python/drop_dataframe_columns/</link>
       <pubDate>Thu, 04 Feb 2021 12:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/python/drop_dataframe_columns/</guid>
+      <guid>http://localhost:1313/python/drop_dataframe_columns/</guid>
       <description>Resource Data Source Import Pandas # Import Pandas import pandas as pd Set File Path and Read it into a DataFrame # Set file path fp = &amp;#34;data/cereal.csv&amp;#34; # Read file to DataFrame df = pd.read_csv(fp, delimiter=&amp;#39;,&amp;#39;) Example One # Example One # Delete All Columns Except Named Columns df_1 = df[[&amp;#39;name&amp;#39;, &amp;#39;rating&amp;#39;]] df_1 name&#xD;rating&#xD;0&#xD;100% Bran&#xD;68.402973&#xD;1&#xD;100% Natural Bran&#xD;33.983679&#xD;2&#xD;All-Bran&#xD;59.425505&#xD;3&#xD;All-Bran with Extra Fiber&#xD;93.</description>
     </item>
     <item>
       <title>Write a Dataframe to a JSON File</title>
-      <link>https://puneet.uk/python/write_dataframe_to_json/</link>
+      <link>http://localhost:1313/python/write_dataframe_to_json/</link>
       <pubDate>Wed, 03 Feb 2021 00:00:00 -0700</pubDate>
-      <guid>https://puneet.uk/python/write_dataframe_to_json/</guid>
+      <guid>http://localhost:1313/python/write_dataframe_to_json/</guid>
       <description>Resource Data Source Import Pandas # Import Pandas import pandas as pd df = pd.read_csv(&amp;#34;data/cereal.csv&amp;#34;) Output as a JSON string # output as a JSON string df.to_json() &#39;{&amp;quot;name&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;100% Bran&amp;quot;,&amp;quot;1&amp;quot;:&amp;quot;100% Natural Bran&amp;quot;,&amp;quot;2&amp;quot;:&amp;quot;All-Bran&amp;quot;,&amp;quot;3&amp;quot;:&amp;quot;All-Bran with Extra Fiber&amp;quot;,&amp;quot;4&amp;quot;:&amp;quot;Almond Delight&amp;quot;,&amp;quot;5&amp;quot;:&amp;quot;Apple Cinnamon Cheerios&amp;quot;,&amp;quot;6&amp;quot;:&amp;quot;Apple Jacks&amp;quot;,&amp;quot;7&amp;quot;:&amp;quot;Basic 4&amp;quot;,&amp;quot;8&amp;quot;:&amp;quot;Bran Chex&amp;quot;,&amp;quot;9&amp;quot;:&amp;quot;Bran Flakes&amp;quot;,&amp;quot;10&amp;quot;:&amp;quot;Cap\&#39;n\&#39;Crunch&amp;quot;,&amp;quot;11&amp;quot;:&amp;quot;Cheerios&amp;quot;,&amp;quot;12&amp;quot;:&amp;quot;Cinnamon Toast Crunch&amp;quot;,&amp;quot;13&amp;quot;:&amp;quot;Clusters&amp;quot;,&amp;quot;14&amp;quot;:&amp;quot;Cocoa Puffs&amp;quot;,&amp;quot;15&amp;quot;:&amp;quot;Corn Chex&amp;quot;,&amp;quot;16&amp;quot;:&amp;quot;Corn Flakes&amp;quot;,&amp;quot;17&amp;quot;:&amp;quot;Corn Pops&amp;quot;,&amp;quot;18&amp;quot;:&amp;quot;Count Chocula&amp;quot;,&amp;quot;19&amp;quot;:&amp;quot;Cracklin\&#39; Oat Bran&amp;quot;,&amp;quot;20&amp;quot;:&amp;quot;Cream of Wheat (Quick)&amp;quot;,&amp;quot;21&amp;quot;:&amp;quot;Crispix&amp;quot;,&amp;quot;22&amp;quot;:&amp;quot;Crispy Wheat &amp;amp; Raisins&amp;quot;,&amp;quot;23&amp;quot;:&amp;quot;Double Chex&amp;quot;,&amp;quot;24&amp;quot;:&amp;quot;Froot Loops&amp;quot;,&amp;quot;25&amp;quot;:&amp;quot;Frosted Flakes&amp;quot;,&amp;quot;26&amp;quot;:&amp;quot;Frosted Mini-Wheats&amp;quot;,&amp;quot;27&amp;quot;:&amp;quot;Fruit &amp;amp; Fibre Dates; Walnuts; and Oats&amp;quot;,&amp;quot;28&amp;quot;:&amp;quot;Fruitful Bran&amp;quot;,&amp;quot;29&amp;quot;:&amp;quot;Fruity Pebbles&amp;quot;,&amp;quot;30&amp;quot;:&amp;quot;Golden Crisp&amp;quot;,&amp;quot;31&amp;quot;:&amp;quot;Golden Grahams&amp;quot;,&amp;quot;32&amp;quot;:&amp;quot;Grape Nuts Flakes&amp;quot;,&amp;quot;33&amp;quot;:&amp;quot;Grape-Nuts&amp;quot;,&amp;quot;34&amp;quot;:&amp;quot;Great Grains Pecan&amp;quot;,&amp;quot;35&amp;quot;:&amp;quot;Honey Graham Ohs&amp;quot;,&amp;quot;36&amp;quot;:&amp;quot;Honey Nut Cheerios&amp;quot;,&amp;quot;37&amp;quot;:&amp;quot;Honey-comb&amp;quot;,&amp;quot;38&amp;quot;:&amp;quot;Just Right Crunchy Nuggets&amp;quot;,&amp;quot;39&amp;quot;:&amp;quot;Just Right Fruit &amp;amp; Nut&amp;quot;,&amp;quot;40&amp;quot;:&amp;quot;Kix&amp;quot;,&amp;quot;41&amp;quot;:&amp;quot;Life&amp;quot;,&amp;quot;42&amp;quot;:&amp;quot;Lucky Charms&amp;quot;,&amp;quot;43&amp;quot;:&amp;quot;Maypo&amp;quot;,&amp;quot;44&amp;quot;:&amp;quot;Muesli Raisins; Dates; &amp;amp; Almonds&amp;quot;,&amp;quot;45&amp;quot;:&amp;quot;Muesli Raisins; Peaches; &amp;amp; Pecans&amp;quot;,&amp;quot;46&amp;quot;:&amp;quot;Mueslix Crispy Blend&amp;quot;,&amp;quot;47&amp;quot;:&amp;quot;Multi-Grain Cheerios&amp;quot;,&amp;quot;48&amp;quot;:&amp;quot;Nut&amp;amp;Honey Crunch&amp;quot;,&amp;quot;49&amp;quot;:&amp;quot;Nutri-Grain Almond-Raisin&amp;quot;,&amp;quot;50&amp;quot;:&amp;quot;Nutri-grain Wheat&amp;quot;,&amp;quot;51&amp;quot;:&amp;quot;Oatmeal Raisin Crisp&amp;quot;,&amp;quot;52&amp;quot;:&amp;quot;Post Nat.</description>
     </item>
     <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/python/resources/</link>
+      <pubDate>Mon, 01 Feb 2021 10:05:19 +0000</pubDate>
+      <guid>http://localhost:1313/python/resources/</guid>
+      <description>Cheat Sheets See: https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/&#xA;E-books </description>
+    </item>
+    <item>
       <title>Requests and Beautiful Soup</title>
-      <link>https://puneet.uk/python/ws_requests_and_beautifulsoup/</link>
+      <link>http://localhost:1313/python/ws_requests_and_beautifulsoup/</link>
       <pubDate>Fri, 29 Jan 2021 14:50:18 +0000</pubDate>
-      <guid>https://puneet.uk/python/ws_requests_and_beautifulsoup/</guid>
+      <guid>http://localhost:1313/python/ws_requests_and_beautifulsoup/</guid>
       <description>Import Modules import requests from bs4 import BeautifulSoup # Example adapted from the links below # https://requests.readthedocs.io/en/master/ # https://www.crummy.com/software/BeautifulSoup/bs4/doc/ Request a Web Page html_page = requests.get(&amp;#39;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&amp;#39;, auth=(&amp;#39;user&amp;#39;, &amp;#39;pass&amp;#39;)) Return Page Headers # Return Page Headers html_page.headers[&amp;#39;content-type&amp;#39;] &#39;text/html; charset=UTF-8&#39;&#xD;Return Page Status Code # Return Page Status Code html_page.status_code 200&#xD;Create a Beautiful Soup Object with HTML text # Create a Beautiful Soup Object with HTML text soup = BeautifulSoup(html_page.text, &amp;#39;html.</description>
     </item>
     <item>
       <title>Python os.walk()</title>
-      <link>https://puneet.uk/python/oswalk/</link>
+      <link>http://localhost:1313/python/ossystem/</link>
       <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
-      <guid>https://puneet.uk/python/oswalk/</guid>
+      <guid>http://localhost:1313/python/ossystem/</guid>
+      <description> # SYSTEM OS EXAMPLE # Command to execute # Using Windows OS command # cmd = &amp;#39;start chrome&amp;#39; cmd = &amp;#39;notepad&amp;#39; # Using os.system() method os.system(cmd) </description>
+    </item>
+    <item>
+      <title>Python os.walk()</title>
+      <link>http://localhost:1313/python/oswalk/</link>
+      <pubDate>Thu, 28 Jan 2021 14:50:18 +0000</pubDate>
+      <guid>http://localhost:1313/python/oswalk/</guid>
       <description> Import Modules # Import Module import os Set Path # Set Path path = &amp;#39;../../content/&amp;#39; Find All Markdown Files In All Content Folders # Find all markdown filesin all content folders all_md_files = [os.path.join(root, name) for root, dirs, files in os.walk(path) for name in files if name.endswith((&amp;#34;.md&amp;#34;))] all_md_files [&#39;../../content/archive\\get-started-with-angular-2.md&#39;,&#xD;&#39;../../content/content\\about\\about.md&#39;,&#xD;&#39;../../content/git\\basic_git_commands.md&#39;,&#xD;&#39;../../content/powershell\\PowerShell.md&#39;,&#xD;&#39;../../content/python\\drop_dataframe_columns.md&#39;,&#xD;&#39;../../content/python\\load_csv.md&#39;,&#xD;&#39;../../content/python\\load_json.md&#39;,&#xD;&#39;../../content/python\\ossystem.md&#39;,&#xD;&#39;../../content/python\\oswalk.md&#39;,&#xD;&#39;../../content/python\\resources.md&#39;,&#xD;&#39;../../content/python\\write_dataframe_to_json.md&#39;,&#xD;&#39;../../content/python\\ws_requests_and_beautifulsoup.md&#39;,&#xD;&#39;../../content/test\\data_analysis.md&#39;,&#xD;&#39;../../content/test\\jira_data_analysis.md&#39;,&#xD;&#39;../../content/test\\reddit_wallstreetbets.md&#39;,&#xD;&#39;../../content/vscode\\inserting_date_time.md&#39;,&#xD;&#39;../../content/vscode\\vscode_python_issues.md&#39;,&#xD;&#39;../../content/vscode\\vscode_shortcuts.md&#39;]&#xD;</description>
     </item>
     <item>
       <title>Insert Date Time String in Visual Studio Code</title>
-      <link>https://puneet.uk/vscode/inserting_date_time/</link>
+      <link>http://localhost:1313/vscode/inserting_date_time/</link>
       <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/inserting_date_time/</guid>
+      <guid>http://localhost:1313/vscode/inserting_date_time/</guid>
       <description>Install &amp;lsquo;Insert Date String&amp;rsquo; Extension Extension&#xA;Click on Install from above link or use the steps below.&#xA;Open Command Palette: Ctrl + Shift + P Find: Install Extensions Search: Insert Date String Install Use Ctrl + Shift + I to insert the date time to the cursor location. Check documentation for more options.</description>
     </item>
     <item>
       <title>Visual Studio Code | Shortcuts</title>
-      <link>https://puneet.uk/vscode/vscode_shortcuts/</link>
+      <link>http://localhost:1313/vscode/vscode_shortcuts/</link>
       <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/vscode_shortcuts/</guid>
+      <guid>http://localhost:1313/vscode/vscode_shortcuts/</guid>
       <description>Toggle Integrated Terminal Ctrl + &#39;&#xD;Toggle Side Bar Ctrl + B&#xD;Open Settings Ctrl + ,&#xD;Quick Open File Ctrl + p&#xD;Open Preview Mode ToDO&#xD;Move File to Split Editor Ctrl + \&#xD;Find and Replace Find Ctrl + f&#xD;Find Selection Ctrl + h&#xD;Find &amp;amp; Replace Selection Execute Ctrl + Enter&#xD;Find &amp;amp; Replace All Execute Ctrl + Alt + Enter&#xD;Command Palette Ctrl + Shift + P&#xD;Toggle Comment Ctrl + /&#xD;Copy Line - selects the line the cursur is on Ctrl + C&#xD;Duplicate Line // Above&#xD;Ctrl + Alt + Up&#xD;// Below&#xD;Ctrl + Alt + Down&#xD;Multiple Cursors Ctrl + Click&#xD;// Or&#xD;Ctrl + Shift + Alt + Up/Down&#xD;Select Word Ctrl + D&#xD;Select All Words ToDo&#xD;Function to Rename f2&#xD;Go to Function Definition Ctrl + Click&#xD;Zen Mode Toggle Ctrl + K&#xD;// Then&#xD;Z&#xD;</description>
     </item>
     <item>
       <title>Load a JSON file</title>
-      <link>https://puneet.uk/python/load_json/</link>
+      <link>http://localhost:1313/python/load_json/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
-      <guid>https://puneet.uk/python/load_json/</guid>
+      <guid>http://localhost:1313/python/load_json/</guid>
       <description>import pandas as pd # Set JSON filepath json_filepath = &amp;#34;data/new_json.json&amp;#34; # Read JSON File df = pd.read_json(json_filepath, orient=&amp;#39;split&amp;#39;) df name&#xD;mfr&#xD;type&#xD;calories&#xD;protein&#xD;fat&#xD;sodium&#xD;fiber&#xD;carbo&#xD;sugars&#xD;potass&#xD;vitamins&#xD;shelf&#xD;weight&#xD;cups&#xD;rating&#xD;0&#xD;100% Bran&#xD;N&#xD;C&#xD;70&#xD;4&#xD;1&#xD;130&#xD;10.0&#xD;5.0&#xD;6&#xD;280&#xD;25&#xD;3&#xD;1.0&#xD;0.33&#xD;68.402973&#xD;1&#xD;100% Natural Bran&#xD;Q&#xD;C&#xD;120&#xD;3&#xD;5&#xD;15&#xD;2.0&#xD;8.0&#xD;8&#xD;135&#xD;0&#xD;3&#xD;1.</description>
     </item>
     <item>
       <title>Load a CSV File</title>
-      <link>https://puneet.uk/python/load_csv/</link>
+      <link>http://localhost:1313/python/load_csv/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 -0700</pubDate>
-      <guid>https://puneet.uk/python/load_csv/</guid>
+      <guid>http://localhost:1313/python/load_csv/</guid>
       <description>Data Source Import Pandas # Import Pandas import pandas as pd Read CSV file #Load CSV file into a dataframe with Pandas df = pd.read_csv(&amp;#39;data/cereal.csv&amp;#39;) #Output Dataframe df name&#xD;mfr&#xD;type&#xD;calories&#xD;protein&#xD;fat&#xD;sodium&#xD;fiber&#xD;carbo&#xD;sugars&#xD;potass&#xD;vitamins&#xD;shelf&#xD;weight&#xD;cups&#xD;rating&#xD;0&#xD;100% Bran&#xD;N&#xD;C&#xD;70&#xD;4&#xD;1&#xD;130&#xD;10.0&#xD;5.0&#xD;6&#xD;280&#xD;25&#xD;3&#xD;1.0&#xD;0.33&#xD;68.402973&#xD;1&#xD;100% Natural Bran&#xD;Q&#xD;C&#xD;120&#xD;3&#xD;5&#xD;15&#xD;2.</description>
     </item>
     <item>
       <title>Basic Git Commands</title>
-      <link>https://puneet.uk/git/basic_git_commands/</link>
+      <link>http://localhost:1313/git/basic_git_commands/</link>
       <pubDate>Sun, 01 Nov 2020 10:05:19 +0000</pubDate>
-      <guid>https://puneet.uk/git/basic_git_commands/</guid>
+      <guid>http://localhost:1313/git/basic_git_commands/</guid>
       <description> Add remote repository git remote add origin https://github.com/user/repo.git Check Remote Repository git remote -v Change Current Branch Name git branch -m &amp;lt;newname&amp;gt; Change Any Branch Name git branch -m &amp;lt;old-name&amp;gt; &amp;lt;new-name&amp;gt; Clone/Download git clone https://github.com/username/projectName.git Create a new branch git checkout -b new-branch Stage All Changes git stage -all Add Files git add . Commit git commit -a -m &amp;#34;Commit Comment&amp;#34; Push git push origin gh-pages </description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/python/image_to_passport/</link>
+      <link>http://localhost:1313/python/image_to_passport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/image_to_passport/</guid>
+      <guid>http://localhost:1313/python/image_to_passport/</guid>
       <description>import cv2 from PIL import Image # Load the image image_path = &amp;#39;data/amrit_full.jpg&amp;#39; image = cv2.imread(image_path) # Define the size for the passport photo (e.g., 2x2 inches at 300 DPI) passport_width = int(35 * 11.81) # 35mm to pixels passport_height = int(45 * 11.81) # 45mm to pixels # Resize the image resized_image = cv2.resize(image, (passport_width, passport_height)) # Save the resized image cv2.imwrite(&amp;#39;data/amrit_passport.jpg&amp;#39;, resized_image) # Optional: Convert to RGB and save using Pillow for better quality passport_image = Image.</description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/python/investment_analysis/</link>
+      <link>http://localhost:1313/python/investment_analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/investment_analysis/</guid>
+      <guid>http://localhost:1313/python/investment_analysis/</guid>
       <description>import yfinance as yf import pandas as pd import numpy as np import matplotlib.pyplot as plt # Download data from Yahoo Finance etf = &amp;#34;VUSA.L&amp;#34; # Replace with the relevant ticker for your ETF data = yf.download(etf, start=&amp;#34;1990-01-01&amp;#34;, end=&amp;#34;2024-01-01&amp;#34;) # Plot the closing price history plt.figure(figsize=(10,6)) plt.plot(data[&amp;#39;Close&amp;#39;], label=f&amp;#39;{etf} Closing Price&amp;#39;) # Annotate the starting and ending prices start_price = data[&amp;#39;Close&amp;#39;].iloc[0] end_price = data[&amp;#39;Close&amp;#39;].iloc[-1] start_date = data.index[0].strftime(&amp;#39;%Y-%m-%d&amp;#39;) end_date = data.index[-1].strftime(&amp;#39;%Y-%m-%d&amp;#39;) # Add text annotations on the plot for start and end prices plt.</description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/python/moving_average_analysis/</link>
+      <link>http://localhost:1313/python/moving_average_analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/moving_average_analysis/</guid>
+      <guid>http://localhost:1313/python/moving_average_analysis/</guid>
       <description># Import the required libraries import yfinance as yf import pandas as pd import numpy as np import matplotlib.pyplot as plt # Step 1: Define the stock and download the data # You can change &amp;#39;AAPL&amp;#39; to any other stock ticker symbol stock_ticker = &amp;#39;AAPL&amp;#39; start_date = &amp;#39;2020-01-01&amp;#39; end_date = &amp;#39;2023-01-01&amp;#39; # Download stock data from Yahoo Finance stock_data = yf.download(stock_ticker, start=start_date, end=end_date) [*********************100%***********************] 1 of 1 completed&#xD;# Display the first few rows of the data to ensure it&amp;#39;s been downloaded correctly print(stock_data.</description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/python/stock_market_analysis/</link>
+      <link>http://localhost:1313/python/stock_market_analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/stock_market_analysis/</guid>
+      <guid>http://localhost:1313/python/stock_market_analysis/</guid>
       <description># Import # In case of a an &amp;#39;No module named&amp;#39; error, install dash, pandas etc # pip install dash import dash import seaborn as sns import matplotlib.pyplot as plt from dash import dcc, html import plotly.express as px import plotly.graph_objs as go import pandas as pd import yfinance as yf # Fetch data #S&amp;amp;P 500 - ^GSPC #S&amp;amp;P 500 Vanguard - VOO #S&amp;amp;P 500 Black Rock - BSPIX #Vanguard Russel Index ETF - VTWO #FTSE 100 - ^FTSE #FTSE 200 - ^FTMC # You can define the various tickers - ticker_symbol = &amp;#39;^GSPC&amp;#39; tickers = [&amp;#39;^GSPC&amp;#39;, &amp;#39;VOO&amp;#39;, &amp;#39;BSPIX&amp;#39;, &amp;#39;VTWO&amp;#39;, &amp;#39;^FTSE&amp;#39;, &amp;#39;^FTMC&amp;#39;] df = yf.</description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/python/untitled/</link>
+      <link>http://localhost:1313/python/untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/python/untitled/</guid>
+      <guid>http://localhost:1313/python/untitled/</guid>
       <description>## Arrays and Scalars </description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/vscode/vscode_python_issues/</link>
+      <link>http://localhost:1313/vscode/vscode_python_issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/vscode_python_issues/</guid>
+      <guid>http://localhost:1313/vscode/vscode_python_issues/</guid>
       <description>Python Issues in VSCode Jupyter notebook fails to export to python script Error 2020-12-16 16:06:17: Jupyter Kernel Spec not found for a local connection Fix pip install nbconvert </description>
     </item>
   </channel>

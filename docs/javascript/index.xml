@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascripts on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>https://puneet.uk/javascript/</link>
+    <link>http://localhost:1313/javascript/</link>
     <description>Recent content in Javascripts on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 15 Mar 2021 11:05:27 +0000</lastBuildDate>
-    <atom:link href="https://puneet.uk/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Master JavaScript Mindmap</title>
-      <link>https://puneet.uk/javascript/master_javascript_mindmap/</link>
+      <link>http://localhost:1313/javascript/master_javascript_mindmap/</link>
       <pubDate>Fri, 05 Mar 2021 07:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/javascript/master_javascript_mindmap/</guid>
+      <guid>http://localhost:1313/javascript/master_javascript_mindmap/</guid>
       <description>JavaScript, the language of the web! It&amp;rsquo;s a powerful language. I wanted to share some of what I learnt over the years whilst giving myself a refresher course. To kick things off, I put a mindmap together. It&amp;rsquo;s a work in progress, but it&amp;rsquo;s a reference for me, and if I update the underlying mindmap, I&amp;rsquo;ll update this page too. I&amp;rsquo;m hoping it will be of some use to others beginning on their JavaScript journey.</description>
     </item>
   </channel>
