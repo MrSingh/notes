@@ -1,7 +1,7 @@
 ---
 title: "Notes"
 layout: "list"
-date: 2024-05-06T07:00:00
+date: 
 description: ""
 draft: false
 labels: ""
@@ -63,14 +63,14 @@ slug: "notes"
             <div class="note-item post" data-tags="data strategy leadership">
                 <div class="item-date sans-serif">05 NOV 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="..//data_quality">Implementing a Data Quality Strategy</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="../data_quality">Implementing a Data Quality Strategy</a></h3>
                 <p>Added a bit more clarity around the strategy and business impact of data quality to a previous blog.</p>
                 </div>
                 </div>
             <div class="note-item" data-tags="data strategy">
                 <div class="item-date sans-serif">21 OCT 2024</div>
                 <div class="item-info">
-                <h3 class="sans-serif"><a class="color-inherit" href="..//intro_ppdac">Understanding the PPDAC Framework</a></h3>
+                <h3 class="sans-serif"><a class="color-inherit" href="../intro_ppdac">Understanding the PPDAC Framework</a></h3>
                 <p>The PPDAC(Problem, Plan, Data, Analytics and Conclusion) framework from a data leaders prespective.</p>
                 </div>
                 </div>

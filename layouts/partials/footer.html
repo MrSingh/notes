@@ -10,11 +10,10 @@
     <div class="container">
         <div class="footer-content">
             <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
-            <div>Site last updated: June 2025</div>
-            <!-- <div class="footer-links">
-                <a href="../links.html">Contact</a>
-                <a href="../rss.xml">RSS</a>
-            </div> -->        
+             <div> 
+                <!-- https://discourse.gohugo.io/t/setting-lastmod-date-for-a-page-when-list-updated/44080 -->
+                Site last updated: {{ now.Format "January 2006" }}
+              </div>
         </div>
     </div>
 </footer>

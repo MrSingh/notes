@@ -15,7 +15,7 @@ Here's a quick summary:
 
 ➡️ ROI is becoming increasingly important - what value are we deriving from Data and AI?  
 
-Lorraine Knerr, Global Head of Generative AI and Data Solutions, Architecture and Strategy at AWS, agrees. "Coming into this year, we're seeing a much more measured approach with customers in terms of validating their data foundations are in place. Really pushing on what is the business value, the ROI of these solutions, and are they driving improved customer journeys and generating expected revenue in the initial flurry of leveraging gen AI?"  
+> Lorraine Knerr, Global Head of Generative AI and Data Solutions, Architecture and Strategy at AWS, agrees. "Coming into this year, we're seeing a much more measured approach with customers in terms of validating their data foundations are in place. Really pushing on what is the business value, the ROI of these solutions, and are they driving improved customer journeys and generating expected revenue in the initial flurry of leveraging gen AI?"  
 
 ➡️ Increased AI Regulation – primarily from the European Union Artificial Intelligence Act and the U.S. Securities and Exchange Commission's prioritising AI governance as part of its examination priorities.
 
