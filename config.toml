@@ -57,17 +57,25 @@ expiryDate = ["expiryDate"]
 
 [menu]
   [[menu.main]]
+    name = "Index"
+    url = "/"
+    weight = 1
+  [[menu.main]]
     name = "Notes"
     url = "/notes/notes/"
-    weight = 1
+    weight = 2
+ # [[menu.main]]
+  #  name = "Atomic Notes"
+   # url = "/notes/atomic_notes/"
+   # weight = 3
   [[menu.main]]
     name = "Code"
     url = "/code/code/"
-    weight = 2
+    weight = 4
   [[menu.main]]
     name = "Bookshelf"
     url = "/read/bookshelf_home/"
-    weight = 3
+    weight = 5
 
 [params]
   twitter = "pun33t_"

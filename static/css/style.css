@@ -21,6 +21,8 @@
   --color-link-hover: #F92672; /* Monokai Pink for hover - strong contrast */
   --color-warning: #E6DB74; /* Monokai Yellow - for warnings */
   --color-error: #F92672; /* Monokai Pink - for errors */
+  --nav-bg: #0c0c0c;
+  --nav-border: #333;
 }
 /* --- CSS Variables - Structural --- */
 :root {
@@ -107,6 +109,7 @@ body {
   flex: 1 0 auto;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 4rem;
 }
 
 .sans-serif {
@@ -417,8 +420,137 @@ footer.site-footer {
     gap: 1rem;
 }
 
-/* --- Navigation --- */
+/* --- NAVIGATION --- */
 nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--nav-bg);
+  border-bottom: 1px solid var(--nav-border);
+  padding: 0.75rem;
+  position: fixed; /* Fixed position */
+  top: 0; /* At the very top of viewport */
+  left: 0; 
+  right: 0;
+  width: 100%;
+  font-family: var(--mono-font);
+  z-index: 9999; /* Ensure it's above all other elements */
+  margin: 0; /* Remove any margin */
+  justify-content: flex-start; /* Align items to start for horizontal layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Remove the nav::before which puts text above the navbar */
+nav::before {
+  display: none; /* Hide the [NAV] label that appears above navbar */
+}
+
+/* Adjust Navigation metrics display */
+.nav-metrics {
+  position: static; /* Keep in the normal flow */
+  font-size: 0.7rem;
+  color: #555;
+  margin-left: auto; /* Push to the right side */
+}
+
+/* Debug indicator in nav */
+.nav-debug {
+  font-size: 0.7rem;
+  color: #777;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #333;
+  margin-left: 1rem;
+  border-radius: 0;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-debug {
+    display: none;
+  }
+  
+  .nav-metrics {
+    display: none;
+  }
+}
+
+nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  margin-right: 1.8rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  padding: 0.3rem 0;
+  border-bottom: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav a:hover::before {
+  background-color: var(--link-static);
+}
+
+nav a.active {
+  color: var(--link-static);
+  font-weight: normal;
+  opacity: 1;
+}
+
+nav a:hover, nav a:focus {
+  color: var(--link-static);
+  border-bottom: none;
+  opacity: 1;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--link-static);
+  transition: width 0.2s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* RSS link styling */
+nav a.rss-link {
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav a.rss-link svg {
+  height: 16px;
+  width: 16px;
+  stroke: currentColor;
+}
+
+nav a.rss-link:hover svg {
+  stroke: var(--link-static);
+}
+
+/* --- Navigation --- */
+/* nav {
   display: block;
 }
 
@@ -450,7 +582,7 @@ nav {
 
 #linkedin-follow-button a:hover {
   background-color: #005582;
-}
+} */
 
 /* --- Menu Desktop --- */
 :is(li) #menu {
