@@ -17,10 +17,14 @@
       {{ partial "header" . }}
      
       <hr />
-  
+      <div class="row">
+      <div class="card">
+        <div class="new-card-body">
+      {{ partial "search.html" . }}  
       {{.Content}}
-
-
+</div>
+</div>
+</div>
     </main>
   </div>
   <!-- </main> -->

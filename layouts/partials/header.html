@@ -1,3 +1,4 @@
+<div class="row"><div class="card"><div class="new-card-body">
 <h1>{{ .Title }}</h1>
 <p>{{ .Description }}</p>
 <!-- <time>Published on: {{ .PublishDate.Format "Jan 2, 2006" }}</time><br />
@@ -7,6 +8,7 @@
 {{ $lastmod := .Lastmod.Format "Jan 2, 2006" }}
 
 <time>Updated on: {{ $lastmod }}</time>
+</div></div></div>
 <!-- The code below shows Created on and Updated dates -->
 <!-- <time>Created on: {{ $date }}</time>
 {{ if ne $lastmod $date }}
