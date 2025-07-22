@@ -1,4 +1,6 @@
 {{ partial "head" . }}
+{{ $date := .Date.Format "02.01.2006" }}
+{{ $lastmod := .Lastmod.Format "02.01.2006" }}
   <body>
     <header>     
         <nav role="navigation">

@@ -6,7 +6,7 @@
     <description>Recent content in Paul Singh on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 12 Jul 2025 20:24:53 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 16:05:14 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snowflakes Data Trends 2025 - Financial Services</title>
@@ -21,13 +21,6 @@
       <pubDate>Tue, 18 Mar 2025 07:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/data_resources/</guid>
       <description>1. By Region Asia Asia Big Data Association - Asia Big Data Association. Big Data &amp;amp; AI World Asia - Big Data &amp;amp; AI World Asia. Data.gov.sg - Singapore&amp;rsquo;s Open Data. India Open Data - India Open Data. China Data Online - China Data Online. Korea Open Data - South Korea Open Data. Taiwan Open Data - Taiwan Open Data. Hong Kong Open Data - Hong Kong Open Data. Japan Meteorological Agency - Japan Meteorological Agency.</description>
-    </item>
-    <item>
-      <title>Master Book List</title>
-      <link>http://localhost:1313/read/master_book_list/</link>
-      <pubDate>Tue, 11 Mar 2025 07:12:00 +0000</pubDate>
-      <guid>http://localhost:1313/read/master_book_list/</guid>
-      <description>Psychology &amp; Behavioral Science&#xD;Thinking, Fast and Slow — Daniel Kahneman&#xD;Quiet: The Power of Introverts in a World That Can&#39;t Stop Talking — Susan Cain&#xD;Antifragile — Nassim Taleb&#xD;The Coaching Habit — Michael Bungay Stanier&#xD;Lost Connections — Johann Hari&#xD;A Mind of Your Own — Dr. Kelly Brogan&#xD;The Winner Effect — Ian H. Robertson&#xD;The Expectation Effect — David Robson&#xD;Good Habits, Bad Habits — Wendy Wood&#xD;Science &amp; Technology&#xD;Sapiens: A Brief History of Humankind — Yuval Noah Harari&#xD;Other Minds — Peter Godfrey-Smith&#xD;The Beautiful Cure — Daniel M.</description>
     </item>
     <item>
       <title>Exploratory Data Analysis of CO2 Emissions Data with Python</title>
@@ -238,6 +231,13 @@
       <pubDate>Mon, 06 May 2024 07:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/resources/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Master Book List</title>
+      <link>http://localhost:1313/read/master_book_list/</link>
+      <pubDate>Sun, 15 Jan 2023 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/read/master_book_list/</guid>
+      <description>Psychology &amp; Behavioral Science&#xD;Thinking, Fast and Slow — Daniel Kahneman&#xD;Quiet: The Power of Introverts in a World That Can&#39;t Stop Talking — Susan Cain&#xD;Antifragile — Nassim Taleb&#xD;The Coaching Habit — Michael Bungay Stanier&#xD;Lost Connections — Johann Hari&#xD;A Mind of Your Own — Dr. Kelly Brogan&#xD;The Winner Effect — Ian H. Robertson&#xD;The Expectation Effect — David Robson&#xD;Good Habits, Bad Habits — Wendy Wood&#xD;Science &amp; Technology&#xD;Sapiens: A Brief History of Humankind — Yuval Noah Harari&#xD;Other Minds — Peter Godfrey-Smith&#xD;The Beautiful Cure — Daniel M.</description>
     </item>
     <item>
       <title>Bookshelf</title>
