@@ -1,93 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-     
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
-     <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
- 
-     gtag('config', 'G-K1PWW3YCPK');
-     </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
-    <link rel="manifest" href="../../images/site.webmanifest">
-    
-    <link href="../../css/style.css" rel="stylesheet" media="all">
-    <link href="../../css/syntax.css" rel="stylesheet" media="all">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>
-      Code and Anlytics
-    </title>
-
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Code and Anlytics" />
-    <meta property="og:image" content="https://puneet.uk/images/code.jpg" />
-    <meta property="article:tag" content="Technical blog" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Code and Anlytics" />
-    <meta name="twitter:image" content="https://puneet.uk/images/code.jpg" />
- 
-  </head>
+{{ partial "head" . }}
   <body>
     <header>     
         <nav role="navigation">
             <div class="container">
                           
-                <nav>
-    
-    <a href="../../">Index</a>
-    
-    <a href="../../notes/notes/">Notes</a>
-    
-    <a href="../../resources/resources/">Resources</a>
-    
-    <a href="../../read/bookshelf_home/">Bookshelf</a>
-    
-
-    </nav>  
-                
-
+                {{ partial "header-name.html" . }}  
+                {{ partial "custom-menu.html" . }}
               </div>           
           </nav>
       </header>
                 
             
-    
+    <!-- <main> -->
       <div class="wrap">
         <main class="container">
-          <div class="row"><div class="card"><div class="new-card-body">
-<h1>Code and Anlytics</h1>
-<p></p>
-
-
-
-
-
-<time>Updated on: Jun 25, 2025</time>
-</div></div></div>
-
-
-
-
-
-
+          {{ partial "header" . }}
           <hr />
           
-          
-          
+          {{.Content}}
+          <!------------------ 
+                Python Start 
+            -------------------->
             <div class="row" id="python">
               <div>
                   <h2 class="category_header">Python</h2>
               </div>
-               
+               <!-- Basics Card -->
                <div class="card">
                   <h4 class="card-header">Basics</h4>
                   <div class="card-body">
@@ -105,14 +43,24 @@
                   </div>   
               </div>
               <br />
-              
-              
+              <!-- Numpy & Pandas Card -->
+              <!-- <div class="card">
+                  <h4 class="card-header">Data Wrangling</h4>
+                  <div class="card-body">
+                      <ul> -->
                          
                           
-                          
-                          
-                      
-                
+                          <!-- <li><a href="../../python/delete_columns_dataframe/">Delete Columns in a DataFrame</a></li> -->
+                          <!-- <li><a href="#">Add column to a dataframe</a></li>
+                          <li><a href="#">Populate a column</a></li>
+                          <li><a href="#">Copy a column from another dtatframe</a></li>
+                          <li><a href="#">Delete/Drop a column from a dataframe</a></li>
+                          <li><a href="#">Query a dataframe</a></li> -->
+                      <!-- </ul>
+                  </div>   
+              </div>
+              <br /> -->
+                <!-- Data Analysis Card -->
               <div class="card">
                   <h4 class="card-header">Data Wrangling &amp; Analysis</h4>
                   <div class="card-body">
@@ -124,7 +72,7 @@
                   </div>   
               </div>
               <br />
-               
+               <!-- System -->
                <div class="card">
                   <h4 class="card-header">System</h4>
                   <div class="card-body">
@@ -134,7 +82,7 @@
                   </div>   
               </div>
               <br />
-              
+              <!-- Web Scraping Card -->
               <div class="card">
                   <h4 class="card-header">Web Scraping</h4>
                   <div class="card-body">
@@ -146,11 +94,13 @@
               </div>
               <br />
              
-              
+              <!------------------ 
+                 Other 
+              -------------------->
               <div class="row" id="other">
                   <h2 class="category_header">Other</h2>
               </div>
-              
+              <!-- Visual Studio Code Card -->
               <div class="card">
                   <div class="card-body">
                       <ul>
@@ -163,39 +113,25 @@
                   </div>   
               </div>
               <br />
-              
-              
-              
-              
+              <!------------------ 
+                 Known Issues
+              -------------------->
+              <!-- <div class="row" id="other">
+                  <h2 class="category_header">Known Issues</h2>
+              </div> -->
+              <!-- Visual Studio Code Card -->
+              <!-- <div class="card">
+                  <div class="card-body">
+                      <ul>
+                          <li>Date Time stamp on notes</li>
+                      </ul>
+                  </div>   
+              </div>
+              <br /> -->
           </div>
       </main>
   </div>
-
-    
-
-
-<footer class="site-footer">
-    <div class="container">
-        <div class="footer-content">
-            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
-             <div> 
-                
-                Site last updated: July 2025
-              </div>
-        </div>
-    </div>
-</footer>
-
-
-
-
-     
-     <script
-     src="https://code.jquery.com/jquery-3.7.1.min.js"
-     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-     crossorigin="anonymous">
-    </script>
-    <script src="../../js/utility.js"></script>
-     
+<!-- </main> -->
+    {{ partial "footer" . }}     
   </body>
 </html>

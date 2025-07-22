@@ -69,8 +69,8 @@ expiryDate = ["expiryDate"]
    # url = "/notes/atomic_notes/"
    # weight = 3
   [[menu.main]]
-    name = "Code"
-    url = "/code/code/"
+    name = "Resources"
+    url = "/resources/resources/"
     weight = 4
   [[menu.main]]
     name = "Bookshelf"
