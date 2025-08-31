@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -84,8 +84,7 @@
       
       <!-- <img class="preview" src="../../images/data_quality.jpg" alt="Man fustreated with dirty data"> -->
 <blockquote>
-<p>According to <a href="https://www.experian.com/blogs/news/2021/02/25/highlights-2021-global-data-management-research" target="_blank">Experian&rsquo;s 2021 Global Data Management Research</a>, &ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&rdquo;</p>
-</blockquote>
+<p>According to <a href="https://www.experian.com/blogs/news/2021/02/25/highlights-2021-global-data-management-research" target="_blank">Experian&rsquo;s 2021 Global Data Management Research</a>, &ldquo;Fifty-five percent of business leaders say they lack trust in their data assets, hindering their ability to be fully data-driven.&rdquo;</p></blockquote>
 <h2 id="what-are-data-quality-issues">What are Data Quality Issues?</h2>
 <p>Data quality issues range from basic problems like duplicate data, format issues, and invalid data to more complex challenges such as data bias, ambiguous data, and unstructured data. View a more comprehensive list of data issues <a href="#table-of-data-issues">here</a>.</p>
 <h2 id="steps-to-better-quality-data">Steps to Better Quality Data</h2>
@@ -103,8 +102,7 @@
 </ul>
 <p>Part of ‘Discovery’ is to understand the data quality issues and their impact on business. Is it easier to wrangle the data post-data entry than it is to change systems and processes that will lead to better data? Changing well-defined processes that may inconvenience a customer for better data input may have an adverse effect - especially if you can fix it relatively easily. It’s important to understand at which stage you will tackle that data issue. It’s important to frame it in the value or risk associated with it to the business - you must be able to measure the impact in some way.</p>
 <blockquote>
-<p>“No data is clean, but most is useful.” — Dean Abbott</p>
-</blockquote>
+<p>“No data is clean, but most is useful.” — Dean Abbott</p></blockquote>
 <p>Understanding the lineage of your data will greatly help. Where the data comes from, how it is transformed into new data points, what calculations are done, and how that is presented in reports or dashboards. Normally, many aspects of definition (see below) are already in place; however, more than likely, it will be incomplete. If you can&rsquo;t show the lineage of your data, how can you trust it?</p>
 <p>Data Lineage is important in tracking data quility issues. There are a number of Cloud services such as Snowflake and Azure that provide a suite of tools that can help.</p>
 <p>Defining data is critical in cleaning bad data but also maintaining quality data. It&rsquo;s an important part of the strategy to maintain quality data sources to help drive data-decision making to achieve positive business outcomes.</p>
@@ -119,8 +117,7 @@
 </ol>
 <p>Defining your data will go a long way in ensuring you can tackle data quality issues quickly and efficiently. But most importantly, identifying who owns the data is equally important. If you can’t identify an owner, can you assign one that you can work with? The problems in quality may be technical, human, governance-related, and/or due to a lack of operational systems that allow for issues to creep in.</p>
 <blockquote>
-<p>“Without clean data, or clean enough data, your data science is worthless.” — Michael Stonebraker</p>
-</blockquote>
+<p>“Without clean data, or clean enough data, your data science is worthless.” — Michael Stonebraker</p></blockquote>
 <p>To bring it all together, you need data management and operational and technological systems in place to reduce and eliminate data quality issues. The list below is a good start in what is needed to bring everything together to deliver on your data quality strategy. Data Teams, Data Owners, and Data Champions are vital as they are the glue to make things work. People are at the heart of solving problems, implementing solutions, and delivering outcomes that align with business strategy.</p>
 <h3 id="data-management">Data Management</h3>
 <ul>
@@ -203,94 +200,94 @@
 <h2 id="references">References</h2>
 <h4 id="table-of-data-issues">Table of Data Issues</h4>
 <table>
-<thead>
-<tr>
-<th><strong>Title</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Duplicate Data</strong></td>
-<td>Multiple records for the same entity, such as a customer appearing more than once in a database.</td>
-</tr>
-<tr>
-<td><strong>Redundant Data</strong></td>
-<td>Data that is repeated unnecessarily, such as multiple copies of the same file or record stored in different locations.</td>
-</tr>
-<tr>
-<td><strong>Orphaned Data</strong></td>
-<td>Data that has no link to other data, such as a transaction record without a corresponding customer record.</td>
-</tr>
-<tr>
-<td><strong>Incomplete Data</strong></td>
-<td>Missing critical information, such as an address without a postal code or a customer record without a phone number.</td>
-</tr>
-<tr>
-<td><strong>Truncated Data</strong></td>
-<td>Data that is cut off or incomplete due to system constraints or field limitations, such as a name being shortened.</td>
-</tr>
-<tr>
-<td><strong>Inaccurate Data</strong></td>
-<td>Incorrect information, such as misspelled names, wrong addresses, or incorrect numerical values.</td>
-</tr>
-<tr>
-<td><strong>Outdated Data</strong></td>
-<td>Information that is no longer current, such as old contact details or outdated product information.</td>
-</tr>
-<tr>
-<td><strong>Conflicting Data</strong></td>
-<td>Data where different sources or systems provide conflicting information, such as different addresses for the same entity.</td>
-</tr>
-<tr>
-<td><strong>Invalid Data</strong></td>
-<td>Data that doesn’t meet specific validation rules, such as an email address without a valid format (e.g., missing “@”).</td>
-</tr>
-<tr>
-<td><strong>Data Format Issues</strong></td>
-<td>Data that does not conform to expected formats, such as text in a numerical field.</td>
-</tr>
-<tr>
-<td><strong>Data Type Mismatch</strong></td>
-<td>Data entered in the wrong type or format, such as letters in a numeric field.</td>
-</tr>
-<tr>
-<td><strong>Data Integrity Violations</strong></td>
-<td>Data that violates predefined rules or constraints, such as duplicate primary keys or foreign key mismatches.</td>
-</tr>
-<tr>
-<td><strong>Inconsistent Data</strong></td>
-<td>Data that varies in format or structure, such as dates recorded in different formats (e.g., DD/MM/YYYY vs. MM/DD/YYYY).</td>
-</tr>
-<tr>
-<td><strong>Non-Standardized Data</strong></td>
-<td>Data that lacks consistent standards for naming, classification, or measurement, such as different units of measure.</td>
-</tr>
-<tr>
-<td><strong>Ambiguous Data</strong></td>
-<td>Data that lacks clarity or context, making it difficult to interpret, such as unclear abbreviations or codes.</td>
-</tr>
-<tr>
-<td><strong>Outliers or Anomalies</strong></td>
-<td>Data points that are significantly different from the norm, potentially due to input errors or exceptional cases.</td>
-</tr>
-<tr>
-<td><strong>Noise</strong></td>
-<td>Irrelevant or meaningless data, such as extraneous characters or unintended values.</td>
-</tr>
-<tr>
-<td><strong>Unstructured Data</strong></td>
-<td>Data that is not organized in a predefined manner, such as free-text fields or social media posts.</td>
-</tr>
-<tr>
-<td><strong>Hidden or Dark Data</strong></td>
-<td>Data that is collected but not used or analyzed, often because it is difficult to access or integrate.</td>
-</tr>
-<tr>
-<td><strong>Data Bias</strong></td>
-<td>Systematic errors or patterns in data that distort results, often caused by biased data collection or selection.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th><strong>Title</strong></th>
+          <th><strong>Description</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Duplicate Data</strong></td>
+          <td>Multiple records for the same entity, such as a customer appearing more than once in a database.</td>
+      </tr>
+      <tr>
+          <td><strong>Redundant Data</strong></td>
+          <td>Data that is repeated unnecessarily, such as multiple copies of the same file or record stored in different locations.</td>
+      </tr>
+      <tr>
+          <td><strong>Orphaned Data</strong></td>
+          <td>Data that has no link to other data, such as a transaction record without a corresponding customer record.</td>
+      </tr>
+      <tr>
+          <td><strong>Incomplete Data</strong></td>
+          <td>Missing critical information, such as an address without a postal code or a customer record without a phone number.</td>
+      </tr>
+      <tr>
+          <td><strong>Truncated Data</strong></td>
+          <td>Data that is cut off or incomplete due to system constraints or field limitations, such as a name being shortened.</td>
+      </tr>
+      <tr>
+          <td><strong>Inaccurate Data</strong></td>
+          <td>Incorrect information, such as misspelled names, wrong addresses, or incorrect numerical values.</td>
+      </tr>
+      <tr>
+          <td><strong>Outdated Data</strong></td>
+          <td>Information that is no longer current, such as old contact details or outdated product information.</td>
+      </tr>
+      <tr>
+          <td><strong>Conflicting Data</strong></td>
+          <td>Data where different sources or systems provide conflicting information, such as different addresses for the same entity.</td>
+      </tr>
+      <tr>
+          <td><strong>Invalid Data</strong></td>
+          <td>Data that doesn’t meet specific validation rules, such as an email address without a valid format (e.g., missing “@”).</td>
+      </tr>
+      <tr>
+          <td><strong>Data Format Issues</strong></td>
+          <td>Data that does not conform to expected formats, such as text in a numerical field.</td>
+      </tr>
+      <tr>
+          <td><strong>Data Type Mismatch</strong></td>
+          <td>Data entered in the wrong type or format, such as letters in a numeric field.</td>
+      </tr>
+      <tr>
+          <td><strong>Data Integrity Violations</strong></td>
+          <td>Data that violates predefined rules or constraints, such as duplicate primary keys or foreign key mismatches.</td>
+      </tr>
+      <tr>
+          <td><strong>Inconsistent Data</strong></td>
+          <td>Data that varies in format or structure, such as dates recorded in different formats (e.g., DD/MM/YYYY vs. MM/DD/YYYY).</td>
+      </tr>
+      <tr>
+          <td><strong>Non-Standardized Data</strong></td>
+          <td>Data that lacks consistent standards for naming, classification, or measurement, such as different units of measure.</td>
+      </tr>
+      <tr>
+          <td><strong>Ambiguous Data</strong></td>
+          <td>Data that lacks clarity or context, making it difficult to interpret, such as unclear abbreviations or codes.</td>
+      </tr>
+      <tr>
+          <td><strong>Outliers or Anomalies</strong></td>
+          <td>Data points that are significantly different from the norm, potentially due to input errors or exceptional cases.</td>
+      </tr>
+      <tr>
+          <td><strong>Noise</strong></td>
+          <td>Irrelevant or meaningless data, such as extraneous characters or unintended values.</td>
+      </tr>
+      <tr>
+          <td><strong>Unstructured Data</strong></td>
+          <td>Data that is not organized in a predefined manner, such as free-text fields or social media posts.</td>
+      </tr>
+      <tr>
+          <td><strong>Hidden or Dark Data</strong></td>
+          <td>Data that is collected but not used or analyzed, often because it is difficult to access or integrate.</td>
+      </tr>
+      <tr>
+          <td><strong>Data Bias</strong></td>
+          <td>Systematic errors or patterns in data that distort results, often caused by biased data collection or selection.</td>
+      </tr>
+  </tbody>
 </table>
 
       
@@ -307,7 +304,7 @@
             <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: July 2025
+                Site last updated: August 2025
               </div>
         </div>
     </div>

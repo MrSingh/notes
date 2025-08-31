@@ -36,11 +36,11 @@ slug: "master_book_list"
   <li><a href="https://www.amazon.co.uk/dp/0241258766?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Art of Statistics — David Spiegelhalter</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0553824347?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Super Crunchers — Ian Ayres</a></li>
   <li><a href="https://www.amazon.co.uk/dp/1471173169?tag=onebookday-21" target="_blank" rel="noopener noreferrer">How AI Will Change Your Life — Patrick D. Dixon</a></li>
-  <li><a href="https://www.amazon.co.uk/dp/0134858336?tag=onebookday-21" target="_blank" rel="noopener noreferrer">SQL Queries for Mere Mortals — John L. Viescas & Michael J. Hernandez</a></li>
+  <li><a href="https://www.amazon.co.uk/dp/0134858336?tag=onebookday-21" target="_blank" rel="noopener noreferrer">SQL Queries for Mere Mortals — John L. Viescas & Michael J. Hernandez</a><span class="tag reccomended">Reccomended</span></li></li>
 </ul>
 <h2>Personal Development &amp; Self-Help</h2>
 <ul>
-  <li><a href="https://www.amazon.co.uk/dp/1847941834?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Atomic Habits — James Clear</a></li>
+  <li><a href="https://www.amazon.co.uk/dp/1847941834?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Atomic Habits — James Clear</a><span class="tag reccomended">Reccomended</span></li></li>
   <li><a href="https://www.amazon.co.uk/dp/1471131846?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The 7 Habits of Highly Effective People — Stephen R. Covey</a></li>
   <li><a href="https://www.amazon.co.uk/dp/1721527231?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Finish What You Start — Peter Hollins</a></li>
   <li><a href="https://www.amazon.co.uk/dp/1781333402?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Self Discipline — Gemma Ray</a></li>
@@ -62,7 +62,7 @@ slug: "master_book_list"
   <li><a href="https://www.amazon.co.uk/dp/0141039418?tag=onebookday-21" target="_blank" rel="noopener noreferrer">A New Earth — Eckhart Tolle</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0091955106?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Life-Changing Magic of Tidying — Marie Kondo</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0399176136?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Psycho-Cybernetics — Maxwell Maltz</a></li>
-  <li><a href="https://www.amazon.co.uk/dp/1781257655?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Daily Stoic — Ryan Holiday</a></li>
+  <li><a href="https://www.amazon.co.uk/dp/1781257655?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Daily Stoic — Ryan Holiday</a><span class="tag reccomended">Reccomended</span></li></li>
   <li><a href="https://www.amazon.co.uk/dp/1292088089?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Rules of Work — Richard Templar</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0091906814?tag=onebookday-21" target="_blank" rel="noopener noreferrer">How to Win Friends and Influence People — Dale Carnegie</a></li>
   <li><a href="https://www.amazon.co.uk/dp/147365456X?tag=onebookday-21" target="_blank" rel="noopener noreferrer">More Time to Think — Nancy Kline</a></li>
@@ -128,10 +128,10 @@ slug: "master_book_list"
 
 <h2>Fantasy & Sci-Fi</h2>
 <ul>
-    <li><a href="https://www.amazon.co.uk/dp/0261103287?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Hobbit — J.R.R. Tolkien</a></li>
-    <li><a href="https://www.amazon.co.uk/dp/0261102353?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Fellowship of the Ring (The Lord of the Rings, Book 1) — J.R.R. Tolkien</a></li>
-    <li><a href="https://www.amazon.co.uk/dp/0261103589?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Two Towers (The Lord of the Rings, Book 2) — J.R.R. Tolkien</a></li>
-    <li><a href="https://www.amazon.co.uk/dp/0261103597?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Return of the King (The Lord of the Rings, Book 3) — J.R.R. Tolkien</a></li>    
+    <li><a href="https://www.amazon.co.uk/dp/0261103287?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Hobbit — J.R.R. Tolkien</a><span class="tag reccomended">Reccomended</span></li>
+    <li><a href="https://www.amazon.co.uk/dp/0261102353?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Fellowship of the Ring (The Lord of the Rings, Book 1) — J.R.R. Tolkien</a><span class="tag reccomended">Reccomended</span></li>
+    <li><a href="https://www.amazon.co.uk/dp/0261103589?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Two Towers (The Lord of the Rings, Book 2) — J.R.R. Tolkien</a><span class="tag reccomended">Reccomended</span></li>
+    <li><a href="https://www.amazon.co.uk/dp/0261103597?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Return of the King (The Lord of the Rings, Book 3) — J.R.R. Tolkien</a><span class="tag reccomended">Reccomended</span></li>    
     <li><a href="https://www.amazon.co.uk/dp/1785030252?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Artemis — Andy Weir</a></li>
     <li><a href="https://www.amazon.co.uk/dp/000742042X?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Divergent (Divergent Trilogy, Book 1) — Veronica Roth</a></li>
 </ul>

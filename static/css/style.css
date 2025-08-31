@@ -1359,6 +1359,22 @@ pre code {
   text-decoration: underline;
 }
 
+.tag {
+  display: inline-block;
+  margin-left: 0.5rem;       /* space away from the link */
+  padding: 0.2rem 0.6rem;    /* capsule padding */
+  font-size: 0.8rem;         /* slightly smaller text */
+  font-weight: 500;
+  color: #fff;               /* text color */
+  background-color: #28a745; /* default green capsule */
+  border-radius: 9999px;     /* fully rounded capsule */
+  vertical-align: middle;    /* aligns with link text */
+}
+
+.tag.reccomended {
+  background-color: #007bff; /* blue for recommended */
+}
+
 /* --- Header & Desktop Bar --- */
 .f-left {
   display: flex;
