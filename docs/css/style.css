@@ -1361,19 +1361,41 @@ pre code {
 
 .tag {
   display: inline-block;
-  margin-left: 0.5rem;       /* space away from the link */
-  padding: 0.2rem 0.6rem;    /* capsule padding */
-  font-size: 0.8rem;         /* slightly smaller text */
-  font-weight: 500;
-  color: #fff;               /* text color */
-  background-color: #28a745; /* default green capsule */
-  border-radius: 9999px;     /* fully rounded capsule */
-  vertical-align: middle;    /* aligns with link text */
+  margin-left: 0.5rem;       /* spacing from link */
+  padding: 0.2rem 0.7rem;    /* capsule padding */
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #272822;            /* dark bg text for contrast */
+  border-radius: 9999px;     /* capsule shape */
+  vertical-align: middle;
+  transition: background-color 0.2s ease, transform 0.15s ease;
 }
 
-.tag.reccomended {
-  background-color: #007bff; /* blue for recommended */
+.tag:hover {
+  transform: scale(1.05); /* little pop effect */
 }
+
+/* Recommended = cyan (clear, standout but soft) */
+.tag.recommended {
+  background-color: #66d9ef;
+}
+
+/* Reading = pink/magenta (vibrant, energetic) */
+.tag.reading {
+  background-color: #f92672;
+  color: #fff; /* white text for contrast */
+}
+
+/* Highly Recommended = green (positive, standout) */
+.tag.highly-recommended {
+  background-color: #a6e22e;
+}
+
+/* Optional: add glow effect for emphasis */
+.tag.highly-recommended:hover {
+  box-shadow: 0 0 8px #a6e22e88;
+}
+
 
 /* --- Header & Desktop Bar --- */
 .f-left {

@@ -74,7 +74,7 @@ expiryDate = ["expiryDate"]
     weight = 4
   [[menu.main]]
     name = "Bookshelf"
-    url = "/read/bookshelf_home/"
+    url = "/read/bookshelf/"
     weight = 5
 
 [params]

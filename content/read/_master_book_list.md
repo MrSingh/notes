@@ -1,89 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-     
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
-     <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
- 
-     gtag('config', 'G-K1PWW3YCPK');
-     </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
-    <link rel="manifest" href="../../images/site.webmanifest">
-    
-    <link href="../../css/style.css" rel="stylesheet" media="all">
-    <link href="../../css/syntax.css" rel="stylesheet" media="all">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>
-      Bookshelf
-    </title>
+---
+title: "Bookshelf"
+# date: 2025-03-11T07:12:00
+date: 2023-01-15T10:00:00Z       # For "Published" date
+lastmod: 2023-07-21T14:30:00Z    # For "Updated" date (optional)
+description: "This is my list of books I own(digital and physical), have borrowed or been recommended in one place. I haven't read them all but I will start tagging the ones I recommend."
+draft: false
+labels: ""
+slug: "master_book_list"
+---
 
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Bookshelf" />
-    <meta property="og:image" content="https://puneet.uk/images/master_book_list.jpg" />
-    <meta property="article:tag" content="Technical blog" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bookshelf" />
-    <meta name="twitter:image" content="https://puneet.uk/images/master_book_list.jpg" />
- 
-  </head>
-
-01 September 2025
-  <body>
-    <header>     
-        <nav role="navigation">
-            <div class="container">
-                             
-                <nav>
-    
-    <a href="../../">Index</a>
-    
-    <a href="../../notes/notes/">Notes</a>
-    
-    <a href="../../resources/resources/">Resources</a>
-    
-    <a href="../../read/bookshelf/">Bookshelf</a>
-    
-
-    </nav>  
-                
-    
-              </div>           
-          </nav>
-      </header>
-                
-            </div>           
-        </nav>
-    </header>
-    
-      <div class="wrap">
-        <main class="container">
-          <div class="row"><div class="card"><div class="new-card-body">
-<h1>Bookshelf</h1>
-<p>This is my list of books I own(digital and physical), have borrowed or been recommended in one place. I haven&#39;t read them all but I will start tagging the ones I recommend.</p>
-
-
-
-
-
-<time>Updated on: Jul 21, 2023</time>
-</div></div></div>
-
-
-
-
-
-
-          <h2>Psychology & Behavioral Science</h2>
+<h2>Psychology & Behavioral Science</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/0141033576?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Thinking, Fast and Slow — Daniel Kahneman</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0141029196?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Quiet: The Power of Introverts in a World That Can't Stop Talking — Susan Cain</a></li>
@@ -95,6 +21,7 @@
   <li><a href="https://www.amazon.co.uk/dp/1838853275?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Expectation Effect — David Robson</a></li>
   <li><a href="https://www.amazon.co.uk/dp/1509864741?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Good Habits, Bad Habits — Wendy Wood</a></li>
 </ul>
+
 <h2>Science & Technology</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/0099590085?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Sapiens: A Brief History of Humankind — Yuval Noah Harari</a></li>
@@ -168,6 +95,7 @@
   <li><a href="https://www.amazon.co.uk/dp/1529064747?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Making Numbers Count — Chip Heath & Karla Starr</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0060555661?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Intelligent Investor — Benjamin Graham</a></li>
 </ul>
+
 <h2>History & Society</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/1473637465?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Factfulness — Hans Rosling, Ola Rosling & Anna Rosling Rönnlund</a></li>
@@ -177,6 +105,7 @@
   <li><a href="https://www.amazon.co.uk/dp/0141981032?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Flash Boys — Michael Lewis</a></li>
   <li><a href="https://www.amazon.co.uk/dp/4805313892?tag=onebookday-21" target="_blank" rel="noopener noreferrer">A Brief History of Japan — Jonathan Clements</a></li>
 </ul>
+
 <h2>Memoirs & Biographies</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/1471146723?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Shoe Dog: A Memoir by the Creator of NIKE — Phil Knight</a></li>
@@ -184,7 +113,9 @@
   <li><a href="https://www.amazon.co.uk/dp/1616403692?tag=onebookday-21" target="_blank" rel="noopener noreferrer">38 Letters to his Son — John D. Rockefeller</a></li>
   <li><a href="https://www.amazon.co.uk/dp/1405937185?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Salt Path — Raynor Winn</a></li>
   <li><a href="https://amzn.to/4dLSdi3" target="_blank" rel="noopener noreferrer">Poor - Katriona O’Sullivan</a><span class="tag reccomended">Reccomended</span></li>
+  
 </ul>
+
 <h2>Fiction & Literature</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/0747266832?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Secret Life of Bees — Sue Monk Kidd</a></li>
@@ -196,6 +127,7 @@
   <li><a href="https://www.amazon.co.uk/dp/1514696458?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Importance of Being Earnest Illustrated — Oscar Wilde</a></li>
   <li><a href="https://www.amazon.co.uk/dp/0571258247?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Remains of the Day — Kazuo Ishiguro</a></li>
 </ul>
+
 <h2>Fantasy & Sci-Fi</h2>
 <ul>
     <li><a href="https://www.amazon.co.uk/dp/0261103287?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Hobbit — J.R.R. Tolkien</a><span class="tag reccomended">Reccomended</span></li>
@@ -205,6 +137,7 @@
     <li><a href="https://www.amazon.co.uk/dp/1785030252?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Artemis — Andy Weir</a></li>
     <li><a href="https://www.amazon.co.uk/dp/000742042X?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Divergent (Divergent Trilogy, Book 1) — Veronica Roth</a></li>
 </ul>
+
 <h2>Health & Wellness</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/1472245123?tag=onebookday-21" target="_blank" rel="noopener noreferrer">The Gut Feeling — Naomi Devlin</a></li>
@@ -212,43 +145,14 @@
   <li><a href="https://www.amazon.co.uk/dp/1509840964?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Veggie BBQ — Joe Wicks</a></li>
   <li><a href="https://www.amazon.co.uk/dp/178503116X?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Ottolenghi SIMPLE — Yotam Ottolenghi</a></li>
 </ul>
+
 <h2>Writing & Communication</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/0335237274?tag=onebookday-21" target="_blank" rel="noopener noreferrer">Write Great Essays! — Peter Levin</a></li>
 </ul>
+
 <h2>Sports & Recreation</h2>
 <ul>
   <li><a href="https://www.amazon.co.uk/dp/1529405123?tag=onebookday-21" target="_blank" rel="noopener noreferrer">How to Win the Premier League — Ian Graham</a></li>
 </ul>
 
-      </main>
-      </div>
-    
-    
-
-
-<footer class="site-footer">
-    <div class="container">
-        <div class="footer-content">
-            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
-             <div> 
-                
-                Site last updated: September 2025
-              </div>
-        </div>
-    </div>
-</footer>
-
-
-
-
-     
-     <script
-     src="https://code.jquery.com/jquery-3.7.1.min.js"
-     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-     crossorigin="anonymous">
-    </script>
-    <script src="../../js/utility.js"></script>
-     
-  </body>
-</html>
