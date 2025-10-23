@@ -27,7 +27,7 @@ All notes are either a Juypter Notebook or a Markdown file.  The source files ar
 1. Run `build.ipynb` to convert Juypter Notebooks to Markdown, move images, delete redundent folders and rewrite links(ToDo).
 2. Run `hugo serve -D` to test locally.
 3. Run `hugo` to build site from `content` to `docs`
-4. Run `git add -a` to add/stage all files.
+4. Run `git add .` to add/stage all files.
 5. Run `git commit -m "commit text"`
 6. Run `git push` to remote.
 
