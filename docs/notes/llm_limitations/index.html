@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost" />
+    <meta property="og:image" content="https://puneet.uk/images/llm_limitations.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost" />
+    <meta name="twitter:image" content="https://puneet.uk/images/llm_limitations.jpg" />
+ 
+  </head>
+<body>
+ <header>
+            <nav role="navigation">
+                <div class="container">
+                  
+                    <nav>
+    
+    <a href="../../">Index</a>
+    
+    <a href="../../notes/notes/">Notes</a>
+    
+    <a href="../../resources/resources/">Resources</a>
+    
+    <a href="../../read/bookshelf/">Bookshelf</a>
+    
+
+    </nav>  
+                    
+
+                    
+                </div>
+            </nav>
+        </header>
+
+  
+  <div class="wrap">
+    <main class="container">
+      <div class="row"><div class="card"><div class="new-card-body">
+<h1>The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost</h1>
+<p></p>
+
+
+
+
+
+<time>Updated on: Oct 23, 2025</time>
+</div></div></div>
+
+
+
+
+
+
+     
+      <hr />
+      
+      <p>Here are the most significant limitations in AI and why you should be aware of them.</p>
+<h2 id="context-windowshort-term-memory">Context Window(Short-term Memory)</h2>
+<p>The Context Window is a limited size buffer that holds the most recent parts of the conversation including the original prompt and recent conversation.</p>
+<p>Here is why context is lost in many conversations:</p>
+<h3 id="context-window-overload">Context Window Overload</h3>
+<p>The Context Window is a hard limit placed by AI companies - as your conversation gets longer the earlier conversation can be pushed out and lost, causing it to &lsquo;forget&rsquo;, the earlier conversation. The inability to learn from conversations like a human would is by design. As mentioned earlier ,the short-term memory - The Context Window is limited so it can&rsquo;t learn from the conversation and the context is lost when the chat ends.</p>
+<h3 id="lost-in-the-middle">Lost in The Middle</h3>
+<p>This is a structural problem where LLM models tend to prioritise  information at the beginning and most recent conversation, often losing important details from the middle of a long exchange or document.</p>
+<h3 id="ineffective-retrieval">Ineffective Retrieval</h3>
+<p>When using RAG or other long-term memory system, if the algorithm fails to correctly identify the most relevant information  for the current query then the model won&rsquo;t have the correct context and ultimately not return the correct answer.</p>
+<h3 id="cumulative-drift">Cumulative Drift</h3>
+<p>When the conversation is complex with multiple corrections the model may over-rely on initial or incorrect assumptions and struggle with  scattered information leading to a complete misunderstanding of the task.</p>
+<h2 id="not-intelligent-enoughyet">Not Intelligent Enough(Yet)</h2>
+<p>Whilst LLMs are great at creating boilerplate code, it&rsquo;s not intelligent because it remains a statistical-pattern-matching system. This means while it does an excellent job of mimicking a human, it struggles with multi-step problems, real-world logic combined with the inability to learn continuously it is unreliable to be fully autonomous.</p>
+<p>Here are some of the reasons why:</p>
+<h3 id="hallucinations">Hallucinations</h3>
+<p>The reason LLMs hallucinate is simple, they do not have the ability to reason and can struggle with basic logic. It then fabricates the most statistically plausible next word confidentially as it were right. You may even get incorrect citations that it presents as fact.</p>
+<h3 id="lack-of-computer-control">Lack of Computer Control</h3>
+<p>Yes, some models connect to search engines and code interpreters but they lack the ability to connect to computers to preform autonomous tasks.</p>
+<h3 id="limited-multimodality-integration">Limited Multimodality Integration</h3>
+<p>The LLMs are mostly text based whilst some have some sort of vision and audio capability bolted on, it is not seamless. True intelligence will require a seamless integration of sound, vision and computing coupled with continuous learning.</p>
+<h3 id="missing-cognitive-core">Missing Cognitive Core</h3>
+<p>We have the best autocomplete the world has ever seen, but essentially with all the buzz that is where we are.  We are missing the reasoning and logic and whilst it appears real, it&rsquo;s far from real intelligence.</p>
+<h2 id="business-implications-and-operational-risk">Business Implications and Operational Risk</h2>
+<h3 id="wasted-spend-and-high-latency">Wasted Spend and High Latency</h3>
+<p>The computational cost of using large context windows for every interaction can significantly impact your bottom line. Furthermore, unnecessary data added to the context window, such as an entire large document, increases API call latency (slower response times) and can paradoxically <strong>decrease</strong> accuracy due to the &ldquo;Lost in the Middle&rdquo; problem.</p>
+<h3 id="financial-and-legal-liability-due-to-hallucinations">Financial and Legal Liability due to Hallucinations</h3>
+<p>The problem of hallucinations isn&rsquo;t new but because of lack of awareness incorrect citations and made up-case law having been turning up in law suits across the globe. Worth checking your insurance policy to see if AI loses are included.</p>
+<h3 id="lost-of-trust-and-reputation">Lost of Trust and Reputation</h3>
+<p>Providing customers with incorrect information can not only lead to financial liabilities but can damage a companies trust and reputation.</p>
+<h3 id="cost-of-implementing-ai">Cost of implementing AI</h3>
+<p>Putting AI in place, requires significant cost, governance and training. Without guardrails companies are putting themselves.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>Your strategy must account for the reality that considerable human effort will be required to <strong>build, govern, correct errors, and monitor</strong> the performance of AI systems, along with the need for significant infrastructure scaffolding and operational governance.</p>
+<p>This is why a clear strategy, taking into account the limitations and cost of AI, will better inform whether you require <strong>increased rules-based automation</strong> or a <strong>fully-fledged LLM solution</strong>.</p>
+<p>It&rsquo;s not all doom and gloom; AI provides vast opportunities to increase productivity. With the right operational governance and employee literacy, there is ample opportunity to increase productivity and potentially reduce costs in targeted, high-value areas.</p>
+
+      
+
+    </main>
+  </div>
+  
+  
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2025 Puneet (Paul) Singh Thukral</div>
+             <div> 
+                
+                Site last updated: October 2025
+              </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+</body>

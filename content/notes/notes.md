@@ -8,6 +8,13 @@ labels: ""
 slug: "notes"
 ---
 
+<div class="note-item post" data-tags="AI">
+<div class="item-date sans-serif">Oct 2025</div>
+<div class="item-info">
+<h3 class="sans-serif"><a class="color-inherit" href="../llm_limitations">The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost</a></h3>
+<p>Here are the most significant limitations in AI and why you should be aware of them.</p>
+</div>
+</div>
 <div class="note-item post" data-tags="books">
 <div class="item-date sans-serif">July 2025</div>
 <div class="item-info">
