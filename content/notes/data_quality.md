@@ -3,7 +3,7 @@ title: "Implementing a Data Quality Strategy"
 date: 2024-09-13T07:00:00
 draft: false
 labels: ""
-slug: "menu"
+slug: "data_quality"
 
 ---
 

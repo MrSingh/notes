@@ -2,220 +2,231 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://puneet.uk/notes/</loc>
-    <lastmod>2025-10-23T07:00:00+00:00</lastmod>
+    <loc>http://localhost:33833/notes/</loc>
+    <lastmod>2025-10-23T10:27:26+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/llm_limitations/</loc>
-    <lastmod>2025-10-23T07:00:00+00:00</lastmod>
+    <loc>http://localhost:33833/notes/llm_limitations/</loc>
+    <lastmod>2025-10-23T10:27:26+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/snowflake_2025_trends/</loc>
+    <loc>http://localhost:33833/notes/snowflake_2025_trends/</loc>
     <lastmod>2025-07-02T14:29:33+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/data_resources/</loc>
+    <loc>http://localhost:33833/notes/data_resources/</loc>
     <lastmod>2025-03-18T13:07:08+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/co2_emissions_eda/</loc>
+    <loc>http://localhost:33833/python/co2_emissions_eda/</loc>
     <lastmod>2024-11-20T13:10:42+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/</loc>
+    <loc>http://localhost:33833/python/</loc>
     <lastmod>2024-11-20T13:10:42+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/co2_emmisions_analysis/</loc>
+    <loc>http://localhost:33833/python/co2_emmisions_analysis/</loc>
     <lastmod>2024-11-19T13:33:51+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/flatten_multiindex_dataframe/</loc>
+    <loc>http://localhost:33833/python/flatten_multiindex_dataframe/</loc>
     <lastmod>2024-11-15T10:17:44+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/normalise_multiindex_data/</loc>
+    <loc>http://localhost:33833/python/normalise_multiindex_data/</loc>
     <lastmod>2024-11-14T19:35:02+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/normalising_data/</loc>
+    <loc>http://localhost:33833/notes/normalising_data/</loc>
     <lastmod>2024-11-14T19:35:02+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/intro_ppdac/</loc>
+    <loc>http://localhost:33833/notes/intro_ppdac/</loc>
     <lastmod>2024-10-22T10:04:29+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/first_30_days/</loc>
+    <loc>http://localhost:33833/notes/first_30_days/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/financial_crime/</loc>
+    <loc>http://localhost:33833/notes/financial_crime/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/alternative_data_alpha/</loc>
+    <loc>http://localhost:33833/notes/alternative_data_alpha/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/menu/</loc>
+    <loc>http://localhost:33833/notes/data_quality/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/understanding_the_llm_context_window/</loc>
+    <loc>http://localhost:33833/notes/understanding_the_llm_context_window/</loc>
+    <lastmod>2024-09-11T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:33833/notes/copilot_menu/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/copilot_menu/</loc>
-    <lastmod>2025-06-25T11:01:47+01:00</lastmod>
-  </url><url>
-    <loc>https://puneet.uk/about_me/about_me/</loc>
+    <loc>http://localhost:33833/about_me/about_me/</loc>
     <lastmod>2024-09-05T13:03:52+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/about_me/</loc>
+    <loc>http://localhost:33833/about_me/</loc>
     <lastmod>2024-09-05T13:03:52+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/log/</loc>
+    <loc>http://localhost:33833/notes/log/</loc>
     <lastmod>2024-08-29T11:05:03+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/summer_school/</loc>
+    <loc>http://localhost:33833/summer_school/summer_school/</loc>
     <lastmod>2024-10-17T09:41:51+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/</loc>
+    <loc>http://localhost:33833/summer_school/</loc>
     <lastmod>2024-10-17T09:41:51+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_eight/</loc>
+    <loc>http://localhost:33833/summer_school/week_eight/</loc>
     <lastmod>2024-07-26T14:14:55+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_five/</loc>
+    <loc>http://localhost:33833/summer_school/week_five/</loc>
     <lastmod>2024-07-26T14:14:55+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_four/</loc>
+    <loc>http://localhost:33833/summer_school/week_four/</loc>
     <lastmod>2024-07-26T17:14:45+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_nine/</loc>
+    <loc>http://localhost:33833/summer_school/week_nine/</loc>
     <lastmod>2024-07-26T14:14:55+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_one/</loc>
+    <loc>http://localhost:33833/summer_school/week_one/</loc>
     <lastmod>2024-07-15T15:41:46+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_seven/</loc>
+    <loc>http://localhost:33833/summer_school/week_seven/</loc>
     <lastmod>2024-07-26T14:14:55+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_six/</loc>
+    <loc>http://localhost:33833/summer_school/week_six/</loc>
     <lastmod>2024-07-26T14:14:55+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_ten/</loc>
+    <loc>http://localhost:33833/summer_school/week_ten/</loc>
     <lastmod>2024-07-26T14:14:55+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_three/</loc>
+    <loc>http://localhost:33833/summer_school/week_three/</loc>
     <lastmod>2024-07-15T15:41:46+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/summer_school/week_two/</loc>
+    <loc>http://localhost:33833/summer_school/week_two/</loc>
     <lastmod>2024-07-15T15:41:46+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/pdf_to_kindle/</loc>
+    <loc>http://localhost:33833/notes/pdf_to_kindle/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/project_esg_report/</loc>
+    <loc>http://localhost:33833/notes/project_esg_report/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/euro_2024/</loc>
+    <loc>http://localhost:33833/notes/euro_2024/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/code/code/</loc>
+    <loc>http://localhost:33833/code/code/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/code/</loc>
+    <loc>http://localhost:33833/code/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/resources/</loc>
+    <loc>http://localhost:33833/resources/</loc>
     <lastmod>2025-07-22T16:05:14+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/resources/resources/</loc>
+    <loc>http://localhost:33833/resources/resources/</loc>
     <lastmod>2025-07-22T16:05:14+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/read/bookshelf/</loc>
+    <loc>http://localhost:33833/read/bookshelf/</loc>
     <lastmod>2025-09-01T15:03:57+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/read/</loc>
+    <loc>http://localhost:33833/read/</loc>
     <lastmod>2025-09-01T15:03:57+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/read/master_book_list/</loc>
+    <loc>http://localhost:33833/read/master_book_list/</loc>
     <lastmod>2025-09-01T15:03:57+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/read/bookshelf_home/</loc>
+    <loc>http://localhost:33833/read/bookshelf_home/</loc>
     <lastmod>2025-06-25T11:01:47+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/javascript/</loc>
+    <loc>http://localhost:33833/javascript/</loc>
     <lastmod>2021-03-15T11:05:27+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/javascript/master_javascript_mindmap/</loc>
+    <loc>http://localhost:33833/javascript/master_javascript_mindmap/</loc>
     <lastmod>2021-03-15T11:05:27+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/home/home/</loc>
+    <loc>http://localhost:33833/home/home/</loc>
     <lastmod>2024-07-08T14:34:51+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/home/</loc>
+    <loc>http://localhost:33833/home/</loc>
     <lastmod>2024-07-08T14:34:51+01:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/</loc>
+    <loc>http://localhost:33833/</loc>
     <lastmod>2025-01-13T10:50:09+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/primitive_data_types/</loc>
+    <loc>http://localhost:33833/python/brooks_data_analysis/</loc>
+    <lastmod>2023-07-25T13:06:04+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:33833/python/primitive_data_types/</loc>
     <lastmod>2021-02-19T16:57:38+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/git/git_add_project/</loc>
+    <loc>http://localhost:33833/git/git_add_project/</loc>
     <lastmod>2021-02-26T15:02:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/git/</loc>
+    <loc>http://localhost:33833/git/</loc>
     <lastmod>2021-02-26T15:02:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/creating_arrays/</loc>
+    <loc>http://localhost:33833/python/creating_arrays/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/format_basics/</loc>
+    <loc>http://localhost:33833/python/format_basics/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/while_loop_basics/</loc>
+    <loc>http://localhost:33833/python/while_loop_basics/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/for_loop_basics/</loc>
+    <loc>http://localhost:33833/python/for_loop_basics/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/drop_dataframe_columns/</loc>
+    <loc>http://localhost:33833/python/drop_dataframe_columns/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/write_dataframe_to_json/</loc>
+    <loc>http://localhost:33833/python/write_dataframe_to_json/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/ws_requests_and_beautifulsoup/</loc>
+    <loc>http://localhost:33833/python/resources/</loc>
+    <lastmod>2021-02-01T14:32:35+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:33833/python/ws_requests_and_beautifulsoup/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/oswalk/</loc>
+    <loc>http://localhost:33833/python/ossystem/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/vscode/inserting_date_time/</loc>
+    <loc>http://localhost:33833/python/oswalk/</loc>
+    <lastmod>2021-02-18T09:49:47+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:33833/vscode/inserting_date_time/</loc>
     <lastmod>2021-01-31T19:54:57+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/vscode/vscode_shortcuts/</loc>
+    <loc>http://localhost:33833/vscode/vscode_shortcuts/</loc>
     <lastmod>2021-01-31T19:54:57+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/vscode/</loc>
+    <loc>http://localhost:33833/vscode/</loc>
     <lastmod>2021-01-31T19:54:57+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/load_json/</loc>
+    <loc>http://localhost:33833/python/load_json/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/load_csv/</loc>
+    <loc>http://localhost:33833/python/load_csv/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/git/basic_git_commands/</loc>
+    <loc>http://localhost:33833/git/basic_git_commands/</loc>
     <lastmod>2021-02-26T15:02:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/image_to_passport/</loc>
+    <loc>http://localhost:33833/python/image_to_passport/</loc>
     <lastmod>2024-11-14T16:29:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/investment_analysis/</loc>
+    <loc>http://localhost:33833/python/investment_analysis/</loc>
     <lastmod>2024-11-14T16:29:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/moving_average_analysis/</loc>
+    <loc>http://localhost:33833/python/moving_average_analysis/</loc>
     <lastmod>2024-11-14T16:29:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/stock_market_analysis/</loc>
+    <loc>http://localhost:33833/python/stock_market_analysis/</loc>
     <lastmod>2024-11-14T16:29:21+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/python/untitled/</loc>
+    <loc>http://localhost:33833/python/untitled/</loc>
     <lastmod>2021-02-18T09:49:47+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/vscode/vscode_python_issues/</loc>
+    <loc>http://localhost:33833/vscode/vscode_python_issues/</loc>
     <lastmod>2020-12-31T10:17:29+00:00</lastmod>
   </url><url>
-    <loc>https://puneet.uk/notes/notes/</loc>
-    <lastmod>2025-07-12T20:24:53+01:00</lastmod>
+    <loc>http://localhost:33833/notes/notes/</loc>
+  </url><url>
+    <loc>http://localhost:33833/notes/notes/</loc>
+    <lastmod>2025-10-23T10:27:26+01:00</lastmod>
   </url>
 </urlset>

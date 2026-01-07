@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Montserrat:400,500,700|Roboto+Mono:400,700');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
@@ -31,7 +36,7 @@
   --search-clear-hover-bg: rgba(249, 38, 114, 0.1); /* Using --color-link-hover (F92672) with alpha */
   --note-item-bg: var(--color-background-dark);
   --note-item-border: var(--color-border-light);
-  --highlight-bg: rgba(230, 219, 116, 0.2); /* Using --color-warning (E6DB74) with alpha */
+  --box-shadow-md: rgba(0, 0, 0, 0.25) 0px 7px 7px, rgba(0, 0, 0, 0.22) 0px 2px 2px;
   --secondary-text: var(--color-text-dark);
 }
 /* --- CSS Variables - Structural --- */
@@ -40,7 +45,7 @@
   --main-width: 80%; /* Base content width */
 
   /* Font Families */
-  --mono-font: "BerkeleyMono-Regular", monospace;
+  --mono-font: "Google Sans", "Inconsolata", "Courier Prime", "Fira Code", "IBM Plex Mono", "BerkeleyMono-Regular", monospace;
   --code-font: 'Roboto Mono', monospace; /* Specific for code */
   --system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
@@ -48,7 +53,7 @@
   --spacing-unit: 1rem;
   --border-radius-sm: 4px;
   --border-radius-md: 0.6rem;
-  --box-shadow-lg: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --box-shadow-lg: rgba(0, 0, 0, 0.25) 0px 7px 7px, rgba(0, 0, 0, 0.22) 0px 2px 2px;
   --note-item-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
@@ -237,8 +242,8 @@ main.container .row {
 .note-item {
   background: var(--note-item-bg);
   border-radius: 6px;
-  padding: 16px;
-  margin-bottom: 12px;
+
+  margin-bottom: 12px; */
   opacity: 1;
   transform: translateY(0);
 }
@@ -284,14 +289,15 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
+  color: var(--color-accent-1);
   margin-bottom: 0.75rem;
 }
 
 h3 {
   font-size: 1.2rem;
-  color: var(--color-accent-1);
-  border-bottom: 1px dashed var(--color-border-light);
-  padding-bottom: 0.3em;
+  color: var(--color-accent-2);
+  /* border-bottom: 1px dashed var(--color-border-light); */
+  padding-bottom: 0.6em;
 }
 
 h4,
@@ -366,9 +372,10 @@ time {
 
 .item-info {
   display: table-cell;
-  font-size: 14px;
+  font-size: 100%;
   padding: 0 0 0 0;
   vertical-align: top;
+   font-weight: 400;
 }
 
 .item-info ul li {
@@ -379,8 +386,8 @@ time {
 
 .item-info h3 {
   margin: 0 0 8px 0;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 100%;
+  font-weight: 400;
 }
 
 .item-info p {
@@ -1334,6 +1341,41 @@ pre {
 
 pre code {
   white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+/* --- Scoped table column widths for training and whats-new --- */
+/* Make date column fixed, provider/type fixed and equal, course/post flexible and wrap */
+#training table.u-full-width,
+#whats-new table.u-full-width {
+  width: 100%;
+  table-layout: fixed; /* enables predictable column widths and wrapping */
+}
+
+#training table.u-full-width th:nth-child(1),
+#training table.u-full-width td:nth-child(1),
+#whats-new table.u-full-width th:nth-child(1),
+#whats-new table.u-full-width td:nth-child(1) {
+  width: 110px; /* Date column */
+  white-space: nowrap;
+  text-align: left;
+}
+
+#training table.u-full-width th:nth-child(3),
+#training table.u-full-width td:nth-child(3),
+#whats-new table.u-full-width th:nth-child(3),
+#whats-new table.u-full-width td:nth-child(3) {
+  width: 220px; /* Provider / Type column - same width for both tables */
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+#training table.u-full-width th:nth-child(2),
+#training table.u-full-width td:nth-child(2),
+#whats-new table.u-full-width th:nth-child(2),
+#whats-new table.u-full-width td:nth-child(2) {
+  /* Course / Post column: take remaining space and wrap long titles */
+  white-space: normal;
   overflow-wrap: break-word;
 }
 
