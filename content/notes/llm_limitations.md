@@ -5,6 +5,7 @@ draft: false
 labels: ""
 slug: "llm_limitations"
 version: 0.1
+type: "Blog"
 ---
 
 Here are the most significant limitations in AI and why you should be aware of them.

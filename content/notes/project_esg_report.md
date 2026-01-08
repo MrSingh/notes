@@ -6,6 +6,11 @@ draft: false
 labels: ""
 slug: "project_esg_report"
 images: project_esg_report.jpg
+type: "Blog"
+build:
+    list: never
+    publishResources: false
+    render: never
 ---
 <!-- {{< figure src="../../images/python_esg.jpg" title="An elephant at sunset" >}} -->
 

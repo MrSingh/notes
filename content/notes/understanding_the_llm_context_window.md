@@ -5,7 +5,7 @@ description: "Version: 1.0.0"
 draft: false
 labels: ""
 slug: "understanding_the_llm_context_window"
-
+type: "Blog"
 ---
 
 

@@ -1,0 +1,28 @@
+{{ partial "head" . }}
+<body>
+ <header>
+            <nav role="navigation">
+                <div class="container">
+                  
+                    {{ partial "header-name.html" . }}  
+                    {{ partial "custom-menu.html" . }}
+                    
+                </div>
+            </nav>
+        </header>
+
+  <!-- <main> -->
+  <div class="wrap">
+    <main class="container">
+      {{ partial "header" . }}
+     
+      <hr />
+      <!-- {{partial "linkedin.html"}} -->
+      {{.Content}}
+      <!-- {{partial "linkedin.html"}} -->
+
+    </main>
+  </div>
+  <!-- </main> -->
+  {{ partial "footer" . }}     
+</body>

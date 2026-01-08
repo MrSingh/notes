@@ -2,9 +2,13 @@
 title: "Log"
 date: 2024-08-28T07:00:00
 description: ""
-draft: false
+draft: true
 labels: ""
 slug: "log"
+build:
+    list: never
+    publishResources: false
+    render: never
 ---
   <li><span class="date">[15/07/2024]</span> 1st draft of <a href="../../summer_school/summer_school">notes</a> for week 1-3 for Summer School For Data Leaders have been uploaded.</li>
                                 <li><span class="date">[10/07/2024]</span> <a href="../../summer_school/summer_school"> Notes page for Carruthers &amp; Jackson - Summer School For Data Leaders  here</a>.</li>                  

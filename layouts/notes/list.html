@@ -20,7 +20,30 @@
       <div class="card">
         <div class="new-card-body">
       <!-- {{ partial "search.html" . }}   -->
-      {{.Content}}
+      <!-- {{.Content}} -->
+      <table class="u-full-width">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Post</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Pages }}
+        <tr>
+            <!-- Formats date to 'Jan 2026' -->
+            <td>{{ .Date | time.Format "Jan 2006" }}</td>
+            
+            <!-- Link to the individual note -->
+            <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+            
+            <!-- Logic to determine Type: use front matter 'type' if it exists, else use the Section name -->
+            <td>{{ .Type | humanize }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
 </div>
 </div>
 </div>

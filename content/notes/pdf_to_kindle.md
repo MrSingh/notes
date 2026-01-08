@@ -5,6 +5,7 @@ description: ""
 draft: false
 labels: ""
 slug: "pdf_to_kindle"
+type: "Note"
 # images: pdf_to_kindle.jpg
 ---
 

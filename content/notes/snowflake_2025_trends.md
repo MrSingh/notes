@@ -5,6 +5,7 @@ draft: false
 labels: ""
 slug: "snowflake_2025_trends"
 version: 1.0.0
+type: "Note"
 ---
 
 Snowflake has just released its 2025 Data Trends Report for Financial services.  

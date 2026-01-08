@@ -7,6 +7,7 @@ labels: ""
 slug: "intro_ppdac"
 images: 
 version: 1.0.0
+type: "Blog"
 ---
 
 

@@ -4,6 +4,7 @@ date: 2024-09-13T07:00:00
 draft: false
 labels: ""
 slug: "data_quality"
+type: "Blog"
 
 ---
 

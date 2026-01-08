@@ -1,13 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"search.exclude": {
-			".vscode": true,
-			"**${workspaceroot}*": true
-		}
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }

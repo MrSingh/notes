@@ -5,6 +5,7 @@ description: ""
 draft: false
 labels: ""
 slug: "normalising_data"
+type: "Note"
 ---
 
 Normalising financial data serves several important purposes. Here are some examples:

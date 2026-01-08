@@ -4,7 +4,7 @@ date: 2024-10-01T07:00:00
 draft: false
 labels: ""
 slug: "financial_crime"
-
+type: "Blog"
 version: 1.0.1
 ---
 

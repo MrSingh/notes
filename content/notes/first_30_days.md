@@ -5,6 +5,7 @@ draft: false
 labels: ""
 slug: "first_30_days"
 version: 1.0.0
+type: "Blog"
 ---
 
 <!-- <img class="preview" src="../../images/first_30_days.jpg" alt="Rabbit dressed as a suit starting his first day at as boss"> -->

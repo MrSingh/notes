@@ -2,7 +2,7 @@
 title: "Notes"
 layout: "list"
 date: 
-description: "A collection of notes and thoughts on various topics including data, AI, technology, books and life."
+description: "A collection of notes and thoughts on various topics including data, AI, technology, books and life. Boo"
 draft: false
 labels: ""
 slug: "notes"
@@ -20,7 +20,7 @@ slug: "notes"
         <tbody>
             <tr>
                 <td>Oct 2025</td>
-                <td><a href="../llm_limitations">The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost</a></td>
+                <td><a href="../llm_limitations">The LLM sds Paradox: The Strategic Limitations of Scale, Accuracy, and Cost</a></td>
                 <td>Blog</td>
             </tr>
             <tr>

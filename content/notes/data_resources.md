@@ -6,6 +6,7 @@ labels: ""
 slug: "data_resources"
 images: 
 version: 1.0.0
+type: "Resources"
 ---
 
 
