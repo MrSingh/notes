@@ -70,7 +70,7 @@ expiryDate = ["expiryDate"]
    # weight = 3
   [[menu.main]]
     name = "Resources"
-    url = "/resources/resources/"
+    pageRef = "/resources/resources/"
     weight = 4
   [[menu.main]]
     name = "Bookshelf"

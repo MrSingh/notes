@@ -38,4 +38,3 @@ For me the changes was fairly straightforward. Here's what I did:
 + Further Automation
 + Git hooks, maybe!
 
-#blognote
