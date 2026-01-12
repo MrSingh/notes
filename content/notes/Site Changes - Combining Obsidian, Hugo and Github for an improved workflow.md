@@ -7,7 +7,7 @@ labels: "#blog"
 slug: "site_changes_jan_2026"
 ---
 
-In an effort to share more often I wanted to make some changes to simplify the layout and styles. In doing so I decided to improve my workflow and integrate my Git repository directly into my Obsidian Vault. 
+In an effort to share more I made some changes to simplify the layout and styles. In doing so I decided to improve my workflow and integrate my Git repository directly into my Obsidian Vault. 
 
 ## Why, you may ask?
 

@@ -9,7 +9,7 @@
   --color-secondary: #272822; /* Monokai Background - dark, subtle */
   --color-accent-1: #F92672; /* Monokai Pink/Magenta - vibrant highlight */
   --color-accent-2: #FD971F; /* Monokai Orange - secondary vibrant highlight */
-
+  --color-accent-3: #26b3f9;
   --color-text-dark: #9c9c9c; /* Dark muted text - for less emphasis */
   --color-text-light: #F8F8F2; /* Monokai Text - bright, readable text */
   --color-background-light: #b3b3b3; /* Monokai Gutter/Line number bg - subtle differentiation */
@@ -292,9 +292,10 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
-  color: var(--color-accent-1);
+  color: var(--color-accent-3);
   border-bottom: 1px dashed var(--color-border-light);
   padding-bottom: 0.3em;
+  font-weight: 400;
 }
 
 h4,

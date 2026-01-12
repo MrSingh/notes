@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>http://localhost:39713/resources/</link>
+    <link>http://localhost:42485/resources/</link>
     <description>Recent content in Resources on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:39713/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:42485/resources/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
