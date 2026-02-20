@@ -1473,11 +1473,23 @@ pre code {
   background-color: #66d9ef;
 }
 
+/* Reference = pink/magenta (vibrant, energetic) */
+.tag.reference {
+  background-color: #77787e;
+  
+}
+
 /* Reading = pink/magenta (vibrant, energetic) */
 .tag.reading {
   background-color: #f92672;
   color: #fff; /* white text for contrast */
 }
+
+/* Reading = pink/magenta (vibrant, energetic) */
+.tag.easy-read {
+  background-color: #ffcb20;
+}
+
 
 /* Highly Recommended = green (positive, standout) */
 .tag.highly-recommended {

@@ -3,19 +3,17 @@ title: "Bookshelf"
 # date: 2025-03-11T07:12:00
 # date: 2023-01-15T10:00:00Z       # For "Published" date
 lastmod: 2023-07-21T14:30:00Z    # For "Updated" date (optional)
-description: "This is my list of books I own(digital and physical), have borrowed or been recommended in one place. I haven't included books I have read in the past but will review the list periodically. I haven't read them all but I will start tagging the ones I recommend."
+description: "This is my long list of books I own, have borrowed or been recommended in one place. I will review the list periodically. I haven't read them all but I will start tagging the ones I recommend."
 draft: false
 labels: ""
 slug: "bookshelf"
 ---
 
-20/02/2026 - This list needs refining. There some great books here but lots that I probably won't get round to reading anytime soon.   To see what I'm currently reading, see my <a href="../book_log">Book Log</a> page.
+20/02/2026 - This list needs refining. There some great books here but lots that I probably won't get round to reading anytime soon.   To see what I'm currently reading, see my <a href="../reading_log">Reading Log</a> page.
 
 <h2>Psychology & Behavioral Science</h2>
 
-- Ask the Dust by John Fante
 
-- Small Things Like These by Claire Keegan
 
 -  Thinking, Fast and Slow — Daniel Kahneman
 
@@ -37,6 +35,13 @@ slug: "bookshelf"
 
 
 <h2>Science & Technology</h2>
+
+
+- Algorithms: A Functional Programming Approach — Fethi Rabhi and Guy Lapalme
+
+- The Cuckoo's Egg — Clifford Stoll
+
+
 
 - Sapiens: A Brief History of Humankind — Yuval Noah Harari
 
@@ -62,10 +67,20 @@ slug: "bookshelf"
 
 - How AI Will Change Your Life — Patrick D. Dixon
 
-- SQL Queries for Mere Mortals — John L. Viescas & Michael J. Hernandez<span class="tag recommended">Recommended</span><span class="tag reading">Reading</span>
+- SQL Queries for Mere Mortals — John L. Viescas & Michael J. Hernandez<span class="tag recommended">Recommended</span><span class="tag reference">Reference</span>
 
 
 <h2>Personal Development &amp; Self-Help</h2>
+
+- Limitless — Jim Kwik
+
+- Think Clearly — Rolf Dobelli
+
+- So Good They Can't Ignore You — Cal Newport
+
+- How to Win Friends and Influence People — Dale Carnegie
+
+- Finite and Infinite Games — James P. Carse
 
 - Atomic Habits — James Clear<span class="tag recommended">Recommended</span>
 
@@ -111,7 +126,7 @@ slug: "bookshelf"
 
 - Psycho-Cybernetics — Maxwell Maltz
 
-- The Daily Stoic — Ryan Holiday<span class="tag recommended">Recommended</span>
+- The Daily Stoic — Ryan Holiday<span class="tag recommended">Recommended</span><span class="tag reference">Reference</span>
 
 - Meditations by Marcus Aurelius
 
@@ -141,13 +156,23 @@ slug: "bookshelf"
 
 - The Daily Dad by Ryan Holiday
 
-<h2>Religion & Spirituality</h2>
-
-- The New Testament (translated by David Bentley Hart)
-
-
-
 <h2>Business & Entrepreneurship</h2>
+
+- How to Interpret Data — Nicholas Kelly
+
+- Analysis for Managers — Begley/Fisher
+
+- The Phoenix Project — Gene Kim, Kevin Behr, and George Spafford
+
+- Only the Paranoid Survive — Andrew S. Grove
+
+- The Strategist — Cynthia A. Montgomery
+
+- The Advantage — Emma-Sue Prince
+
+- Smarter Investing — Tim Hale
+
+- The Art of the Start 2.0 — Guy Kawasaki
 
 - The 48 Laws of Power by Robert Greene
 
@@ -175,7 +200,7 @@ slug: "bookshelf"
 
 - The Personal MBA — Josh Kaufman
 
-- Tools of Titans — Timothy Ferriss<span class="tag recommended">Recommended</span>
+- Tools of Titans — Timothy Ferriss
 
 - Think Like a Rocket Scientist — Ozan Varol
 
@@ -228,6 +253,8 @@ slug: "bookshelf"
 
 <h2>Memoirs & Biographies</h2>
 
+- When Breath Becomes Air — Paul Kalanithi
+
 - Courage Under Fire by James Bond Stockdale
 
 - Montaigne by Stefan Zweig
@@ -251,6 +278,46 @@ slug: "bookshelf"
 
 <h2>Fiction & Literature</h2>
 
+<h3>Science Fiction</h3>
+
+- Asimov: The Currents of Space — Isaac Asimov
+
+- Artemis — Andy Weir
+
+<h3>Fantasy</h3>
+
+- The Hobbit — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
+
+- The Fellowship of the Ring (The Lord of the Rings, Book 1) — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
+
+- The Two Towers (The Lord of the Rings, Book 2) — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
+
+- The Return of the King (The Lord of the Rings, Book 3) — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
+
+- Divergent (Divergent Trilogy, Book 1) — Veronica Roth
+
+<h3>General Fiction</h3>
+
+- Ask the Dust by John Fante
+
+- Small Things Like These by Claire Keegan
+
+- How Much of These Hills is Gold — C Pam Zhang
+
+- The Circle — Dave Eggers
+
+- The Promise — Damon Galgut
+
+- The Night She Disappeared — Lisa Jewell
+
+- James — Percival Everett
+
+- The Alchemist — Paulo Coelho
+
+- The Other Side of Truth — Beverley Naidoo
+
+- For One More Day — Mitch Albom
+
 - The Secret Life of Bees — Sue Monk Kidd
 
 - A Little Life — Hanya Yanagihara
@@ -261,6 +328,12 @@ slug: "bookshelf"
 
 - He Said/She Said — Erin Kelly
 
+- As the Crow Flies — Damien Boyd<span class="tag easy-read">Easy Read</span>
+
+- Edge of Collapse — Kyla Stone<span class="tag easy-read">Easy Read</span>
+
+- The Housemaid — Freida McFadden<span class="tag easy-read">Easy Read</span>
+
 - Fairy Tale — Stephen King
 
 - The Importance of Being Earnest Illustrated — Oscar Wilde
@@ -268,22 +341,13 @@ slug: "bookshelf"
 - The Remains of the Day — Kazuo Ishiguro
 
 
-<h2>Fantasy & Sci-Fi</h2>
-
-- The Hobbit — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
-
-- The Fellowship of the Ring (The Lord of the Rings, Book 1) — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
-
-- The Two Towers (The Lord of the Rings, Book 2) — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
-
-- The Return of the King (The Lord of the Rings, Book 3) — J.R.R. Tolkien<span class="tag recommended">Recommended</span>
-
-- Artemis — Andy Weir
-
-- Divergent (Divergent Trilogy, Book 1) — Veronica Roth
-
-
 <h2>Health & Wellness</h2>
+
+- Vertical Leaner: Brain Food — Dr. Lisa Mosconi
+
+- Outlive — Dr. Peter Attia
+
+- The Lost Art of Running — Shane Benzie
 
 - The Gut Feeling — Naomi Devlin
 
@@ -295,10 +359,13 @@ slug: "bookshelf"
 
 
 <h2>Writing & Communication</h2>
+
+- On Writing Well — William Zinsser
+
 - Write Great Essays! — Peter Levin
 
 
 <h2>Sports & Recreation</h2>
-- How to Win the Premier League — Ian Graham
 
+- How to Win the Premier League — Ian Graham
 
