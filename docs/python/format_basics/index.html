@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42485&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -83,23 +83,23 @@
           <p><a href="https://pyformat.info/">Resource</a></p>
 <hr>
 <h2 id="basic-example">Basic Example</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Name input</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Name input</span>
 </span></span><span style="display:flex;"><span>name = <span style="color:#24909d">input</span>()
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ed9d13">&#39;Hello, </span><span style="color:#ed9d13">{}</span><span style="color:#ed9d13">&#39;</span>.format(name)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ed9d13">&#39;Hello, </span><span style="color:#ed9d13">{}</span><span style="color:#ed9d13">&#39;</span>.format(name)
 </span></span></code></pre></div><pre><code>'Hello, SpiderMan'
 </code></pre>
 <h2 id="dictionary-example">Dictionary Example</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data = {<span style="color:#ed9d13">&#39;first&#39;</span>: <span style="color:#ed9d13">&#39;Spider&#39;</span>, <span style="color:#ed9d13">&#39;last&#39;</span>: <span style="color:#ed9d13">&#39;-Man&#39;</span>}
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data = {<span style="color:#ed9d13">&#39;first&#39;</span>: <span style="color:#ed9d13">&#39;Spider&#39;</span>, <span style="color:#ed9d13">&#39;last&#39;</span>: <span style="color:#ed9d13">&#39;-Man&#39;</span>}
 </span></span><span style="display:flex;"><span><span style="color:#ed9d13">&#39;</span><span style="color:#ed9d13">{first}{last}</span><span style="color:#ed9d13">&#39;</span>.format(**data)
 </span></span></code></pre></div><pre><code>'Spider-Man'
 </code></pre>
 <h2 id="list-example">List Example</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data = [<span style="color:#ed9d13">&#39;Spider&#39;</span>, <span style="color:#ed9d13">&#39;Man&#39;</span>]
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data = [<span style="color:#ed9d13">&#39;Spider&#39;</span>, <span style="color:#ed9d13">&#39;Man&#39;</span>]
 </span></span><span style="display:flex;"><span><span style="color:#ed9d13">&#39;</span><span style="color:#ed9d13">{}</span><span style="color:#ed9d13">-</span><span style="color:#ed9d13">{}</span><span style="color:#ed9d13">&#39;</span>.format(*data)
 </span></span></code></pre></div><pre><code>'Spider-Man'
 </code></pre>
 <h2 id="classobject-example">Class/Object Example</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">Person</span>(<span style="color:#24909d">object</span>):
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">Person</span>(<span style="color:#24909d">object</span>):
 </span></span><span style="display:flex;"><span>    <span style="color:#24909d">type</span> = <span style="color:#ed9d13">&#39;Enemies&#39;</span>
 </span></span><span style="display:flex;"><span>    names = [{<span style="color:#ed9d13">&#39;name&#39;</span>: <span style="color:#ed9d13">&#39;Doctor Octopus&#39;</span>}, {<span style="color:#ed9d13">&#39;name&#39;</span>: <span style="color:#ed9d13">&#39;Green Goblin&#39;</span>}]
 </span></span><span style="display:flex;"><span>
@@ -107,7 +107,7 @@
 </span></span></code></pre></div><pre><code>'Enemies: Doctor Octopus and Green Goblin'
 </code></pre>
 <h2 id="datetime-example">Datetime Example</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">from</span> <span style="color:#447fcf;text-decoration:underline">datetime</span> <span style="color:#6ab825;font-weight:bold">import</span> date
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">from</span> <span style="color:#447fcf;text-decoration:underline">datetime</span> <span style="color:#6ab825;font-weight:bold">import</span> date
 </span></span><span style="display:flex;"><span><span style="color:#ed9d13">&#39;{:%Y-%m-</span><span style="color:#ed9d13">%d</span><span style="color:#ed9d13">}&#39;</span>.format(date.today())
 </span></span></code></pre></div><pre><code>'2021-02-08'
 </code></pre>
@@ -125,7 +125,7 @@
             <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: January 2026
+                Site last updated: February 2026
               </div>
         </div>
     </div>

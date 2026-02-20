@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summer_schools on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>http://localhost:42485/summer_school/</link>
+    <link>https://puneet.uk/summer_school/</link>
     <description>Recent content in Summer_schools on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 17 Oct 2024 09:41:51 +0100</lastBuildDate>
-    <atom:link href="http://localhost:42485/summer_school/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://puneet.uk/summer_school/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carruthers &amp; Jackson - Summer School for Data Leaders</title>
-      <link>http://localhost:42485/summer_school/summer_school/</link>
+      <link>https://puneet.uk/summer_school/summer_school/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/summer_school/</guid>
+      <guid>https://puneet.uk/summer_school/summer_school/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;i class=&#34;material-icons&#34;&gt;info&lt;/i&gt;This page needs updating. Both the structure and content needs work.&#xA;&lt;/div&gt;&#xA;Notes and resources related to the summer school for data leaders. --&gt;&#xA;&lt;!-- ## Week One  - &lt;span class=&#34;date&#34;&gt;[26/06/2024]&lt;/span&gt;&#xA;&#xA;Here&#39;s a more detailed version in the past tense:&#xA;&#xA;Here&#39;s a more detailed version in the past tense: --&gt;&#xA;&lt;h2 id=&#34;week-1&#34;&gt;Week 1&lt;/h2&gt;&#xA;&lt;h3 id=&#34;different-kinds-of-cdos&#34;&gt;Different kinds of CDOs&lt;/h3&gt;&#xA;&lt;p&gt;We explored how to present ourselves as a data leaders and explored the various types of Chief Data Officers (CDOs), including Functional CDOs (FCDO), Strategic CDOs (SCDO), and Transformational CDOs (TCDO).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week Eight - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_eight/</link>
+      <link>https://puneet.uk/summer_school/week_eight/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_eight/</guid>
+      <guid>https://puneet.uk/summer_school/week_eight/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Five - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_five/</link>
+      <link>https://puneet.uk/summer_school/week_five/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_five/</guid>
+      <guid>https://puneet.uk/summer_school/week_five/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Four - The Three Ds of Data Strategy - Discovery, Definition and Delivery</title>
-      <link>http://localhost:42485/summer_school/week_four/</link>
+      <link>https://puneet.uk/summer_school/week_four/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_four/</guid>
+      <guid>https://puneet.uk/summer_school/week_four/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;date&#34;&gt;[26/07/2024]&lt;/span&gt; - The Three Ds of Data Strategy was developed following week five of attending Curruthers &amp;amp; Jacksons Summer School for Data Leaders.  It brings together their (Caroline Carruthers, Peter Jackson and Dave Atherton) expertise and my experience to form the basis of how you may go about developing your own data strategy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;&#xA;&lt;p&gt;What is the (business) purpose of the data strategy - what is the &amp;lsquo;why&amp;rsquo; that will drive the data strategy and transformation required to deliver it?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week Nine - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_nine/</link>
+      <link>https://puneet.uk/summer_school/week_nine/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_nine/</guid>
+      <guid>https://puneet.uk/summer_school/week_nine/</guid>
       <description></description>
     </item>
     <item>
       <title>Week One - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_one/</link>
+      <link>https://puneet.uk/summer_school/week_one/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_one/</guid>
+      <guid>https://puneet.uk/summer_school/week_one/</guid>
       <description>&lt;h2 id=&#34;what-is-a-data-leader&#34;&gt;What is a Data Leader?&lt;/h2&gt;&#xA;&lt;p&gt;Is the most senior individual in an organisation that is responsible for data.&lt;/p&gt;&#xA;&lt;p&gt;Peter Jackson started as a Business Analyst, then became a Full-Stack Engineer before moving into digital strategy as head of data and then CDO.&lt;/p&gt;&#xA;&lt;h2 id=&#34;different-types-of-cdo&#34;&gt;Different Types of CDO&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1st Generation - Lays the foundation or groundwork&lt;/li&gt;&#xA;&lt;li&gt;2nd Generation - Reimagining of the role based on business value&lt;/li&gt;&#xA;&lt;li&gt;3rd Generation - It&amp;rsquo;s a business role that uses technology&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is to help you have that conversation to see where you fit in with the organisation and to understand the organisations data journey up until now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week Seven - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_seven/</link>
+      <link>https://puneet.uk/summer_school/week_seven/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_seven/</guid>
+      <guid>https://puneet.uk/summer_school/week_seven/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Six - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_six/</link>
+      <link>https://puneet.uk/summer_school/week_six/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_six/</guid>
+      <guid>https://puneet.uk/summer_school/week_six/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Ten - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_ten/</link>
+      <link>https://puneet.uk/summer_school/week_ten/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_ten/</guid>
+      <guid>https://puneet.uk/summer_school/week_ten/</guid>
       <description></description>
     </item>
     <item>
       <title>Week Three - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_three/</link>
+      <link>https://puneet.uk/summer_school/week_three/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_three/</guid>
+      <guid>https://puneet.uk/summer_school/week_three/</guid>
       <description>&lt;h2 id=&#34;quantum-data---halo-data&#34;&gt;Quantum Data - Halo Data&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data in multiple locations is OK&lt;/li&gt;&#xA;&lt;li&gt;Multiple Outputs&lt;/li&gt;&#xA;&lt;li&gt;Value in Problem Solving&lt;/li&gt;&#xA;&lt;li&gt;Under your data&lt;/li&gt;&#xA;&lt;li&gt;Master source of data isn&amp;rsquo;t necessarily needed&lt;/li&gt;&#xA;&lt;li&gt;Linking datasets release value&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Assumptions Reduce the value&#xA;But verifying assumptions can realease value&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-first-100-days--objectives&#34;&gt;The First 100 Days &amp;gt; Objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The case for change&lt;/li&gt;&#xA;&lt;li&gt;Pre-work&lt;/li&gt;&#xA;&lt;li&gt;Vision and Strategy&lt;/li&gt;&#xA;&lt;li&gt;Get the Basics right - Understand the state of play(Audit and understand)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Governance&lt;/li&gt;&#xA;&lt;li&gt;Information Architecture&lt;/li&gt;&#xA;&lt;li&gt;Engagement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Quick Wins ( Low Hanging Fruit) - Must still deliver value&lt;/li&gt;&#xA;&lt;li&gt;For vision on day one - it can be aspirational - it can be high level. for example:- To Unlock Business Value From Trusted Data&amp;quot;&lt;/li&gt;&#xA;&lt;li&gt;While working with the organisation, take people on the journey with you.&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Cofee &amp;amp; Cake to Discuss Ideas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week Two - Summer School For Data Leaders</title>
-      <link>http://localhost:42485/summer_school/week_two/</link>
+      <link>https://puneet.uk/summer_school/week_two/</link>
       <pubDate>Wed, 10 Jul 2024 07:00:00 +0000</pubDate>
-      <guid>http://localhost:42485/summer_school/week_two/</guid>
+      <guid>https://puneet.uk/summer_school/week_two/</guid>
       <description>&lt;h2 id=&#34;making-the-case-for-the-cdo-and-business-case-development&#34;&gt;Making the case for the CDO and Business Case Development&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-challenges-will-you-face&#34;&gt;What Challenges will you face&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Legacy data&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Siloes&lt;/li&gt;&#xA;&lt;li&gt;No MDM&lt;/li&gt;&#xA;&lt;li&gt;No Ownership&lt;/li&gt;&#xA;&lt;li&gt;Data Offloading&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Legacy Systems/Applications&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Shadow IT &amp;amp; Data (Spreadsheets)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Strategy must avoid shadow data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Spreadsheets &amp;lsquo;can&amp;rsquo;, cause governance, linage and quality issues&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Multiple suppliers(operational) - Rationalise and Reduce (IT &amp;amp; Data)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Avoiding the &amp;lsquo;Hype Cycle&amp;rsquo; - See Chart in Slides&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Trigger of data awareness&lt;/li&gt;&#xA;&lt;li&gt;Peak of expectations&lt;/li&gt;&#xA;&lt;li&gt;Table of Enlightenment&lt;/li&gt;&#xA;&lt;li&gt;Cliff of reality&lt;/li&gt;&#xA;&lt;li&gt;Acceleration of delivery and value&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;Manage Expectations, Create Starategy and Define Reality.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>

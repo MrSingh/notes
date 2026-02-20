@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42485&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -82,36 +82,36 @@
          
           <hr>
 <h2 id="import-modules">Import Modules</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">requests</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">requests</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">from</span> <span style="color:#447fcf;text-decoration:underline">bs4</span> <span style="color:#6ab825;font-weight:bold">import</span> BeautifulSoup
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Example adapted from the links below</span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># https://requests.readthedocs.io/en/master/</span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># https://www.crummy.com/software/BeautifulSoup/bs4/doc/</span>
 </span></span></code></pre></div><h2 id="request-a-web-page">Request a Web Page</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>html_page = requests.get(<span style="color:#ed9d13">&#39;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&#39;</span>, auth=(<span style="color:#ed9d13">&#39;user&#39;</span>, <span style="color:#ed9d13">&#39;pass&#39;</span>))
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>html_page = requests.get(<span style="color:#ed9d13">&#39;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&#39;</span>, auth=(<span style="color:#ed9d13">&#39;user&#39;</span>, <span style="color:#ed9d13">&#39;pass&#39;</span>))
 </span></span></code></pre></div><h2 id="return-page-headers">Return Page Headers</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Headers</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Headers</span>
 </span></span><span style="display:flex;"><span>html_page.headers[<span style="color:#ed9d13">&#39;content-type&#39;</span>]
 </span></span></code></pre></div><pre><code>'text/html; charset=UTF-8'
 </code></pre>
 <h2 id="return-page-status-code">Return Page Status Code</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Status Code</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Status Code</span>
 </span></span><span style="display:flex;"><span>html_page.status_code
 </span></span></code></pre></div><pre><code>200
 </code></pre>
 <h2 id="create-a-beautiful-soup-object-with-html-text">Create a Beautiful Soup Object with HTML text</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Create a Beautiful Soup Object with HTML text</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Create a Beautiful Soup Object with HTML text</span>
 </span></span><span style="display:flex;"><span>soup = BeautifulSoup(html_page.text, <span style="color:#ed9d13">&#39;html.parser&#39;</span>)
 </span></span></code></pre></div><h2 id="prettify-html-text">Prettify HTML Text</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Prettify HTML Text</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Prettify HTML Text</span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># print(soup.prettify()) # Uncomment this line to run this cell</span>
 </span></span></code></pre></div><h2 id="return-page-title">Return Page Title</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Title</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Return Page Title</span>
 </span></span><span style="display:flex;"><span>soup.title
 </span></span></code></pre></div><pre><code>&lt;title&gt;Beautiful Soup Documentation — Beautiful Soup 4.9.0 documentation&lt;/title&gt;
 </code></pre>
 <h2 id="extract-all-links">Extract all Links</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Extract all links</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Extract all links</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">for</span> link <span style="color:#6ab825;font-weight:bold">in</span> soup.find_all(<span style="color:#ed9d13">&#39;a&#39;</span>):
 </span></span><span style="display:flex;"><span>    <span style="color:#24909d">print</span>(link.get(<span style="color:#ed9d13">&#39;href&#39;</span>))
 </span></span></code></pre></div><pre><code>genindex.html
@@ -485,7 +485,7 @@ genindex.html
 https://www.sphinx-doc.org/
 </code></pre>
 <h2 id="extract-all-text">Extract all Text</h2>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Extracting Text</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Extracting Text</span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># print(soup.get_text()) # Uncomment this line to run this cell</span>
 </span></span></code></pre></div>
           
@@ -501,7 +501,7 @@ https://www.sphinx-doc.org/
             <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: January 2026
+                Site last updated: February 2026
               </div>
         </div>
     </div>

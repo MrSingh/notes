@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42485&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -83,17 +83,17 @@
           <h1 id="resource"><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html">Resource</a></h1>
 <hr>
 <p>Whilst a multi-index datafame can be useful for complex data orginisation, for example across multiple markets and time periods.  Flattening the data has it&rsquo;s own advantages; making for easier data manipulation, merging with other datasets and visulising. Here is a quick example.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">yfinance</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">yf</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Fetch data</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Fetch data</span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">#S&amp;P 500 Vanguard - VOO</span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">#S&amp;P 500 Black Rock - BSPIX</span>
 </span></span><span style="display:flex;"><span>tickers = [<span style="color:#ed9d13">&#39;VOO&#39;</span>,<span style="color:#ed9d13">&#39;VTWO&#39;</span>]
 </span></span><span style="display:flex;"><span>df = yf.download(tickers,  start=<span style="color:#ed9d13">&#39;2019-01-01&#39;</span>, end=<span style="color:#ed9d13">&#39;2024-10-11&#39;</span>)
 </span></span></code></pre></div><pre><code>[*********************100%***********************]  2 of 2 completed
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#24909d">print</span>(df.columns)
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#24909d">print</span>(df.columns)
 </span></span></code></pre></div><pre><code>MultiIndex([('Adj Close',  'VOO'),
             ('Adj Close', 'VTWO'),
             (    'Close',  'VOO'),
@@ -108,9 +108,9 @@
             (   'Volume', 'VTWO')],
            names=['Price', 'Ticker'])
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Completely flatten the DataFrame</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Completely flatten the DataFrame</span>
 </span></span><span style="display:flex;"><span>df_flattened = df.stack(future_stack=<span style="color:#6ab825;font-weight:bold">True</span>).reset_index()
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#24909d">print</span>(df_flattened.columns)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#24909d">print</span>(df_flattened.columns)
 </span></span></code></pre></div><pre><code>Index(['Date', 'Ticker', 'Adj Close', 'Close', 'High', 'Low', 'Open',
        'Volume'],
       dtype='object', name='Price')
@@ -129,7 +129,7 @@
             <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: January 2026
+                Site last updated: February 2026
               </div>
         </div>
     </div>

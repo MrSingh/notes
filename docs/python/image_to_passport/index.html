@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42485&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -80,19 +80,19 @@
 
 
          
-          <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">cv2</span>
+          <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">cv2</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">from</span> <span style="color:#447fcf;text-decoration:underline">PIL</span> <span style="color:#6ab825;font-weight:bold">import</span> Image
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the image</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the image</span>
 </span></span><span style="display:flex;"><span>image_path = <span style="color:#ed9d13">&#39;data/amrit_full.jpg&#39;</span>
 </span></span><span style="display:flex;"><span>image = cv2.imread(image_path)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Define the size for the passport photo (e.g., 2x2 inches at 300 DPI)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Define the size for the passport photo (e.g., 2x2 inches at 300 DPI)</span>
 </span></span><span style="display:flex;"><span>passport_width = <span style="color:#24909d">int</span>(<span style="color:#3677a9">35</span> * <span style="color:#3677a9">11.81</span>)  <span style="color:#999;font-style:italic"># 35mm to pixels</span>
 </span></span><span style="display:flex;"><span>passport_height = <span style="color:#24909d">int</span>(<span style="color:#3677a9">45</span> * <span style="color:#3677a9">11.81</span>)  <span style="color:#999;font-style:italic"># 45mm to pixels</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Resize the image</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Resize the image</span>
 </span></span><span style="display:flex;"><span>resized_image = cv2.resize(image, (passport_width, passport_height))
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Save the resized image</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Save the resized image</span>
 </span></span><span style="display:flex;"><span>cv2.imwrite(<span style="color:#ed9d13">&#39;data/amrit_passport.jpg&#39;</span>, resized_image)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Optional: Convert to RGB and save using Pillow for better quality</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Optional: Convert to RGB and save using Pillow for better quality</span>
 </span></span><span style="display:flex;"><span>passport_image = Image.open(<span style="color:#ed9d13">&#39;data/amrit_passport.jpg&#39;</span>)
 </span></span><span style="display:flex;"><span>passport_image = passport_image.convert(<span style="color:#ed9d13">&#39;RGB&#39;</span>)
 </span></span><span style="display:flex;"><span>passport_image.save(<span style="color:#ed9d13">&#39;data/amrit_passport_final.jpg&#39;</span>, <span style="color:#ed9d13">&#39;JPEG&#39;</span>, quality=<span style="color:#3677a9">95</span>)
@@ -112,7 +112,7 @@
             <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: January 2026
+                Site last updated: February 2026
               </div>
         </div>
     </div>

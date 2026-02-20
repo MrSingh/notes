@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42485&amp;path=livereload" data-no-instant defer></script>
+  <head>
      
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
      <script>
@@ -83,14 +83,14 @@
           <h1 id="data-resource"><a href="https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023/data">Data Resource</a></h1>
 <hr>
 <p>An analysis of CO2 emmisons based on Glaobal 2023 data.</p>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Import</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">matplotlib.pyplot</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">plt</span>
 </span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">seaborn</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">sns</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the dataset</span>
 </span></span><span style="display:flex;"><span>data = pd.read_csv(<span style="color:#ed9d13">&#39;data/world-data-2023.csv&#39;</span>)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Display The column names and data types</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Display The column names and data types</span>
 </span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(data.dtypes)
 </span></span></code></pre></div><pre><code>Country                                       object
 Density\n(P/Km2)                              object
@@ -129,7 +129,7 @@ Latitude                                     float64
 Longitude                                    float64
 dtype: object
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Convert &#39;Co2-Emissions&#39; to numeric</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Convert &#39;Co2-Emissions&#39; to numeric</span>
 </span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Drop rows with missing values in &#39;Co2-Emissions&#39;</span>
@@ -147,7 +147,7 @@ dtype: object
 </span></span><span style="display:flex;"><span>plt.xticks(rotation=<span style="color:#3677a9">45</span>)
 </span></span><span style="display:flex;"><span>plt.show()
 </span></span></code></pre></div><p><img src="co2_emmisions_analysis_files/co2_emmisions_analysis_4_0.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Convert &#39;Co2-Emissions&#39; and &#39;Population&#39; to numeric</span>
 </span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
 </span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Population&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Population&#39;</span>], errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
@@ -181,7 +181,7 @@ Columns: [Country, CO2_per_Capita]
 Index: []
 </code></pre>
 <p><img src="co2_emmisions_analysis_files/co2_emmisions_analysis_5_1.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check unique values in &#39;Co2-Emissions&#39; and &#39;Population&#39; before conversion</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Check unique values in &#39;Co2-Emissions&#39; and &#39;Population&#39; before conversion</span>
 </span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#34;Unique values in &#39;Co2-Emissions&#39;:&#34;</span>, data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>].unique())
 </span></span><span style="display:flex;"><span><span style="color:#24909d">print</span>(<span style="color:#ed9d13">&#34;Unique values in &#39;Population&#39;:&#34;</span>, data[<span style="color:#ed9d13">&#39;Population&#39;</span>].unique())
 </span></span><span style="display:flex;"><span>
@@ -210,7 +210,7 @@ Empty DataFrame
 Columns: [Country, CO2_per_Capita]
 Index: []
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">import</span> <span style="color:#447fcf;text-decoration:underline">pandas</span> <span style="color:#6ab825;font-weight:bold">as</span> <span style="color:#447fcf;text-decoration:underline">pd</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Load the dataset</span>
 </span></span><span style="display:flex;"><span>file_path = <span style="color:#ed9d13">&#39;data/world-data-2023.csv&#39;</span>  <span style="color:#999;font-style:italic"># Update this with the correct file path</span>
@@ -301,7 +301,7 @@ Latitude                                     float64
 Longitude                                    float64
 dtype: object
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Remove commas and convert &#39;Co2-Emissions&#39; and &#39;Population&#39; to numeric</span>
 </span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Co2-Emissions&#39;</span>].str.replace(<span style="color:#ed9d13">&#39;,&#39;</span>, <span style="color:#ed9d13">&#39;&#39;</span>), errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
 </span></span><span style="display:flex;"><span>data[<span style="color:#ed9d13">&#39;Population&#39;</span>] = pd.to_numeric(data[<span style="color:#ed9d13">&#39;Population&#39;</span>].str.replace(<span style="color:#ed9d13">&#39;,&#39;</span>, <span style="color:#ed9d13">&#39;&#39;</span>), errors=<span style="color:#ed9d13">&#39;coerce&#39;</span>)
@@ -338,7 +338,7 @@ dtype: object
             <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: January 2026
+                Site last updated: February 2026
               </div>
         </div>
     </div>
