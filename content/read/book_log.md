@@ -15,7 +15,7 @@ type: "Blog"
 
 1. As the Crow Flies - Damien Boyd - Fiction
 2. Edge of Collapse - Kyla Stone - Fiction
-3. When Breadth Becomes Air - Paul Kalanithi - Autobiography
+3. <a href="https://amzn.to/4aHlqeO" target="_blank">When Breadth Becomes Air - Paul Kalanithi</a> - Autobiography <span class="tag recommended">Recommended</span>
 4. The Housemaid - Freida McFadden - Fiction
 
 ## February 2026

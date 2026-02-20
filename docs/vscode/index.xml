@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vscodes on Pauls&#39;s Notes On Data &amp; Software Engineering</title>
-    <link>https://puneet.uk/vscode/</link>
+    <link>http://localhost:1313/vscode/</link>
     <description>Recent content in Vscodes on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 31 Jan 2021 19:54:57 +0000</lastBuildDate>
-    <atom:link href="https://puneet.uk/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Insert Date Time String in Visual Studio Code</title>
-      <link>https://puneet.uk/vscode/inserting_date_time/</link>
+      <link>http://localhost:1313/vscode/inserting_date_time/</link>
       <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/inserting_date_time/</guid>
+      <guid>http://localhost:1313/vscode/inserting_date_time/</guid>
       <description>&lt;h2 id=&#34;install-insert-date-string-extension&#34;&gt;Install &amp;lsquo;Insert Date String&amp;rsquo; Extension&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=jsynowiec.vscode-insertdatestring&#34;&gt;Extension&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Click on Install from above link or use the steps below.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open Command Palette: &lt;code&gt;Ctrl + Shift + P&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Find: Install Extensions&lt;/li&gt;&#xA;&lt;li&gt;Search: Insert Date String&lt;/li&gt;&#xA;&lt;li&gt;Install&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;code&gt;Ctrl + Shift + I&lt;/code&gt; to insert the date time to the cursor location.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Check documentation for more options.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visual Studio Code | Shortcuts</title>
-      <link>https://puneet.uk/vscode/vscode_shortcuts/</link>
+      <link>http://localhost:1313/vscode/vscode_shortcuts/</link>
       <pubDate>Mon, 25 Jan 2021 19:44:38 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/vscode_shortcuts/</guid>
+      <guid>http://localhost:1313/vscode/vscode_shortcuts/</guid>
       <description>&lt;h2 id=&#34;toggle-integrated-terminal&#34;&gt;Toggle Integrated Terminal&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + &#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;toggle-side-bar&#34;&gt;Toggle Side Bar&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + B&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;open-settings&#34;&gt;Open Settings&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + ,&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;quick-open-file&#34;&gt;Quick Open File&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + p&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;open-preview-mode&#34;&gt;Open Preview Mode&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;ToDO&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;move-file-to-split-editor&#34;&gt;Move File to Split Editor&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + \&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;find-and-replace&#34;&gt;Find and Replace&lt;/h2&gt;&#xA;&lt;h3 id=&#34;find&#34;&gt;Find&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + f&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;find-selection&#34;&gt;Find Selection&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + h&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;find--replace-selection-execute&#34;&gt;Find &amp;amp; Replace Selection Execute&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + Enter&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;find--replace-all-execute&#34;&gt;Find &amp;amp; Replace All Execute&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + Alt + Enter&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;command-palette&#34;&gt;Command Palette&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + Shift + P&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;toggle-comment&#34;&gt;Toggle Comment&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + /&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;copy-line---selects-the-line-the-cursur-is-on&#34;&gt;Copy Line - selects the line the cursur is on&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + C&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;duplicate-line&#34;&gt;Duplicate Line&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;// Above&#xA;Ctrl + Alt + Up&#xA;&#xA;// Below&#xA;Ctrl + Alt + Down&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;multiple-cursors&#34;&gt;Multiple Cursors&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + Click&#xA;&#xA;// Or&#xA;&#xA;Ctrl + Shift + Alt + Up/Down&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;select-word&#34;&gt;Select Word&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + D&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;select-all-words&#34;&gt;Select All Words&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;ToDo&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;function-to-rename&#34;&gt;Function to Rename&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;f2&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;go-to-function-definition&#34;&gt;Go to Function Definition&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + Click&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;zen-mode-toggle&#34;&gt;Zen Mode Toggle&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;Ctrl + K&#xA;// Then&#xA;Z&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://puneet.uk/vscode/vscode_python_issues/</link>
+      <link>http://localhost:1313/vscode/vscode_python_issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://puneet.uk/vscode/vscode_python_issues/</guid>
+      <guid>http://localhost:1313/vscode/vscode_python_issues/</guid>
       <description>&lt;h1 id=&#34;python-issues-in-vscode&#34;&gt;Python Issues in VSCode&lt;/h1&gt;&#xA;&lt;h2 id=&#34;jupyter-notebook-fails-to-export-to-python-script&#34;&gt;Jupyter notebook fails to export to python script&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;Error 2020-12-16 16:06:17: Jupyter Kernel Spec not found for a local connection&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;fix&#34;&gt;Fix&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;pip install nbconvert&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;</description>
     </item>
   </channel>

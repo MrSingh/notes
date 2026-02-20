@@ -305,6 +305,7 @@ h5,
 h6 {
   font-size: var(--spacing-unit);
   letter-spacing: 0;
+    font-size: 1rem;
 }
 
 h4 {
