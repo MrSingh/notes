@@ -10,13 +10,6 @@
     <atom:link href="https://puneet.uk/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookshelf</title>
-      <link>https://puneet.uk/read/bookshelf/</link>
-      <pubDate>Fri, 21 Jul 2023 14:30:00 +0000</pubDate>
-      <guid>https://puneet.uk/read/bookshelf/</guid>
-      <description>&lt;p&gt;20/02/2026 - This list needs refining. There some great books here but lots that I probably won&amp;rsquo;t get round to reading anytime soon.   To see what I&amp;rsquo;m currently reading, see my &lt;a href=&#34;../reading_log&#34;&gt;Reading Log&lt;/a&gt; page.&lt;/p&gt;&#xA;&lt;h2&gt;Psychology &amp; Behavioral Science&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Thinking, Fast and Slow — Daniel Kahneman&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Quiet: The Power of Introverts in a World That Can&amp;rsquo;t Stop Talking — Susan Cain&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Antifragile — Nassim Taleb&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Coaching Habit — Michael Bungay Stanier&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bookshelf</title>
       <link>https://puneet.uk/read/master_book_list/</link>
       <pubDate>Sun, 15 Jan 2023 10:00:00 +0000</pubDate>
       <guid>https://puneet.uk/read/master_book_list/</guid>
@@ -28,6 +21,13 @@
       <pubDate>Fri, 12 Mar 2021 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/read/bookshelf_home/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;reading&#34;&gt;Reading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-art-of-statistics-learning-from-data---david-spiegelhalter-link&#34;&gt;The Art of Statistics: Learning from Data - David Spiegelhalter &lt;a href=&#34;https://amzn.to/4hhbwTE&#34; target=&#34;blank&#34;&gt;[Link]&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;the-checklist-manifesto-how-to-get-things-right---atul-gawande-link&#34;&gt;The Checklist Manifesto: How To Get Things Right - Atul Gawande &lt;a href=&#34;https://amzn.to/3XZ1vmU&#34; target=&#34;blank&#34;&gt;[Link]&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;completed&#34;&gt;Completed&lt;/h2&gt;&#xA;&lt;h3 id=&#34;poor---katriona-osullivan---link&#34;&gt;Poor - Katriona O&amp;rsquo;Sullivan - &lt;a href=&#34;https://amzn.to/4dLSdi3&#34; target=&#34;blank&#34;&gt;[Link]&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Bought this on a whim when I saw it as a Kindle special deal, and I’m glad I did. It covers what it means to be poor, and how some of the most vulnerable in society can fall through the cracks, how the system can let them down. The failure of the state, society, and people to help the most vulnerable. Whilst this is a difficult read in parts, it’s also a book about hope, and whilst there were failures in the system, it’s that same system that allowed Katriona to escape that life through the help of people, education, and her determination for something better.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bookshelf</title>
+      <link>https://puneet.uk/read/bookshelf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/read/bookshelf/</guid>
+      <description>&lt;p&gt;20/02/2026 - This list needs refining. There some great books here but lots that I probably won&amp;rsquo;t get round to reading anytime soon.   To see what I&amp;rsquo;m currently reading, see my &lt;a href=&#34;../reading_log&#34;&gt;Reading Log&lt;/a&gt; page.&lt;/p&gt;&#xA;&lt;h2&gt;Psychology &amp; Behavioral Science&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Thinking, Fast and Slow — Daniel Kahneman&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Quiet: The Power of Introverts in a World That Can&amp;rsquo;t Stop Talking — Susan Cain&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Antifragile — Nassim Taleb&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Coaching Habit — Michael Bungay Stanier&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

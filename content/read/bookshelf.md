@@ -1,8 +1,6 @@
 ---
 title: "Bookshelf"
-# date: 2025-03-11T07:12:00
-# date: 2023-01-15T10:00:00Z       # For "Published" date
-lastmod: 2023-07-21T14:30:00Z    # For "Updated" date (optional)
+
 description: "This is my long list of books I own, have borrowed or been recommended in one place. I will review the list periodically. I haven't read them all but I will start tagging the ones I recommend."
 draft: false
 labels: ""
