@@ -6,7 +6,7 @@
     <description>Recent content in Paul Singh on Pauls&#39;s Notes On Data &amp; Software Engineering</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 20 Feb 2026 16:36:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 16:55:16 +0000</lastBuildDate>
     <atom:link href="https://puneet.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The LLM Paradox: The Strategic Limitations of Scale, Accuracy, and Cost</title>
@@ -70,6 +70,13 @@
       <pubDate>Mon, 21 Oct 2024 07:00:00 +0000</pubDate>
       <guid>https://puneet.uk/notes/intro_ppdac/</guid>
       <description>&lt;p&gt;I have been reading, &lt;a href=&#34;https://amzn.to/4hhbwTE&#34; target=&#34;blank&#34;&gt;&amp;lsquo;The Art of Statistics: Learning from Data&amp;rsquo;&lt;/a&gt; and came across the PPDAC framework fairly early on in the book. &lt;a href=&#34;https://en.wikipedia.org/wiki/David_Spiegelhalter&#34; target=&#34;blank&#34;&gt;David Spiegelhalter&lt;/a&gt;, the author, is a big proponent of the framework. I have outlined it below with a view as a data leader.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-ppdac&#34;&gt;What is PPDAC?&lt;/h2&gt;&#xA;&lt;p&gt;Having a structured framework in statistical analysis is important to help bring order to complex statistical analysis problems. It does this by bring clarity, a step-by-step approach, consistency, effective solutions aswell as documentation and communication.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenClaw - Installation and First Impressions</title>
+      <link>https://puneet.uk/notes/openclaw_first_impressions/</link>
+      <pubDate>Fri, 11 Oct 2024 07:00:00 +0000</pubDate>
+      <guid>https://puneet.uk/notes/openclaw_first_impressions/</guid>
+      <description>&lt;p&gt;I installed OpenClaw this weekend. I wanted to see what all the fuss was about and was intrigued to find out what it could do for me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;first-the-installation&#34;&gt;First, the installation!&lt;/h2&gt;&#xA;&lt;p&gt;A lot of work has gone into streamlining the installation to make it as easy as possible.&lt;/p&gt;&#xA;&lt;p&gt;One command in the terminal and you&amp;rsquo;re off.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;# https://openclaw.ai/&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;# Works everywhere. Installs everything. You&amp;#39;re welcome. 🦞&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://openclaw.ai/install.sh | bash&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;OpenClaw needs Node v22+, so my version on Linux was updated. And before you know it it&amp;rsquo;s installed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First 30-90 Days as a Data Delivery Leader</title>

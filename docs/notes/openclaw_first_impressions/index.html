@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../images/site.webmanifest">
+    
+    <link href="../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      OpenClaw - Installation and First Impressions
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="OpenClaw - Installation and First Impressions" />
+    <meta property="og:image" content="https://puneet.uk/images/openclaw_first_impressions.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OpenClaw - Installation and First Impressions" />
+    <meta name="twitter:image" content="https://puneet.uk/images/openclaw_first_impressions.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <nav>
+    
+    <a href="../../">Index</a>
+    
+    <a href="../../notes/">Notes</a>
+    
+    <a href="../../resources/">Resources</a>
+    
+    <a href="../../read/bookshelf/">Bookshelf</a>
+    
+
+    </nav>  
+                
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <div class="row"><div class="card"><div class="new-card-body">
+<h1>OpenClaw - Installation and First Impressions</h1>
+<p></p>
+
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg><time>Oct 11, 2024</time>
+</div></div></div>
+
+
+
+
+
+
+         
+          <p>I installed OpenClaw this weekend. I wanted to see what all the fuss was about and was intrigued to find out what it could do for me.</p>
+<h2 id="first-the-installation">First, the installation!</h2>
+<p>A lot of work has gone into streamlining the installation to make it as easy as possible.</p>
+<p>One command in the terminal and you&rsquo;re off.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># https://openclaw.ai/</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Works everywhere. Installs everything. You&#39;re welcome. 🦞</span>
+</span></span><span style="display:flex;"><span>curl -fsSL https://openclaw.ai/install.sh | bash
+</span></span></code></pre></div><p>OpenClaw needs Node v22+, so my version on Linux was updated. And before you know it it&rsquo;s installed.</p>
+<p>Before you start integrating OpenClaw <strong>you are warned</strong>, that this is hobby project and still in beta as part of the on boarding process. At this point you decide if you want to take the security risks and whether you will continue or not. Note the commands that you are advised to run regularly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Run regularly</span>
+</span></span><span style="display:flex;"><span>openclaw security audit
+</span></span><span style="display:flex;"><span>openclaw security audit --deep
+</span></span><span style="display:flex;"><span>openclaw security audit --fix
+</span></span><span style="display:flex;"><span>openclaw security audit --json
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># Must read</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"># https://docs.openclaw.ai/gateway/security/index</span>
+</span></span></code></pre></div><p>For me, everything is backed up and whilst I did want to run it on a sandboxed environment, I really wanted to give it a ago. I don&rsquo;t intend to keep running it on my machine.</p>
+<p>I chose the Quick start method and the first thing you have to decide is the AI model you choose to integrate with. I have Github Copilot subscription so I went with that and integration with that was fairly straightforward and you select the the model, in my case the default was gpt-4o and I just ran with that.</p>
+<p>Next, you select how you are going to interact with OpenClaw. I selected Telegram. Setup was fairly straightforward.</p>
+<p>Next you install the skills that you want OpenClaw to have. It recommends using HomeBrew and because I didn&rsquo;t have it installed it gave me the command to run and that&rsquo;s where I made a rookie error. In the process of cutting and pasting, I accidentally used <code>ctrl+c</code> in the terminal running the OpenClaw installation - <strong>this stopped the installation!</strong> I just reran it and went the through the steps as before. I selected all of them and it had a few issues with that and I couldn&rsquo;t integrate with Google, which i primarily wanted so I could integrate OpenClaw with my Google Calendar.</p>
+<p>I skipped the enable hooks part but it&rsquo;s something I will enable when I install it on my sandbox environment.</p>
+<h2 id="time-to-see-what-it-can-do">Time to see what it can do</h2>
+<p>In Telegram, I asked if it had access to my machine.</p>
+<pre><code>Yes, I can interact with your machine within the limits you've set. For example, I can read files, execute commands, and run tools when needed. Let me know what you'd like me to do, and I'll make sure to ask for clarification if something requires your explicit consent!
+</code></pre>
+<p>I asked it to give me the status and configuration of my machine.</p>
+<pre><code>Here's the current status and configuration of your machine:
+• Operating System: Linux Mint 22.2 (64-bit)
+• Host: ThinkPad
+... 
+
+Let me know if you'd like more detailed information or assistance!
+</code></pre>
+<p>It gave me the full status of my machine, including CPU, Memory, Memory usage, Packages, Resolution, Desktop Environment, GPU etc.</p>
+<p>I then focused on security and asked it to summarise the results in a file for me to review later. I also asked for it to create a task list and and add the review task to it with a link to the file. It said it was done.</p>
+<p>I started adding tasks to the task list and before long I had created a task list and bunch of files for me to review later.</p>
+<p><strong>I thought, this is brilliant. And it is!</strong> But, when I looked at the task list and compared it to the conversation I had been having, there were issues. The tasks, in Obsidian where meant to have a created date attached, they didn&rsquo;t, even though in the chat they were formatted in exactly the way I wanted. I&rsquo;m not sure exactly why, but I suspect it&rsquo;s the model.</p>
+<p><strong>OpenClaw does suggest that you use the best model you can and I don&rsquo;t think GPT-4o is good enough for this project.</strong></p>
+<p>Regardless of that I see massive potential here, not only for individuals but for businesses as well.</p>
+<p>The architecture of integrating a memory, skills, access with AI has huge potential. I&rsquo;ve only scratched the surface of what you can do, but I know that this will have huge implications for how we deploy AI at home and at work. It&rsquo;s been a real eye opener.</p>
+<p>For me, integrating it with Github, and setting up rules and security will mean vibe coding on the go. Here are some initial thoughts.</p>
+<ul>
+<li>Vibe Coding from your mobile</li>
+<li>Automating your schedule</li>
+<li>Automating Replies to Email</li>
+<li>Automating research</li>
+<li>Scheduling tasks and Prompts</li>
+<li>Automating Security and System Audits</li>
+<li>Stock Analysis Agent</li>
+<li>Data Insights</li>
+<li>&hellip;</li>
+</ul>
+<p>The list is endless. The possibilities to integrate are endless.</p>
+<p>Whilst this all can be done in some shape or form already, what&rsquo;s different is how you do it. You do it via a single(or multiple) point of entry. A true AI assistant.</p>
+<p>Again, this just scratches just the surface of you an do and whilst this is a hobby project, and <strong>certainly not enterprise- ready</strong>, it gives you lots of ideas how a similar architecture could be deployed for enterprise.</p>
+<p>Inevitably security and governance will be particularly key for businesses. And we are already seeing similar architecture projects springing up and those could form the basis of what could work in a business environment.</p>
+<p>See:</p>
+<ul>
+<li>NanoClaw - Built with security in mind and designed to run in a container environment</li>
+<li>PicoClaw - Smaller infrastructure focusing on automating repetitive tasks.</li>
+<li>TrustClaw - Sand-boxed, managed and hosted. Not open-source.</li>
+<li>NanoBot - A clean and minimal agent framework in Python.</li>
+</ul>
+<p>From a person perspective, I see the potential and business leaders should understand it&rsquo;s capabilities if only to understand the potential use cases for their own business.</p>
+
+          
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
+             <div> 
+                
+                Site last updated: February 2026
+              </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../js/utility.js"></script>
+     
+  </body>
+</html>
