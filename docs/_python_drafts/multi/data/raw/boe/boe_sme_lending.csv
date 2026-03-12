@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Error</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/print.css" media="print">
+    <script>
+        var el = document.getElementsByTagName('html')[0];
+        if(el.classList){el.classList.remove('no-js')}else{el.className = el.className.replace('no-js', '')}
+    </script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<![endif]-->
+
+	<!-- Google Tag Manager -->
+	<script>
+
+		var CheckCookies = {
+			getCookie: function (cname) {
+				var name = cname + "=";
+				var decodedCookie = decodeURIComponent(document.cookie);
+				var ca = decodedCookie.split(';');
+				for (var i = 0; i < ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0) === ' ') {
+						c = c.substring(1);
+					}
+					if (c.indexOf(name) === 0) {
+						return c.substring(name.length, c.length);
+					}
+				}
+				return "";
+			}
+		};
+		var SetAnalytics = {
+			setTagManager: function () {
+
+				var hasConsentAnalytics = CheckCookies.getCookie('boeconsent');
+
+				if (hasConsentAnalytics === "analytics") {
+					(function (w, d, s, l, i) {
+						w[l] = w[l] || []; w[l].push({
+							'gtm.start':
+								new Date().getTime(), event: 'gtm.js'
+						}); var f = d.getElementsByTagName(s)[0],
+							j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+								'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+					})(window, document, 'script', 'dataLayer', 'GTM-TH2H9ZC');
+				}
+			},
+		}
+		SetAnalytics.setTagManager();
+	</script>
+	<!-- End Google Tag Manager -->
+
+    
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9R3WH-S6EDC-8JGQW-55286-CGTTF",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"9R3WH-S6EDC-8JGQW-55286-CGTTF",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="h36b3wqccygms2njro2q-f-ab15126d4-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"39","ak.cp":"1078495","ak.ai":parseInt("286733",10),"ak.ol":"0","ak.cr":17,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"11f5b3d1","ak.r":49153,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"62.252.29.0","ak.cport":60802,"ak.gh":"2.18.30.91","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1772719029","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==YeRlrnwn1YemVUGe95AQFKftoWv+4Aevbm3VqnPT1lsBwQIbv049gXqH8KI+nZEBrHTzigh7DB7bhn/32HOO32lOQ1Difg6h2wCY/sbltE5mu7U++eYTcxSitBHxQSc+tmGMUBKh6CZb8WhF/fLR0igxUWiY3eWLvhkxHUhSyBJ0tTTP3ay6TUvv4KdsZ/FIWPEkzO4gqovm3qp83eZSc0SMdQwmLkOX/cLu5XroLXOVQbKSDZBpg8gEGf4UPbQjktC4GKUS+QXrZ/9J9W6YjTtK/Ypu5Q+0pyb28HluuaQWoA12P9789lDhrpCL9gQi7WS7J+vanwuiBYMn7fnePgxwBBewkuO8Z2qhCQdoj6Ql7Ju56qe+U88jC/0Oiif8FlKJwoXolltBw3XvGUkVI+BQeDboyHy2XsBTPu0hNh4=","ak.pv":"337","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+    <body>
+
+    <div class="wrap" itemscope itemtype="http://schema.org/WebPage">
+		<div class="nav-bypass">
+			<a href="#content-start" class="nav-bypass__link">Skip to main content</a>
+		</div>
+<header class="global-header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-brand" itemscope itemtype="http://schema.org/Organisation"> <a href="default.asp" class="header-logo" itemscope itemtype="http://schema.org/Brand"> <img src="assets/img/logo.svg" alt="Bank of England | Database" width="330" > Bank of England | Database </a> </div>
+  <a href="#menu" class="btn-menu"><i class="icon-menu"></i> <i class="icon-cancel"></i></a> <a href="#search" class="btn-search"><i class="icon-cancel"></i></a>
+  <div class="header-nav" id="#menu">
+    <nav class="nav-main" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <ul class="nav-main-menu">
+        <li class="nav-main-item nav-browse-menu-item"> <a href="CategoryIndex.asp?Travel=NIxAZx&CategId=allcats&CategName=Combined A to Z" class="nav-main-link nav-browse-menu-link"><span style="text-transform:none">Browse data<i class="icon-up-dir"></i><i class="icon-down-dir"></i></span></a>
+          <ul class="nav-browse-menu">
+            <li class="nav-browse-item"><a href="BankStats.asp?Travel=NIx" class="nav-browse-link">Topics</a></li>
+            <li class="nav-browse-item"><a href="/statistics/Tables" title="Table references (main website)" target="_blank" class="nav-browse-link">Tables</a></li>
+            <li class="nav-browse-item"><a href="CategoryIndex.asp?Travel=NIxAZx&CategId=9&CategName=COUNTRY" class="nav-browse-link">Countries</a></li>
+            <li class="nav-browse-item"><a href="CategoryIndex.asp?Travel=NIxAZx&CategId=6&CategName=INSTRUMENTS" class="nav-browse-link">Financial categories</a></li>
+             <li class="nav-browse-item"><a href="CategoryIndex.asp?Travel=NIxAZx&CategId=sectorcats&CategName=SECTOR" class="nav-browse-link">Economic/industrial sectors</a></li>
+             <li class="nav-browse-item"><a href="CategoryIndex.asp?Travel=NIxAZx&CategId=allcats&CategName=Combined A to Z" class="nav-browse-link">A-Z</a></li>
+            
+           
+          </ul>
+        </li>
+        <li class="nav-main-item nav-has-children"> <a href="index.asp?Travel=NIxIRx&levels=3&XNotes=Y&A3951XNode3951.x=10&A3951XNode3951.y=12&Nodes=&SectionRequired=I&HideNums=-1&ExtraInfo=true#BM" class="nav-main-link"><span>Exchange rates<i class="icon-up-dir"></i><i class="icon-down-dir"></i></span></a>
+          <ul class="nav-sub-menu">
+            <li class="nav-sub-item"><a href="Rates.asp?Travel=NIxAZx&into=GBP" class="nav-sub-link"><abbr title="British pound sterling">GBP</abbr> daily  rates</a></li>
+            <li class="nav-sub-item"><a href="Rates.asp?Travel=NIxAZx&into=EUR" class="nav-sub-link"><abbr title="Euro">EUR</abbr> daily rates</a></li>
+            
+            <li class="nav-sub-item"><a href="Rates.asp?Travel=NIxAZx&into=USD" class="nav-sub-link"><abbr title="US Dollars">USD</abbr> daily rates</a></li>
+            <li class="nav-sub-item"><a href="index.asp?first=yes&SectionRequired=I&HideNums=-1&ExtraInfo=true&Travel=NIx" class="nav-sub-link">View all</a></li>
+          </ul>
+        </li>
+        <li class="nav-main-item"><a href="Help.asp?Travel=NIxASx&Back=AdvSearch.asp" class="nav-main-link"><span>Help</span></a></li>
+        <li class="nav-main-item item-mainsite-link"><a href="https://www.bankofengland.co.uk" class="nav-main-link"><span>Bank of England website</span></a></li>
+      </ul>
+    </nav>
+    <div class="search-widget" id="search">
+      <form method="get" action="FromShowColumns.asp">
+        <fieldset class="search-widget-fields" >
+		<legend class="visually-hidden">Search the database</legend>
+          <label for="gsc-i-id1" class="visually-hidden">Search</label>
+          <input type="hidden" name="Travel" value="" />
+          <input name="searchText" type="search" id="gsc-i-id1" placeholder="Search our data..." title="search" autoComplete="off" size=10 class="search-widget-field" />
+          <button type="submit" class="search-widget-btn">Search</button>
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</header>
+<span id="content-start"></span>
+<div class="page-content">
+    <section class="page-section">
+          <div class="container">
+            <div class="col12">
+
+						<h2>Error</h2>
+						<div id="editorial">
+							<p class="error">
+							Invalid series code value supplied.
+						  </p>
+
+							<p>If you have a problem or question relating to the <em>database</em>, please contact the <a href="mailto:dsd_editor@bankofengland.co.uk">DSD Editor</a>.
+							
+							</p>
+			  </div>
+
+				<div class="clear"></div>
+
+
+
+
+            </div>
+
+          </div>
+        </section>
+</div>
+      
+<footer class="global-footer" itemscope itemtype="http://schema.org/WPFooter">
+    <div class="container">
+      <div class="col3 s-full">
+        <div class="footer-brand">
+          <p><a href="https://www.bankofengland.co.uk/" target="_blank" class="footer-logo"><img src="assets/img/BOE_Logo_white.svg" alt="Bank of England"  height="50"> Bank of England</a></p>
+        </div>
+        <div class="footer-social-bank">
+          <h3>Follow us</h3>
+          <ul class=social-links>
+            <li class="social-item"><a class="social-link" href="https://twitter.com/bankofengland" target="_blank"><i class="icon-twitter-bird"></i> <span class="si-text">Follow us on Twitter</span></a></li>
+            <li class="social-item"><a class="social-link" href="https://www.linkedin.com/company/bank-of-england/" target="_blank"><i class="icon-linkedin"></i> <span class="si-text">Connect with us on LinkedIn</span></a></li>
+            <li class="social-item"><a class="social-link" href="https://www.youtube.com/user/bankofenglanduk" target="_blank"><i class="icon-youtube-play"></i> <span class="si-text">Watch us on Youtube</span></a></li>
+            <li class="social-item"><a class="social-link" href="https://www.flickr.com/photos/bankofengland/albums" target="_blank"><i class="icon-flickr"></i> <span class="si-text">Find us on Flickr</span></a></li>
+            <li class="social-item"><a class="social-link" href="https://www.facebook.com/bankofengland.co.uk" target="_blank"><i class="icon-facebook"></i> <span class="si-text">Add us on Facebook</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-social-museum">
+          <h3>Museum</h3>
+          <ul class="social-links">
+            <li class="social-item"><a class="social-link" href="https://twitter.com/boemuseum" target="_blank"><i class="icon-twitter-bird">Follow us on Twitter</i></a></li>
+            <li class="social-item"><a class="social-link" href="https://www.facebook.com/boemuseum" target="_blank"><i class="icon-facebook">Add us on Facebook</i></a></li>
+            <li class="social-item"><a class="social-link" href="https://www.instagram.com/boemuseum/" target="_blank"><i class="icon-instagram">Follow us on Instagram</i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col3 s-half">
+                    <div class="footer-topics">
+                      <h3>Useful links</h3>
+                        <ul class="footer-links">
+                            <li class="footer-item"><a class="footer-link" href="advsearch.asp?Travel=NIx">Advanced search</a></li>
+                            <li class="footer-item"><a href="index.asp?SectionRequired=I&first=yes&HideNums=-1&ExtraInfo=true&Travel=NIxIRx&levels=3" class="footer-link" >Interest and exchange rates data</a></li>
+                            <li class="footer-item"><a class="footer-link" href="help.asp?Back=Y&Highlight=Subscribe#Subscribe">Subscribe to XML download changes</a></li>
+                            <li class="footer-item"><a class="footer-link" href="Bank-Rate.asp">Official Bank Rate history</a></li>
+                            <li class="footer-item"><a class="footer-link" href="https://www.bankofengland.co.uk/-/media/BoE/Files/statistics/discontinued-series" target="_blank">Discontinued series</a></li>
+                            <li class="footer-item"><a class="footer-link" href="https://www.bankofengland.co.uk/statistics/details" target="_blank">Notes about our data</a></li>
+                            <li class="footer-item"><a class="footer-link" href="https://www.bankofengland.co.uk/statistics/tables" target="_blank">Bankstats tables</a></li>
+                            <li class="footer-item"><a class="footer-link" href="https://www.bankofengland.co.uk/statistics" target="_blank">Bank of England Statistics</a></li>
+                        </ul>
+                    </div>
+                </div>
+      <div class="m-clear"></div>
+
+      <div class="col3 s-full">
+        <div class="footer-contact">
+          <h3>Visiting the bank</h3>
+          <ul class="footer-contact-info">
+            <li class="footer-address">Threadneedle Street, London, EC2R 8AH</li>
+            <li class="footer-tel">Switchboard: <a class="footer-tel-link" href="tel:+442034614444">+44(0)20 3461 4444</a></li>
+            <li class="footer-tel">Enquiries: <a class="footer-tel-link" href="tel:+442034614878">+44(0)20 3461 4878</a></li>
+          </ul>
+          <h3>Visiting the museum</h3>
+          <ul class="footer-contact-info">
+            <li class="footer-address">Bartholomew Lane, London, EC2R 8AH</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="col12">
+          <p class="text-copyright">&copy; 2026 Bank of England </p>
+          <ul class="list-inline">
+            <li class="list-inline__item"><a href="https://www.bankofengland.co.uk/accessibility" target="_blank">Accessibility statement</a></li>
+            <li class="list-inline__item"><a href="https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy" target="_blank">Cookies</a></li>
+            <li class="list-inline__item"><a href="https://www.bankofengland.co.uk/legal" target="_blank">Legal</a></li>
+            <li class="list-inline__item"><a href="https://www.bankofengland.co.uk/legal/privacy" target="_blank">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </footer>
+
+ 		<div class="cookie-notice">
+			<div class="cookie-notice__panel">
+				<div class="cookie-content content-block">
+					<h2 class="cookie-title exclude-navigation">Our use of cookies</h2>
+
+					<p>We use necessary cookies to make our site work (for example, to manage your session). We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of optional cookies.</p>
+
+					<style>
+						.cookie__button {
+							max-width: 225px;
+						}
+					</style>
+
+					<table class="cookie-notice__table">
+						<tr>
+							<th>Necessary cookies</th>
+							<th>Analytics cookies</th>
+							<td class="table-header">&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Yes</td>
+							<td>Yes</td>
+							<td>
+								<button class="cookie__button btn btn-default" data-cookie="analytics">Accept recommended cookies</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Yes</td>
+							<td>No</td>
+							<td><button class="cookie__button btn btn-default btn-neutral" data-cookie="necessary">Proceed with necessary cookies only</button></td>
+						</tr>
+					</table>
+
+					<h3>Necessary cookies</h3>
+					<p>Necessary cookies enable core functionality on our website such as security, network management, and accessibility. You may disable these by changing your browser settings, but this may affect how the website functions. </p>
+					<h3>Analytics cookies</h3>
+					<p>We use analytics cookies so we can keep track of the number of visitors to various parts of the site and understand how our website is used. For more information on how these cookies work please see our <a href="https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy" target="_blank">Cookie policy</a>.</p>
+				</div>
+			</div>
+		</div> 
+  
+    <script src="assets/js/min/slick.min.js"></script> 
+  <script src="assets/js/min/scripts.js"></script> 
+  <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "Organization",
+            "name" : "Bank of England",
+            "url" : "https://www.bankofengland.co.uk",
+            "logo" : "https://www.bankofengland.co.uk/img/bankofengland-logo.png",
+            "sameAs" : [
+            ],
+            "contactPoint" : [
+            {
+                "@type" : "ContactPoint",
+                "telephone" : "+44(0)0000000",
+                "contactType" : "customer service"
+            }
+            ]
+        }
+        </script> 
+  
+
+    </div>
+</body>
+</html>

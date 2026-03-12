@@ -1,0 +1,13 @@
+source,series_label,filename,folder,status,size_kb,error,path,downloaded_at
+Bank of England,base_rate,boe_base_rate.csv,raw/boe,SKIPPED,5.1,,data/raw/boe/boe_base_rate.csv,2026-03-12 16:22
+Bank of England,mortgage_approvals,boe_mortgage_approvals.csv,raw/boe,SKIPPED,1.7,,data/raw/boe/boe_mortgage_approvals.csv,2026-03-12 16:22
+Bank of England,consumer_credit,boe_consumer_credit.csv,raw/boe,SKIPPED,5.6,,data/raw/boe/boe_consumer_credit.csv,2026-03-12 16:22
+Bank of England,sme_lending,boe_sme_lending.csv,raw/boe,SKIPPED,18.6,,data/raw/boe/boe_sme_lending.csv,2026-03-12 16:22
+ONS,cpi_inflation,ons_cpi_inflation.csv,raw/ons,SKIPPED,10.4,,data/raw/ons/ons_cpi_inflation.csv,2026-03-12 16:22
+ONS,gdp_growth,ons_gdp_growth.csv,raw/ons,SKIPPED,4.7,,data/raw/ons/ons_gdp_growth.csv,2026-03-12 16:22
+ONS,unemployment_rate,ons_unemployment.csv,raw/ons,SKIPPED,15.4,,data/raw/ons/ons_unemployment.csv,2026-03-12 16:22
+ONS,avg_weekly_earnings,ons_avg_weekly_earnings.csv,raw/ons,SKIPPED,7.4,,data/raw/ons/ons_avg_weekly_earnings.csv,2026-03-12 16:22
+UK HPI,full_dataset,hpi_full_2024_12.csv,raw/hpi,SKIPPED,32121.0,,data/raw/hpi/hpi_full_2024_12.csv,2026-03-12 16:22
+FRED,gilt_10yr,fred_gilt_10yr.csv,raw/fred,SKIPPED,14.2,,data/raw/fred/fred_gilt_10yr.csv,2026-03-12 16:22
+FRED,gbp_usd,fred_gbp_usd.csv,raw/fred,SKIPPED,249.7,,data/raw/fred/fred_gbp_usd.csv,2026-03-12 16:22
+FRED,uk_cpi_oecd,fred_uk_cpi_oecd.csv,raw/fred,SKIPPED,25.5,,data/raw/fred/fred_uk_cpi_oecd.csv,2026-03-12 16:22

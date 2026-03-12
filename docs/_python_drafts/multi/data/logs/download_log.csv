@@ -1,0 +1,13 @@
+source,series_label,filename,folder,status,size_kb,error,path,downloaded_at
+Bank of England,base_rate,boe_base_rate.csv,raw/boe,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/boe/boe_base_rate.csv,2026-03-05 14:02
+Bank of England,mortgage_approvals,boe_mortgage_approvals.csv,raw/boe,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/boe/boe_mortgage_approvals.csv,2026-03-05 14:02
+Bank of England,consumer_credit,boe_consumer_credit.csv,raw/boe,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/boe/boe_consumer_credit.csv,2026-03-05 14:02
+Bank of England,sme_lending,boe_sme_lending.csv,raw/boe,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/boe/boe_sme_lending.csv,2026-03-05 14:02
+ONS,cpi_inflation,ons_cpi_inflation.csv,raw/ons,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/ons/ons_cpi_inflation.csv,2026-03-05 14:02
+ONS,gdp_growth,ons_gdp_growth.csv,raw/ons,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/ons/ons_gdp_growth.csv,2026-03-05 14:02
+ONS,unemployment_rate,ons_unemployment.csv,raw/ons,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/ons/ons_unemployment.csv,2026-03-05 14:02
+ONS,avg_weekly_earnings,ons_avg_weekly_earnings.csv,raw/ons,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/ons/ons_avg_weekly_earnings.csv,2026-03-05 14:02
+hpi,full_dataset,hpi_full_dataset.csv,CSV,OK,32121.0,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/CSV/hpi_full_dataset.csv,2026-03-05 14:02
+FRED,gilt_10yr,fred_gilt_10yr.csv,raw/fred,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/fred/fred_gilt_10yr.csv,2026-03-05 14:02
+FRED,gbp_usd,fred_gbp_usd.csv,raw/fred,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/fred/fred_gbp_usd.csv,2026-03-05 14:02
+FRED,uk_cpi_oecd,fred_uk_cpi_oecd.csv,raw/fred,SKIPPED,,,/home/paul/gnotes/Projects/Blog/content/python/multi/data/raw/fred/fred_uk_cpi_oecd.csv,2026-03-05 14:02

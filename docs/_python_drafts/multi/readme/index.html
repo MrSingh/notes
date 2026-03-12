@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1PWW3YCPK"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-K1PWW3YCPK');
+     </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../../images/site.webmanifest">
+    
+    <link href="../../../css/style.css" rel="stylesheet" media="all">
+    <link href="../../../css/syntax.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>
+      
+    </title>
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="https://puneet.uk/images/.jpg" />
+    <meta property="article:tag" content="Technical blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="https://puneet.uk/images/.jpg" />
+ 
+  </head>
+  <body>
+    <header>     
+        <nav role="navigation">
+            <div class="container">                            
+                <nav>
+    
+    <a href="../../../">Index</a>
+    
+    <a href="../../../notes/">Notes</a>
+    
+    <a href="../../../resources/">Resources</a>
+    
+    <a href="../../../read/bookshelf/">Bookshelf</a>
+    
+
+    </nav>  
+                
+    
+              </div>           
+          </nav>
+      </header>
+            </div>           
+        </nav>
+    </header>
+    
+      <div class="wrap">
+        <main class="container">
+          <div class="row"><div class="card"><div class="new-card-body">
+<h1></h1>
+<p></p>
+
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg><time>Jan 1, 0001</time>
+</div></div></div>
+
+
+
+
+
+
+         
+          <h1 id="multi-source-data-consolidation">Multi-Source Data Consolidation</h1>
+<p><strong>Date:</strong> ___________<br>
+<strong>Author:</strong> ___________</p>
+<h2 id="project-summary">Project Summary</h2>
+<p>This project consolidates 5 public UK economic datasets into a single
+decision-grade master table and dashboard, documenting all data quality
+decisions made during ingestion and transformation.</p>
+<h2 id="data-sources">Data Sources</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Source</th>
+          <th>Series</th>
+          <th>Format</th>
+          <th>Frequency</th>
+          <th>Coverage</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Bank of England MIDAS</td>
+          <td>Base Rate, Mortgage Approvals, SME Lending</td>
+          <td>TSV</td>
+          <td>Monthly</td>
+          <td>2000–</td>
+      </tr>
+      <tr>
+          <td>ONS Economy</td>
+          <td>CPI, GDP, Unemployment, Earnings</td>
+          <td>CSV</td>
+          <td>Monthly/Quarterly</td>
+          <td>1988–</td>
+      </tr>
+      <tr>
+          <td>UK House Price Index</td>
+          <td>Avg Price, HPI, Sales Volume</td>
+          <td>CSV</td>
+          <td>Monthly</td>
+          <td>1995–</td>
+      </tr>
+      <tr>
+          <td>FCA Complaints</td>
+          <td>Complaints by firm/product</td>
+          <td>CSV</td>
+          <td>Bi-annual</td>
+          <td>2016–</td>
+      </tr>
+      <tr>
+          <td>FRED</td>
+          <td>Gilt yield, GBP/USD</td>
+          <td>CSV</td>
+          <td>Daily/Monthly</td>
+          <td>1970–</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="data-quality-decisions">Data Quality Decisions</h2>
+<h3 id="gaps--nulls">Gaps &amp; Nulls</h3>
+<ul>
+<li><input disabled="" type="checkbox"> Linear interpolation applied to gaps ≤ 3 consecutive months</li>
+<li><input disabled="" type="checkbox"> Gaps &gt; 3 months preserved as NaN with <code>is_gap</code> flag</li>
+<li><input disabled="" type="checkbox"> [Document any series-specific decisions here]</li>
+</ul>
+<h3 id="methodology-breaks">Methodology Breaks</h3>
+<ul>
+<li><input disabled="" type="checkbox"> HPI pre-2005 flagged as mix-adjusted (not comparable to post-2005)</li>
+<li><input disabled="" type="checkbox"> FCA complaint categories pre/post 2022 H1 crosswalk applied</li>
+<li><input disabled="" type="checkbox"> GDP quarterly series forward-filled to monthly [rationale: ___]</li>
+</ul>
+<h3 id="outliers">Outliers</h3>
+<ul>
+<li><input disabled="" type="checkbox"> ±4 SD rolling 24-month cap applied to: [list series]</li>
+<li><input disabled="" type="checkbox"> Anomalies verified against source before capping: [notes]</li>
+</ul>
+<h3 id="what-was-excluded-and-why">What Was Excluded and Why</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Data</th>
+          <th>Reason Excluded</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Companies House bulk file</td>
+          <td>Too large (3GB); sampled by SIC 6492</td>
+      </tr>
+      <tr>
+          <td>FCA data pre-2016</td>
+          <td>Taxonomy incompatible with current</td>
+      </tr>
+      <tr>
+          <td>[Add your own]</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="known-limitations">Known Limitations</h2>
+<ul>
+<li>Sales volume in HPI lags price data by ~2 months — not joined on same date</li>
+<li>FRED CPI used for cross-validation only; ONS L55O is primary source</li>
+<li>FCA firm names fuzzy-matched; match confidence &lt; 0.85 excluded</li>
+</ul>
+<h2 id="how-to-reproduce">How to Reproduce</h2>
+<ol>
+<li>Download CSVs using links in <code>notebooks/Multi_Source_Data_Consolidation.ipynb</code> Section 1</li>
+<li>Place files in <code>data/raw/</code></li>
+<li>Run notebook sections 2–4 in order</li>
+<li>Output dashboard at <code>data/outputs/dashboard.html</code></li>
+</ol>
+<h2 id="dependencies">Dependencies</h2>
+<pre tabindex="0"><code>pandas, numpy, plotly, requests, jinja2
+pip install pandas numpy plotly requests jinja2
+</code></pre>
+          
+      </main>
+      </div>
+    
+    
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
+             <div> 
+                
+                Site last updated: March 2026
+              </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+     
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+    </script>
+    <script src="../../../js/utility.js"></script>
+     
+  </body>
+</html>
