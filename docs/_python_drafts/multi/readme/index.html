@@ -89,52 +89,52 @@ decision-grade master table and dashboard, documenting all data quality
 decisions made during ingestion and transformation.</p>
 <h2 id="data-sources">Data Sources</h2>
 <table>
-  <thead>
-      <tr>
-          <th>Source</th>
-          <th>Series</th>
-          <th>Format</th>
-          <th>Frequency</th>
-          <th>Coverage</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Bank of England MIDAS</td>
-          <td>Base Rate, Mortgage Approvals, SME Lending</td>
-          <td>TSV</td>
-          <td>Monthly</td>
-          <td>2000–</td>
-      </tr>
-      <tr>
-          <td>ONS Economy</td>
-          <td>CPI, GDP, Unemployment, Earnings</td>
-          <td>CSV</td>
-          <td>Monthly/Quarterly</td>
-          <td>1988–</td>
-      </tr>
-      <tr>
-          <td>UK House Price Index</td>
-          <td>Avg Price, HPI, Sales Volume</td>
-          <td>CSV</td>
-          <td>Monthly</td>
-          <td>1995–</td>
-      </tr>
-      <tr>
-          <td>FCA Complaints</td>
-          <td>Complaints by firm/product</td>
-          <td>CSV</td>
-          <td>Bi-annual</td>
-          <td>2016–</td>
-      </tr>
-      <tr>
-          <td>FRED</td>
-          <td>Gilt yield, GBP/USD</td>
-          <td>CSV</td>
-          <td>Daily/Monthly</td>
-          <td>1970–</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Source</th>
+					<th>Series</th>
+					<th>Format</th>
+					<th>Frequency</th>
+					<th>Coverage</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Bank of England MIDAS</td>
+					<td>Base Rate, Mortgage Approvals, SME Lending</td>
+					<td>TSV</td>
+					<td>Monthly</td>
+					<td>2000–</td>
+			</tr>
+			<tr>
+					<td>ONS Economy</td>
+					<td>CPI, GDP, Unemployment, Earnings</td>
+					<td>CSV</td>
+					<td>Monthly/Quarterly</td>
+					<td>1988–</td>
+			</tr>
+			<tr>
+					<td>UK House Price Index</td>
+					<td>Avg Price, HPI, Sales Volume</td>
+					<td>CSV</td>
+					<td>Monthly</td>
+					<td>1995–</td>
+			</tr>
+			<tr>
+					<td>FCA Complaints</td>
+					<td>Complaints by firm/product</td>
+					<td>CSV</td>
+					<td>Bi-annual</td>
+					<td>2016–</td>
+			</tr>
+			<tr>
+					<td>FRED</td>
+					<td>Gilt yield, GBP/USD</td>
+					<td>CSV</td>
+					<td>Daily/Monthly</td>
+					<td>1970–</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="data-quality-decisions">Data Quality Decisions</h2>
 <h3 id="gaps--nulls">Gaps &amp; Nulls</h3>
@@ -156,26 +156,26 @@ decisions made during ingestion and transformation.</p>
 </ul>
 <h3 id="what-was-excluded-and-why">What Was Excluded and Why</h3>
 <table>
-  <thead>
-      <tr>
-          <th>Data</th>
-          <th>Reason Excluded</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Companies House bulk file</td>
-          <td>Too large (3GB); sampled by SIC 6492</td>
-      </tr>
-      <tr>
-          <td>FCA data pre-2016</td>
-          <td>Taxonomy incompatible with current</td>
-      </tr>
-      <tr>
-          <td>[Add your own]</td>
-          <td></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Data</th>
+					<th>Reason Excluded</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Companies House bulk file</td>
+					<td>Too large (3GB); sampled by SIC 6492</td>
+			</tr>
+			<tr>
+					<td>FCA data pre-2016</td>
+					<td>Taxonomy incompatible with current</td>
+			</tr>
+			<tr>
+					<td>[Add your own]</td>
+					<td></td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="known-limitations">Known Limitations</h2>
 <ul>
@@ -207,7 +207,7 @@ pip install pandas numpy plotly requests jinja2
             <div>&copy; 2026 Puneet (Paul) Singh Thukral</div>
              <div> 
                 
-                Site last updated: March 2026
+                Site last updated: June 2026
               </div>
         </div>
     </div>
