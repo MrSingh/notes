@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw - Installation and First Impressions"
-date: 2024-10-11T07:00:00
+date: 2026-02-23T07:00:00
 draft: false
 labels: ""
 slug: "openclaw_first_impressions"
