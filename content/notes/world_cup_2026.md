@@ -8,11 +8,10 @@ slug: world_cup_2026
 type: Note
 ---
 
-<img class="preview" src="../../images/world_cup_2026_calendar.png" alt="Image depicting Football World Cup Calendar in an Office in a papercraft Style">
+<!-- <img class="preview" src="../../images/world_cup_2026_calendar.png" alt="Image depicting Football World Cup Calendar in an Office in a papercraft Style"> -->
 
-## UK Edition
 
-This is an AI(Claude) generated World Cup Calender that includes all the matches and what channels they are on in the UK.
+This is an AI(Claude) generated World Cup Calender including all the matches and what channels they are on in the UK.
 
 ---
 
