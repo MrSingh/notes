@@ -1,5 +1,5 @@
 ---
-title: Fifa World Cup - 2025 Calendar - UK Edition
+title: Fifa World Cup - 2026 Calendar - UK Edition
 date: 2026-06-08T07:00:00
 description: ""
 draft: false
