@@ -10,8 +10,9 @@ type: Note
 
 <!-- <img class="preview" src="../../images/world_cup_2026_calendar.png" alt="Image depicting Football World Cup Calendar in an Office in a papercraft Style"> -->
 
+I put together a UK edition of the FIFA World Cup 2026 calendar using Claude — all 104 matches, with kick-off times and which channel each game is on (BBC or ITV).
 
-This is an AI(Claude) generated World Cup Calender including all the matches and what channels they are on in the UK.
+Every match is free-to-air, so no excuses for missing a game.
 
 ---
 
